@@ -1,0 +1,629 @@
+notes:
+  - Curated source registry for the AI Intelligence Digest.
+  - This is an extensible default registry, not a closed source list.
+  - Add, disable, reprioritize, or edit sources here without changing code.
+  - Sources without stable RSS/API are kept as manual or linkedin_manual watchlist items.
+  - Avoid illegal or fragile scraping.
+
+source_priority_scores:
+  high: 1.0
+  medium: 0.65
+  low: 0.35
+
+category_window_hours:
+  general_ai: 24
+  engineering_ai: 720
+  research: 168
+  startup: 72
+  vendor: 72
+  community: 48
+
+sources:
+  - name: Reuters Technology
+    url: https://www.reuters.com/technology/
+    source_type: website
+    category: general_ai
+    priority: high
+    tags: [technology, global_news]
+    notes: Manual watchlist; previous RSS endpoint was not stable.
+    enabled: true
+  - name: Associated Press Technology
+    url: https://apnews.com/hub/technology
+    source_type: website
+    category: general_ai
+    priority: high
+    tags: [technology, global_news]
+    notes: Manual watchlist; RSS output is not consistently parseable.
+    enabled: true
+  - name: MIT Technology Review AI
+    url: https://www.technologyreview.com/feed/
+    source_type: rss
+    fetch_type: rss
+    category: general_ai
+    priority: high
+    tags: [ai, analysis]
+    notes: Strong AI analysis and policy coverage.
+    enabled: true
+  - name: The Verge AI
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    source_type: rss
+    fetch_type: rss
+    category: general_ai
+    priority: high
+    tags: [ai, product]
+    notes: Consumer and platform AI coverage.
+    enabled: true
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    source_type: rss
+    fetch_type: rss
+    category: startup
+    priority: high
+    tags: [ai, startup, funding]
+    notes: Startup, funding, and product news.
+    enabled: true
+  - name: VentureBeat AI
+    url: https://venturebeat.com/category/ai/
+    source_type: website
+    category: general_ai
+    priority: medium
+    tags: [enterprise_ai]
+    notes: Manual watchlist; RSS endpoint redirects inconsistently.
+    enabled: true
+  - name: Ars Technica AI
+    url: https://feeds.arstechnica.com/arstechnica/technology-lab
+    source_type: rss
+    fetch_type: rss
+    category: general_ai
+    priority: medium
+    tags: [technology, policy]
+    notes: Technology-lab feed with AI coverage.
+    enabled: true
+
+  - name: OpenAI
+    url: https://openai.com/news/rss.xml
+    source_type: rss
+    fetch_type: rss
+    category: vendor
+    priority: high
+    tags: [frontier_model, product, api]
+    notes: Official OpenAI news.
+    enabled: true
+  - name: Anthropic
+    url: https://www.anthropic.com/news
+    source_type: website
+    category: vendor
+    priority: high
+    tags: [frontier_model, safety, policy]
+    notes: Manual watchlist; official RSS endpoint was not stable.
+    enabled: true
+  - name: Google DeepMind
+    url: https://deepmind.google/blog/rss.xml
+    source_type: rss
+    fetch_type: rss
+    category: research
+    priority: high
+    tags: [frontier_model, research]
+    notes: Official Google DeepMind blog.
+    enabled: true
+  - name: Meta AI
+    url: https://ai.meta.com/blog/
+    source_type: website
+    category: research
+    priority: high
+    tags: [open_source, research]
+    notes: Manual watchlist; official RSS endpoint was not stable.
+    enabled: true
+  - name: NVIDIA AI
+    url: https://developer.nvidia.com/blog/feed/
+    source_type: rss
+    fetch_type: rss
+    category: vendor
+    priority: high
+    tags: [gpu, infrastructure, simulation, physical_ai]
+    notes: NVIDIA developer blog.
+    enabled: true
+  - name: Hugging Face
+    url: https://huggingface.co/blog/feed.xml
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: high
+    tags: [open_source, models, datasets]
+    notes: Hugging Face blog and ecosystem updates.
+    enabled: true
+  - name: Microsoft AI
+    url: https://blogs.microsoft.com/ai/
+    source_type: website
+    category: vendor
+    priority: high
+    tags: [enterprise_ai, copilot]
+    notes: Manual watchlist; previous feed returned Gone.
+    enabled: true
+  - name: Amazon AWS AI
+    url: https://aws.amazon.com/blogs/machine-learning/feed/
+    source_type: rss
+    fetch_type: rss
+    category: vendor
+    priority: high
+    tags: [cloud, enterprise_ai, mlops]
+    notes: AWS machine learning blog.
+    enabled: true
+  - name: Mistral AI
+    url: https://mistral.ai/news/
+    source_type: website
+    category: vendor
+    priority: high
+    tags: [frontier_model, open_model]
+    notes: No stable RSS known; manual watchlist.
+    enabled: true
+  - name: xAI
+    url: https://x.ai/news
+    source_type: website
+    category: vendor
+    priority: high
+    tags: [frontier_model]
+    notes: No stable RSS known; manual watchlist.
+    enabled: true
+  - name: Perplexity
+    url: https://www.perplexity.ai/
+    source_type: website
+    category: startup
+    priority: medium
+    tags: [search, product]
+    notes: Manual watchlist for product/company updates.
+    enabled: true
+  - name: Cohere
+    url: https://cohere.com/blog
+    source_type: website
+    category: vendor
+    priority: medium
+    tags: [enterprise_ai, model]
+    notes: Manual watchlist unless RSS is added.
+    enabled: true
+  - name: Stability AI
+    url: https://stability.ai/news
+    source_type: website
+    category: vendor
+    priority: medium
+    tags: [generative_media, image_model]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Runway
+    url: https://runwayml.com/research/
+    source_type: website
+    category: vendor
+    priority: medium
+    tags: [video_model, generative_media]
+    notes: Manual watchlist.
+    enabled: true
+  - name: ElevenLabs
+    url: https://elevenlabs.io/blog
+    source_type: website
+    category: vendor
+    priority: medium
+    tags: [audio_ai, voice]
+    notes: Manual watchlist.
+    enabled: true
+  - name: GitHub Copilot
+    url: https://github.blog/tag/github-copilot/feed/
+    source_type: rss
+    fetch_type: rss
+    category: vendor
+    priority: high
+    tags: [coding_assistant, developer_tools]
+    notes: GitHub Copilot blog tag feed.
+    enabled: true
+  - name: Cursor / Anysphere
+    url: https://cursor.com/changelog
+    source_type: website
+    category: startup
+    priority: high
+    tags: [coding_assistant, developer_tools]
+    notes: Manual watchlist for Cursor / Anysphere.
+    enabled: true
+  - name: Windsurf
+    url: https://windsurf.com/changelog
+    source_type: website
+    category: startup
+    priority: high
+    tags: [coding_assistant, developer_tools]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Replit
+    url: https://blog.replit.com/
+    source_type: website
+    category: startup
+    priority: medium
+    tags: [coding_assistant, developer_tools]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Scale AI
+    url: https://scale.com/blog
+    source_type: website
+    category: startup
+    priority: medium
+    tags: [data, labeling, enterprise_ai]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Databricks AI
+    url: https://www.databricks.com/blog
+    source_type: website
+    category: vendor
+    priority: medium
+    tags: [data, enterprise_ai]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Snowflake AI
+    url: https://www.snowflake.com/en/blog/
+    source_type: website
+    category: vendor
+    priority: medium
+    tags: [data, enterprise_ai]
+    notes: Manual watchlist.
+    enabled: true
+
+  - name: Siemens Digital Industries Software
+    url: https://blogs.sw.siemens.com/feed/
+    source_type: rss
+    fetch_type: rss
+    category: engineering_ai
+    priority: high
+    tags: [plm, cad, cae, digital_twin]
+    notes: Siemens industrial software blog.
+    enabled: true
+  - name: Siemens Simcenter
+    url: https://blogs.sw.siemens.com/simcenter/feed/
+    source_type: rss
+    fetch_type: rss
+    category: engineering_ai
+    priority: high
+    tags: [cae, simulation, simcenter]
+    notes: Simcenter blog.
+    enabled: true
+  - name: Siemens Energy
+    url: https://www.siemens-energy.com/global/en/home/stories.html
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [energy, industrial_ai, digital_twin]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Ansys
+    url: https://www.ansys.com/blog/rss.xml
+    source_type: rss
+    fetch_type: rss
+    category: engineering_ai
+    priority: high
+    tags: [cae, simulation, digital_twin]
+    notes: Ansys blog RSS.
+    enabled: true
+  - name: COMSOL
+    url: https://www.comsol.com/blogs/feed/
+    source_type: rss
+    fetch_type: rss
+    category: engineering_ai
+    priority: high
+    tags: [multiphysics, simulation]
+    notes: COMSOL blog RSS.
+    enabled: true
+  - name: Dassault Systemes
+    url: https://blog.3ds.com/
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [cad, plm, simulation]
+    notes: Manual watchlist; RSS endpoint was not stable.
+    enabled: true
+  - name: Autodesk
+    url: https://www.autodesk.com/blogs/design-and-make/
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [cad, design, generative_design]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Altair
+    url: https://altair.com/blog
+    source_type: website
+    category: engineering_ai
+    priority: high
+    tags: [cae, simulation, optimization]
+    notes: Manual watchlist; RSS output is not consistently parseable.
+    enabled: true
+  - name: Hexagon / MSC
+    url: https://hexagon.com/company/news
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [msc, cae, manufacturing]
+    notes: Manual watchlist.
+    enabled: true
+  - name: PTC
+    url: https://www.ptc.com/en/blogs
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [plm, digital_twin, industrial_ai]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Cadence
+    url: https://community.cadence.com/cadence_blogs_8/
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [eda, simulation, ai_chip]
+    notes: Manual watchlist; RSS endpoint blocks automated fetches.
+    enabled: true
+  - name: Synopsys
+    url: https://www.synopsys.com/blogs.html
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [eda, simulation, digital_twin]
+    notes: Manual watchlist.
+    enabled: true
+  - name: SimScale
+    url: https://www.simscale.com/blog/
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [cloud_cae, simulation]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Synera
+    url: https://www.synera.io/blog
+    source_type: website
+    category: engineering_ai
+    priority: high
+    tags: [engineering_agents, design_automation]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Navasto
+    url: https://www.navasto.de/news
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [surrogate_model, cae]
+    notes: Manual watchlist.
+    enabled: true
+  - name: PhysicsX
+    url: https://www.physicsx.ai/news
+    source_type: website
+    category: engineering_ai
+    priority: high
+    tags: [scientific_ml, simulation, surrogate_model]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Luminary Cloud
+    url: https://www.luminarycloud.com/blog
+    source_type: website
+    category: engineering_ai
+    priority: high
+    tags: [cloud_cae, simulation, physics_ai]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Emmi AI
+    url: https://www.emmi.ai/
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [engineering_ai, scientific_ml]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Diabatix
+    url: https://www.diabatix.com/blog
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [thermal, generative_design, cae]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Neural Concept
+    url: https://www.neuralconcept.com/blog
+    source_type: website
+    category: engineering_ai
+    priority: high
+    tags: [surrogate_model, cae, engineering_intelligence]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Monolith AI
+    url: https://www.monolithai.com/blog
+    source_type: website
+    category: engineering_ai
+    priority: high
+    tags: [industrial_ai, engineering_ai, surrogate_model]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Rescale
+    url: https://rescale.com/feed/
+    source_type: rss
+    fetch_type: rss
+    category: engineering_ai
+    priority: high
+    tags: [hpc, simulation, cloud_cae]
+    notes: Rescale RSS feed.
+    enabled: true
+  - name: nTop
+    url: https://www.ntop.com/resources/blog/
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [design, topology_optimization, manufacturing]
+    notes: Manual watchlist.
+    enabled: true
+  - name: CoLab Software
+    url: https://www.colabsoftware.com/blog
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [engineering_collaboration, design_review]
+    notes: Manual watchlist.
+    enabled: true
+  - name: ESI Group
+    url: https://www.esi-group.com/news
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [cae, simulation, virtual_prototyping]
+    notes: Manual watchlist.
+    enabled: true
+  - name: BETA CAE Systems
+    url: https://www.beta-cae.com/news.htm
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [cae, pre_processing, simulation]
+    notes: Manual watchlist.
+    enabled: true
+  - name: CADFEM
+    url: https://www.cadfem.net/en/cadfem-informs/newsroom.html
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [ansys, cae, events]
+    notes: Manual watchlist.
+    enabled: true
+  - name: NAFEMS
+    url: https://www.nafems.org/about/news/
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [cae, events, community]
+    notes: Manual watchlist for events and news.
+    enabled: true
+
+  - name: arXiv AI Search
+    url: https://export.arxiv.org/api/query
+    source_type: arxiv
+    category: research
+    priority: high
+    tags: [research, papers, arxiv]
+    notes: Manual/API extension point; not fetched by current lightweight runner.
+    enabled: true
+  - name: Papers with Code
+    url: https://paperswithcode.com/
+    source_type: website
+    category: research
+    priority: medium
+    tags: [research, benchmarks]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Hugging Face Papers
+    url: https://huggingface.co/papers
+    source_type: website
+    category: research
+    priority: high
+    tags: [research, community, papers]
+    notes: Manual watchlist or Hugging Face connector source.
+    enabled: true
+  - name: Nature Machine Intelligence
+    url: https://www.nature.com/natmachintell/
+    source_type: website
+    category: research
+    priority: medium
+    tags: [research, journal]
+    notes: Manual watchlist.
+    enabled: true
+  - name: Science Robotics
+    url: https://www.science.org/journal/scirobotics
+    source_type: website
+    category: research
+    priority: medium
+    tags: [robotics, research, journal]
+    notes: Manual watchlist.
+    enabled: true
+  - name: ACM AI-related feeds
+    url: https://dl.acm.org/
+    source_type: website
+    category: research
+    priority: low
+    tags: [research, acm]
+    notes: Manual watchlist where feeds are available.
+    enabled: true
+  - name: IEEE AI-related feeds
+    url: https://www.ieee.org/
+    source_type: website
+    category: research
+    priority: low
+    tags: [research, ieee]
+    notes: Manual watchlist where feeds are available.
+    enabled: true
+
+  - name: Hacker News Algolia
+    url: https://hn.algolia.com/api/v1/search_by_date
+    source_type: website
+    fetch_type: hn_algolia
+    category: community
+    priority: medium
+    tags: [community, hacker_news]
+    notes: Uses public Algolia HN API.
+    enabled: true
+  - name: Reddit MachineLearning
+    url: https://www.reddit.com/r/MachineLearning/top.json?t=day&limit=50
+    source_type: website
+    category: community
+    priority: low
+    tags: [community, reddit, ml]
+    notes: Manual watchlist; JSON endpoint may block automated fetches.
+    enabled: true
+
+  - name: Google News General AI Discovery
+    url: https://news.google.com/rss/search
+    source_type: rss
+    fetch_type: google_news_rss
+    category: general_ai
+    priority: high
+    tags: [discovery, news]
+    query: (AI OR "artificial intelligence" OR OpenAI OR Anthropic OR "Google DeepMind" OR "Meta AI" OR RAG) when:1d
+    notes: Broad recall source.
+    enabled: true
+  - name: Google News AI Payments and Agent Commerce
+    url: https://news.google.com/rss/search
+    source_type: rss
+    fetch_type: google_news_rss
+    category: general_ai
+    priority: high
+    tags: [agent_commerce, payments]
+    query: (OpenAI OR ChatGPT OR Visa OR Mastercard OR Stripe OR PayPal) ("AI agent" OR "agentic commerce" OR "AI payments" OR "agent payments" OR checkout OR wallet OR "payment system") when:2d
+    notes: Captures AI-agent payment infrastructure news.
+    enabled: true
+  - name: Google News Frontier AI Policy and Access
+    url: https://news.google.com/rss/search
+    source_type: rss
+    fetch_type: google_news_rss
+    category: general_ai
+    priority: high
+    tags: [policy, safety, frontier_models]
+    query: (Anthropic OR Claude OR OpenAI OR Microsoft OR "Dario Amodei") (regulation OR "data terms" OR "employee access" OR policy OR safety OR Washington) when:2d
+    notes: Captures policy, access, and safety governance items.
+    enabled: true
+  - name: Google News Engineering AI Discovery
+    url: https://news.google.com/rss/search
+    source_type: rss
+    fetch_type: google_news_rss
+    category: engineering_ai
+    priority: high
+    tags: [engineering_ai, discovery]
+    query: (CAE OR "computer-aided engineering" OR SPDM OR PLM OR CAD OR "digital twin" OR "physical AI" OR "scientific ML" OR "industrial AI" OR "engineering simulation" OR CFD OR FEA) (AI OR "machine learning" OR neural OR surrogate) when:30d
+    notes: Broad engineering AI recall source.
+    enabled: true
+  - name: LinkedIn Engineering AI Public Posts
+    url: https://www.linkedin.com/search/results/content/
+    source_type: linkedin_manual
+    category: engineering_ai
+    priority: medium
+    tags: [linkedin, engineering_ai, manual]
+    query: (CAE OR simulation OR CFD OR FEA OR digital twin OR surrogate model OR SPDM OR PLM) (AI OR machine learning)
+    notes: Manual public LinkedIn review; do not scrape logged-in feeds.
+    enabled: true
+  - name: Curated AI Newsletter Discovery
+    url: https://news.google.com/rss/search
+    source_type: newsletter
+    fetch_type: google_news_rss
+    category: community
+    priority: medium
+    tags: [newsletter, curated]
+    query: ("Generative AI Daily Newsletter" OR "AI newsletter" OR "The Rundown AI" OR "Ben's Bites" OR "Superhuman AI" OR "Import AI") (OpenAI OR Anthropic OR Claude OR ChatGPT OR "AI agent") when:2d
+    notes: Discovery source for curated newsletters; add exact newsletter archives when known.
+    enabled: true
