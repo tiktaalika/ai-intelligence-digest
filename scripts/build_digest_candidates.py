@@ -446,18 +446,30 @@ def score_candidate(
         "spdm", "plm", "digital twin", "physical ai", "scientific ml", "industrial ai",
         "cfd", "fea", "surrogate", "neural operator", "physics-informed",
     )
+    workflow_ai_terms = (
+        "agentic ai", "ai agent", "agents", "llm", "natural language", "post-processing",
+        "result browser", "report template", "code generation", "sandboxed environment",
+        "simulation workflow", "simulation automation", "plot agent", "variable metadata",
+    )
     research_terms = (
         "arxiv", "paper", "research", "benchmark", "dataset", "model release", "nature",
         "science robotics", "papers with code", "hugging face papers",
     )
     engineering_relevance = 1.0 if source["category"] == "engineering_ai" else min(sum(1 for term in engineering_terms if term in lower) / 4, 1.0)
     research_relevance = 1.0 if source["category"] == "research" else min(sum(1 for term in research_terms if term in lower) / 3, 1.0)
+    engineering_workflow_ai = (
+        canonical_category(source["category"]) == "engineering_ai"
+        and any(term in lower for term in workflow_ai_terms)
+        and any(term in lower for term in ("simulation", "cae", "simcenter", "amesim", "cfd", "fea", "digital twin"))
+    )
     score = 0.0
     score += 32 * priority
     score += 22 * novelty
     score += 20 * general_relevance
     score += 14 * engineering_relevance
     score += 8 * research_relevance
+    if engineering_workflow_ai:
+        score += 10
     score += 14 * log_scale(points, 1200)
     score += 10 * log_scale(comments, 800)
     score += 10 * log_scale(upvotes, 5000)
@@ -468,6 +480,8 @@ def score_candidate(
         f"engineering_relevance={engineering_relevance:.2f}",
         f"research_relevance={research_relevance:.2f}",
     ]
+    if engineering_workflow_ai:
+        reasons.append("engineering_workflow_ai_boost=10")
     visible = {k: v for k, v in engagement.items() if v}
     if visible:
         reasons.append(f"visible_engagement={visible}")

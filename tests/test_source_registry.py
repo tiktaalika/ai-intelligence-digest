@@ -1,4 +1,5 @@
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
@@ -8,7 +9,13 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from scripts.build_digest_candidates import Candidate, load_source_registry, select_unique_events, topic_key  # noqa: E402
+from scripts.build_digest_candidates import (  # noqa: E402
+    Candidate,
+    load_source_registry,
+    score_candidate,
+    select_unique_events,
+    topic_key,
+)
 
 
 class SourceRegistryTest(unittest.TestCase):
@@ -25,6 +32,38 @@ class SourceRegistryTest(unittest.TestCase):
         self.assertTrue(all(source.get("enabled", True) for source in registry["sources"]))
         self.assertTrue(any(source["category"] == "engineering_ai" for source in registry["sources"]))
         self.assertTrue(any(source["kind"] == "web_search_query" for source in registry["sources"]))
+        self.assertTrue(
+            any(
+                source["name"] == "Siemens Art of the Possible"
+                and source["kind"] == "rss"
+                and source["priority"] == "high"
+                for source in registry["sources"]
+            )
+        )
+
+    def test_engineering_workflow_ai_gets_scoring_boost(self) -> None:
+        source = {
+            "category": "engineering_ai",
+            "priority": "high",
+        }
+        now = datetime(2026, 7, 2, tzinfo=timezone.utc)
+        published_at = datetime(2026, 6, 15, 13, 55, tzinfo=timezone.utc)
+        score, reasons, _ = score_candidate(
+            source=source,
+            engagement={},
+            matches=["AI", "simulation", "LLM"],
+            published_at=published_at,
+            now=now,
+            window_hours=720,
+            priority_scores={"high": 1.0, "medium": 0.65, "low": 0.35},
+            text=(
+                "Ask, don't click: Agentic AI takes the pain out of simulation post-processing. "
+                "An LLM uses variable metadata, code generation, and a sandboxed environment "
+                "to automate Simcenter Amesim simulation workflow reports."
+            ),
+        )
+        self.assertIn("engineering_workflow_ai_boost=10", reasons)
+        self.assertGreater(score, 70)
 
     def test_topic_diversification_limits_initial_selection(self) -> None:
         def item(idx: int, title: str, score: float) -> Candidate:

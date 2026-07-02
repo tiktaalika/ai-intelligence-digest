@@ -3,89 +3,89 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 377
-- filtered_count: 115
-- duplicate_count: 2
+- fetched_count: 390
+- filtered_count: 118
+- duplicate_count: 0
 - failures: 1
 
 ## Top 10 General AI News
-1. [Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)](https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us)
-   - source: Amazon AWS AI
-   - score: 64.521
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.872; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [OpenAI CEO Sam Altman calls for US-led global AI safety forum - Crypto Briefing](https://news.google.com/rss/articles/CBMickFVX3lxTE1yY0lWVEUycmVjdm5WcDA2ZXphSzktWjVpSEtTSWxEM3BuQlBzU2VKdGdaUEZEU1RBeFVldGpEYUJQb1NZUk02OENYVFFfWDZFYjZRenIzLVBKSUZnQzBZR3g2TWpoa0FOQlNPRzZsMjkxdw?oc=5)
-   - source: Google News Frontier AI Policy and Access
-   - score: 63.712
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.987; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Implementing resilience patterns with Amazon Bedrock and LLM gateway](https://aws.amazon.com/blogs/machine-learning/implementing-resilience-patterns-with-amazon-bedrock-and-llm-gateway)
-   - source: Amazon AWS AI
-   - score: 62.163
-   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.606; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.61; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-4. [HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune, and personalized PageRank](https://aws.amazon.com/blogs/machine-learning/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pagerank)
-   - source: Amazon AWS AI
-   - score: 61.138
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.87; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Trump drops restrictions on Anthropic’s Mythos and Fable models](https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models)
+1. [Anthropic is discussing a new custom chip with Samsung](https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung)
    - source: TechCrunch AI
-   - score: 60.194
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.706; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.71; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-6. [1 Artificial Intelligence Stock You Can Buy and Hold for the Next Decade - Yahoo Finance](https://news.google.com/rss/articles/CBMiogFBVV95cUxQME9uNHV2MzZhM3JZSW85Y2lFSVlJZzhVellPZ2duM0xQVTBfNmdjWTJ6WXFIaFFpR3pVbllyaGFnUjBVTTBTaENFMExWX0FKdzJOcmtHbDhvM0lXT3o1Rlp0alBPeGhGRFFDd2Zhak40WHEyYXlhMGhWNDBUWVRERkhzS29SMkdmU2k1SzBVMHREUmZaUVA4eFU3cVJHTnZPWUE?oc=5)
+   - score: 66.765
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.974; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [EXCLUSIVE: Zuckerberg says AI agent development going slower than expected - Reuters](https://news.google.com/rss/articles/CBMirAFBVV95cUxOdGNldFRXdDZERDRIN2R3QnRmV1JuUW9saEVNdDVmTEZwdXZLSlM0MHRzN21IMlN2RTNTaDBYa1Z1YS1kVE11SUZJLUhlQktoTm1nVVp0a0x0UzFNbW5nQnhOSXJRRlkwMjY1NEVyRFVHVk5aTktfeDZ5YjRqWWxKbm5EZU1zaHFjVkh1U3hNQVBORWtVaWFyOTZUSkI1V2pfMHEyMS1pcXFwN1lN?oc=5)
    - source: Google News General AI Discovery
-   - score: 59.334
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.932; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-7. [Introducing Claude Sonnet 5 on AWS: Anthropic’s most capable Sonnet model](https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-on-aws-anthropics-most-capable-sonnet-model)
-   - source: Amazon AWS AI
-   - score: 59.119
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.627; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.63; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip](https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip)
-   - source: TechCrunch AI
-   - score: 59.015
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.622; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.62; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Building a serverless A2A gateway for agent discovery, routing, and access control](https://aws.amazon.com/blogs/machine-learning/building-a-serverless-a2a-gateway-for-agent-discovery-routing-and-access-control)
-   - source: Amazon AWS AI
-   - score: 57.826
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.871; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Square launches agentic commerce integrations with ChatGPT, Claude - Digital Commerce 360](https://news.google.com/rss/articles/CBMipAFBVV95cUxPTVV3RmJkWi1HbHBsQjZESURrRkREUFdaeElILU5NWTh1cW1mVGVyYXI1RDRJcjY0djhhdG1aVzlkYlZ2Um81VElWbG5SSEo1N0JRb3hSdUttRlRRVVdpQjV3SFRoVVM3Z2x4YWRCTVY4bTNsQS04MXJyYmdWSWtwMEpzdzNMLTNYcDhacDk1NE9IVXZ4WmdUY3FsVHIzRFd6Njktd9IBpAFBVV95cUxPTVV3RmJkWi1HbHBsQjZESURrRkREUFdaeElILU5NWTh1cW1mVGVyYXI1RDRJcjY0djhhdG1aVzlkYlZ2Um81VElWbG5SSEo1N0JRb3hSdUttRlRRVVdpQjV3SFRoVVM3Z2x4YWRCTVY4bTNsQS04MXJyYmdWSWtwMEpzdzNMLTNYcDhacDk1NE9IVXZ4WmdUY3FsVHIzRFd6Njktdw?oc=5)
+   - score: 63.446
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [BBVA Completes First AI Agent-Initiated Payment in Partnership with Visa - LeapRate](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc3BFVm9HOXB1RlRMT1E0WWVodVpJcnlnZ1Y4YzNwSXR2TXN0dEhBUFVIbUcyMlk2N2ZmNzVsd2dmRy1nM3Vjbzc4NmlGX0Q4S2hfZ1VLOUwxbWpXVGNUdWhPeDREYXNOb3JCNVNkSnVQYms4RjNzTjZwWDFiaGpad2lZSHhXMGhfTDBYcEpKREhSMVpQUFdaVE1DVlFiYjdjb3E0Yll1dHRkNjQ?oc=5)
    - source: Google News AI Payments and Agent Commerce
-   - score: 57.467
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.703; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.70; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.307
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Nexi and Visa complete Europe's first transaction using an AI agent - marketscreener.com](https://news.google.com/rss/articles/CBMivAFBVV95cUxPdXdaejBmcHlKeDM3dExsX2hSOTd6U3Y1bmNtOTkySFhvY1plZy1oOG1rY1k1SFVDS1dQcVYzV0RXbXZlTzBaSlZPZURYb1FnU0Q2a1FLWFRmSHpVTXd1QmpEOFVfVWFhNzJOVVBFRlhKakhZOE9YN0lYdkMtQS1BRUJ3b1I2cG5fNFpBaVFrOGJjdXFuTEVtODdxQkhhWGVKNFpOdkl5NlFKU0Y3YmZ1elZ0NTd6d3NEYWdSdA?oc=5)
+   - source: Google News AI Payments and Agent Commerce
+   - score: 62.569
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.783; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Microsoft launches its own AI deployment company with $2.5 billion commitment](https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment)
+   - source: TechCrunch AI
+   - score: 62.369
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.926; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)](https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us)
+   - source: Amazon AWS AI
+   - score: 61.201
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.721; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.72; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Visa, Nuvei Complete Proof of Concept for New Agentic Commerce Solution - Fintech.ca |](https://news.google.com/rss/articles/CBMijgFBVV95cUxNdVBnTFB6dmVXdHRIdk10Tm51YUVlMkxNZFhwWVU2dS13Yk51LWxiTUZ3dFh4SnZYR2hYRkVXTGs1X3pWMm9lWE9LU3VONlZEelBtWEFGcTdMeXpRdW00RXFoSGZhc19PNXlaRW5HWUZETU9wNnpzbzFXcU1fMDdhckh5WXpkZmM1OVFLOGx3?oc=5)
+   - source: Google News AI Payments and Agent Commerce
+   - score: 61.062
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.866; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Florida sues OpenAI and Altman in landmark AI safety case - MSN](https://news.google.com/rss/articles/CBMi2AJBVV95cUxNdm9tWGQ3VDhZMkszZFVORWNZOWUzTDRxaktKbVVvSjRTU1AxaUlfQlRqakJOVl94N0I3Y1NHLV9RRlRUUFJESWlqZ3dZUVQ3T2hlVHIwOXVWYlppVHpZSXpkdnNSSEpZSEJONUNOS2dUeUpBTlhaVDYwNkphaDRfNXYybU1SdmZ1Qlg1U0tXNzl4Vk5FOVJJbkhNWnlfV1JQQTVVZldiYjFfdU45U1h6ZXNOSmhNY2E4U2FOZ3Fsc0tTeEdfVDBPcXA3VGhaa0tJcVc0SzB5TTRYeGg5TmtaYVlHYUNud00xbnJOY2g3dUJYbXozN2dmSlBRUjRGT21PQ0NhYURFck56dXNmVEJKeW9fLVR3WG9JVjZYdXlBUWV3VHNOWC1GVmpRX3V5R1pHc25xTFBSV2ZSVEIzWTVmQ1JYWTBqMnFBSW5vbTFKcVJKbm1UdGxkYw?oc=5)
+   - source: Google News Frontier AI Policy and Access
+   - score: 60.446
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.838; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [OpenAI proposes 5% US government stake to ease Washington pressure - Ynetnews](https://news.google.com/rss/articles/CBMibEFVX3lxTE5jeGJLOXMxbVlUaUxwVG9sVUxrX192M3UwQ0NjbXpWZnphMGVNUks1NFB1ZEM4Zm1zSlc1OWNTQlRWNEl5T2ZJeE1DWVQ1Z2VTTml6SVpaS21kRVg1MlpEX0xHa1pWelBkUEFJWQ?oc=5)
+   - source: Google News Frontier AI Policy and Access
+   - score: 59.6
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.952; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [OpenAI proposed donating 5% of its equity to a US sovereign wealth fund](https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund)
+   - source: TechCrunch AI
+   - score: 59.371
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.941; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [What’s new in Simcenter STAR-CCM+ 2606?](https://blogs.sw.siemens.com/simcenter/simcenter-star-ccm-2606-released)
    - source: Siemens Simcenter
-   - score: 74.116
-   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.975; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Close encounters of the EMAG kind, hiding in plain sight among CFD. Unveiling the new Electromagnetic Solver in Simcenter STAR-CCM+](https://blogs.sw.siemens.com/simcenter/emag-thermal-multiphysics-simulation)
-   - source: Siemens Simcenter
-   - score: 71.368
-   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.85; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-3. [From Reactive Repairs To Predictive Power: An AI Digital-Twin ‘Health Index’ For The Su-30 MKI – Analysis - Eurasia Review](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQlU0SC1BZEkxNEJJX3ZHNmpCMnNpT2YyWUk0a0M1bUZuZkdpdGpvMjFmamx4cHJvR1VsVWd2V1lkNWRPamk1cUVlZGhlaDdxZm5aQXNXeE1XczlLQmJVczR6eDhVYndXMmlVaC1CRktYWTM0eTVJeXhYZHdIc3QteXp5WXM3Y0tkNGswdW44M3R4RDJYRXZzOHFxZC1MdzdOam9DLUZLdHFNckFyUmdOTXFKeTU5Zk9PNURyc3RKYTJMOXJUaG5ESnVhT3I0X0V0WEpoUWpfOA?oc=5)
-   - source: Google News Engineering AI Discovery
-   - score: 71.163
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.992; source_priority=1.0
+   - score: 73.784
+   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.96; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Ask, don’t click: Agentic AI takes the pain out of simulation post-processing](https://blogs.sw.siemens.com/art-of-the-possible/ask-dont-click-agentic-ai-takes-the-pain-out-of-simulation-post-processing)
+   - source: Siemens Art of the Possible
+   - score: 71.821
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.568; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.57; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; engineering_workflow_ai_boost=10; visible_engagement=unavailable
+3. [Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®](https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph)
+   - source: COMSOL
+   - score: 71.182
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.993; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-4. [From Data to Decisions: Siemens’ Vision for Industrial AI at Automate 2026 - ARC Advisory Group](https://news.google.com/rss/articles/CBMijgFBVV95cUxOWU9EZ0k2VkhZUkVNUVR6a3VsWU0weE14S0R0RFhtczdtOE0xQnk3b0pmeUpNYkM1THVsLTIwajJwR0hWQmRndTV3SmdiUHM0UzIxbV92UTA4WXdReFJvQ3g5VEJKTjZSRVdONGRvdnJsYl8zcURibldwdXhzSWw5STBsZUhMWk5hNm0zRHpR?oc=5)
+4. [IMTS 2026 Conference: From Automation to Autonomy: The Next Era of Manufacturing with Physical AI - Aerospace Manufacturing and Design](https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWlpjOU9CazFCYWhRYjRwSHJJQ3Z4UnJIRFBOMi1BS2ZJV3BrSDJPdmFQWkphcE5USTdDbXJuUU44aUxSWlRpamZlUHVlQjd0OUdoc3Znd0NCb0Mzd2x4ZnN0c2NvSTdsaHlkNTlBeDhxaTZFQW5Kdmdpdk1oSktCU3hPX0lTSHRwdllvLTlLbk5RR3dVbFg4eFJvbW1KakpSaFNBamZaTEhfQlM3bXNjc2MtMmJLVUNUMHhUbkZOSmlKWWVOR1k2TjMwYlJGbnIyZmowNnpoRVMwRmZmWk53TUd2bw?oc=5)
    - source: Google News Engineering AI Discovery
-   - score: 70.909
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.981; source_priority=1.0
+   - score: 70.978
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.984; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [IMTS 2026 Conference: From Automation to Autonomy: The Next Era of Manufacturing with Physical AI - Today's Medical Developments](https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZ3dZeDVxY2JvZkRzcmYwN0N3MWZVR2poMFBjZXJfSjdFck5sdVlUTGt0cnJsVTV0aGV2RmlTc09EZ2lWV0ZLTUJkQnpxS2NvTmIwaWd3cjRNN0hQcjVaSVB5UEhJbFlvM3VteG9FTms5QWZPMnVheWw4cHBGVHpsZW43NkswZ3FSMTVqU01QOTB3czl4OVBRcURxOVRfV1Y3MnZqN0lFWDNMSjV2UHRzUTc3cTFGZW9Pb2tvQ1NtQ05obXJ6eWhoWmIzdEV1eUhrM2psZFJUMWtTblU?oc=5)
-   - source: Google News Engineering AI Discovery
-   - score: 70.76
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.974; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+5. [What’s new in Simcenter Inspire 2026.1](https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-inspire-2026-1)
+   - source: Siemens Simcenter
+   - score: 70.168
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.947; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 - No ranked research items in this run.

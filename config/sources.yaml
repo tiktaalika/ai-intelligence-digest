@@ -281,6 +281,15 @@ sources:
     tags: [cae, simulation, simcenter]
     notes: Simcenter blog.
     enabled: true
+  - name: Siemens Art of the Possible
+    url: https://blogs.sw.siemens.com/art-of-the-possible/feed/
+    source_type: rss
+    fetch_type: rss
+    category: engineering_ai
+    priority: high
+    tags: [agentic_ai, cae, simulation, industrial_ai, simcenter]
+    notes: Siemens thought leadership feed with CAE, simulation automation, and industrial AI prototypes.
+    enabled: true
   - name: Siemens Energy
     url: https://www.siemens-energy.com/global/en/home/stories.html
     source_type: website
