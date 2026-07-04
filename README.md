@@ -1,6 +1,6 @@
-# AI Intelligence Digest
+# AI Engineering Newsletter
 
-This workspace contains an auditable daily AI Intelligence Digest pipeline. It is designed to support a background automation that refreshes Chinese markdown digests and a mobile-readable static HTML page every morning at 08:00.
+This workspace contains an auditable daily AI Engineering Newsletter pipeline. It refreshes Chinese markdown newsletters and a mobile-readable static HTML archive every morning at 08:00.
 
 ## What It Produces
 
@@ -12,7 +12,7 @@ This workspace contains an auditable daily AI Intelligence Digest pipeline. It i
 
 ## Why It Is Not a Black Box
 
-The daily digest is based on explicit configuration:
+The daily newsletter is based on explicit configuration:
 
 - Source registry: `config/sources.yaml`
 - Legacy source config fallback: `config/sources.json`
@@ -30,7 +30,7 @@ Each candidate records source, link, matched terms, visible engagement signals, 
 
 Direct read counts are often not public, so the ranking estimates reach using visible evidence such as source priority, engagement, recency, topic relevance, and cross-source evidence. The source registry is intentionally extensible; the daily candidate pool, not the source count, is capped at 100.
 
-Selection is not a raw popularity leaderboard. After duplicate-event removal, the Top 10 General AI list and Top 5 Engineering AI list apply topic diversification so one hot area, such as AI payments, regulation, data centers, or model-release drama, does not crowd out the whole digest. The default cap is two items per broad topic before the selector relaxes the cap to fill empty slots.
+Selection is not a raw popularity leaderboard. After duplicate-event removal, the Top 10 General AI list and Top 5 Engineering AI list apply topic diversification so one hot area, such as AI payments, regulation, data centers, or model-release drama, does not crowd out the whole newsletter. The default cap is two items per broad topic before the selector relaxes the cap to fill empty slots.
 
 ## Source Registry
 
@@ -94,7 +94,7 @@ data/digests/YYYY-MM-DD-briefing-input.md
 The briefing input uses this structure:
 
 ```text
-# AI Intelligence Digest - YYYY-MM-DD
+# AI Engineering Newsletter - YYYY-MM-DD
 
 ## Top 10 General AI News
 
@@ -115,13 +115,13 @@ The rolling page is generated at:
 site/index.html
 ```
 
-Regenerate it manually after new digest files are created:
+Regenerate it manually after new newsletter files are created:
 
 ```bash
 python3 scripts/render_digest_site.py
 ```
 
-The newest digest appears at the top. If `data/digests/YYYY-MM-DD-final.md` exists, the page shows the final Chinese digest for that date; otherwise it shows the candidate audit cards.
+The newest newsletter appears at the top. If `data/digests/YYYY-MM-DD-final.md` exists, the page shows the final Chinese newsletter for that date; otherwise it shows the candidate audit cards.
 
 ## Mobile Web Publishing
 
@@ -133,7 +133,11 @@ After the first push, enable Pages in GitHub if needed:
 Repository Settings -> Pages -> Source: GitHub Actions
 ```
 
-The daily automation refreshes `data/digests/YYYY-MM-DD-final.md` and rebuilds `site/index.html`. Push the updated files to GitHub to refresh the phone-accessible page.
+The daily automation refreshes `data/digests/YYYY-MM-DD-final.md` and rebuilds `site/index.html`. Push the updated files to GitHub to refresh the phone-accessible page:
+
+```text
+https://tiktaalika.github.io/ai-engineering-newsletter/
+```
 
 ## LinkedIn Handling
 
@@ -147,7 +151,7 @@ For a stronger LinkedIn implementation, add one of these later:
 - A manually curated list of public LinkedIn author/company URLs.
 - A browser-assisted review step for logged-in reading, with explicit human approval.
 
-## Daily Digest Format
+## Daily Newsletter Format
 
 For each selected item, the automation should output:
 

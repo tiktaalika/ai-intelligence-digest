@@ -728,7 +728,7 @@ def write_outputs(candidates: list[Candidate], log: RunLog, search_tasks: list[d
     out_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     lines = [
-        f"# AI Intelligence Digest - {date_slug}",
+        f"# AI Engineering Newsletter - {date_slug}",
         "",
         "Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.",
         "",

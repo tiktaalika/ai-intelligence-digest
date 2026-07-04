@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the rolling AI news digest as a static HTML page."""
+"""Render the rolling AI engineering newsletter as a static HTML page."""
 
 from __future__ import annotations
 
@@ -432,7 +432,7 @@ def render_page() -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI Intelligence Digest</title>
+  <title>AI Engineering Newsletter</title>
   <style>
     :root {{
       color-scheme: light;
@@ -503,8 +503,8 @@ def render_page() -> str:
   <header class="hero">
     <div class="hero-inner">
       <div>
-        <h1>AI Intelligence Digest</h1>
-        <p class="subtitle">每日 General AI 与 Engineering AI 情报汇总。最新日期在最上面，向下滚动查看历史。</p>
+        <h1>AI Engineering Newsletter</h1>
+        <p class="subtitle">每日 General AI 与 Engineering AI newsletter。覆盖 CAE、CAD、simulation、digital twin、industrial AI 与 scientific ML；最新日期在最上面。</p>
       </div>
       <div class="stamp">Latest<br><strong>{esc(latest)}</strong><br>Generated {esc(generated)}</div>
     </div>
