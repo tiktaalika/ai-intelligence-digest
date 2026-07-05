@@ -649,38 +649,60 @@ def render_research_radar(items: list[dict[str, Any]], language: str, summaries:
     """
 
 
+def render_right_column(
+    engineering_title: str,
+    engineering_html: str,
+    medical_title: str,
+    medical_html: str,
+) -> str:
+    return f"""
+      <section>
+        <h3>{esc(engineering_title)}</h3>
+        {engineering_html}
+        <div class="subsection">
+          <h3>{esc(medical_title)}</h3>
+          {medical_html}
+        </div>
+      </section>
+    """
+
+
 def render_day_zh(date_slug: str, summaries: dict[str, str]) -> str:
-    data, general, cae, medical, research, paper_push = day_items(date_slug)
+    data, general, cae, medical, _research, paper_push = day_items(date_slug)
     general_html = "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(general, 1))
     engineering_html = "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(cae, 1))
+    medical_html = "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(medical, 1))
     return render_day_shell(
         date_slug,
         data,
         "AI Top 10",
-        "Engineering AI Top 5",
-        "Medical / Bio AI Top 5",
         general_html or empty_note("zh", "general"),
-        engineering_html or empty_note("zh", "engineering"),
-        "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(medical, 1)),
-        render_research_radar(research, "zh", summaries),
+        render_right_column(
+            "Engineering AI Top 5",
+            engineering_html or empty_note("zh", "engineering"),
+            "Biomedical AI Top 5",
+            medical_html or empty_note("zh", "general"),
+        ),
         render_paper_push(paper_push, "zh") if paper_push else "",
     )
 
 
 def render_day_en(date_slug: str) -> str:
-    data, general, cae, medical, research, paper_push = day_items(date_slug)
+    data, general, cae, medical, _research, paper_push = day_items(date_slug)
     general_html = "".join(item_card_en(item, idx) for idx, item in enumerate(general, 1))
     engineering_html = "".join(item_card_en(item, idx) for idx, item in enumerate(cae, 1))
+    medical_html = "".join(item_card_en(item, idx) for idx, item in enumerate(medical, 1))
     return render_day_shell(
         date_slug,
         data,
         "Top 10 General AI News",
-        "Top 5 Engineering AI News",
-        "Top 5 Medical, Medicine, and Bio/Genetics AI News",
         general_html or empty_note("en", "general"),
-        engineering_html or empty_note("en", "engineering"),
-        "".join(item_card_en(item, idx) for idx, item in enumerate(medical, 1)),
-        render_research_radar(research, "en", {}),
+        render_right_column(
+            "Top 5 Engineering AI News",
+            engineering_html or empty_note("en", "engineering"),
+            "Top 5 Biomedical AI News",
+            medical_html or empty_note("en", "general"),
+        ),
         render_paper_push(paper_push, "en") if paper_push else "",
     )
 
@@ -689,12 +711,8 @@ def render_day_shell(
     date_slug: str,
     data: dict[str, Any],
     general_title: str,
-    engineering_title: str,
-    medical_title: str,
     general_html: str,
-    engineering_html: str,
-    medical_html: str,
-    research_html: str,
+    right_column_html: str,
     paper_push_html: str,
 ) -> str:
     log = data.get("run_log", {})
@@ -716,16 +734,8 @@ def render_day_shell(
           <h3>{esc(general_title)}</h3>
           {general_html}
         </section>
-        <section>
-          <h3>{esc(engineering_title)}</h3>
-          {engineering_html}
-        </section>
+        {right_column_html}
       </div>
-      <section class="medical-section">
-        <h3>{esc(medical_title)}</h3>
-        {medical_html}
-      </section>
-      {research_html}
       {paper_push_html}
     </section>
     """
@@ -987,6 +997,7 @@ def site_css() -> str:
     .columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); gap: 24px; }
     .paper-push { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
     .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .subsection { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
     .paper-item { border-top: 1px solid var(--line); }
     .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
     .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
