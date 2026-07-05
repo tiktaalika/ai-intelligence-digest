@@ -34,6 +34,8 @@ Direct read counts are often not public, so the ranking estimates reach using vi
 
 Selection is not a raw popularity leaderboard. After duplicate-event removal, the Top 10 General AI list and Top 5 Engineering AI list apply topic diversification so one hot area, such as AI payments, regulation, data centers, or model-release drama, does not crowd out the whole newsletter. The default cap is two items per broad topic before the selector relaxes the cap to fill empty slots.
 
+For General AI, the selector now treats Google News RSS as a recall/fallback layer rather than the main source of truth. Official labs, major technology publications, mainstream technology desks, and computer-science / engineering-oriented sources are selected first; Google News can fill at most a small number of Top 10 slots. This avoids a daily list dominated by unfamiliar repost sites while still catching important stories that the curated feeds miss.
+
 ## Source Registry
 
 `config/sources.yaml` is the curated source registry. It is the default source configuration, but it is not a closed list. Add, disable, edit, or reprioritize sources there without changing code.

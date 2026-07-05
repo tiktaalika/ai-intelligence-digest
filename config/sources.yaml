@@ -79,6 +79,51 @@ sources:
     tags: [technology, policy]
     notes: Technology-lab feed with AI coverage.
     enabled: true
+  - name: BBC Technology
+    url: https://feeds.bbci.co.uk/news/technology/rss.xml
+    source_type: rss
+    fetch_type: rss
+    category: general_ai
+    priority: high
+    tags: [mainstream_news, technology]
+    notes: Mainstream technology news feed; filtered for AI relevance.
+    enabled: true
+  - name: The Guardian Technology
+    url: https://www.theguardian.com/technology/rss
+    source_type: rss
+    fetch_type: rss
+    category: general_ai
+    priority: high
+    tags: [mainstream_news, technology]
+    notes: Mainstream technology news feed; filtered for AI relevance.
+    enabled: true
+  - name: New York Times Technology
+    url: https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+    source_type: rss
+    fetch_type: rss
+    category: general_ai
+    priority: high
+    tags: [mainstream_news, technology]
+    notes: Mainstream technology news feed; filtered for AI relevance.
+    enabled: true
+  - name: IEEE Spectrum AI
+    url: https://spectrum.ieee.org/rss/artificial-intelligence
+    source_type: rss
+    fetch_type: rss
+    category: general_ai
+    priority: high
+    tags: [computer_science, engineering, ai]
+    notes: Engineering and computer-science oriented AI coverage.
+    enabled: true
+  - name: InfoQ AI ML Data Engineering
+    url: https://feed.infoq.com/ai-ml-data-eng
+    source_type: rss
+    fetch_type: rss
+    category: general_ai
+    priority: medium
+    tags: [software_engineering, mlops, data_engineering]
+    notes: Software-engineering and ML systems coverage.
+    enabled: true
 
   - name: OpenAI
     url: https://openai.com/news/rss.xml
@@ -106,6 +151,15 @@ sources:
     tags: [frontier_model, research]
     notes: Official Google DeepMind blog.
     enabled: true
+  - name: Google Research
+    url: https://research.google/blog/rss/
+    source_type: rss
+    fetch_type: rss
+    category: research
+    priority: high
+    tags: [research, computer_science, ai]
+    notes: Official Google Research blog RSS.
+    enabled: true
   - name: Meta AI
     url: https://ai.meta.com/blog/
     source_type: website
@@ -113,6 +167,15 @@ sources:
     priority: high
     tags: [open_source, research]
     notes: Manual watchlist; official RSS endpoint was not stable.
+    enabled: true
+  - name: Meta Engineering
+    url: https://engineering.fb.com/feed/
+    source_type: rss
+    fetch_type: rss
+    category: general_ai
+    priority: high
+    tags: [computer_science, infrastructure, open_source]
+    notes: Meta engineering feed, filtered for AI and systems relevance.
     enabled: true
   - name: NVIDIA AI
     url: https://developer.nvidia.com/blog/feed/
@@ -139,6 +202,15 @@ sources:
     priority: high
     tags: [enterprise_ai, copilot]
     notes: Manual watchlist; previous feed returned Gone.
+    enabled: true
+  - name: Microsoft Research
+    url: https://www.microsoft.com/en-us/research/feed/
+    source_type: rss
+    fetch_type: rss
+    category: research
+    priority: high
+    tags: [research, computer_science, ai]
+    notes: Microsoft Research feed, filtered for AI relevance.
     enabled: true
   - name: Amazon AWS AI
     url: https://aws.amazon.com/blogs/machine-learning/feed/
@@ -582,17 +654,17 @@ sources:
     source_type: rss
     fetch_type: google_news_rss
     category: general_ai
-    priority: high
+    priority: low
     tags: [discovery, news]
     query: (AI OR "artificial intelligence" OR OpenAI OR Anthropic OR "Google DeepMind" OR "Meta AI" OR RAG) when:1d
-    notes: Broad recall source.
+    notes: Broad recall source; low priority so it supplements official/mainstream sources instead of dominating Top 10.
     enabled: true
   - name: Google News AI Payments and Agent Commerce
     url: https://news.google.com/rss/search
     source_type: rss
     fetch_type: google_news_rss
     category: general_ai
-    priority: high
+    priority: medium
     tags: [agent_commerce, payments]
     query: (OpenAI OR ChatGPT OR Visa OR Mastercard OR Stripe OR PayPal) ("AI agent" OR "agentic commerce" OR "AI payments" OR "agent payments" OR checkout OR wallet OR "payment system") when:2d
     notes: Captures AI-agent payment infrastructure news.
@@ -602,7 +674,7 @@ sources:
     source_type: rss
     fetch_type: google_news_rss
     category: general_ai
-    priority: high
+    priority: medium
     tags: [policy, safety, frontier_models]
     query: (Anthropic OR Claude OR OpenAI OR Microsoft OR "Dario Amodei") (regulation OR "data terms" OR "employee access" OR policy OR safety OR Washington) when:2d
     notes: Captures policy, access, and safety governance items.
@@ -612,7 +684,7 @@ sources:
     source_type: rss
     fetch_type: google_news_rss
     category: engineering_ai
-    priority: high
+    priority: medium
     tags: [engineering_ai, discovery]
     query: (CAE OR "computer-aided engineering" OR SPDM OR PLM OR CAD OR "digital twin" OR "physical AI" OR "scientific ML" OR "industrial AI" OR "engineering simulation" OR CFD OR FEA) (AI OR "machine learning" OR neural OR surrogate) when:30d
     notes: Broad engineering AI recall source.
@@ -622,7 +694,7 @@ sources:
     source_type: rss
     fetch_type: google_news_rss
     category: general_ai
-    priority: high
+    priority: medium
     tags: [medical_ai, healthcare_ai, discovery]
     query: (AI OR "artificial intelligence" OR OpenAI OR Anthropic OR "machine learning") (medical OR medicine OR healthcare OR clinical OR hospital OR patient OR physician OR "drug discovery" OR pharmaceutical) when:2d
     notes: Broad recall source for medical and healthcare AI news.
@@ -632,7 +704,7 @@ sources:
     source_type: rss
     fetch_type: google_news_rss
     category: general_ai
-    priority: high
+    priority: medium
     tags: [bio_ai, genomics_ai, genetics_ai, discovery]
     query: (AI OR "artificial intelligence" OR "machine learning" OR model) (biotech OR biology OR biological OR genomics OR genomic OR genetics OR genetic OR CRISPR OR bioinformatics OR biomarker OR therapeutic) when:2d
     notes: Broad recall source for biology, biotech, genomics, and genetics AI news.

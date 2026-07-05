@@ -385,18 +385,28 @@ def is_medical_bio_ai(candidate: Candidate) -> bool:
 def select_unique_events(candidates: list[Candidate], category: str, limit: int) -> list[Candidate]:
     category = canonical_category(category)
     max_per_topic = 2
+    google_news_cap = 2 if category == "general_ai" else limit
+    max_per_source = 3 if category == "general_ai" else limit
     selected: list[Candidate] = []
     topic_counts: dict[str, int] = {}
+    source_kind_counts: dict[str, int] = {}
+    source_counts: dict[str, int] = {}
     for candidate in candidates:
         if canonical_category(candidate.category) != category:
+            continue
+        if category == "general_ai" and candidate.source_kind == "google_news_rss":
             continue
         if any(is_same_event(candidate, existing) for existing in selected):
             continue
         topic = topic_key(candidate)
         if topic_counts.get(topic, 0) >= max_per_topic:
             continue
+        if source_counts.get(candidate.source, 0) >= max_per_source:
+            continue
         selected.append(candidate)
         topic_counts[topic] = topic_counts.get(topic, 0) + 1
+        source_kind_counts[candidate.source_kind] = source_kind_counts.get(candidate.source_kind, 0) + 1
+        source_counts[candidate.source] = source_counts.get(candidate.source, 0) + 1
         if len(selected) == limit:
             break
     for candidate in candidates:
@@ -404,9 +414,49 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
             break
         if canonical_category(candidate.category) != category:
             continue
+        if category == "general_ai" and candidate.source_kind == "google_news_rss" and source_kind_counts.get("google_news_rss", 0) >= google_news_cap:
+            continue
+        if source_counts.get(candidate.source, 0) >= max_per_source:
+            continue
+        if candidate in selected or any(is_same_event(candidate, existing) for existing in selected):
+            continue
+        topic = topic_key(candidate)
+        if topic_counts.get(topic, 0) >= max_per_topic:
+            continue
+        selected.append(candidate)
+        topic_counts[topic] = topic_counts.get(topic, 0) + 1
+        source_kind_counts[candidate.source_kind] = source_kind_counts.get(candidate.source_kind, 0) + 1
+        source_counts[candidate.source] = source_counts.get(candidate.source, 0) + 1
+    for candidate in candidates:
+        if len(selected) == limit:
+            break
+        if canonical_category(candidate.category) != category:
+            continue
+        if category == "general_ai" and candidate.source_kind == "google_news_rss" and source_kind_counts.get("google_news_rss", 0) >= google_news_cap:
+            continue
+        if source_counts.get(candidate.source, 0) >= max_per_source:
+            continue
         if candidate in selected or any(is_same_event(candidate, existing) for existing in selected):
             continue
         selected.append(candidate)
+        source_kind_counts[candidate.source_kind] = source_kind_counts.get(candidate.source_kind, 0) + 1
+        source_counts[candidate.source] = source_counts.get(candidate.source, 0) + 1
+    for candidate in candidates:
+        if len(selected) == limit:
+            break
+        if canonical_category(candidate.category) != category:
+            continue
+        if category == "general_ai" and candidate.source_kind == "google_news_rss" and source_kind_counts.get("google_news_rss", 0) >= google_news_cap:
+            continue
+        if candidate in selected or any(is_same_event(candidate, existing) for existing in selected):
+            continue
+        topic = topic_key(candidate)
+        if topic_counts.get(topic, 0) >= max_per_topic:
+            continue
+        selected.append(candidate)
+        topic_counts[topic] = topic_counts.get(topic, 0) + 1
+        source_kind_counts[candidate.source_kind] = source_kind_counts.get(candidate.source_kind, 0) + 1
+        source_counts[candidate.source] = source_counts.get(candidate.source, 0) + 1
     return selected
 
 
