@@ -336,7 +336,6 @@ def select_unique(
 ) -> list[dict[str, Any]]:
     category = canonical_category(category)
     historical_items = historical_items or []
-    historical_orgs = {organization_key(item) for item in historical_items}
     selected: list[dict[str, Any]] = []
     topic_counts: dict[str, int] = {}
     source_counts: dict[str, int] = {}
@@ -345,8 +344,6 @@ def select_unique(
         if canonical_category(item.get("category", "")) != category or is_excluded(item, category):
             continue
         if is_recent_repeat(item, historical_items):
-            continue
-        if category == "engineering_ai" and organization_key(item) in historical_orgs:
             continue
         if any(is_same_event(item, existing) for existing in selected):
             continue
@@ -368,8 +365,6 @@ def select_unique(
             continue
         if is_recent_repeat(item, historical_items):
             continue
-        if category == "engineering_ai" and organization_key(item) in historical_orgs:
-            continue
         if item in selected or any(is_same_event(item, existing) for existing in selected):
             continue
         source = effective_source(item).lower()
@@ -377,8 +372,6 @@ def select_unique(
             continue
         selected.append(item)
         source_counts[source] = source_counts.get(source, 0) + 1
-    if category == "engineering_ai" and historical_items:
-        return selected
     for item in items:
         if len(selected) == limit:
             break
