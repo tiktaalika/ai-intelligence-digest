@@ -134,6 +134,17 @@ sources:
     tags: [frontier_model, product, api]
     notes: Official OpenAI news.
     enabled: true
+    max_entries: 3
+  - name: OpenAI Research RSS
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/feed_openai_research.xml
+    source_type: rss
+    fetch_type: rss
+    category: research
+    priority: high
+    tags: [frontier_model, research, curated_rss]
+    notes: Community-maintained RSS feed from Olshansk/rss-feeds, following the source strategy used by guo-yichen/news-summary.
+    enabled: true
+    max_entries: 3
   - name: Anthropic
     url: https://www.anthropic.com/news
     source_type: website
@@ -142,6 +153,36 @@ sources:
     tags: [frontier_model, safety, policy]
     notes: Manual watchlist; official RSS endpoint was not stable.
     enabled: true
+  - name: Anthropic News RSS
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/feed_anthropic_news.xml
+    source_type: rss
+    fetch_type: rss
+    category: vendor
+    priority: high
+    tags: [frontier_model, safety, curated_rss]
+    notes: Community-maintained RSS feed from Olshansk/rss-feeds, following the source strategy used by guo-yichen/news-summary.
+    enabled: true
+    max_entries: 3
+  - name: Anthropic Engineering Blog RSS
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/feed_anthropic_engineering.xml
+    source_type: rss
+    fetch_type: rss
+    category: vendor
+    priority: high
+    tags: [engineering_blog, agents, curated_rss]
+    notes: Community-maintained Anthropic engineering RSS feed from Olshansk/rss-feeds.
+    enabled: true
+    max_entries: 3
+  - name: Anthropic Research RSS
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/feed_anthropic_research.xml
+    source_type: rss
+    fetch_type: rss
+    category: research
+    priority: high
+    tags: [frontier_model, research, curated_rss]
+    notes: Community-maintained Anthropic research RSS feed from Olshansk/rss-feeds.
+    enabled: true
+    max_entries: 3
   - name: Google DeepMind
     url: https://deepmind.google/blog/rss.xml
     source_type: rss
@@ -286,6 +327,17 @@ sources:
     tags: [coding_assistant, developer_tools]
     notes: GitHub Copilot blog tag feed.
     enabled: true
+    max_entries: 3
+  - name: GitHub Blog AI and ML
+    url: https://github.blog/ai-and-ml/feed/
+    source_type: rss
+    fetch_type: rss
+    category: vendor
+    priority: high
+    tags: [developer_tools, ai_engineering, open_source]
+    notes: GitHub AI and ML blog feed, included in guo-yichen/news-summary style curated sources.
+    enabled: true
+    max_entries: 3
   - name: Cursor / Anysphere
     url: https://cursor.com/changelog
     source_type: website
@@ -294,6 +346,16 @@ sources:
     tags: [coding_assistant, developer_tools]
     notes: Manual watchlist for Cursor / Anysphere.
     enabled: true
+  - name: Cursor Blog RSS
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/feed_cursor.xml
+    source_type: rss
+    fetch_type: rss
+    category: startup
+    priority: high
+    tags: [coding_assistant, developer_tools, curated_rss]
+    notes: Community-maintained Cursor feed from Olshansk/rss-feeds.
+    enabled: true
+    max_entries: 3
   - name: Windsurf
     url: https://windsurf.com/changelog
     source_type: website
@@ -302,6 +364,16 @@ sources:
     tags: [coding_assistant, developer_tools]
     notes: Manual watchlist.
     enabled: true
+  - name: Windsurf Blog RSS
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/feed_windsurf_blog.xml
+    source_type: rss
+    fetch_type: rss
+    category: startup
+    priority: high
+    tags: [coding_assistant, developer_tools, curated_rss]
+    notes: Community-maintained Windsurf feed from Olshansk/rss-feeds.
+    enabled: true
+    max_entries: 3
   - name: Replit
     url: https://blog.replit.com/
     source_type: website
@@ -648,6 +720,97 @@ sources:
     tags: [community, reddit, ml]
     notes: Manual watchlist; JSON endpoint may block automated fetches.
     enabled: true
+
+  - name: Simon Willison
+    url: https://simonwillison.net/atom/everything/
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: high
+    tags: [expert_blog, llm, agents, software_engineering]
+    notes: High-signal expert blog, included in guo-yichen/news-summary style curated sources.
+    enabled: true
+    max_entries: 5
+  - name: Latent Space
+    url: https://www.latent.space/feed
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: high
+    tags: [newsletter, ai_engineering, frontier_models]
+    notes: High-signal AI engineering newsletter, included in guo-yichen/news-summary style curated sources.
+    enabled: true
+    max_entries: 3
+  - name: The Pragmatic Engineer
+    url: https://newsletter.pragmaticengineer.com/feed
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: medium
+    tags: [software_engineering, ai_engineering]
+    notes: Engineering newsletter; filtered for AI and developer tooling relevance.
+    enabled: true
+    max_entries: 2
+  - name: Ahead of AI
+    url: https://magazine.sebastianraschka.com/feed
+    source_type: rss
+    fetch_type: rss
+    category: research
+    priority: high
+    tags: [research, ml, llm]
+    notes: Sebastian Raschka's AI/ML newsletter, included in guo-yichen/news-summary style curated sources.
+    enabled: true
+    max_entries: 2
+  - name: Lilian Weng
+    url: https://lilianweng.github.io/index.xml
+    source_type: rss
+    fetch_type: rss
+    category: research
+    priority: high
+    tags: [research, llm, agents]
+    notes: High-signal AI research blog, included in guo-yichen/news-summary style curated sources.
+    enabled: true
+    max_entries: 2
+  - name: Hamel Husain
+    url: https://hamelhusain.substack.com/feed
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: medium
+    tags: [evals, ai_engineering, software_engineering]
+    notes: Practical AI engineering blog/newsletter.
+    enabled: true
+    max_entries: 3
+  - name: Context Window
+    url: https://contextwindow.substack.com/feed
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: medium
+    tags: [llm, ai_engineering, newsletter]
+    notes: Curated AI/LLM newsletter.
+    enabled: true
+    max_entries: 3
+  - name: Argmin Gravitas
+    url: https://www.argmin.net/feed
+    source_type: rss
+    fetch_type: rss
+    category: research
+    priority: medium
+    tags: [ml, research, expert_blog]
+    notes: Ben Recht's ML and systems research blog.
+    enabled: true
+    max_entries: 2
+  - name: Chips and Cheese
+    url: https://chipsandcheese.substack.com/feed
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: medium
+    tags: [hardware, ai_chip, systems]
+    notes: Systems and hardware analysis, useful for AI compute context.
+    enabled: true
+    max_entries: 2
 
   - name: Google News General AI Discovery
     url: https://news.google.com/rss/search

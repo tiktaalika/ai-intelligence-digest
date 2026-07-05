@@ -32,6 +32,7 @@ class SourceRegistryTest(unittest.TestCase):
         self.assertTrue(all(source.get("enabled", True) for source in registry["sources"]))
         self.assertTrue(any(source["category"] == "engineering_ai" for source in registry["sources"]))
         self.assertTrue(any(source["kind"] == "web_search_query" for source in registry["sources"]))
+        self.assertTrue(any(source["name"] == "Simon Willison" and source["max_entries"] == 5 for source in registry["sources"]))
         self.assertTrue(
             any(
                 source["name"] == "Siemens Art of the Possible"
@@ -94,6 +95,36 @@ class SourceRegistryTest(unittest.TestCase):
         self.assertEqual(topics.count("payments_agent_commerce"), 2)
         self.assertIn("policy_safety_governance", topics)
         self.assertIn("frontier_models", topics)
+
+    def test_google_news_is_capped_in_general_selection(self) -> None:
+        def item(idx: int, title: str, source: str, source_kind: str, score: float) -> Candidate:
+            return Candidate(
+                id=str(idx),
+                title=title,
+                url=f"https://example.com/{idx}",
+                source=source,
+                source_kind=source_kind,
+                category="general_ai",
+                published_at=None,
+                text=title,
+                matched_terms=["AI"],
+                engagement={},
+                score=score,
+                score_reasons=[],
+            )
+
+        candidates = [
+            item(1, "OpenAI and Visa launch AI agent payments", "Google News General AI Discovery", "google_news_rss", 100),
+            item(2, "Meta AI data center infrastructure expands", "Google News General AI Discovery", "google_news_rss", 99),
+            item(3, "Anthropic regulation proposal draws attention", "Google News General AI Discovery", "google_news_rss", 98),
+            item(4, "OpenAI releases a new frontier model", "OpenAI", "rss", 80),
+            item(5, "Anthropic publishes a new safety report", "Anthropic News RSS", "rss", 79),
+        ]
+
+        selected = select_unique_events(candidates, "general_ai", 5)
+
+        self.assertLessEqual(sum(1 for candidate in selected if candidate.source_kind == "google_news_rss"), 2)
+        self.assertTrue(any(candidate.source == "OpenAI" for candidate in selected))
 
 
 if __name__ == "__main__":

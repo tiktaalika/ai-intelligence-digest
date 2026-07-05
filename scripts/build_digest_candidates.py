@@ -210,6 +210,7 @@ def normalize_source(source: dict[str, Any]) -> dict[str, Any]:
     item["source_type"] = item.get("source_type") or item["kind"]
     item["priority"] = item.get("priority", "medium")
     item["tags"] = item.get("tags") or []
+    item["max_entries"] = int(item.get("max_entries", MAX_ITEMS_PER_SOURCE))
     if item["kind"] == "web_search_query" and not item.get("query"):
         item["query"] = f'site:{urllib.parse.urlsplit(item.get("url", "")).netloc} AI'
     return item
@@ -696,19 +697,20 @@ def web_search_placeholder(source: dict[str, Any]) -> list[dict[str, Any]]:
 
 def fetch_source(source: dict[str, Any], keywords: dict[str, Any], window_hours: int) -> list[dict[str, Any]]:
     kind = source["kind"]
+    max_entries = int(source.get("max_entries", MAX_ITEMS_PER_SOURCE))
     if kind == "rss":
-        return parse_rss(source)[:MAX_ITEMS_PER_SOURCE]
+        return parse_rss(source)[:max_entries]
     if kind == "google_news_rss":
         query = urllib.parse.quote(source["query"])
         rss_source = dict(source)
         rss_source["url"] = f"https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
-        return parse_rss(rss_source)[:MAX_ITEMS_PER_SOURCE]
+        return parse_rss(rss_source)[:max_entries]
     if kind == "hn_algolia":
-        return parse_hn(source, keywords, window_hours)[:MAX_ITEMS_PER_SOURCE]
+        return parse_hn(source, keywords, window_hours)[:max_entries]
     if kind == "reddit_json":
-        return parse_reddit(source)[:MAX_ITEMS_PER_SOURCE]
+        return parse_reddit(source)[:max_entries]
     if kind == "web_search_query":
-        return web_search_placeholder(source)[:MAX_ITEMS_PER_SOURCE]
+        return web_search_placeholder(source)[:max_entries]
     raise ValueError(f"unsupported source kind: {kind}")
 
 
