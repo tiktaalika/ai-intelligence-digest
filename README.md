@@ -1,13 +1,13 @@
 # AI Engineering Newsletter
 
-This workspace contains an auditable daily AI Engineering Newsletter pipeline. It refreshes a bilingual static website every morning at 08:00: an English public edition and a Chinese reading edition.
+This workspace contains an auditable AI Engineering Newsletter pipeline. It refreshes a static website with daily news, paper highlights, and GitHub trend monitoring. The public English site can run without an OpenAI API key; the Chinese reading edition is optional and only needs an LLM key when Chinese summaries/translations are regenerated.
 
 ## What It Produces
 
 - Top 10 English-language General AI News items covering model releases, AI products, company dynamics, open-source models, policy, funding, and major research progress.
 - Top 5 English-language Engineering AI News items from a rolling window, covering engineering, simulation, CAD, CAE, SPDM, PLM, digital twins, physical AI, scientific ML, and industrial AI.
 - Top 5 English-language Medical, Medicine, and Bio/Genetics AI News items covering healthcare AI, clinical AI, biotech, genomics, genetics, and drug-discovery-related AI.
-- A bilingual website with a root language selector, an English edition, and a Chinese edition.
+- A static website with a root language selector, an English public edition, an optional Chinese reading edition, Paper Push sections, and GitHub Trend Monitor pages.
 - Optional Research Radar and Watchlist Updates sections.
 - A candidate audit file with up to 100 scored news candidates from the enabled curated source registry.
 - A run log with source failures and ranking reasons.
@@ -63,13 +63,23 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-Create your private environment file:
+For the no-API public site, this is enough:
+
+```bash
+python3 scripts/build_digest_candidates.py --window-hours 24
+python3 -m trend_report all
+python3 scripts/render_digest_site.py
+```
+
+This mode uses public RSS/web feeds, public arXiv-style links already stored in paper push JSON files, and GitHub public APIs. `GITHUB_TOKEN` is optional locally and only raises GitHub API rate limits. In GitHub Actions, `${{ secrets.GITHUB_TOKEN }}` is provided by GitHub automatically and is not a user-created API key.
+
+Only create your private environment file if you want to regenerate Chinese LLM summaries/translations:
 
 ```bash
 cp .env.example .env
 ```
 
-Then edit `.env` and replace `OPENAI_API_KEY=sk-your-key-here` with your real key. Keep `.env` private; it is ignored by git.
+Then edit `.env` and replace `OPENAI_API_KEY=sk-your-key-here` with your real key. Keep `.env` private; it is ignored by git. This is not required for the no-API public English site.
 
 Recommended first-run budget settings:
 
@@ -109,7 +119,7 @@ The briefing input uses this structure:
 ## Why It Matters
 ```
 
-## Bilingual Website
+## Combined Website
 
 The static site has three entry points:
 
@@ -125,7 +135,13 @@ Regenerate it manually after new newsletter files are created:
 python3 scripts/render_digest_site.py
 ```
 
-The newest newsletter appears at the top in both language editions. The Chinese page uses the human-written Chinese final markdown when available. The English page uses the same selected items with English titles, source links, summaries, scores, and audit metadata.
+The newest newsletter appears at the top in both language editions. Each dated issue can include:
+
+- Daily News Push from `data/digests/YYYY-MM-DD-candidates.json`
+- Paper Push from `data/digests/YYYY-MM-DD-paper-push.json`
+- GitHub Trend Monitor links rendered from `reports/weekly/` and `reports/monthly/`
+
+The Chinese page uses the human-written Chinese final markdown when available. The English page uses selected items with English titles, source links, source snippets, scores, and audit metadata, so it can be built without OpenAI.
 
 ## Mobile Web Publishing
 
@@ -137,7 +153,7 @@ After the first push, enable Pages in GitHub if needed:
 Repository Settings -> Pages -> Source: GitHub Actions
 ```
 
-The daily automation refreshes `data/digests/YYYY-MM-DD-final.md` and rebuilds the bilingual site. Push the updated files to GitHub to refresh the phone-accessible pages:
+The no-API GitHub Actions workflow at `.github/workflows/daily-no-api-site.yml` refreshes daily public news candidates and rebuilds the site every morning. The GitHub trend workflow at `.github/workflows/github-trend-report.yml` refreshes weekly/monthly trend reports. Push the updated files to GitHub to refresh the phone-accessible pages:
 
 ```text
 https://tiktaalika.github.io/ai-engineering-newsletter/     # language selector
@@ -165,3 +181,53 @@ For each selected item, the automation should output:
 2. Five-sentence Chinese summary.
 3. Original English link.
 4. Chinese translation of the key original content.
+
+## GitHub Trend Monitor
+
+This repository also includes a small automated GitHub trend monitoring system for six domains:
+
+- AI Agent
+- MCP
+- RAG
+- LLM Infrastructure
+- Simulation
+- Engineering AI
+
+It combines GitHub Search/API results with respectful cached reads of public trend pages where available. Raw source snapshots are stored in `data/snapshots/`, normalized records are appended to `data/repos.jsonl`, and Markdown reports are written to `reports/weekly/` and `reports/monthly/`.
+
+The scoring formula is transparent and configurable in `config/trend_report.yaml`:
+
+```text
+trend_score =
+  0.55 * normalized_star_growth
++ 0.25 * normalized_total_stars
++ 0.10 * normalized_recent_activity
++ 0.10 * normalized_fork_growth
+```
+
+Set `GITHUB_TOKEN` for higher GitHub API rate limits. If live data is unavailable, the tool logs the error and generates clearly marked dummy records so the report pipeline can still be inspected.
+
+Run it manually:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+
+python -m trend_report collect
+python -m trend_report weekly
+python -m trend_report monthly
+python -m trend_report all
+```
+
+macOS/Linux cron examples:
+
+```cron
+# Weekly report, Monday 07:00 local time.
+0 7 * * 1 cd "/Users/fyang/news push" && . .venv/bin/activate && python -m trend_report all >> data/logs/trend_report.cron.log 2>&1
+
+# Monthly report, first day of month 07:30 local time.
+30 7 1 * * cd "/Users/fyang/news push" && . .venv/bin/activate && python -m trend_report collect && python -m trend_report monthly >> data/logs/trend_report.cron.log 2>&1
+```
+
+A GitHub Actions workflow is provided at `.github/workflows/github-trend-report.yml`. It runs weekly on Monday morning UTC, runs monthly on the 1st day of the month, and can also be started manually.
