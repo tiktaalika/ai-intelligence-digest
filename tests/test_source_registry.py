@@ -1,6 +1,7 @@
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 import yaml
 
@@ -13,6 +14,7 @@ from scripts.build_digest_candidates import (  # noqa: E402
     Candidate,
     load_source_registry,
     score_candidate,
+    select_medical_bio_ai,
     select_unique_events,
     topic_key,
 )
@@ -125,6 +127,69 @@ class SourceRegistryTest(unittest.TestCase):
 
         self.assertLessEqual(sum(1 for candidate in selected if candidate.source_kind == "google_news_rss"), 2)
         self.assertTrue(any(candidate.source == "OpenAI" for candidate in selected))
+
+    def test_engineering_prefers_curated_sources_before_broad_google(self) -> None:
+        def item(idx: int, title: str, source: str, source_kind: str, tags: Optional[list[str]] = None) -> Candidate:
+            return Candidate(
+                id=str(idx),
+                title=title,
+                url=f"https://example.com/eng/{idx}",
+                source=source,
+                source_kind=source_kind,
+                category="engineering_ai",
+                published_at=None,
+                text=title,
+                matched_terms=["AI", "simulation"],
+                engagement={},
+                score=100 - idx,
+                score_reasons=[],
+                source_tags=tags or [],
+            )
+
+        candidates = [
+            item(1, "Generic industrial AI story from a search result", "Google News Engineering AI Discovery", "google_news_rss"),
+            item(2, "Siemens Simcenter AI simulation workflow update", "Siemens Simcenter", "rss"),
+            item(3, "Rescale agentic simulation report generation", "Rescale", "rss"),
+            item(4, "Trusted vendor digital twin AI update", "Trusted Engineering AI Vendor Discovery", "google_news_rss", ["trusted_discovery"]),
+            item(5, "Another generic engineering AI search result", "Google News Engineering AI Discovery", "google_news_rss"),
+        ]
+
+        selected = select_unique_events(candidates, "engineering_ai", 5)
+
+        self.assertTrue(any(candidate.source == "Siemens Simcenter" for candidate in selected))
+        self.assertTrue(any(candidate.source == "Rescale" for candidate in selected))
+        self.assertLessEqual(sum(1 for candidate in selected if candidate.source == "Google News Engineering AI Discovery"), 1)
+
+    def test_biomedical_prefers_trusted_sources_before_broad_google(self) -> None:
+        def item(idx: int, title: str, source: str, source_kind: str, tags: Optional[list[str]] = None) -> Candidate:
+            return Candidate(
+                id=str(idx),
+                title=title,
+                url=f"https://example.com/bio/{idx}",
+                source=source,
+                source_kind=source_kind,
+                category="general_ai",
+                published_at=None,
+                text=title,
+                matched_terms=["AI", "clinical"],
+                engagement={},
+                score=100 - idx,
+                score_reasons=[],
+                source_tags=tags or [],
+            )
+
+        candidates = [
+            item(1, "Clinical AI benchmark from generic medical search", "Google News Medical AI Discovery", "google_news_rss", ["medical_ai"]),
+            item(2, "Nature Medicine clinical AI model study", "Trusted Biomedical AI Source Discovery", "google_news_rss", ["medical_ai", "trusted_discovery"]),
+            item(3, "STAT reports healthcare AI deployment", "STAT Health Tech", "rss", ["medical_ai"]),
+            item(4, "Another generic medical AI search result", "Google News Medical AI Discovery", "google_news_rss", ["medical_ai"]),
+        ]
+
+        selected = select_medical_bio_ai(candidates, 5)
+
+        self.assertTrue(any(candidate.source == "Trusted Biomedical AI Source Discovery" for candidate in selected))
+        self.assertTrue(any(candidate.source == "STAT Health Tech" for candidate in selected))
+        self.assertLessEqual(sum(1 for candidate in selected if candidate.source == "Google News Medical AI Discovery"), 1)
 
 
 if __name__ == "__main__":

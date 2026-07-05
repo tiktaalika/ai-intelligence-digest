@@ -36,6 +36,11 @@ Selection is not a raw popularity leaderboard. After duplicate-event removal, th
 
 For General AI, the selector now treats Google News RSS as a recall/fallback layer rather than the main source of truth. Official labs, major technology publications, mainstream technology desks, and computer-science / engineering-oriented sources are selected first; Google News can fill at most a small number of Top 10 slots. This avoids a daily list dominated by unfamiliar repost sites while still catching important stories that the curated feeds miss.
 
+The same source-first rule applies to the right column:
+
+- Engineering AI is anchored on curated engineering and industrial sources first: Siemens Digital Industries Software, Siemens Simcenter, Siemens Art of the Possible, Ansys, COMSOL, Rescale, NAFEMS, and the configured watchlist of Dassault Systemes, Autodesk, Altair, Hexagon/MSC, PTC, Cadence, Synopsys, SimScale, Synera, PhysicsX, Luminary Cloud, Neural Concept, Monolith AI, nTop, and related CAE / simulation vendors. Broad Google News Engineering AI discovery is low-priority fallback; source-specific trusted vendor discovery is separate and capped.
+- Biomedical AI is anchored on trusted biomedical and clinical sources first, including source-specific discovery for NEJM, Nature, The Lancet, Science, Cell, STAT, and Fierce Biotech, plus direct RSS where available. Broad Google News Medical/Bio discovery is low-priority fallback and capped.
+
 ## Upstream References
 
 The source strategy is intentionally closer to curated open-source digest projects than to open-ended news search.

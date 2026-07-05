@@ -383,11 +383,25 @@ def is_medical_bio_ai(candidate: Candidate) -> bool:
     return any(re.search(pattern, text) for pattern in medical_patterns)
 
 
+def is_broad_google_discovery(candidate: Candidate) -> bool:
+    tags = set(candidate.source_tags or [])
+    return (
+        candidate.source_kind == "google_news_rss"
+        and candidate.source.startswith("Google News")
+        and "trusted_discovery" not in tags
+    )
+
+
+def is_trusted_or_curated(candidate: Candidate) -> bool:
+    tags = set(candidate.source_tags or [])
+    return candidate.source_kind != "google_news_rss" or "trusted_discovery" in tags
+
+
 def select_unique_events(candidates: list[Candidate], category: str, limit: int) -> list[Candidate]:
     category = canonical_category(category)
     max_per_topic = 2
-    google_news_cap = 2 if category == "general_ai" else limit
-    max_per_source = 3 if category == "general_ai" else limit
+    google_news_cap = 2 if category == "general_ai" else (1 if category == "engineering_ai" else limit)
+    max_per_source = 3 if category == "general_ai" else (1 if category == "engineering_ai" else limit)
     selected: list[Candidate] = []
     topic_counts: dict[str, int] = {}
     source_kind_counts: dict[str, int] = {}
@@ -395,7 +409,7 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
     for candidate in candidates:
         if canonical_category(candidate.category) != category:
             continue
-        if category == "general_ai" and candidate.source_kind == "google_news_rss":
+        if category in {"general_ai", "engineering_ai"} and not is_trusted_or_curated(candidate):
             continue
         if any(is_same_event(candidate, existing) for existing in selected):
             continue
@@ -415,7 +429,7 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
             break
         if canonical_category(candidate.category) != category:
             continue
-        if category == "general_ai" and candidate.source_kind == "google_news_rss" and source_kind_counts.get("google_news_rss", 0) >= google_news_cap:
+        if category in {"general_ai", "engineering_ai"} and is_broad_google_discovery(candidate) and source_kind_counts.get("broad_google_news", 0) >= google_news_cap:
             continue
         if source_counts.get(candidate.source, 0) >= max_per_source:
             continue
@@ -427,13 +441,15 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
         selected.append(candidate)
         topic_counts[topic] = topic_counts.get(topic, 0) + 1
         source_kind_counts[candidate.source_kind] = source_kind_counts.get(candidate.source_kind, 0) + 1
+        if is_broad_google_discovery(candidate):
+            source_kind_counts["broad_google_news"] = source_kind_counts.get("broad_google_news", 0) + 1
         source_counts[candidate.source] = source_counts.get(candidate.source, 0) + 1
     for candidate in candidates:
         if len(selected) == limit:
             break
         if canonical_category(candidate.category) != category:
             continue
-        if category == "general_ai" and candidate.source_kind == "google_news_rss" and source_kind_counts.get("google_news_rss", 0) >= google_news_cap:
+        if category in {"general_ai", "engineering_ai"} and is_broad_google_discovery(candidate) and source_kind_counts.get("broad_google_news", 0) >= google_news_cap:
             continue
         if source_counts.get(candidate.source, 0) >= max_per_source:
             continue
@@ -441,13 +457,15 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
             continue
         selected.append(candidate)
         source_kind_counts[candidate.source_kind] = source_kind_counts.get(candidate.source_kind, 0) + 1
+        if is_broad_google_discovery(candidate):
+            source_kind_counts["broad_google_news"] = source_kind_counts.get("broad_google_news", 0) + 1
         source_counts[candidate.source] = source_counts.get(candidate.source, 0) + 1
     for candidate in candidates:
         if len(selected) == limit:
             break
         if canonical_category(candidate.category) != category:
             continue
-        if category == "general_ai" and candidate.source_kind == "google_news_rss" and source_kind_counts.get("google_news_rss", 0) >= google_news_cap:
+        if category in {"general_ai", "engineering_ai"} and is_broad_google_discovery(candidate) and source_kind_counts.get("broad_google_news", 0) >= google_news_cap:
             continue
         if candidate in selected or any(is_same_event(candidate, existing) for existing in selected):
             continue
@@ -457,6 +475,8 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
         selected.append(candidate)
         topic_counts[topic] = topic_counts.get(topic, 0) + 1
         source_kind_counts[candidate.source_kind] = source_kind_counts.get(candidate.source_kind, 0) + 1
+        if is_broad_google_discovery(candidate):
+            source_kind_counts["broad_google_news"] = source_kind_counts.get("broad_google_news", 0) + 1
         source_counts[candidate.source] = source_counts.get(candidate.source, 0) + 1
     return selected
 
@@ -464,10 +484,13 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
 def select_medical_bio_ai(candidates: list[Candidate], limit: int) -> list[Candidate]:
     selected: list[Candidate] = []
     topic_counts: dict[str, int] = {}
+    broad_google_count = 0
     for candidate in candidates:
         if canonical_category(candidate.category) not in {"general_ai", "research"}:
             continue
         if not is_medical_bio_ai(candidate):
+            continue
+        if not is_trusted_or_curated(candidate):
             continue
         if any(is_same_event(candidate, existing) for existing in selected):
             continue
@@ -485,9 +508,13 @@ def select_medical_bio_ai(candidates: list[Candidate], limit: int) -> list[Candi
             continue
         if not is_medical_bio_ai(candidate):
             continue
+        if is_broad_google_discovery(candidate) and broad_google_count >= 1:
+            continue
         if candidate in selected or any(is_same_event(candidate, existing) for existing in selected):
             continue
         selected.append(candidate)
+        if is_broad_google_discovery(candidate):
+            broad_google_count += 1
     return selected
 
 

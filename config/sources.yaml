@@ -847,31 +847,76 @@ sources:
     source_type: rss
     fetch_type: google_news_rss
     category: engineering_ai
-    priority: medium
+    priority: low
     tags: [engineering_ai, discovery]
     query: (CAE OR "computer-aided engineering" OR SPDM OR PLM OR CAD OR "digital twin" OR "physical AI" OR "scientific ML" OR "industrial AI" OR "engineering simulation" OR CFD OR FEA) (AI OR "machine learning" OR neural OR surrogate) when:30d
-    notes: Broad engineering AI recall source.
+    notes: Broad engineering AI recall source; low priority so curated vendor/community sources dominate.
     enabled: true
+    max_entries: 8
+  - name: Trusted Engineering AI Vendor Discovery
+    url: https://news.google.com/rss/search
+    source_type: rss
+    fetch_type: google_news_rss
+    category: engineering_ai
+    priority: high
+    tags: [engineering_ai, trusted_discovery, cae, simulation, industrial_ai]
+    query: (Siemens OR Simcenter OR Ansys OR COMSOL OR Dassault OR Autodesk OR Altair OR Hexagon OR MSC OR PTC OR Cadence OR Synopsys OR SimScale OR Synera OR PhysicsX OR "Luminary Cloud" OR "Neural Concept" OR "Monolith AI" OR Rescale OR nTop OR NAFEMS) (AI OR "machine learning" OR "digital twin" OR simulation OR CAE OR surrogate OR "physical AI" OR "scientific ML") when:30d
+    notes: Source-specific discovery for trusted Engineering AI vendors and communities when direct RSS is unavailable.
+    enabled: true
+    max_entries: 8
   - name: Google News Medical AI Discovery
     url: https://news.google.com/rss/search
     source_type: rss
     fetch_type: google_news_rss
     category: general_ai
-    priority: medium
+    priority: low
     tags: [medical_ai, healthcare_ai, discovery]
     query: (AI OR "artificial intelligence" OR OpenAI OR Anthropic OR "machine learning") (medical OR medicine OR healthcare OR clinical OR hospital OR patient OR physician OR "drug discovery" OR pharmaceutical) when:2d
-    notes: Broad recall source for medical and healthcare AI news.
+    notes: Broad recall source for medical and healthcare AI news; low priority behind trusted biomedical sources.
     enabled: true
+    max_entries: 8
   - name: Google News Bio and Genetics AI Discovery
     url: https://news.google.com/rss/search
     source_type: rss
     fetch_type: google_news_rss
     category: general_ai
-    priority: medium
+    priority: low
     tags: [bio_ai, genomics_ai, genetics_ai, discovery]
     query: (AI OR "artificial intelligence" OR "machine learning" OR model) (biotech OR biology OR biological OR genomics OR genomic OR genetics OR genetic OR CRISPR OR bioinformatics OR biomarker OR therapeutic) when:2d
-    notes: Broad recall source for biology, biotech, genomics, and genetics AI news.
+    notes: Broad recall source for biology, biotech, genomics, and genetics AI news; low priority behind trusted biomedical sources.
     enabled: true
+    max_entries: 8
+  - name: Trusted Biomedical AI Source Discovery
+    url: https://news.google.com/rss/search
+    source_type: rss
+    fetch_type: google_news_rss
+    category: general_ai
+    priority: high
+    tags: [medical_ai, bio_ai, trusted_discovery, healthcare_ai, genomics_ai]
+    query: (site:nejm.org OR site:nature.com OR site:thelancet.com OR site:science.org OR site:cell.com OR site:statnews.com OR site:fiercebiotech.com) (AI OR "artificial intelligence" OR "machine learning" OR "foundation model" OR clinical OR genomics OR genetics OR "drug discovery" OR biotech) when:7d
+    notes: Source-specific discovery for trusted biomedical, clinical, biotech, and digital-health publications.
+    enabled: true
+    max_entries: 8
+  - name: STAT Health Tech
+    url: https://www.statnews.com/feed/
+    source_type: rss
+    fetch_type: rss
+    category: general_ai
+    priority: high
+    tags: [medical_ai, healthcare_ai, biotech]
+    notes: STAT health and biotech feed, filtered for AI/ML relevance.
+    enabled: true
+    max_entries: 5
+  - name: Fierce Biotech
+    url: https://www.fiercebiotech.com/rss/xml
+    source_type: rss
+    fetch_type: rss
+    category: general_ai
+    priority: medium
+    tags: [bio_ai, biotech, drug_discovery]
+    notes: Biotech industry feed, filtered for AI and drug-discovery relevance.
+    enabled: true
+    max_entries: 5
   - name: LinkedIn Engineering AI Public Posts
     url: https://www.linkedin.com/search/results/content/
     source_type: linkedin_manual
