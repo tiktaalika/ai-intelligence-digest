@@ -4,122 +4,97 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 597
-- filtered_count: 68
+- filtered_count: 69
 - duplicate_count: 0
 - failures: 7
 
 ## Top 10 General AI News
 1. [sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)](https://simonwillison.net/2026/Jul/5/sqlite-utils-fable)
    - source: Simon Willison
-   - score: 69.801
-   - score_breakdown: general=1.0; engineering=0.25; research=0.333; novelty=0.529; source_priority=1.0
+   - score: 69.781
+   - score_breakdown: general=1.0; engineering=0.25; research=0.333; novelty=0.528; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.53; matched_terms=6; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 2. [Better Models: Worse Tools](https://simonwillison.net/2026/Jul/4/better-models-worse-tools)
    - source: Simon Willison
-   - score: 62.907
-   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.496; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.50; matched_terms=6; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 62.888
+   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.495; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.49; matched_terms=6; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Google DeepMind and A24 announce first-of-its-kind research partnership](https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership)
    - source: Google DeepMind
-   - score: 58.975
+   - score: 58.969
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.711; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.71; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 4. [Expanding our Heat Resilience data to 50+ global cities](https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities)
    - source: Google Research
-   - score: 52.161
+   - score: 52.155
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.401; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.40; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
-5. [China wants to solve the hardest problem in robotics – making hands](https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid)
-   - source: The Guardian Technology
-   - score: 59.43
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.792; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [AI poses ‘Hiroshima’-style threat to humanity without global rules, says Cooper](https://www.theguardian.com/politics/2026/jul/05/ai-hiroshima-style-threat-humanity-global-rules-yvette-cooper)
-   - source: The Guardian Technology
-   - score: 52.307
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.62; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.62; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Cloudflare and AWS Embed x402 Agent Payments at the Edge](https://www.infoq.com/news/2026/07/cloudflare-aws-x402-micropayment)
-   - source: InfoQ AI ML Data Engineering
-   - score: 51.996
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.963; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.96; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [What is Mistral AI? Everything to know about the OpenAI competitor](https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor)
-   - source: TechCrunch AI
-   - score: 51.658
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.591; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.59; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Introducing TabFM: A zero-shot foundation model for tabular data](https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data)
+5. [Introducing TabFM: A zero-shot foundation model for tabular data](https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data)
    - source: Google Research
-   - score: 51.511
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.372; source_priority=1.0
+   - score: 51.506
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.371; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.37; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
-10. [Some of the nation’s rich are letting AI teach their kids](https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep)
-   - source: The Verge AI
-   - score: 51.384
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.73; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [What’s new in Simcenter STAR-CCM+ 2606?](https://blogs.sw.siemens.com/simcenter/simcenter-star-ccm-2606-released)
    - source: Siemens Simcenter
-   - score: 71.901
+   - score: 71.9
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.874; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Ask, don’t click: Agentic AI takes the pain out of simulation post-processing](https://blogs.sw.siemens.com/art-of-the-possible/ask-dont-click-agentic-ai-takes-the-pain-out-of-simulation-post-processing)
    - source: Siemens Art of the Possible
-   - score: 69.938
+   - score: 69.937
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.482; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.48; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; engineering_workflow_ai_boost=10; visible_engagement=unavailable
 3. [Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®](https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph)
    - source: COMSOL
-   - score: 69.299
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.908; source_priority=1.0
+   - score: 69.298
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.907; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Knowledge Base Support on AWS and Azure](https://rescale.com/blog/knowledge-base-support-on-aws-and-azure)
    - source: Rescale
-   - score: 67.674
+   - score: 67.673
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.834; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [The 3 AI features in Designcenter Solid Edge - Engineering.com](https://news.google.com/rss/articles/CBMifkFVX3lxTFBxdkVxOF8yZ3h6cXE1MTNFTkpvTFhkTDBka1E1Q19LX2Q2am9kU2dSN3o1Q3hObFVLajBXSTVzUmtZSEtqRjRYWGppaUp5Z29vMmVDWEx5UzIyV3FUc2FpRUhvLUl1UEp1X2xDa04yVkI1LVlMWEJjTlpVNGVsdw?oc=5)
    - source: Trusted Engineering Media Discovery
-   - score: 64.729
+   - score: 64.728
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.7; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.70; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It](https://www.infoq.com/news/2026/07/claude-foundry-ga-europe)
    - source: InfoQ AI ML Data Engineering
-   - score: 37.02
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.283; source_priority=0.65
+   - score: 36.982
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.281; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.28; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Synthetic Sciences Releases OpenScience: An Open-Source, Model-Agnostic AI Workbench for Machine Learning, Biology, Physics, and Chemistry Research - MarkTechPost](https://news.google.com/rss/articles/CBMikAJBVV95cUxQSmRTandhSXdWRzR1eG56bjdhY3BodHIzMU11NWFxdW9razFnZkE3MHJEd2tHSTFpNUlpMGdYT1BpOVZ0WTE1eHZ0dUtXQ1FERTNqb1ZzenJfYlR0WEt2Mk1YRnVTTy1ZSmROUTJCWEItYVkwdWFSUmNMTUx0MmFQTmZxc1R3amUtRmdGOHRqZmFELUg0eXI5VnJ5Y0V5NlZQOFk3SmRNaF84WUZTcnZCV1ZIMHduSTRqcE4tenp2NkcxVHBTQ1oxYmdjakFLUlVqT1RBeWZSU1Vid3ZOdktMOTNhdXZWVlVleFMyWWw4ZGpDRXdUSjdIUXlNcFBXSW1xdjNPRmJQOW9JekJJWmE4UA?oc=5)
    - source: Google News Bio and Genetics AI Discovery
-   - score: 37.791
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.936; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 37.753
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.934; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Research Radar
 1. [Google DeepMind and A24 announce first-of-its-kind research partnership](https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership)
    - source: Google DeepMind
-   - score: 58.975
+   - score: 58.969
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.711; source_priority=1.0
 2. [SkillOpt: Agent skills as trainable parameters](https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters)
    - source: Microsoft Research
-   - score: 58.806
+   - score: 58.801
    - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.4; source_priority=1.0
 3. [Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity](https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity)
    - source: Microsoft Research
-   - score: 56.882
+   - score: 56.876
    - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.313; source_priority=1.0
 4. [Expanding our Heat Resilience data to 50+ global cities](https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities)
    - source: Google Research
-   - score: 52.161
+   - score: 52.155
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.401; source_priority=1.0
 5. [Introducing TabFM: A zero-shot foundation model for tabular data](https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data)
    - source: Google Research
-   - score: 51.511
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.372; source_priority=1.0
+   - score: 51.506
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.371; source_priority=1.0
 
 ## Watchlist Updates
 - [Reuters Technology](https://www.google.com/search?q=site%3Awww.reuters.com%20AI): site:www.reuters.com AI (website, high)

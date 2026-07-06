@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-07-06T07:10:09.183538+00:00",
+    "generated_at": "2026-07-06T07:13:29.491350+00:00",
     "window_hours": 24,
     "source_count": 120,
     "fetched_count": 597,
-    "filtered_count": 68,
+    "filtered_count": 69,
     "duplicate_count": 0,
     "failures": [
       {
@@ -63,7 +63,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.801,
+      "score": 69.781,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -75,7 +75,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.529,
+      "novelty_score": 0.528,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -105,10 +105,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.907,
+      "score": 62.888,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -117,7 +117,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.496,
+      "novelty_score": 0.495,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -142,7 +142,7 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 58.975,
+      "score": 58.969,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -177,7 +177,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.161,
+      "score": 52.155,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -201,150 +201,6 @@
       "source_priority": "high"
     },
     {
-      "id": "3b6a72e3ac48f89c",
-      "title": "China wants to solve the hardest problem in robotics – making hands",
-      "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T00:31:18+00:00",
-      "text": "China wants to solve the hardest problem in robotics – making hands Race to develop ‘embodied AI’ focuses on creating dextrous hands to transform humanoid robots from gimmicks into useful products Human hands – nimble, nerve-filled appendages that are the most flexible part of the human skeleton – are exceptionally complex. Many tasks that most people can do largely without thinking, from tying a pair of shoelaces to buttoning up a shirt, in fact require a complex set of neurological instructions and precise choreography. In thousands of years of human history, no machine has been able to truly replicate human’s greatest tool. But now, as artificial intelligence (AI) races forwards, some companies think they are close to surpassing this final but most difficult hurdle in robotics. Most of them are in China. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 59.43,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.79",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.792,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a915acb1eacfc5df",
-      "title": "AI poses ‘Hiroshima’-style threat to humanity without global rules, says Cooper",
-      "url": "https://www.theguardian.com/politics/2026/jul/05/ai-hiroshima-style-threat-humanity-global-rules-yvette-cooper",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-05T19:00:34+00:00",
-      "text": "AI poses ‘Hiroshima’-style threat to humanity without global rules, says Cooper Exclusive: Foreign secretary warns of combined risks of AI, climate crisis, irregular migration and foreign interference Artificial intelligence poses a “Hiroshima”-style risk to humanity if governments do not agree to curb how it is developed, the foreign secretary has warned. Yvette Cooper urged countries, including the US and China, to agree international rules for AI, telling the Guardian she believes the issue will dominate foreign policy over the next two years. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 52.307,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.62",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.62,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f93ce5f999d0dcca",
-      "title": "Cloudflare and AWS Embed x402 Agent Payments at the Edge",
-      "url": "https://www.infoq.com/news/2026/07/cloudflare-aws-x402-micropayment",
-      "source": "InfoQ AI ML Data Engineering",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T06:00:00+00:00",
-      "text": "Cloudflare and AWS Embed x402 Agent Payments at the Edge Cloudflare and AWS both implemented x402 stablecoin micropayments at their edge networks within two weeks. The open protocol under the Linux Foundation revives HTTP 402 for agent-to-service payments with sub-cent transaction costs. Coinbase reports 169 million transactions in year one. Enterprise tax and invoicing gaps remain unresolved. By Steef-Jan Wiggers",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "agent payments"
-      ],
-      "engagement": {},
-      "score": 51.996,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.96",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.963,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "software_engineering",
-        "mlops",
-        "data_engineering"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "1c046554877efb1a",
-      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
-      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-04T15:51:32+00:00",
-      "text": "What is Mistral AI? Everything to know about the OpenAI competitor Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 51.658,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.59",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.591,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
       "id": "85db14fb2b0c5570",
       "title": "Introducing TabFM: A zero-shot foundation model for tabular data",
       "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data",
@@ -357,7 +213,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 51.511,
+      "score": 51.506,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.37",
@@ -369,7 +225,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.372,
+      "novelty_score": 0.371,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -378,40 +234,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "63ccfa75fe8c55a3",
-      "title": "Some of the nation’s rich are letting AI teach their kids",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-05T22:30:54+00:00",
-      "text": "Some of the nation’s rich are letting AI teach their kids Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha […]",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 51.384,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.73,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
@@ -430,7 +252,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 71.901,
+      "score": 71.9,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -465,7 +287,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.938,
+      "score": 69.937,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.48",
@@ -503,7 +325,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 69.299,
+      "score": 69.298,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -515,7 +337,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.907,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -537,7 +359,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.674,
+      "score": 67.673,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -572,7 +394,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 64.729,
+      "score": 64.728,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -613,7 +435,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 37.02,
+      "score": 36.982,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.28",
@@ -625,7 +447,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.283,
+      "novelty_score": 0.281,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -648,10 +470,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 37.791,
+      "score": 37.753,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -660,7 +482,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.936,
+      "novelty_score": 0.934,
       "source_priority_score": 0.35,
       "source_tags": [
         "bio_ai",
@@ -687,7 +509,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 71.901,
+      "score": 71.9,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -722,7 +544,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.938,
+      "score": 69.937,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.48",
@@ -760,7 +582,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 69.299,
+      "score": 69.298,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -772,7 +594,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.907,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -794,7 +616,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.674,
+      "score": 67.673,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -829,7 +651,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 64.729,
+      "score": 64.728,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -868,7 +690,7 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 58.975,
+      "score": 58.969,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -905,7 +727,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.806,
+      "score": 58.801,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -942,7 +764,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 56.882,
+      "score": 56.876,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.31",
@@ -977,7 +799,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.161,
+      "score": 52.155,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -1013,7 +835,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 51.511,
+      "score": 51.506,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.37",
@@ -1025,7 +847,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.372,
+      "novelty_score": 0.371,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2196,7 +2018,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 71.901,
+      "score": 71.9,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2231,7 +2053,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.938,
+      "score": 69.937,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.48",
@@ -2274,7 +2096,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.801,
+      "score": 69.781,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -2286,7 +2108,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.529,
+      "novelty_score": 0.528,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2311,7 +2133,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 69.299,
+      "score": 69.298,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -2323,7 +2145,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.907,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2345,7 +2167,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.285,
+      "score": 68.284,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2380,7 +2202,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.674,
+      "score": 67.673,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -2415,7 +2237,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.491,
+      "score": 65.49,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2450,7 +2272,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 64.729,
+      "score": 64.728,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -2492,10 +2314,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.907,
+      "score": 62.888,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2504,7 +2326,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.496,
+      "novelty_score": 0.495,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2529,7 +2351,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 60.318,
+      "score": 60.298,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -2541,7 +2363,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.977,
+      "novelty_score": 0.976,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2567,7 +2389,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 59.508,
+      "score": 59.507,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.31",
@@ -2604,7 +2426,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 59.43,
+      "score": 59.392,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -2616,7 +2438,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.792,
+      "novelty_score": 0.791,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2638,7 +2460,7 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 58.975,
+      "score": 58.969,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -2675,7 +2497,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.806,
+      "score": 58.801,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -2712,7 +2534,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 56.882,
+      "score": 56.876,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.31",
@@ -2747,7 +2569,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 56.073,
+      "score": 56.072,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.31",
@@ -2785,7 +2607,7 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 52.307,
+      "score": 52.269,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.62",
@@ -2797,7 +2619,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.62,
+      "novelty_score": 0.618,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2819,7 +2641,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.161,
+      "score": 52.155,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -2857,7 +2679,7 @@
         "agent payments"
       ],
       "engagement": {},
-      "score": 51.996,
+      "score": 51.958,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.96",
@@ -2869,7 +2691,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.963,
+      "novelty_score": 0.962,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -2893,7 +2715,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 51.658,
+      "score": 51.645,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.59",
@@ -2905,7 +2727,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.591,
+      "novelty_score": 0.59,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2928,7 +2750,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 51.511,
+      "score": 51.506,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.37",
@@ -2940,7 +2762,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.372,
+      "novelty_score": 0.371,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2964,7 +2786,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 51.384,
+      "score": 51.345,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2976,7 +2798,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.73,
+      "novelty_score": 0.728,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2998,7 +2820,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.485,
+      "score": 49.473,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.64",
@@ -3033,7 +2855,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 48.816,
+      "score": 48.803,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.61",
@@ -3045,7 +2867,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.613,
+      "novelty_score": 0.612,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3068,7 +2890,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 48.48,
+      "score": 48.467,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -3080,7 +2902,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.598,
+      "novelty_score": 0.597,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3103,10 +2925,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 46.892,
+      "score": 46.873,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.52",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3140,10 +2962,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 45.795,
+      "score": 45.757,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.48",
+        "novelty=0.47",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3152,7 +2974,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.476,
+      "novelty_score": 0.474,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3174,7 +2996,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 44.079,
+      "score": 44.067,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -3186,7 +3008,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.398,
+      "novelty_score": 0.397,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3209,7 +3031,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 43.48,
+      "score": 43.467,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.37",
@@ -3247,7 +3069,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 43.225,
+      "score": 43.187,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.85",
@@ -3259,7 +3081,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.848,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
@@ -3284,7 +3106,7 @@
         "Visa"
       ],
       "engagement": {},
-      "score": 41.76,
+      "score": 41.722,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.93",
@@ -3296,47 +3118,11 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.935,
+      "novelty_score": 0.933,
       "source_priority_score": 0.35,
       "source_tags": [
         "agent_commerce",
         "payments"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "d5b6d0de2ebb2408",
-      "title": "Why OpenAI and Anthropic may struggle to float - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTHdrUnpBd0c1Z0IxbkFrNUdkM1FJZlFhU3VnSVRCZVVLRU8zRjN2NURBdGxVYXdCQkc1UUthYTIzcHcyU0hkM21DOWpYbjVINUkyRWV6cDR5VGxteUVQazQ4TmhTME1nZHZyenJ6clVOVzBjMFJwS3VtWTR0alhweG9Pc1o?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T04:01:04+00:00",
-      "text": "Why OpenAI and Anthropic may struggle to float - Financial Times Why OpenAI and Anthropic may struggle to float Financial Times",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 41.033,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.90",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.902,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
       ],
       "registry_category": "general_ai",
       "source_priority": "low"
@@ -3355,10 +3141,10 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 39.538,
+      "score": 39.499,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3367,7 +3153,41 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.985,
+      "novelty_score": 0.983,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "d2e5984458ef5c9f",
+      "title": "Artificial intelligence for intraoperative surgical guidance in robotic-assisted ventral cavity surgery: a systematic review on the current state of validation methods - Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE50S1M4VjBMQ1hpNlNnTlhTTENhWDJEUkNJYXVnekRGNy1mUENXWjlybU5LbnZ6N3hiRkp2d3FUeU93U3VpekZzQktnUmR0d0t2M19mT25CQ1paeE42Q0Jv?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-06T06:02:05+00:00",
+      "text": "Artificial intelligence for intraoperative surgical guidance in robotic-assisted ventral cavity surgery: a systematic review on the current state of validation methods - Nature Artificial intelligence for intraoperative surgical guidance in robotic-assisted ventral cavity surgery: a systematic review on the current state of validation methods Nature",
+      "matched_terms": [
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 38.382,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.963,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3389,10 +3209,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 37.791,
+      "score": 37.753,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -3401,7 +3221,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.936,
+      "novelty_score": 0.934,
       "source_priority_score": 0.35,
       "source_tags": [
         "bio_ai",
@@ -3413,19 +3233,19 @@
       "source_priority": "low"
     },
     {
-      "id": "f91f1b44d1caf269",
-      "title": "MGI Tech and Shanghai AI Laboratory Unveil ProtoPilot and BioLab Bench, Pioneering Physical AI for Life Sciences - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPRmM3N2RMaFY2NXZiZEE4X3hrMVAtZ1Q0Z0lQbHdSQURlcVNtdURTbDNVcmplX0poRmNmWlFtSUg2QkV1MWZ0NHpDV3IyeUpiV1gtY1huUW1XWjA1YXk4RUJYQ09neFFaNE13cWxLWXJRbExaSTR4X1JrVkpXVE9MVV9CVE9tN1pFMmdsNTNNVUZ3a1B2MlI0a3BpRTRKSGR6dkZUeEkzc2wxSzNCRnhvWVRFZlI3RkVxMzJaM3JZLUlZUkkxTG53TVcyNlNlQy1CVU1jcy04SlpzRGhTcXFyYUxvazFubEp3cENScG9NNHhxZlJqdzdudWx1bw?oc=5",
+      "id": "a0ac90c0dcb88222",
+      "title": "MGI Tech and Shanghai AI Laboratory Unveil ProtoPilot and BioLab Bench, Pioneering Physical AI for Life Sciences - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUWdaTEFLY0VvVmNwZUFLUzN2clZrOEk1RVdZbW5oYnJQeGZZRlZ5YzVVRWhLeXVVbUdqMGtneEtPY2padWpEb2MtbGVoRENGd0lfX296VUhrWXU4bmdVMkQ1YmZZbFZjYTRLLUJqMHNsNktsczVpWDE3V1pIZHVRYUp5M0pONTQ0LUhZSWpxOWo4RWZvdlRKQTlQcw?oc=5",
       "source": "Google News General AI Discovery",
       "source_kind": "google_news_rss",
       "category": "general_ai",
       "published_at": "2026-07-06T03:07:00+00:00",
-      "text": "MGI Tech and Shanghai AI Laboratory Unveil ProtoPilot and BioLab Bench, Pioneering Physical AI for Life Sciences - PR Newswire MGI Tech and Shanghai AI Laboratory Unveil ProtoPilot and BioLab Bench, Pioneering Physical AI for Life Sciences PR Newswire",
+      "text": "MGI Tech and Shanghai AI Laboratory Unveil ProtoPilot and BioLab Bench, Pioneering Physical AI for Life Sciences - Yahoo Finance MGI Tech and Shanghai AI Laboratory Unveil ProtoPilot and BioLab Bench, Pioneering Physical AI for Life Sciences Yahoo Finance",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 37.247,
+      "score": 37.209,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.87",
@@ -3437,7 +3257,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.873,
+      "novelty_score": 0.872,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3460,7 +3280,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 37.241,
+      "score": 37.203,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.88",
@@ -3472,7 +3292,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
+      "novelty_score": 0.879,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3496,7 +3316,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 37.02,
+      "score": 36.982,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.28",
@@ -3508,7 +3328,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.283,
+      "novelty_score": 0.281,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -3531,7 +3351,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 37.001,
+      "score": 36.963,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.30",
@@ -3543,7 +3363,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.305,
+      "novelty_score": 0.303,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -3567,7 +3387,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 36.999,
+      "score": 36.96,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.87",
@@ -3579,7 +3399,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.868,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3601,10 +3421,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 36.438,
+      "score": 36.4,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3613,7 +3433,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.994,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3635,7 +3455,7 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 36.273,
+      "score": 36.235,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.99",
@@ -3647,7 +3467,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.988,
+      "novelty_score": 0.986,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3669,10 +3489,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 36.214,
+      "score": 36.175,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3681,7 +3501,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.985,
+      "novelty_score": 0.984,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3703,7 +3523,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 36.073,
+      "score": 36.035,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.98",
@@ -3715,7 +3535,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.979,
+      "novelty_score": 0.977,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3737,7 +3557,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 35.947,
+      "score": 35.909,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.97",
@@ -3749,7 +3569,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.973,
+      "novelty_score": 0.972,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3771,7 +3591,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 35.936,
+      "score": 35.897,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.97",
@@ -3783,7 +3603,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.973,
+      "novelty_score": 0.971,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3805,10 +3625,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 35.764,
+      "score": 35.726,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3817,7 +3637,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.965,
+      "novelty_score": 0.963,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3839,10 +3659,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 35.552,
+      "score": 35.514,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3851,7 +3671,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.955,
+      "novelty_score": 0.954,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -3875,7 +3695,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 35.339,
+      "score": 35.301,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.79",
@@ -3887,7 +3707,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.794,
+      "novelty_score": 0.792,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
@@ -3910,7 +3730,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 35.224,
+      "score": 35.186,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.94",
@@ -3922,7 +3742,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.94,
+      "novelty_score": 0.939,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3944,7 +3764,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 35.046,
+      "score": 35.008,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.93",
@@ -3956,7 +3776,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.932,
+      "novelty_score": 0.931,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -3978,10 +3798,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 34.447,
+      "score": 34.408,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3990,7 +3810,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.903,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4012,7 +3832,7 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 34.358,
+      "score": 34.32,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.90",
@@ -4024,7 +3844,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.901,
+      "novelty_score": 0.899,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4046,7 +3866,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 34.354,
+      "score": 34.316,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.90",
@@ -4058,7 +3878,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.901,
+      "novelty_score": 0.899,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4080,7 +3900,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 34.092,
+      "score": 34.054,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.89",
@@ -4092,7 +3912,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.889,
+      "novelty_score": 0.887,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -4116,7 +3936,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 33.912,
+      "score": 33.874,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.73",
@@ -4128,7 +3948,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.729,
+      "novelty_score": 0.728,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4150,7 +3970,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 33.701,
+      "score": 33.663,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.87",
@@ -4162,7 +3982,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.871,
+      "novelty_score": 0.87,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4185,7 +4005,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 32.997,
+      "score": 32.977,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.25",
@@ -4197,7 +4017,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.251,
+      "novelty_score": 0.25,
       "source_priority_score": 0.65,
       "source_tags": [
         "newsletter",
@@ -4220,7 +4040,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 32.574,
+      "score": 32.535,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.67",
@@ -4232,7 +4052,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.668,
+      "novelty_score": 0.667,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
@@ -4255,7 +4075,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 32.292,
+      "score": 32.254,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.81",
@@ -4267,7 +4087,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.807,
+      "novelty_score": 0.805,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4289,7 +4109,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 32.001,
+      "score": 31.963,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.79",
@@ -4301,12 +4121,46 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.794,
+      "novelty_score": 0.792,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
         "safety",
         "frontier_models"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "4254cb1c4ca29e45",
+      "title": "South Korea's SK Hynix launching $28 billion US listing to ride global AI wave - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOExMMERoTnlfeUtLdDFoejc3emp1SXBuQ3NHUGk4YndsTjBxamcyYnh5Qmp6ckFrNk4xTGtld1ZNT2NDOVJHZGVwODVfSENhYXA1Qkg3SjhnZnNjTmhmSjg5Y2x5MzhZbWRDU3M1VHhBV0NxdGJqYkg0ZnlUSUEybVVNRm9MN3R2VnBWRHZVN2NTbFZJZjVSVEpaV3k3ZGVGOXg1Rl9Hd0dveVlLMGRYQ0xtQWx3VkM4N3Bmc1p1MmRSMVk?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-06T00:18:00+00:00",
+      "text": "South Korea's SK Hynix launching $28 billion US listing to ride global AI wave - Reuters South Korea's SK Hynix launching $28 billion US listing to ride global AI wave Reuters",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 31.772,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.78",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.784,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
       ],
       "registry_category": "general_ai",
       "source_priority": "low"
@@ -4326,10 +4180,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 31.657,
+      "score": 31.618,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.48",
+        "novelty=0.47",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4338,7 +4192,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.475,
+      "novelty_score": 0.474,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
@@ -4361,7 +4215,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 31.009,
+      "score": 30.97,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.75",
@@ -4373,7 +4227,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.749,
+      "novelty_score": 0.747,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4395,7 +4249,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 30.997,
+      "score": 30.959,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.75",
@@ -4407,7 +4261,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.748,
+      "novelty_score": 0.747,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4429,7 +4283,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 29.542,
+      "score": 29.504,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.68",
@@ -4441,7 +4295,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.682,
+      "novelty_score": 0.68,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4465,7 +4319,7 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 28.899,
+      "score": 28.861,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.35",
@@ -4477,7 +4331,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
+      "novelty_score": 0.348,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
@@ -4500,7 +4354,7 @@
         "Mastercard"
       ],
       "engagement": {},
-      "score": 27.576,
+      "score": 27.538,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.59",
@@ -4512,7 +4366,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.593,
+      "novelty_score": 0.591,
       "source_priority_score": 0.35,
       "source_tags": [
         "agent_commerce",
@@ -4534,7 +4388,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 27.148,
+      "score": 27.11,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.57",
@@ -4546,7 +4400,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.573,
+      "novelty_score": 0.572,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -4569,7 +4423,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 26.79,
+      "score": 26.751,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.56",
@@ -4581,7 +4435,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.557,
+      "novelty_score": 0.555,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
