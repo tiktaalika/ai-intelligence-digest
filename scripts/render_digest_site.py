@@ -116,6 +116,19 @@ def canonical_category(category: str) -> str:
     return category
 
 
+def is_guo_yichen_reference_item(item: dict[str, Any]) -> bool:
+    return "guo_yichen_reference" in set(item.get("source_tags") or [])
+
+
+def item_matches_section_category(item: dict[str, Any], category: str) -> bool:
+    item_category = canonical_category(item.get("category", ""))
+    if category == "general_ai":
+        return item_category == "general_ai" or (
+            item_category == "research" and is_guo_yichen_reference_item(item)
+        )
+    return item_category == category
+
+
 def load_summaries() -> dict[str, str]:
     if not SUMMARY_CACHE.exists():
         return {}
@@ -341,7 +354,9 @@ def select_unique(
     source_counts: dict[str, int] = {}
     max_per_source_first_pass = 1 if category == "engineering_ai" else 2
     for item in items:
-        if canonical_category(item.get("category", "")) != category or is_excluded(item, category):
+        if not item_matches_section_category(item, category) or is_excluded(item, category):
+            continue
+        if category == "general_ai" and not is_guo_yichen_reference_item(item):
             continue
         if is_recent_repeat(item, historical_items):
             continue
@@ -361,7 +376,9 @@ def select_unique(
     for item in items:
         if len(selected) == limit:
             break
-        if canonical_category(item.get("category", "")) != category or is_excluded(item, category):
+        if not item_matches_section_category(item, category) or is_excluded(item, category):
+            continue
+        if category == "general_ai" and not is_guo_yichen_reference_item(item):
             continue
         if is_recent_repeat(item, historical_items):
             continue
@@ -375,7 +392,9 @@ def select_unique(
     for item in items:
         if len(selected) == limit:
             break
-        if canonical_category(item.get("category", "")) != category or is_excluded(item, category):
+        if not item_matches_section_category(item, category) or is_excluded(item, category):
+            continue
+        if category == "general_ai" and not is_guo_yichen_reference_item(item):
             continue
         if is_recent_repeat(item, historical_items):
             continue
@@ -416,6 +435,8 @@ def section_items(
     for item in data.get(fallback_key, []):
         item = dict(item)
         item["category"] = canonical_category(item.get("category", category))
+        if category == "general_ai" and not is_guo_yichen_reference_item(item):
+            continue
         if is_recent_repeat(item, historical_items or []):
             continue
         if any(is_same_event(item, existing) for existing in selected):
