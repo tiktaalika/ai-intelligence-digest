@@ -413,6 +413,9 @@ def dedupe_and_fill_items(
     historical_items: list[dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     category = canonical_category(category)
+    if category == "general_ai":
+        primary_items = primary or data.get(fallback_key, [])
+        return select_unique(primary_items, category, limit, historical_items)
     pool: list[dict[str, Any]] = []
     for item in primary + data.get("top_100_news_candidates", []) + data.get(fallback_key, []):
         candidate = dict(item)
@@ -428,6 +431,9 @@ def section_items(
     fallback_key: str,
     historical_items: list[dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
+    category = canonical_category(category)
+    if category == "general_ai":
+        return select_unique(data.get(fallback_key, []), category, limit, historical_items)
     pool = data.get("top_100_news_candidates", [])
     selected = select_unique(pool, category, limit, historical_items)
     if len(selected) >= limit:
