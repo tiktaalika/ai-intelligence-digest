@@ -34,7 +34,7 @@ Direct read counts are often not public, so the ranking estimates reach using vi
 
 Selection is not a raw popularity leaderboard. After duplicate-event removal, the Top 10 General AI list and Top 5 Engineering AI list apply topic diversification so one hot area, such as AI payments, regulation, data centers, or model-release drama, does not crowd out the whole newsletter. The default cap is two items per broad topic before the selector relaxes the cap to fill empty slots.
 
-For General AI, the selector follows the `guo-yichen/news-summary` source strategy: official AI company feeds, official research feeds, developer-tool blogs, high-signal expert blogs/newsletters, and AI-builder / startup feeds are primary. General technology media such as Reuters, BBC, The Guardian, NYT, MIT Technology Review, The Verge, TechCrunch, IEEE Spectrum, Ars Technica, VentureBeat, and InfoQ remain available only as fallback or cross-check sources. Google News RSS is a recall layer, not the main source of truth.
+For General AI, the selector follows the `guo-yichen/news-summary` source strategy: official AI company feeds, official research feeds, developer-tool blogs, high-signal expert blogs/newsletters, and AI-builder / startup feeds are the selected source pool. General technology media such as Reuters, BBC, The Guardian, NYT, MIT Technology Review, The Verge, TechCrunch, IEEE Spectrum, Ars Technica, VentureBeat, and InfoQ remain in the registry for manual review or future cross-checking, but they are not used to fill the General AI Top 10. If the Guo-style source pool has fewer than 10 good items on a given day, the General AI section can contain fewer than 10 items.
 
 The same source-first rule applies to the right column:
 

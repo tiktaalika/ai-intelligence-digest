@@ -181,6 +181,7 @@ class SourceRegistryTest(unittest.TestCase):
                 engagement={},
                 score=score,
                 score_reasons=[],
+                source_tags=["guo_yichen_reference"],
             )
 
         candidates = [
@@ -190,6 +191,8 @@ class SourceRegistryTest(unittest.TestCase):
             item(4, "OpenAI releases a new frontier model", "OpenAI", "rss", 80),
             item(5, "Anthropic publishes a new safety report", "Anthropic News RSS", "rss", 79),
         ]
+        candidates[3].source_tags = ["guo_yichen_reference"]
+        candidates[4].source_tags = ["guo_yichen_reference"]
 
         selected = select_unique_events(candidates, "general_ai", 5)
 
@@ -211,6 +214,7 @@ class SourceRegistryTest(unittest.TestCase):
                 engagement={},
                 score=score,
                 score_reasons=[],
+                source_tags=["guo_yichen_reference"],
             )
 
         candidates = [
@@ -252,7 +256,7 @@ class SourceRegistryTest(unittest.TestCase):
             item(5, "Simon Willison analyzes an LLM agent tool", "Simon Willison", 78, ["guo_yichen_reference"]),
         ]
 
-        selected = select_unique_events(candidates, "general_ai", 3)
+        selected = select_unique_events(candidates, "general_ai", 5)
 
         self.assertEqual([candidate.source for candidate in selected], ["OpenAI", "Google Research", "Simon Willison"])
 

@@ -466,6 +466,8 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
             break
         if not selection_category_matches(candidate, category):
             continue
+        if category == "general_ai" and not is_guo_yichen_reference(candidate):
+            continue
         if category in {"general_ai", "engineering_ai"} and is_broad_google_discovery(candidate) and source_kind_counts.get("broad_google_news", 0) >= google_news_cap:
             continue
         if source_counts.get(candidate.source, 0) >= max_per_source:
@@ -481,6 +483,8 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
         if len(selected) == limit:
             break
         if not selection_category_matches(candidate, category):
+            continue
+        if category == "general_ai" and not is_guo_yichen_reference(candidate):
             continue
         if category in {"general_ai", "engineering_ai"} and is_broad_google_discovery(candidate) and source_kind_counts.get("broad_google_news", 0) >= google_news_cap:
             continue
