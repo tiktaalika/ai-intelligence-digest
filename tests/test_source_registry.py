@@ -71,6 +71,46 @@ class SourceRegistryTest(unittest.TestCase):
         self.assertIn("site:engineering.com", trusted_media["query"])
         self.assertIn("site:industrial-ai-network.com", trusted_media["query"])
 
+    def test_guo_yichen_reference_sources_are_marked(self) -> None:
+        registry = load_source_registry()
+        sources = {source["name"]: source for source in registry["sources"]}
+        expected = {
+            "Anthropic News RSS",
+            "Anthropic Engineering Blog RSS",
+            "Anthropic Research RSS",
+            "OpenAI",
+            "OpenAI Research RSS",
+            "Google DeepMind",
+            "Google Research",
+            "Cursor Blog RSS",
+            "Windsurf Blog RSS",
+            "GitHub Blog AI and ML",
+            "Hugging Face",
+            "Simon Willison",
+            "Latent Space",
+            "The Pragmatic Engineer",
+            "Ahead of AI",
+            "Lilian Weng",
+            "Hamel Husain",
+            "Chain of Thought",
+            "Context Window",
+            "Argmin Gravitas",
+            "Chips and Cheese",
+            "South Park Commons",
+            "Paul Graham Essays",
+            "Sunday Letters",
+            "Naval",
+            "The Leverage",
+            "Garry Tan YouTube",
+            "Elad Gil Blog",
+            "Fred Wilson AVC",
+            "Harry Stebbings 20VC",
+        }
+
+        self.assertTrue(expected.issubset(sources.keys()))
+        for name in expected:
+            self.assertIn("guo_yichen_reference", sources[name]["tags"], name)
+
     def test_engineering_workflow_ai_gets_scoring_boost(self) -> None:
         source = {
             "category": "engineering_ai",
@@ -110,6 +150,7 @@ class SourceRegistryTest(unittest.TestCase):
                 engagement={},
                 score=score,
                 score_reasons=[],
+                source_tags=["guo_yichen_reference"],
             )
 
         candidates = [
@@ -184,6 +225,36 @@ class SourceRegistryTest(unittest.TestCase):
 
         self.assertEqual(sum(1 for candidate in selected if candidate.source == "Simon Willison"), 2)
         self.assertTrue(any(candidate.source == "OpenAI" for candidate in selected))
+
+    def test_general_selection_prefers_guo_yichen_sources(self) -> None:
+        def item(idx: int, title: str, source: str, score: float, tags: Optional[list[str]] = None, category: str = "general_ai") -> Candidate:
+            return Candidate(
+                id=str(idx),
+                title=title,
+                url=f"https://example.com/{idx}",
+                source=source,
+                source_kind="rss",
+                category=category,
+                published_at=None,
+                text=title,
+                matched_terms=["AI"],
+                engagement={},
+                score=score,
+                score_reasons=[],
+                source_tags=tags or [],
+            )
+
+        candidates = [
+            item(1, "Reuters reports a broad AI market story", "Reuters Technology", 100),
+            item(2, "Guardian reports a broad AI policy story", "The Guardian Technology", 99),
+            item(3, "OpenAI publishes a model update", "OpenAI", 80, ["guo_yichen_reference"]),
+            item(4, "Google Research publishes an AI systems result", "Google Research", 79, ["guo_yichen_reference"], "research"),
+            item(5, "Simon Willison analyzes an LLM agent tool", "Simon Willison", 78, ["guo_yichen_reference"]),
+        ]
+
+        selected = select_unique_events(candidates, "general_ai", 3)
+
+        self.assertEqual([candidate.source for candidate in selected], ["OpenAI", "Google Research", "Simon Willison"])
 
     def test_engineering_prefers_curated_sources_before_broad_google(self) -> None:
         def item(idx: int, title: str, source: str, source_kind: str, tags: Optional[list[str]] = None) -> Candidate:

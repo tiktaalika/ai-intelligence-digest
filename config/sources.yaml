@@ -131,7 +131,7 @@ sources:
     fetch_type: rss
     category: vendor
     priority: high
-    tags: [frontier_model, product, api]
+    tags: [frontier_model, product, api, guo_yichen_reference]
     notes: Official OpenAI news.
     enabled: true
     max_entries: 3
@@ -141,7 +141,7 @@ sources:
     fetch_type: rss
     category: research
     priority: high
-    tags: [frontier_model, research, curated_rss]
+    tags: [frontier_model, research, curated_rss, guo_yichen_reference]
     notes: Community-maintained RSS feed from Olshansk/rss-feeds, following the source strategy used by guo-yichen/news-summary.
     enabled: true
     max_entries: 3
@@ -159,7 +159,7 @@ sources:
     fetch_type: rss
     category: vendor
     priority: high
-    tags: [frontier_model, safety, curated_rss]
+    tags: [frontier_model, safety, curated_rss, guo_yichen_reference]
     notes: Community-maintained RSS feed from Olshansk/rss-feeds, following the source strategy used by guo-yichen/news-summary.
     enabled: true
     max_entries: 3
@@ -169,7 +169,7 @@ sources:
     fetch_type: rss
     category: vendor
     priority: high
-    tags: [engineering_blog, agents, curated_rss]
+    tags: [engineering_blog, agents, curated_rss, guo_yichen_reference]
     notes: Community-maintained Anthropic engineering RSS feed from Olshansk/rss-feeds.
     enabled: true
     max_entries: 3
@@ -179,7 +179,7 @@ sources:
     fetch_type: rss
     category: research
     priority: high
-    tags: [frontier_model, research, curated_rss]
+    tags: [frontier_model, research, curated_rss, guo_yichen_reference]
     notes: Community-maintained Anthropic research RSS feed from Olshansk/rss-feeds.
     enabled: true
     max_entries: 3
@@ -189,7 +189,7 @@ sources:
     fetch_type: rss
     category: research
     priority: high
-    tags: [frontier_model, research]
+    tags: [frontier_model, research, guo_yichen_reference]
     notes: Official Google DeepMind blog.
     enabled: true
   - name: Google Research
@@ -198,7 +198,7 @@ sources:
     fetch_type: rss
     category: research
     priority: high
-    tags: [research, computer_science, ai]
+    tags: [research, computer_science, ai, guo_yichen_reference]
     notes: Official Google Research blog RSS.
     enabled: true
   - name: Meta AI
@@ -233,7 +233,7 @@ sources:
     fetch_type: rss
     category: community
     priority: high
-    tags: [open_source, models, datasets]
+    tags: [open_source, models, datasets, guo_yichen_reference]
     notes: Hugging Face blog and ecosystem updates.
     enabled: true
   - name: Microsoft AI
@@ -334,7 +334,7 @@ sources:
     fetch_type: rss
     category: vendor
     priority: high
-    tags: [developer_tools, ai_engineering, open_source]
+    tags: [developer_tools, ai_engineering, open_source, guo_yichen_reference]
     notes: GitHub AI and ML blog feed, included in guo-yichen/news-summary style curated sources.
     enabled: true
     max_entries: 3
@@ -352,7 +352,7 @@ sources:
     fetch_type: rss
     category: startup
     priority: high
-    tags: [coding_assistant, developer_tools, curated_rss]
+    tags: [coding_assistant, developer_tools, curated_rss, guo_yichen_reference]
     notes: Community-maintained Cursor feed from Olshansk/rss-feeds.
     enabled: true
     max_entries: 3
@@ -370,7 +370,7 @@ sources:
     fetch_type: rss
     category: startup
     priority: high
-    tags: [coding_assistant, developer_tools, curated_rss]
+    tags: [coding_assistant, developer_tools, curated_rss, guo_yichen_reference]
     notes: Community-maintained Windsurf feed from Olshansk/rss-feeds.
     enabled: true
     max_entries: 3
@@ -775,7 +775,7 @@ sources:
     fetch_type: rss
     category: community
     priority: high
-    tags: [expert_blog, llm, agents, software_engineering]
+    tags: [expert_blog, llm, agents, software_engineering, guo_yichen_reference]
     notes: High-signal expert blog, included in guo-yichen/news-summary style curated sources.
     enabled: true
     max_entries: 5
@@ -785,7 +785,7 @@ sources:
     fetch_type: rss
     category: community
     priority: high
-    tags: [newsletter, ai_engineering, frontier_models]
+    tags: [newsletter, ai_engineering, frontier_models, guo_yichen_reference]
     notes: High-signal AI engineering newsletter, included in guo-yichen/news-summary style curated sources.
     enabled: true
     max_entries: 3
@@ -795,7 +795,7 @@ sources:
     fetch_type: rss
     category: community
     priority: medium
-    tags: [software_engineering, ai_engineering]
+    tags: [software_engineering, ai_engineering, guo_yichen_reference]
     notes: Engineering newsletter; filtered for AI and developer tooling relevance.
     enabled: true
     max_entries: 2
@@ -805,7 +805,7 @@ sources:
     fetch_type: rss
     category: research
     priority: high
-    tags: [research, ml, llm]
+    tags: [research, ml, llm, guo_yichen_reference]
     notes: Sebastian Raschka's AI/ML newsletter, included in guo-yichen/news-summary style curated sources.
     enabled: true
     max_entries: 2
@@ -815,7 +815,7 @@ sources:
     fetch_type: rss
     category: research
     priority: high
-    tags: [research, llm, agents]
+    tags: [research, llm, agents, guo_yichen_reference]
     notes: High-signal AI research blog, included in guo-yichen/news-summary style curated sources.
     enabled: true
     max_entries: 2
@@ -825,7 +825,7 @@ sources:
     fetch_type: rss
     category: community
     priority: medium
-    tags: [evals, ai_engineering, software_engineering]
+    tags: [evals, ai_engineering, software_engineering, guo_yichen_reference]
     notes: Practical AI engineering blog/newsletter.
     enabled: true
     max_entries: 3
@@ -835,7 +835,7 @@ sources:
     fetch_type: rss
     category: community
     priority: medium
-    tags: [llm, ai_engineering, newsletter]
+    tags: [llm, ai_engineering, newsletter, guo_yichen_reference]
     notes: Curated AI/LLM newsletter.
     enabled: true
     max_entries: 3
@@ -845,7 +845,7 @@ sources:
     fetch_type: rss
     category: research
     priority: medium
-    tags: [ml, research, expert_blog]
+    tags: [ml, research, expert_blog, guo_yichen_reference]
     notes: Ben Recht's ML and systems research blog.
     enabled: true
     max_entries: 2
@@ -855,10 +855,110 @@ sources:
     fetch_type: rss
     category: community
     priority: medium
-    tags: [hardware, ai_chip, systems]
+    tags: [hardware, ai_chip, systems, guo_yichen_reference]
     notes: Systems and hardware analysis, useful for AI compute context.
     enabled: true
     max_entries: 2
+  - name: Chain of Thought
+    url: https://every.to/chain-of-thought/feed
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: medium
+    tags: [newsletter, ai_builders, product, guo_yichen_reference]
+    notes: Dan Shipper's Chain of Thought feed from guo-yichen/news-summary sources.example.yaml.
+    enabled: true
+    max_entries: 2
+  - name: South Park Commons
+    url: https://blog.southparkcommons.com/feed
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: medium
+    tags: [startup, ai_builders, community, guo_yichen_reference]
+    notes: South Park Commons blog feed from guo-yichen/news-summary sources.example.yaml.
+    enabled: true
+    max_entries: 2
+  - name: Paul Graham Essays
+    url: https://program247365.github.io/paulgraham-rss/rss.xml
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: medium
+    tags: [startup, essays, founder_thinking, guo_yichen_reference]
+    notes: Paul Graham RSS mirror from guo-yichen/news-summary sources.example.yaml.
+    enabled: true
+    max_entries: 3
+  - name: Sunday Letters
+    url: https://sundaylettersfromsam.substack.com/feed
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: medium
+    tags: [newsletter, product, ai_builders, guo_yichen_reference]
+    notes: Sam Schillace's Sunday Letters feed from guo-yichen/news-summary sources.example.yaml.
+    enabled: true
+    max_entries: 2
+  - name: Naval
+    url: https://naval.libsyn.com/rss
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: low
+    tags: [podcast, startup, philosophy, guo_yichen_reference]
+    notes: Naval podcast RSS from guo-yichen/news-summary sources.example.yaml; filtered for AI relevance.
+    enabled: true
+    max_entries: 2
+  - name: The Leverage
+    url: https://getleverage.substack.com/feed
+    source_type: rss
+    fetch_type: rss
+    category: community
+    priority: medium
+    tags: [newsletter, startup, ai_builders, guo_yichen_reference]
+    notes: The Leverage feed from guo-yichen/news-summary sources.example.yaml.
+    enabled: true
+    max_entries: 3
+  - name: Garry Tan YouTube
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIBgYfDjtWlbJhg--Z4sOgQ
+    source_type: rss
+    fetch_type: rss
+    category: startup
+    priority: medium
+    tags: [youtube, yc, startup, ai_builders, guo_yichen_reference]
+    notes: YouTube RSS only; no transcript fetch in the no-API public workflow.
+    enabled: true
+    max_entries: 3
+  - name: Elad Gil Blog
+    url: https://blog.eladgil.com/feed
+    source_type: rss
+    fetch_type: rss
+    category: startup
+    priority: medium
+    tags: [vc, startup, ai_builders, guo_yichen_reference]
+    notes: Elad Gil blog feed from guo-yichen/news-summary sources.example.yaml.
+    enabled: true
+    max_entries: 3
+  - name: Fred Wilson AVC
+    url: https://feeds.feedblitz.com/avcfeed
+    source_type: rss
+    fetch_type: rss
+    category: startup
+    priority: medium
+    tags: [vc, startup, guo_yichen_reference]
+    notes: AVC feed from guo-yichen/news-summary sources.example.yaml.
+    enabled: true
+    max_entries: 3
+  - name: Harry Stebbings 20VC
+    url: https://20vc.substack.com/feed
+    source_type: rss
+    fetch_type: rss
+    category: startup
+    priority: medium
+    tags: [vc, startup, podcast, guo_yichen_reference]
+    notes: 20VC feed from guo-yichen/news-summary sources.example.yaml.
+    enabled: true
+    max_entries: 3
 
   - name: Google News General AI Discovery
     url: https://news.google.com/rss/search

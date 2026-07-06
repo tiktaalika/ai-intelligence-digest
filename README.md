@@ -34,7 +34,7 @@ Direct read counts are often not public, so the ranking estimates reach using vi
 
 Selection is not a raw popularity leaderboard. After duplicate-event removal, the Top 10 General AI list and Top 5 Engineering AI list apply topic diversification so one hot area, such as AI payments, regulation, data centers, or model-release drama, does not crowd out the whole newsletter. The default cap is two items per broad topic before the selector relaxes the cap to fill empty slots.
 
-For General AI, the selector now treats Google News RSS as a recall/fallback layer rather than the main source of truth. Official labs, major technology publications, mainstream technology desks, and computer-science / engineering-oriented sources are selected first; Google News can fill at most a small number of Top 10 slots. This avoids a daily list dominated by unfamiliar repost sites while still catching important stories that the curated feeds miss.
+For General AI, the selector follows the `guo-yichen/news-summary` source strategy: official AI company feeds, official research feeds, developer-tool blogs, high-signal expert blogs/newsletters, and AI-builder / startup feeds are primary. General technology media such as Reuters, BBC, The Guardian, NYT, MIT Technology Review, The Verge, TechCrunch, IEEE Spectrum, Ars Technica, VentureBeat, and InfoQ remain available only as fallback or cross-check sources. Google News RSS is a recall layer, not the main source of truth.
 
 The same source-first rule applies to the right column:
 
@@ -46,7 +46,7 @@ The same source-first rule applies to the right column:
 
 The source strategy is intentionally closer to curated open-source digest projects than to open-ended news search.
 
-- [`guo-yichen/news-summary`](https://github.com/guo-yichen/news-summary): strong reference for a `sources.yaml`-first design, per-source entry limits, daily GitHub Actions automation, cross-day deduplication, and high-signal AI sources such as Anthropic, OpenAI, Google DeepMind, Google Research, GitHub AI, Hugging Face, Simon Willison, Latent Space, The Pragmatic Engineer, Ahead of AI, Lilian Weng, and other expert feeds.
+- [`guo-yichen/news-summary`](https://github.com/guo-yichen/news-summary): primary reference for the General AI source set and a `sources.yaml`-first design. This project tracks its AI company, research, developer-tool, expert-newsletter, and startup/VC RSS sources where they work in a no-API public GitHub Actions workflow. Twitter/X, podcast transcripts, email newsletters, and YouTube transcript ingestion are not copied because they require cookies, paid APIs, or private credentials.
 - [`Olshansk/rss-feeds`](https://github.com/Olshansk/rss-feeds): used indirectly for community-maintained RSS feeds where official AI company pages do not expose stable RSS, such as Anthropic, OpenAI Research, Cursor, and Windsurf.
 - [`banana2556/rssdigest`](https://github.com/banana2556/rssdigest): reference for the simpler RSS/Atom-first daily digest pattern where LLM summarization is optional rather than required.
 
