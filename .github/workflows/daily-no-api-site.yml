@@ -3,7 +3,8 @@ name: Daily No-API Newsletter Site
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"
+    # Avoid the top-of-hour GitHub Actions schedule rush, where cron jobs can be delayed or dropped.
+    - cron: "18 6 * * *"
 
 permissions:
   contents: write
