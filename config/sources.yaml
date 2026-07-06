@@ -875,7 +875,7 @@ sources:
     source_type: rss
     fetch_type: google_news_rss
     category: general_ai
-    priority: medium
+    priority: low
     tags: [agent_commerce, payments]
     query: (OpenAI OR ChatGPT OR Visa OR Mastercard OR Stripe OR PayPal) ("AI agent" OR "agentic commerce" OR "AI payments" OR "agent payments" OR checkout OR wallet OR "payment system") when:2d
     notes: Captures AI-agent payment infrastructure news.
@@ -885,7 +885,7 @@ sources:
     source_type: rss
     fetch_type: google_news_rss
     category: general_ai
-    priority: medium
+    priority: low
     tags: [policy, safety, frontier_models]
     query: (Anthropic OR Claude OR OpenAI OR Microsoft OR "Dario Amodei") (regulation OR "data terms" OR "employee access" OR policy OR safety OR Washington) when:2d
     notes: Captures policy, access, and safety governance items.

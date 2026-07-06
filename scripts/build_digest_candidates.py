@@ -401,7 +401,7 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
     category = canonical_category(category)
     max_per_topic = 2
     google_news_cap = 2 if category == "general_ai" else (1 if category == "engineering_ai" else limit)
-    max_per_source = 3 if category == "general_ai" else (1 if category == "engineering_ai" else limit)
+    max_per_source = 2 if category == "general_ai" else (1 if category == "engineering_ai" else limit)
     selected: list[Candidate] = []
     topic_counts: dict[str, int] = {}
     source_kind_counts: dict[str, int] = {}
@@ -466,6 +466,8 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
         if canonical_category(candidate.category) != category:
             continue
         if category in {"general_ai", "engineering_ai"} and is_broad_google_discovery(candidate) and source_kind_counts.get("broad_google_news", 0) >= google_news_cap:
+            continue
+        if category in {"general_ai", "engineering_ai"} and source_counts.get(candidate.source, 0) >= max_per_source:
             continue
         if candidate in selected or any(is_same_event(candidate, existing) for existing in selected):
             continue

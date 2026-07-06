@@ -101,7 +101,7 @@ class SourceRegistryTest(unittest.TestCase):
                 id=str(idx),
                 title=title,
                 url=f"https://example.com/{idx}",
-                source="test",
+                source=f"test-{idx}",
                 source_kind="rss",
                 category="general_ai",
                 published_at=None,
@@ -153,6 +153,36 @@ class SourceRegistryTest(unittest.TestCase):
         selected = select_unique_events(candidates, "general_ai", 5)
 
         self.assertLessEqual(sum(1 for candidate in selected if candidate.source_kind == "google_news_rss"), 2)
+        self.assertTrue(any(candidate.source == "OpenAI" for candidate in selected))
+
+    def test_general_selection_caps_repeated_sources(self) -> None:
+        def item(idx: int, title: str, source: str, score: float) -> Candidate:
+            return Candidate(
+                id=str(idx),
+                title=title,
+                url=f"https://example.com/{idx}",
+                source=source,
+                source_kind="rss",
+                category="general_ai",
+                published_at=None,
+                text=title,
+                matched_terms=["AI"],
+                engagement={},
+                score=score,
+                score_reasons=[],
+            )
+
+        candidates = [
+            item(1, "Expert post about AI coding tools", "Simon Willison", 100),
+            item(2, "Expert post about AI model behavior", "Simon Willison", 99),
+            item(3, "Expert post about AI database tooling", "Simon Willison", 98),
+            item(4, "OpenAI releases a platform update", "OpenAI", 80),
+            item(5, "The Verge covers an AI product update", "The Verge AI", 79),
+        ]
+
+        selected = select_unique_events(candidates, "general_ai", 5)
+
+        self.assertEqual(sum(1 for candidate in selected if candidate.source == "Simon Willison"), 2)
         self.assertTrue(any(candidate.source == "OpenAI" for candidate in selected))
 
     def test_engineering_prefers_curated_sources_before_broad_google(self) -> None:
