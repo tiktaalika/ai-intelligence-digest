@@ -3,128 +3,123 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 600
-- filtered_count: 112
-- duplicate_count: 0
+- fetched_count: 601
+- filtered_count: 111
+- duplicate_count: 1
 - failures: 7
 
 ## Top 10 General AI News
 1. [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness)
    - source: Lilian Weng
-   - score: 64.186
-   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.645; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.64; matched_terms=3; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 63.944
+   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.634; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.63; matched_terms=3; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [tencent/Hy3](https://simonwillison.net/2026/Jul/6/hy3)
    - source: Simon Willison
-   - score: 58.053
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.881; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.208
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.843; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [CFOs and the new economics of AI](https://cursor.com/blog/cfo-council)
    - source: Cursor Blog RSS
-   - score: 52.85
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.796; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.287
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.771; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.77; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems](https://www.anthropic.com/news/alberta-government-claude-cybersecurity)
    - source: Anthropic News RSS
-   - score: 50.1
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.671; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.67; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.537
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.646; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.65; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Expanding our Heat Resilience data to 50+ global cities](https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities)
    - source: Google Research
-   - score: 49.765
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.292; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.29; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 49.524
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.281; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.28; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 6. [Google DeepMind and A24 announce first-of-its-kind research partnership](https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership)
    - source: Google DeepMind
-   - score: 56.579
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.602; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.60; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 56.338
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.591; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.59; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 7. [[AINews] The Field Guide to Fable](https://www.latent.space/p/ainews-the-field-guide-to-fable)
    - source: Latent Space
-   - score: 56.366
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.956; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.52
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.918; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [sqlite-utils 4.0rc3](https://simonwillison.net/2026/Jul/6/sqlite-utils)
    - source: Simon Willison
-   - score: 51.932
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.595; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.60; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.087
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.557; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 9. [Introducing TabFM: A zero-shot foundation model for tabular data](https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data)
    - source: Google Research
-   - score: 49.115
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.263; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.26; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 48.874
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.252; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.25; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Your next colleague is an agent: The dawn of agentic AI-aided engineering](https://blogs.sw.siemens.com/art-of-the-possible/agentic-ai-aided-engineering)
    - source: Siemens Art of the Possible
-   - score: 82.522
-   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.903; source_priority=1.0
+   - score: 82.466
+   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.9; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; engineering_workflow_ai_boost=10; visible_engagement=unavailable
 2. [GeoTransolver AI Model Architecture Integration for CFD Applications](https://rescale.com/blog/geotransolver-ai-model-architecture-integration-cfd-applications)
    - source: Rescale
-   - score: 75.42
-   - score_breakdown: general=0.5; engineering=1.0; research=0.0; novelty=0.883; source_priority=1.0
+   - score: 75.364
+   - score_breakdown: general=0.5; engineering=1.0; research=0.0; novelty=0.88; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [What’s new in Simcenter STAR-CCM+ 2606?](https://blogs.sw.siemens.com/simcenter/simcenter-star-ccm-2606-released)
    - source: Siemens Simcenter
-   - score: 71.342
-   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.849; source_priority=1.0
+   - score: 71.286
+   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.846; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®](https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph)
    - source: COMSOL
-   - score: 68.74
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.882; source_priority=1.0
+   - score: 68.684
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.88; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [The 3 AI features in Designcenter Solid Edge - Engineering.com](https://news.google.com/rss/articles/CBMifkFVX3lxTFBxdkVxOF8yZ3h6cXE1MTNFTkpvTFhkTDBka1E1Q19LX2Q2am9kU2dSN3o1Q3hObFVLajBXSTVzUmtZSEtqRjRYWGppaUp5Z29vMmVDWEx5UzIyV3FUc2FpRUhvLUl1UEp1X2xDa04yVkI1LVlMWEJjTlpVNGVsdw?oc=5)
    - source: Trusted Engineering Media Discovery
-   - score: 64.17
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.674; source_priority=1.0
+   - score: 64.114
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.672; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.67; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Small AI Models Gain Traction Around the World](https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals)
    - source: IEEE Spectrum AI
-   - score: 65.373
-   - score_breakdown: general=0.833; engineering=0.0; research=0.667; novelty=0.517; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.52; matched_terms=5; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
-2. [STAT+: Vertex acquires Crinetics Pharmaceuticals for $10 billion as biotech M&A booms](https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals)
+   - score: 63.683
+   - score_breakdown: general=0.833; engineering=0.0; research=0.667; novelty=0.44; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.44; matched_terms=5; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+2. [STAT+: For a Georgia entrepreneur, health coverage has never been affordable](https://www.statnews.com/2026/07/07/aca-health-insurance-small-business-out-of-pocket-series-part-2)
    - source: STAT Health Tech
-   - score: 49.985
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.666; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.67; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [STAT+: Four major biotech updates to catch up on](https://www.statnews.com/2026/07/06/biotech-news-anthropic-ceo-dario-amodei-tempers-expectations)
-   - source: STAT Health Tech
-   - score: 45.005
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.44; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.44; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Why Penn Medicine Is Deploying AI Agents for Patient Intake - MedCity News](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qUjZUNFJWMlBULWU3ZGlRWERpcDRYY2ZBUUkwSE1LOXdqbldKQXVjYl8zSEhXSG5zUWVBZnIyWkhtbHN3SzR2a1NUWGZJSUY2NC0zZnBoYi1TSTJTZ3lNeWNmVEFNeThL?oc=5)
+   - score: 56.287
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.952; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Why Penn Medicine Is Deploying AI Agents for Patient Intake - MedCity News](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qUjZUNFJWMlBULWU3ZGlRWERpcDRYY2ZBUUkwSE1LOXdqbldKQXVjYl8zSEhXSG5zUWVBZnIyWkhtbHN3SzR2a1NUWGZJSUY2NC0zZnBoYi1TSTJTZ3lNeWNmVEFNeThL?oc=5)
    - source: Google News Medical AI Discovery
-   - score: 39.703
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.841; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 38.012
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.764; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.76; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness)
    - source: Lilian Weng
-   - score: 64.186
-   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.645; source_priority=1.0
+   - score: 63.944
+   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.634; source_priority=1.0
 2. [Google DeepMind and A24 announce first-of-its-kind research partnership](https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership)
    - source: Google DeepMind
-   - score: 56.579
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.602; source_priority=1.0
+   - score: 56.338
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.591; source_priority=1.0
 3. [Expanding our Heat Resilience data to 50+ global cities](https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities)
    - source: Google Research
-   - score: 49.765
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.292; source_priority=1.0
+   - score: 49.524
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.281; source_priority=1.0
 4. [SkillOpt: Agent skills as trainable parameters](https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters)
    - source: Microsoft Research
-   - score: 56.411
-   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.291; source_priority=1.0
+   - score: 56.169
+   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.28; source_priority=1.0
 5. [Introducing TabFM: A zero-shot foundation model for tabular data](https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data)
    - source: Google Research
-   - score: 49.115
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.263; source_priority=1.0
+   - score: 48.874
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.252; source_priority=1.0
 
 ## Watchlist Updates
 - [Reuters Technology](https://www.google.com/search?q=site%3Awww.reuters.com%20AI): site:www.reuters.com AI (website, high)

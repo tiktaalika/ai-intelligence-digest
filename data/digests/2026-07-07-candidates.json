@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-07-07T07:33:47.569106+00:00",
+    "generated_at": "2026-07-07T10:01:18.863066+00:00",
     "window_hours": 24,
     "source_count": 120,
-    "fetched_count": 600,
-    "filtered_count": 112,
-    "duplicate_count": 0,
+    "fetched_count": 601,
+    "filtered_count": 111,
+    "duplicate_count": 1,
     "failures": [
       {
         "source": "Ansys",
@@ -60,10 +60,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 64.186,
+      "score": 63.944,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.64",
+        "novelty=0.63",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -72,7 +72,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.645,
+      "novelty_score": 0.634,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -97,10 +97,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 58.053,
+      "score": 57.208,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -109,7 +109,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
+      "novelty_score": 0.843,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -134,10 +134,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.85,
+      "score": 52.287,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.77",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -146,7 +146,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.796,
+      "novelty_score": 0.771,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
@@ -170,10 +170,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 50.1,
+      "score": 49.537,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
+        "novelty=0.65",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -182,7 +182,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.671,
+      "novelty_score": 0.646,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -206,10 +206,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.765,
+      "score": 49.524,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.29",
+        "novelty=0.28",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -218,7 +218,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.292,
+      "novelty_score": 0.281,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -242,10 +242,10 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 56.579,
+      "score": 56.338,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.59",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -254,7 +254,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.602,
+      "novelty_score": 0.591,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -277,10 +277,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.366,
+      "score": 55.52,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -289,7 +289,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.956,
+      "novelty_score": 0.918,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -313,10 +313,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 51.932,
+      "score": 51.087,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.56",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -325,7 +325,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.595,
+      "novelty_score": 0.557,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -350,10 +350,10 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 49.115,
+      "score": 48.874,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.26",
+        "novelty=0.25",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -362,7 +362,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.263,
+      "novelty_score": 0.252,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -389,7 +389,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 82.522,
+      "score": 82.466,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -402,7 +402,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -429,7 +429,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 75.42,
+      "score": 75.364,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -441,7 +441,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.883,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -465,7 +465,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 71.342,
+      "score": 71.286,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -477,7 +477,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.849,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -500,7 +500,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 68.74,
+      "score": 68.684,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -512,7 +512,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.882,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -534,7 +534,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 64.17,
+      "score": 64.114,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.67",
@@ -546,7 +546,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.674,
+      "novelty_score": 0.672,
       "source_priority_score": 1.0,
       "source_tags": [
         "engineering_ai",
@@ -577,10 +577,10 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 65.373,
+      "score": 63.683,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.52",
+        "novelty=0.44",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -589,7 +589,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.517,
+      "novelty_score": 0.44,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -600,22 +600,22 @@
       "source_priority": "high"
     },
     {
-      "id": "4b80c876e7138d44",
-      "title": "STAT+: Vertex acquires Crinetics Pharmaceuticals for $10 billion as biotech M&A booms",
-      "url": "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals",
+      "id": "20c60bb8eb75d718",
+      "title": "STAT+: For a Georgia entrepreneur, health coverage has never been affordable",
+      "url": "https://www.statnews.com/2026/07/07/aca-health-insurance-small-business-out-of-pocket-series-part-2",
       "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-06T20:52:29+00:00",
-      "text": "STAT+: Vertex acquires Crinetics Pharmaceuticals for $10 billion as biotech M&A booms Vertex Pharmaceuticals will spend $10 billion to acquire Crinetics Pharmaceuticals and its drug for a rare endocrine disorder, the companies said.",
+      "published_at": "2026-07-07T08:30:00+00:00",
+      "text": "STAT+: For a Georgia entrepreneur, health coverage has never been affordable Amy Bielawski is one of the 30 million people who run their own businesses. She's gone most of her life without health insurance.",
       "matched_terms": [
-        "AI"
+        "RAG"
       ],
       "engagement": {},
-      "score": 49.985,
+      "score": 56.287,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -624,42 +624,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.666,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "511366353e0a2592",
-      "title": "STAT+: Four major biotech updates to catch up on",
-      "url": "https://www.statnews.com/2026/07/06/biotech-news-anthropic-ceo-dario-amodei-tempers-expectations",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T13:37:50+00:00",
-      "text": "STAT+: Four major biotech updates to catch up on Anthropic CEO talks drug discovery, Medicare proposes steep 340B drug payment cuts, and more biotech news",
-      "matched_terms": [
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 45.005,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.44",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.44,
+      "novelty_score": 0.952,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -684,10 +649,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 39.703,
+      "score": 38.012,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.84",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -696,7 +661,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.841,
+      "novelty_score": 0.764,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -722,7 +687,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 82.522,
+      "score": 82.466,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -735,7 +700,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -762,7 +727,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 75.42,
+      "score": 75.364,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -774,7 +739,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.883,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -798,7 +763,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 71.342,
+      "score": 71.286,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -810,7 +775,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.849,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -833,7 +798,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 68.74,
+      "score": 68.684,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -845,7 +810,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.882,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -867,7 +832,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 64.17,
+      "score": 64.114,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.67",
@@ -879,7 +844,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.674,
+      "novelty_score": 0.672,
       "source_priority_score": 1.0,
       "source_tags": [
         "engineering_ai",
@@ -908,10 +873,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 64.186,
+      "score": 63.944,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.64",
+        "novelty=0.63",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -920,7 +885,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.645,
+      "novelty_score": 0.634,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -944,10 +909,10 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 56.579,
+      "score": 56.338,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.59",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -956,7 +921,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.602,
+      "novelty_score": 0.591,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -979,10 +944,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.765,
+      "score": 49.524,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.29",
+        "novelty=0.28",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -991,7 +956,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.292,
+      "novelty_score": 0.281,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1017,10 +982,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 56.411,
+      "score": 56.169,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.29",
+        "novelty=0.28",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1029,7 +994,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.291,
+      "novelty_score": 0.28,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1052,10 +1017,10 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 49.115,
+      "score": 48.874,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.26",
+        "novelty=0.25",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1064,7 +1029,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.263,
+      "novelty_score": 0.252,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2235,7 +2200,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 82.522,
+      "score": 82.466,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2248,7 +2213,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2275,7 +2240,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 75.42,
+      "score": 75.364,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -2287,7 +2252,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.883,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2311,7 +2276,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 71.342,
+      "score": 71.286,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2323,7 +2288,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.849,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2346,7 +2311,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 71.141,
+      "score": 71.085,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.99",
@@ -2358,7 +2323,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.991,
+      "novelty_score": 0.989,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2381,10 +2346,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.379,
+      "score": 69.323,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.46",
+        "novelty=0.45",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2394,7 +2359,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.457,
+      "novelty_score": 0.454,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2419,7 +2384,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 68.74,
+      "score": 68.684,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -2431,7 +2396,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.882,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2453,7 +2418,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.115,
+      "score": 67.059,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2465,7 +2430,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.808,
+      "novelty_score": 0.806,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2473,45 +2438,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "224f5f92f80babe9",
-      "title": "Small AI Models Gain Traction Around the World",
-      "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T16:06:23+00:00",
-      "text": "Small AI Models Gain Traction Around the World One morning in 2019, Adebayo Alonge was in a Cape Town hotel room, preparing to demonstrate his startup’s AI answer to a serious problem in African health care: counterfeit medication, which kills thousands of people across the continent every year. The RxScanner is a handheld spectrometer that scans a pill with infrared light, then sends the item’s molecular profile to an AI model equipped with a pharmaceutical database. In seconds, the AI identifies the medication from its molecular profile—or reports that it’s phony. Pharmacies were using the system in more than a dozen countries, including Ghana, Kenya, Myanmar, and Alonge’s native Nigeria. But that morning in South Africa, it didn’t work. “I was shocked,” Alonge says. The spectrometer connected to the AI model—but the data center was 14,000 kilometers away and bandwidth was limited. “Our server was in the United States, and just to get the result of a single scan was taking me over 5 minutes.” So Alonge immediately asked his engineers to shrink the AI model down to a smaller, low-power, unconnected version that could run entirely on his Android phone. They produced it 2 hours late",
-      "matched_terms": [
-        "AI",
-        "generative AI",
-        "LLM",
-        "large language model",
-        "Google DeepMind"
-      ],
-      "engagement": {},
-      "score": 65.373,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.52",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.517,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2527,7 +2453,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 64.932,
+      "score": 64.875,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -2539,12 +2465,49 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.709,
+      "novelty_score": 0.706,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
         "simulation",
         "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5b9107cfa1e3fd0e",
+      "title": "The 3 AI features in Designcenter Solid Edge - Engineering.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBxdkVxOF8yZ3h6cXE1MTNFTkpvTFhkTDBka1E1Q19LX2Q2am9kU2dSN3o1Q3hObFVLajBXSTVzUmtZSEtqRjRYWGppaUp5Z29vMmVDWEx5UzIyV3FUc2FpRUhvLUl1UEp1X2xDa04yVkI1LVlMWEJjTlpVNGVsdw?oc=5",
+      "source": "Trusted Engineering Media Discovery",
+      "source_kind": "google_news_rss",
+      "category": "engineering_ai",
+      "published_at": "2026-06-24T07:00:00+00:00",
+      "text": "The 3 AI features in Designcenter Solid Edge - Engineering.com The 3 AI features in Designcenter Solid Edge Engineering.com",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 64.114,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.67",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.672,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_ai",
+        "trusted_discovery",
+        "engineering_media",
+        "industrial_ai",
+        "user_requested"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -2564,10 +2527,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 64.186,
+      "score": 63.944,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.64",
+        "novelty=0.63",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2576,7 +2539,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.645,
+      "novelty_score": 0.634,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2588,40 +2551,78 @@
       "source_priority": "high"
     },
     {
-      "id": "5b9107cfa1e3fd0e",
-      "title": "The 3 AI features in Designcenter Solid Edge - Engineering.com",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBxdkVxOF8yZ3h6cXE1MTNFTkpvTFhkTDBka1E1Q19LX2Q2am9kU2dSN3o1Q3hObFVLajBXSTVzUmtZSEtqRjRYWGppaUp5Z29vMmVDWEx5UzIyV3FUc2FpRUhvLUl1UEp1X2xDa04yVkI1LVlMWEJjTlpVNGVsdw?oc=5",
-      "source": "Trusted Engineering Media Discovery",
-      "source_kind": "google_news_rss",
-      "category": "engineering_ai",
-      "published_at": "2026-06-24T07:00:00+00:00",
-      "text": "The 3 AI features in Designcenter Solid Edge - Engineering.com The 3 AI features in Designcenter Solid Edge Engineering.com",
+      "id": "a3ff524f71b43a20",
+      "title": "AI models already ‘doing things their creators never intended’, Australia’s assistant technology minister warns",
+      "url": "https://www.theguardian.com/technology/2026/jul/07/ai-models-doing-things-their-creators-never-intended",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T09:36:56+00:00",
+      "text": "AI models already ‘doing things their creators never intended’, Australia’s assistant technology minister warns Andrew Charlton says artificial intelligence ‘cheating, deceiving, going their own way’ – and time to get ahead of it is during testing Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast Artificial intelligence models are already “cheating, deceiving and going their own way”, Australia’s assistant minister for technology, Andrew Charlton, has warned, as the federal government’s AI Safety Institute begins testing the latest models. In a speech to an AI safety forum in Sydney on Tuesday, Charlton said safety for AI matters now as “AI systems are already doing things their creators never intended”. Continue reading...",
       "matched_terms": [
-        "FEA"
+        "AI",
+        "artificial intelligence",
+        "AI safety"
       ],
       "engagement": {},
-      "score": 64.17,
+      "score": 63.721,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
+        "novelty=0.99",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.674,
+      "novelty_score": 0.987,
       "source_priority_score": 1.0,
       "source_tags": [
-        "engineering_ai",
-        "trusted_discovery",
-        "engineering_media",
-        "industrial_ai",
-        "user_requested"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "engineering_ai",
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "224f5f92f80babe9",
+      "title": "Small AI Models Gain Traction Around the World",
+      "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-06T16:06:23+00:00",
+      "text": "Small AI Models Gain Traction Around the World One morning in 2019, Adebayo Alonge was in a Cape Town hotel room, preparing to demonstrate his startup’s AI answer to a serious problem in African health care: counterfeit medication, which kills thousands of people across the continent every year. The RxScanner is a handheld spectrometer that scans a pill with infrared light, then sends the item’s molecular profile to an AI model equipped with a pharmaceutical database. In seconds, the AI identifies the medication from its molecular profile—or reports that it’s phony. Pharmacies were using the system in more than a dozen countries, including Ghana, Kenya, Myanmar, and Alonge’s native Nigeria. But that morning in South Africa, it didn’t work. “I was shocked,” Alonge says. The spectrometer connected to the AI model—but the data center was 14,000 kilometers away and bandwidth was limited. “Our server was in the United States, and just to get the result of a single scan was taking me over 5 minutes.” So Alonge immediately asked his engineers to shrink the AI model down to a smaller, low-power, unconnected version that could run entirely on his Android phone. They produced it 2 hours late",
+      "matched_terms": [
+        "AI",
+        "generative AI",
+        "LLM",
+        "large language model",
+        "Google DeepMind"
+      ],
+      "engagement": {},
+      "score": 63.683,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.44",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.67",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.44,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2639,10 +2640,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 63.305,
+      "score": 62.741,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2651,7 +2652,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.847,
+      "novelty_score": 0.822,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2659,42 +2660,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "a3ff524f71b43a20",
-      "title": "AI models already ‘doing things their creators never intended’, Australia’s assistant technology minister warns",
-      "url": "https://www.theguardian.com/technology/2026/jul/07/ai-models-doing-things-their-creators-never-intended",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-07T06:08:57+00:00",
-      "text": "AI models already ‘doing things their creators never intended’, Australia’s assistant technology minister warns Andrew Charlton says artificial intelligence ‘cheating, deceiving, going their own way’ – and time to get ahead of it is in testing lab Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast Artificial intelligence models are already “cheating, deceiving and going their own way”, Australia’s assistant minister for technology, Andrew Charlton, has warned, as the federal government’s AI Safety Institute begins testing the latest models. In a speech to an AI safety forum in Sydney on Tuesday, Charlton said safety for AI matters now as “AI systems are already doing things their creators never intended”. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "AI safety"
-      ],
-      "engagement": {},
-      "score": 63.028,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.956,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2712,10 +2677,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 62.252,
+      "score": 61.689,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2724,7 +2689,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.921,
+      "novelty_score": 0.895,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2733,6 +2698,46 @@
       ],
       "registry_category": "startup",
       "source_priority": "high"
+    },
+    {
+      "id": "542c0acefe197506",
+      "title": "Presentation: Designing AI Platforms for Reliability: Tools for Certainty, Agents for Discovery",
+      "url": "https://www.infoq.com/presentations/reliable-ai-platforms",
+      "source": "InfoQ AI ML Data Engineering",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T08:03:00+00:00",
+      "text": "Presentation: Designing AI Platforms for Reliability: Tools for Certainty, Agents for Discovery Aaron Erickson explains how NVIDIA designs and tests purpose-built AI agent hierarchies. For senior developers and architects, he outlines why balancing deterministic tools with agentic discovery is crucial. Discover how to leverage rare context, implement LLM-as-a-judge test pyramids, and avoid the paradox of choice to build highly reliable, production-grade AI systems at scale. By Aaron Erickson",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "AI agent",
+        "RAG",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 61.444,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.94",
+        "matched_terms=6",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.938,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "software_engineering",
+        "mlops",
+        "data_engineering"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     },
     {
       "id": "61c3cbc95f4b0a06",
@@ -2749,10 +2754,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 61.749,
+      "score": 61.185,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2761,7 +2766,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
+      "novelty_score": 0.872,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2787,10 +2792,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 60.665,
+      "score": 60.102,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2799,7 +2804,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.848,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2807,6 +2812,40 @@
         "mlops"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "4da0288f6ae24ea0",
+      "title": "Stymied datacentre projects threaten global AI revolution",
+      "url": "https://www.theguardian.com/technology/2026/jul/07/stymied-datacentre-projects-threaten-global-ai-revolution",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T09:00:35+00:00",
+      "text": "Stymied datacentre projects threaten global AI revolution Large-scale datacentre projects around the world are being challenged or cancelled, as infrastructure’s energy demands ramp up Datacentre planning proposals face all kinds of hurdles, from securing energy supply to high construction costs. But the 2,000 acre Prince William Digital Gateway site in the US state of Virginia had another problem: its proximity to a Civil War battlefield. “If the development is allowed to proceed, the solemn nature of this historic site would become marred by sitting in the shadow of the monstrous datacentres, along with their associated electrical infrastructure,” said one legal brief against the plans . Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.304,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.968,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2823,10 +2862,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 58.949,
+      "score": 58.893,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.29",
+        "novelty=0.28",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2835,7 +2874,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.286,
+      "novelty_score": 0.283,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2843,44 +2882,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "6b641b69d6a8931a",
-      "title": "tencent/Hy3",
-      "url": "https://simonwillison.net/2026/Jul/6/hy3",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T23:57:35+00:00",
-      "text": "tencent/Hy3 tencent/Hy3 New Apache 2.0 licensed model from Tencent in China: Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms similar-size models and rivals flagship open-source models with 2-5x parameters. It also shows significant gains in utility across various products and productivity tasks. The full-sized model is 598GB on Hugging Face, and the FP8 quantized one is 300GB . The context length is 256K. It's available for free on OpenRouter until July 21st . I had it \"Generate an SVG of a pelican riding a bicycle\" there and got this: Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , llm-release , ai-in-china",
-      "matched_terms": [
-        "AI",
-        "LLM"
-      ],
-      "engagement": {},
-      "score": 58.053,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2897,10 +2898,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 57.795,
+      "score": 57.232,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2909,7 +2910,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.869,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2917,6 +2918,113 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "6b641b69d6a8931a",
+      "title": "tencent/Hy3",
+      "url": "https://simonwillison.net/2026/Jul/6/hy3",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-06T23:57:35+00:00",
+      "text": "tencent/Hy3 tencent/Hy3 New Apache 2.0 licensed model from Tencent in China: Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms similar-size models and rivals flagship open-source models with 2-5x parameters. It also shows significant gains in utility across various products and productivity tasks. The full-sized model is 598GB on Hugging Face, and the FP8 quantized one is 300GB . The context length is 256K. It's available for free on OpenRouter until July 21st . I had it \"Generate an SVG of a pelican riding a bicycle\" there and got this: Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , llm-release , ai-in-china",
+      "matched_terms": [
+        "AI",
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 57.208,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.843,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "22b92e70fc9f7bf6",
+      "title": "The first American autonomous ground vehicles are fighting in Ukraine",
+      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T09:00:00+00:00",
+      "text": "The first American autonomous ground vehicles are fighting in Ukraine Forterra has deployed more than 100",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.099,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.989,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "01fea594d79e3fca",
+      "title": "‘You never truly quit’: how RuneScape survived to 25 – and beyond",
+      "url": "https://www.theguardian.com/games/2026/jul/07/how-runescape-survived-to-25",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T09:30:35+00:00",
+      "text": "‘You never truly quit’: how RuneScape survived to 25 – and beyond The massively multiplayer online role-playing game has grown into a virtual social space and part of daily life for thousands of players In a small stone chapel, on the edgelands of a medieval wilderness, two women are getting married. The attenders are draped in rainbow capes, glowing armour and top hats. A scantily clad, muscular man with angel wings officiates the ceremony. Over the heads of the two brides hover the words “I do” in bright yellow text. This is RuneScape, a massively multiplayer online role-playing game (or MMO) set in the Tolkienesque realm of Gielinor. Turning 25 this year, it has, over its lifetime, become a crucial virtual social space and part of daily life for thousands of players. Lancashire-born Amelia, one of the pixelated newlyweds, met her wife on a dating app but first bonded through their love of the game. “Our first and second date was pretty much exclusively talking about RuneScape,” she recalls. Four years later they were married, shortly followed by their in-game ceremony. Morgan – a 26-year-old from the Midlands – is one of Amelia’s closest friends. They met through the game and ru",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.981,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.984,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2933,10 +3041,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 57.322,
+      "score": 56.759,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.82",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2945,7 +3053,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.848,
+      "novelty_score": 0.822,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2968,10 +3076,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.163,
+      "score": 56.599,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.81",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2980,7 +3088,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.833,
+      "novelty_score": 0.808,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3004,10 +3112,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 56.955,
+      "score": 56.392,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.81",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3016,7 +3124,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.831,
+      "novelty_score": 0.806,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3039,10 +3147,10 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 56.579,
+      "score": 56.338,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.59",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -3051,7 +3159,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.602,
+      "novelty_score": 0.591,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3059,6 +3167,41 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "20c60bb8eb75d718",
+      "title": "STAT+: For a Georgia entrepreneur, health coverage has never been affordable",
+      "url": "https://www.statnews.com/2026/07/07/aca-health-insurance-small-business-out-of-pocket-series-part-2",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T08:30:00+00:00",
+      "text": "STAT+: For a Georgia entrepreneur, health coverage has never been affordable Amy Bielawski is one of the 30 million people who run their own businesses. She's gone most of her life without health insurance.",
+      "matched_terms": [
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 56.287,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.952,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3076,10 +3219,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 56.411,
+      "score": 56.169,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.29",
+        "novelty=0.28",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -3088,7 +3231,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.291,
+      "novelty_score": 0.28,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -3111,10 +3254,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.366,
+      "score": 55.52,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3123,7 +3266,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.956,
+      "novelty_score": 0.918,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -3132,40 +3275,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "537454e71e52fb4b",
-      "title": "To Reduce Electrical Grid Strain Amid Heat Wave, Data Centers Are Ordered to Use Backup Power",
-      "url": "https://www.nytimes.com/2026/07/02/business/energy-environment/electric-grid-data-centers-pjm.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-07T05:36:01+00:00",
-      "text": "To Reduce Electrical Grid Strain Amid Heat Wave, Data Centers Are Ordered to Use Backup Power As triple-digit temperatures engulf much of the United States, the Trump administration wants grid managers to require the use of backup power that often goes unused.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 55.984,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.94",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.939,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3181,7 +3290,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 55.514,
+      "score": 55.458,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.28",
@@ -3193,7 +3302,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.281,
+      "novelty_score": 0.278,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -3218,10 +3327,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.451,
+      "score": 54.888,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3230,7 +3339,146 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.914,
+      "novelty_score": 0.889,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "0d9e3272c135e29e",
+      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-hugging-face-to-amazon-sagemaker-studio-in-one-click-2",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-06T22:35:55+00:00",
+      "text": "From Hugging Face to Amazon SageMaker Studio in one click Today, we’re excited to announce a deep-link integration between Hugging Face and Amazon SageMaker AI. Developers can now go from model discovery to hands-on experimentation in SageMaker Studio with a single selection.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 54.715,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.881,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "537454e71e52fb4b",
+      "title": "To Reduce Electrical Grid Strain Amid Heat Wave, Data Centers Are Ordered to Use Backup Power",
+      "url": "https://www.nytimes.com/2026/07/02/business/energy-environment/electric-grid-data-centers-pjm.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T05:36:01+00:00",
+      "text": "To Reduce Electrical Grid Strain Amid Heat Wave, Data Centers Are Ordered to Use Backup Power As triple-digit temperatures engulf much of the United States, the Trump administration wants grid managers to require the use of backup power that often goes unused.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 54.293,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.862,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "de9ac07ba87ead79",
+      "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-06T19:49:10+00:00",
+      "text": "Vercel CEO Guillermo Rauch on the fight to split off models from agents \"The reality is, when you're optimizing for production, you start looking at a price/performance,\" Guillermo Rauch tells TechCrunch.",
+      "matched_terms": [
+        "agent"
+      ],
+      "engagement": {},
+      "score": 54.079,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.852,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "506f3c6ff46ae951",
+      "title": "Every major tech layoff in 2026 that has name-checked AI",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-06T18:35:00+00:00",
+      "text": "Every major tech layoff in 2026 that has name-checked AI A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 53.795,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3254,10 +3502,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 55.34,
+      "score": 53.65,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.68",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3266,118 +3514,13 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.758,
+      "novelty_score": 0.681,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "0d9e3272c135e29e",
-      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
-      "url": "https://aws.amazon.com/blogs/machine-learning/from-hugging-face-to-amazon-sagemaker-studio-in-one-click-2",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T22:35:55+00:00",
-      "text": "From Hugging Face to Amazon SageMaker Studio in one click Today, we’re excited to announce a deep-link integration between Hugging Face and Amazon SageMaker AI. Developers can now go from model discovery to hands-on experimentation in SageMaker Studio with a single selection.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 55.279,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "de9ac07ba87ead79",
-      "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
-      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T19:49:10+00:00",
-      "text": "Vercel CEO Guillermo Rauch on the fight to split off models from agents \"The reality is, when you're optimizing for production, you start looking at a price/performance,\" Guillermo Rauch tells TechCrunch.",
-      "matched_terms": [
-        "agent"
-      ],
-      "engagement": {},
-      "score": 54.642,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.878,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "506f3c6ff46ae951",
-      "title": "Every major tech layoff in 2026 that has name-checked AI",
-      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T18:35:00+00:00",
-      "text": "Every major tech layoff in 2026 that has name-checked AI A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 54.359,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.865,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3393,10 +3536,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.015,
+      "score": 53.451,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3405,7 +3548,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.849,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3428,10 +3571,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.977,
+      "score": 53.414,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3440,7 +3583,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.847,
+      "novelty_score": 0.822,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3463,10 +3606,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.079,
+      "score": 52.516,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.78",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3475,7 +3618,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.807,
+      "novelty_score": 0.781,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3498,10 +3641,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.85,
+      "score": 52.287,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.77",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3510,7 +3653,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.796,
+      "novelty_score": 0.771,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
@@ -3534,10 +3677,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 51.932,
+      "score": 51.087,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.56",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -3546,7 +3689,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.595,
+      "novelty_score": 0.557,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3571,10 +3714,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 51.462,
+      "score": 49.772,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.66",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3583,7 +3726,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.733,
+      "novelty_score": 0.656,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3606,10 +3749,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 51.342,
+      "score": 49.652,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.58",
+        "novelty=0.50",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3618,7 +3761,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.576,
+      "novelty_score": 0.499,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3640,10 +3783,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 50.1,
+      "score": 49.537,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
+        "novelty=0.65",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3652,7 +3795,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.671,
+      "novelty_score": 0.646,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3661,41 +3804,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "4b80c876e7138d44",
-      "title": "STAT+: Vertex acquires Crinetics Pharmaceuticals for $10 billion as biotech M&A booms",
-      "url": "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T20:52:29+00:00",
-      "text": "STAT+: Vertex acquires Crinetics Pharmaceuticals for $10 billion as biotech M&A booms Vertex Pharmaceuticals will spend $10 billion to acquire Crinetics Pharmaceuticals and its drug for a rare endocrine disorder, the companies said.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 49.985,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.67",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.666,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3711,10 +3819,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.765,
+      "score": 49.524,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.29",
+        "novelty=0.28",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -3723,7 +3831,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.292,
+      "novelty_score": 0.281,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -3733,6 +3841,41 @@
       ],
       "registry_category": "research",
       "source_priority": "high"
+    },
+    {
+      "id": "913b8af00a2878b5",
+      "title": "The part of Claude's brain nobody built - The Rundown AI",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SLUd1dm81UUQ2UVhOUGRwY2FGdlI4aEVwU0gxSk45NnJFVzlsbWxjeVVEbDZGTUM1RWxmd0RtUzRodEJTYUFrSC1ES0FvYlpTLVVHenlsYUhSTmY0Y2QydG1zbkhUcTZmcFJGbWNQeG4xRFFkR1E?oc=5",
+      "source": "Curated AI Newsletter Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T09:07:26+00:00",
+      "text": "The part of Claude's brain nobody built - The Rundown AI The part of Claude's brain nobody built The Rundown AI",
+      "matched_terms": [
+        "AI",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 49.158,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.986,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "newsletter",
+        "curated"
+      ],
+      "registry_category": "community",
+      "source_priority": "medium"
     },
     {
       "id": "85db14fb2b0c5570",
@@ -3747,10 +3890,10 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 49.115,
+      "score": 48.874,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.26",
+        "novelty=0.25",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -3759,7 +3902,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.263,
+      "novelty_score": 0.252,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -3783,10 +3926,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.258,
+      "score": 45.568,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.54",
+        "novelty=0.47",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3795,41 +3938,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.542,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b0a18c57bfb6c037",
-      "title": "Why A.I. Distillation Has Become a Hot Topic in the Race with China",
-      "url": "https://www.nytimes.com/2026/07/06/technology/ai-distillation-china.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T16:04:08+00:00",
-      "text": "Why A.I. Distillation Has Become a Hot Topic in the Race with China U.S. companies complain that competitors in China are unfairly copying their A.I. systems using a technique that has been around for years.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 46.681,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.52",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.516,
+      "novelty_score": 0.465,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3852,10 +3961,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 46.068,
+      "score": 45.504,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.34",
+        "novelty=0.31",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3864,7 +3973,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.336,
+      "novelty_score": 0.311,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3872,6 +3981,77 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "d7deef46412116fd",
+      "title": "Visa (V) Is Testing AI Agents That Can Actually Complete Purchases - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYUdURkEwSDFoN0lrY0w5emJWYUpuMFB5UENYSW5pZFBHZmx6MklMMWRlNk9DS0Q0dDhUSFl4eDcyMUh6ZVhsSjJCalFSRHdpcHFGWWxVY2kzdWRFR0RmeTRtZEZJT2hYUm9hZzcwaEM5aDVoUWhCb01ydFg0a0p1UTZhZzQyU241UHJpY082aXppUQ?oc=5",
+      "source": "Google News AI Payments and Agent Commerce",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T08:16:18+00:00",
+      "text": "Visa (V) Is Testing AI Agents That Can Actually Complete Purchases - Yahoo Finance Visa (V) Is Testing AI Agents That Can Actually Complete Purchases Yahoo Finance",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "Visa"
+      ],
+      "engagement": {},
+      "score": 45.33,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.95",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.945,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "agent_commerce",
+        "payments"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "b0a18c57bfb6c037",
+      "title": "Why A.I. Distillation Has Become a Hot Topic in the Race with China",
+      "url": "https://www.nytimes.com/2026/07/06/technology/ai-distillation-china.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-06T16:04:08+00:00",
+      "text": "Why A.I. Distillation Has Become a Hot Topic in the Race with China U.S. companies complain that competitors in China are unfairly copying their A.I. systems using a technique that has been around for years.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 44.991,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.44",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.439,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3887,10 +4067,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 45.863,
+      "score": 44.173,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.36",
+        "novelty=0.28",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -3899,7 +4079,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.357,
+      "novelty_score": 0.281,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3921,10 +4101,10 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 45.482,
+      "score": 43.791,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.46",
+        "novelty=0.38",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3933,117 +4113,11 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.461,
+      "novelty_score": 0.384,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "2eb38c28e35ce5a4",
-      "title": "Applying Artificial Intelligence and machine learning in precision nutrition - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vN2k5ZDZjR3NJR1ZqajlIZHBUZEE1SG5ZVDczb2NZMjZvcG90QWpJRWl6VWhIQ0tZbTcwei1mcTF3MGp0cGpPY3RpVTBUM2pRRjZDNk1fZThVN0dMV21v?oc=5",
-      "source": "Trusted Biomedical AI Source Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T09:56:55+00:00",
-      "text": "Applying Artificial Intelligence and machine learning in precision nutrition - Nature Applying Artificial Intelligence and machine learning in precision nutrition Nature",
-      "matched_terms": [
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 45.14,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.32",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.325,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "bio_ai",
-        "trusted_discovery",
-        "healthcare_ai",
-        "genomics_ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "511366353e0a2592",
-      "title": "STAT+: Four major biotech updates to catch up on",
-      "url": "https://www.statnews.com/2026/07/06/biotech-news-anthropic-ceo-dario-amodei-tempers-expectations",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T13:37:50+00:00",
-      "text": "STAT+: Four major biotech updates to catch up on Anthropic CEO talks drug discovery, Medicare proposes steep 340B drug payment cuts, and more biotech news",
-      "matched_terms": [
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 45.005,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.44",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.44,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "c52b5447e721c322",
-      "title": "The Download: South Korea’s hottest bachelors, and advancing eye transplants",
-      "url": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants",
-      "source": "MIT Technology Review AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T13:00:00+00:00",
-      "text": "The Download: South Korea’s hottest bachelors, and advancing eye transplants This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in a matchmaking company a year ago. In a…",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 44.571,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.42",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.42,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "analysis"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -4061,42 +4135,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 43.895,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.39",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.389,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "f8e191d81c97b8ca",
-      "title": "Boost City regulator’s powers to help protect UK consumers from AI, says watchdog",
-      "url": "https://www.theguardian.com/business/2026/jul/06/boost-city-regulators-powers-protect-uk-consumers-ai-cyber-crime-fraud-watchdog",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T11:11:05+00:00",
-      "text": "Boost City regulator’s powers to help protect UK consumers from AI, says watchdog FCA’s review into how tech will reshape financial services warns about amplified risks of cyber-crime and fraud Ministers have been urged to toughen the City regulator’s powers to protect consumers against the potential risks of AI, according to a landmark review. The Mills review by the Financial Conduct Authority (FCA), which looked at how AI will reshape financial services from 2030 onward, found that companies are already starting to shift from human-led activities towards AI-enabled services for everyday consumers. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 43.323,
+      "score": 43.332,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.36",
@@ -4108,11 +4147,81 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.363,
+      "novelty_score": 0.364,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "81091be4db6be523",
+      "title": "Stc pay among the first in bahrain to add Mastercard Click to Pay as a core feature to eliminate manual card entry - ZAWYA",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPSktTZjdONnhzek5GUG5YaUpwbkRISnpqWkVmVTR4NmU1dC10eXN5YTA3TVF1NFdKbUMxeWFfRE9SMjlVVmk1akdlVTBMT1dicV9ldkpMemNua2dwREYyQnphalh4WWcybkxjTjNCeG5VMG02MGlQUnNiRGg0SXR5bkxPdThzc2g0UlRqUXo5S283bGlJN3g1Z3VLUHJud1RFLUM5cmdIWFZ1R2lLZzhXbzVlVkhmZWc5cTRwYmZ2Vmo1WHUwUzZGQThraEJGbzk3OWVnT2UtWmxwOUYxZklESlBQVE5PV1NZZzl3NE0tMWhya3ZPQXNjYmVTdU9YMkJ0ZHBGTng0UjM?oc=5",
+      "source": "Google News AI Payments and Agent Commerce",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T09:25:30+00:00",
+      "text": "Stc pay among the first in bahrain to add Mastercard Click to Pay as a core feature to eliminate manual card entry - ZAWYA Stc pay among the first in bahrain to add Mastercard Click to Pay as a core feature to eliminate manual card entry ZAWYA",
+      "matched_terms": [
+        "AI",
+        "Mastercard"
+      ],
+      "engagement": {},
+      "score": 42.956,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.981,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "agent_commerce",
+        "payments"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "c52b5447e721c322",
+      "title": "The Download: South Korea’s hottest bachelors, and advancing eye transplants",
+      "url": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-06T13:00:00+00:00",
+      "text": "The Download: South Korea’s hottest bachelors, and advancing eye transplants This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in a matchmaking company a year ago. In a…",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 42.881,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.34",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.343,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -4130,10 +4239,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 43.225,
+      "score": 42.662,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.36",
+        "novelty=0.33",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4142,7 +4251,42 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.359,
+      "novelty_score": 0.333,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "760704587ffa2454",
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-04T16:32:08+00:00",
+      "text": "Alibaba reportedly bans employees from using Claude Code Alibaba has reportedly classified Claude Code as high-risk software.",
+      "matched_terms": [
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 42.326,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.32",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.318,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -4165,10 +4309,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 42.98,
+      "score": 42.135,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.86",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4177,7 +4321,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.857,
+      "novelty_score": 0.818,
       "source_priority_score": 0.65,
       "source_tags": [
         "newsletter",
@@ -4187,57 +4331,22 @@
       "source_priority": "medium"
     },
     {
-      "id": "760704587ffa2454",
-      "title": "Alibaba reportedly bans employees from using Claude Code",
-      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-04T16:32:08+00:00",
-      "text": "Alibaba reportedly bans employees from using Claude Code Alibaba has reportedly classified Claude Code as high-risk software.",
-      "matched_terms": [
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 42.889,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.34",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.343,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "212192063b5f9c5e",
-      "title": "The one change that worked: I banned myself from social media – and my children have never been happier",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/jul/06/the-one-change-that-worked-i-banned-myself-from-social-media-and-my-children-have-never-been-happier",
+      "id": "f8e191d81c97b8ca",
+      "title": "Boost City regulator’s powers to help protect UK consumers from AI, says watchdog",
+      "url": "https://www.theguardian.com/business/2026/jul/06/boost-city-regulators-powers-protect-uk-consumers-ai-cyber-crime-fraud-watchdog",
       "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-06T10:00:53+00:00",
-      "text": "The one change that worked: I banned myself from social media – and my children have never been happier I used to think my phone helped me to relax. But setting strict limits on my usage has improved my mood and my relationships I am a psychotherapist who works with frazzled, snappy parents, and spend my days writing about why we struggle to find calm. I also used to pick up my phone hundreds of times a day, failing to realise that it was making me a snappier, more irritable, less present mother. My phone was my office, my income, my means of communication. Every time I checked it, there was something to action, a notification of something new, something that told me I was useful and productive, giving me dopamine hits that motherhood didn’t offer. It had become my coping mechanism. Continue reading...",
+      "published_at": "2026-07-06T11:11:05+00:00",
+      "text": "Boost City regulator’s powers to help protect UK consumers from AI, says watchdog FCA’s review into how tech will reshape financial services warns about amplified risks of cyber-crime and fraud Ministers have been urged to toughen the City regulator’s powers to protect consumers against the potential risks of AI, according to a landmark review. The Mills review by the Financial Conduct Authority (FCA), which looked at how AI will reshape financial services from 2030 onward, found that companies are already starting to shift from human-led activities towards AI-enabled services for everyday consumers. Continue reading...",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 42.519,
+      "score": 41.633,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.33",
+        "novelty=0.29",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4246,7 +4355,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.327,
+      "novelty_score": 0.286,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -4256,21 +4365,21 @@
       "source_priority": "high"
     },
     {
-      "id": "b7559c871ba07dc7",
-      "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQempzVHpGakNndDQtVHVKbUhnbWJZTFVyaTJYRXc4dEFrbVVVVG91aWVPWmlabXJyNWpiQjZWdFdzbkl0a0JrR25SYjIzM2dlNDhZU3NQN3djZ0txSGp4NVBTTmZfNjVzdHNralJwc2VMRTlxd0FFcmNJU1YxTHY2d0Z1TnpGeDTSAYwBQVVfeXFMTWNWajVVa1E4LUFmSkxieEhfOGhPNHFDamRRUmRma0xOYzNVXzBKTThOSnVBS2RkY2JydlNoU1dQcHR4UU9qNmlINmptaXJnOTdhbWh5QXlwbDk4SzBXcUVYZUUtYy1YTG11bjREQ2xMMmNkelFMSDFJQjA0ZlJjajlxWGFpNGZQaGpnbXM?oc=5",
+      "id": "c512f12b48e4a4f1",
+      "title": "Cisco Has 90,000 Employees. Each of Them Will Soon Have Their Own AI Agent. - Entrepreneur",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd1dIYVV5RW9xWm9sWXBrR25sUVl3aXRSWF9naFRyLV85czlfTlQ5aGk4TFdBOWJpUGZkU1lVdThqaVV4WUtXaDJSOW44Xzk1SVV0dXczYTJoMWw1V1d6S2Z1TW1fQVRQeFo5c1dRQm1xb2EyajZDQU03WXJiaGg4ZFhXSFJTbHI3UXZjR1ktN0lLMk5ESFBsV0FTbUVtNm0xYzYxeUkyZkdfQ0U4TncwZllDRDRyZw?oc=5",
       "source": "Google News General AI Discovery",
       "source_kind": "google_news_rss",
       "category": "general_ai",
-      "published_at": "2026-07-07T05:00:01+00:00",
-      "text": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge - CNBC Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge CNBC",
+      "published_at": "2026-07-07T07:20:06+00:00",
+      "text": "Cisco Has 90,000 Employees. Each of Them Will Soon Have Their Own AI Agent. - Entrepreneur Cisco Has 90,000 Employees. Each of Them Will Soon Have Their Own AI Agent. Entrepreneur",
       "matched_terms": [
         "AI",
-        "OpenAI",
-        "Anthropic"
+        "agent",
+        "AI agent"
       ],
       "engagement": {},
-      "score": 41.438,
+      "score": 41.353,
       "score_reasons": [
         "source_priority=0.35",
         "novelty=0.92",
@@ -4282,7 +4391,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.92,
+      "novelty_score": 0.916,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4305,10 +4414,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 41.367,
+      "score": 40.522,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.63",
+        "novelty=0.59",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4317,7 +4426,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.632,
+      "novelty_score": 0.593,
       "source_priority_score": 0.65,
       "source_tags": [
         "newsletter",
@@ -4325,6 +4434,42 @@
       ],
       "registry_category": "community",
       "source_priority": "medium"
+    },
+    {
+      "id": "b7559c871ba07dc7",
+      "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQempzVHpGakNndDQtVHVKbUhnbWJZTFVyaTJYRXc4dEFrbVVVVG91aWVPWmlabXJyNWpiQjZWdFdzbkl0a0JrR25SYjIzM2dlNDhZU3NQN3djZ0txSGp4NVBTTmZfNjVzdHNralJwc2VMRTlxd0FFcmNJU1YxTHY2d0Z1TnpGeDTSAYwBQVVfeXFMTWNWajVVa1E4LUFmSkxieEhfOGhPNHFDamRRUmRma0xOYzNVXzBKTThOSnVBS2RkY2JydlNoU1dQcHR4UU9qNmlINmptaXJnOTdhbWh5QXlwbDk4SzBXcUVYZUUtYy1YTG11bjREQ2xMMmNkelFMSDFJQjA0ZlJjajlxWGFpNGZQaGpnbXM?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T05:00:01+00:00",
+      "text": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge - CNBC Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge CNBC",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 39.748,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.84",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.843,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
     },
     {
       "id": "9a33bcc099f3654e",
@@ -4341,10 +4486,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 41.273,
+      "score": 39.583,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.91",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4353,12 +4498,149 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.912,
+      "novelty_score": 0.836,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
         "safety",
         "frontier_models"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "7ba66babf53aa26c",
+      "title": "AI in crash simulations - BMW Group",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XdUt6Q3NZZ1FmZUlxTWZYSkEwOVdxNHBpbnRfaHhHOGgtSlRWOGN3X1dfLVRXNlRGandRNFQ3M3FCYkdiMnlGdEFDRGE3Z3F5TFFRTloxR1R6T3cwRm9qRWdadUhsUEw4aC01Y3ZYcFVEQnRiX2xtaUIxRGtScG8?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T08:37:30+00:00",
+      "text": "AI in crash simulations - BMW Group AI in crash simulations BMW Group",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 39.073,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.956,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "100365e4319204bc",
+      "title": "AI is the easy villain in a brutal job market. Researchers see more at play. - The Baltimore Banner",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY25jbjFLdG8xVWt4QV9Zam5EMXB0alF2dU55SGUybjhBd1h0REZQYkdGY3Y3VmhsekNfMUVBZ2VLQ0pXWEhNZWRNMER0S2E0NG9yaDNhVEFjdTZJQTVfbE10U3RraU0zMFRsQUk5YWRQN1U2TlF2NUMwX0lKbzVDWUpzVE42NGx0ZlI2OFZtNFpnd3NabDhwTHBJdzJPZEstb3RzREF3cWRFYW10cmdTZml4bGw?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T09:30:00+00:00",
+      "text": "AI is the easy villain in a brutal job market. Researchers see more at play. - The Baltimore Banner AI is the easy villain in a brutal job market. Researchers see more at play. The Baltimore Banner",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 38.841,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.984,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "2a30f858e7a197f1",
+      "title": "Meta Watermelon model rivals GPT5.5 in bold tease - blockchain.news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSTZ3cVdnSHRTTVM3dklLLWJOVTZPRjk4R3dPaWNBOXJPSk5PZWZ4Qk9uMnNsbXZpZW1CcV9zT012WUh1b1hJV055SVZ4WV8yYkpTVFpNVGx0eG5GckVaV1NDSXdVVzIwY1dpQ2pQX0tMNy1aZUZnTU8tZGRHQzhxTFBRMEFXZHc?oc=5",
+      "source": "Curated AI Newsletter Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-06T10:58:26+00:00",
+      "text": "Meta Watermelon model rivals GPT5.5 in bold tease - blockchain.news Meta Watermelon model rivals GPT5.5 in bold tease blockchain.news",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 38.211,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.64",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.64,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "newsletter",
+        "curated"
+      ],
+      "registry_category": "community",
+      "source_priority": "medium"
+    },
+    {
+      "id": "6daf4dce47918727",
+      "title": "Samsung profits jump 1,800% as AI chip sales soar - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RSlZNMzN0UWtYc1BKa0lLeVB2M01ENGJTOUtaMDBDSEc4b1YzYnJQN1lwTzNCNFdqMEp6cVgzSklad2x1bVZTT1E2TmI3SFhydXBQLWJVVUNUdw?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T07:28:10+00:00",
+      "text": "Samsung profits jump 1,800% as AI chip sales soar - BBC Samsung profits jump 1,800% as AI chip sales soar BBC",
+      "matched_terms": [
+        "AI",
+        "AI chip"
+      ],
+      "engagement": {},
+      "score": 38.112,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.92",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.92,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
       ],
       "registry_category": "general_ai",
       "source_priority": "low"
@@ -4378,10 +4660,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 39.703,
+      "score": 38.012,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.84",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4390,7 +4672,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.841,
+      "novelty_score": 0.764,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -4401,38 +4683,38 @@
       "source_priority": "low"
     },
     {
-      "id": "2a30f858e7a197f1",
-      "title": "Meta Watermelon model rivals GPT5.5 in bold tease - blockchain.news",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSTZ3cVdnSHRTTVM3dklLLWJOVTZPRjk4R3dPaWNBOXJPSk5PZWZ4Qk9uMnNsbXZpZW1CcV9zT012WUh1b1hJV055SVZ4WV8yYkpTVFpNVGx0eG5GckVaV1NDSXdVVzIwY1dpQ2pQX0tMNy1aZUZnTU8tZGRHQzhxTFBRMEFXZHc?oc=5",
-      "source": "Curated AI Newsletter Discovery",
+      "id": "5db9367f28435d58",
+      "title": "Is AI making us dumber? Researchers are starting to worry - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUS1VBa2ctM3RKd3VIVTk1TFFVMTFORjJOS1p0RGVCY2h6OWMwZGU4R0hrTWo5T0JPUTJTek9LaEM4eXhKQlVGWnpQNFZkZDczVHlDLU5ZSlJDc0wwQ0t0TUVLUkZJczFqTmhyZ295TENNbTlyeGc?oc=5",
+      "source": "Google News General AI Discovery",
       "source_kind": "google_news_rss",
       "category": "general_ai",
-      "published_at": "2026-07-06T10:58:26+00:00",
-      "text": "Meta Watermelon model rivals GPT5.5 in bold tease - blockchain.news Meta Watermelon model rivals GPT5.5 in bold tease blockchain.news",
+      "published_at": "2026-07-07T08:12:42+00:00",
+      "text": "Is AI making us dumber? Researchers are starting to worry - Business Insider Is AI making us dumber? Researchers are starting to worry Business Insider",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 39.056,
+      "score": 37.955,
       "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.68",
+        "source_priority=0.35",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.678,
-      "source_priority_score": 0.65,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.943,
+      "source_priority_score": 0.35,
       "source_tags": [
-        "newsletter",
-        "curated"
+        "discovery",
+        "news"
       ],
-      "registry_category": "community",
-      "source_priority": "medium"
+      "registry_category": "general_ai",
+      "source_priority": "low"
     },
     {
       "id": "f0fecf89e9f2ee9e",
@@ -4447,10 +4729,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 38.408,
+      "score": 37.563,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.65",
+        "novelty=0.61",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4459,7 +4741,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.649,
+      "novelty_score": 0.61,
       "source_priority_score": 0.65,
       "source_tags": [
         "newsletter",
@@ -4467,6 +4749,41 @@
       ],
       "registry_category": "community",
       "source_priority": "medium"
+    },
+    {
+      "id": "ba82c7be9ab58d40",
+      "title": "Anthropic says Claude has carved out its own space to ponder - Axios",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1TVMyVm52dWlYU0ljcl80SEU1cmRlNG9ZaUllUVAzMmNOVjdoVC01OWRoSERoMi1PZ0dlWGdYZldhb0hlZkExNFlMRXloMURBbWNEWkkyaW5ETnZHQ0lEQ25tQXhxVjI3d19sa3ljcw?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T05:32:19+00:00",
+      "text": "Anthropic says Claude has carved out its own space to ponder - Axios Anthropic says Claude has carved out its own space to ponder Axios",
+      "matched_terms": [
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 36.784,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.86",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.86,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
     },
     {
       "id": "f2725efb82a6b0b3",
@@ -4482,10 +4799,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 38.128,
+      "score": 36.438,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.92",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4494,12 +4811,182 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.921,
+      "novelty_score": 0.844,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
         "safety",
         "frontier_models"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "eb3c27b412434823",
+      "title": "Will Someone Finally Blink in the AI Spending War? - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObG5iREJCV0QyQW1ORHZhUXJuQU9Rb2ZyVW9kS2dsZ0FTb3dXdnV4aTYydDFGeFVCakxwU2lDTENJcENZcmh4dmVmN2tXSnFDWlVlZW1MNmstSjZTOHV4UnoxaFYwMldicTFPdGw2azVmQllWVjcxZVNVY0pQdDZaSWhiSTVyX1pyekU4SV9kUQ?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T09:30:00+00:00",
+      "text": "Will Someone Finally Blink in the AI Spending War? - WSJ Will Someone Finally Blink in the AI Spending War? WSJ",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 36.175,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.984,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "f1e3d4de1e5c3064",
+      "title": "Alpha School, using AI technology for student learning, seeks to open in Greenwich - Greenwich Time",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNVBHcjM5MVdCQThkU3J1eTZFZVFJNEhsXzZZQ1FnV2RnalFhVklOQUpWZ1dtaTVkQmc2TmpSc2phenZaSE9qWlhxRDY2NWtSdUxSV2NHMS04aW0xY3pvVTRoSDZ1S080NEpYNTVoTE1RYTBNVFlENW80ekwzckxiWlhtcVhxX1J1ajZVM3Z5LUprcmJ1bFkxQW41TQ?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T09:09:07+00:00",
+      "text": "Alpha School, using AI technology for student learning, seeks to open in Greenwich - Greenwich Time Alpha School, using AI technology for student learning, seeks to open in Greenwich Greenwich Time",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 35.935,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.97",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.973,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "8854a71a28bd7ebe",
+      "title": "AI and lab techniques accelerate tuberculosis drug discovery - Drug Target Review",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQmhtUzRvNDF2c3JYWUVmR0pVZHB3aE1ITS1BaWVEemlHc255VTZtSkd2MkNFNi1uWGhiSE1LSUp1UWxwVTJnZ2VPV2FiMmE0cnp2V3BWbm8wV1VQejN2LTgzbXU5TkItT191Szl6UWdlaWZaU2trUzdvWWN5WnlWdnJvUXVNQVVMM0ViMWR4eHFkcDA5UVJtdzdfcFNWNm1lakt2a1d5bm9IM3lYRGc?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T09:07:42+00:00",
+      "text": "AI and lab techniques accelerate tuberculosis drug discovery - Drug Target Review AI and lab techniques accelerate tuberculosis drug discovery Drug Target Review",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 35.919,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.97",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.972,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "456769d1501c6f6c",
+      "title": "Anthropic taps Microsoft, AWS alum Teresa Carlson to lead public sector work - FedScoop",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaUluUmlMeWtmYkxCeUJNRFlVZlJuN0xfUTg2djYwMjM5aENreHpNSHhLelBwNnN3dFJCTXo2Z19HYXhVcmNic2hlb2JvaXJoNWYzcVM3T09xSy04aFktUkQ1VTI2RWVUWXIxVjY0MGlFVDF3a25oaDdDX1hsdnEwYnpUYzdhS05kQU54OA?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T09:04:42+00:00",
+      "text": "Anthropic taps Microsoft, AWS alum Teresa Carlson to lead public sector work - FedScoop Anthropic taps Microsoft, AWS alum Teresa Carlson to lead public sector work FedScoop",
+      "matched_terms": [
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 35.885,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.97",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.971,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "469182d305c33bdb",
+      "title": "Capability, Not Compute: NSA Discretion in the Frontier AI EO - The Well News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa1VyMlZfa05KSUtNdE9vb2FrMW8xcVNIMUV1NmM0RG10N2lFUWJwcEFfNktDb0FFTjFZSG1OaTMzSTdpZHZNQ3VkSjYzdFVZT0h4bG0zT1pwMW5pMFYxdjZWMUFKRkQtTVlyU0pkN0Y0WUl6VHBkWnRnbGpmQ1NobkpxT0VJSTJSM0lHMkxGdlZlQ1gtcTJCaVJLeklhZw?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T08:57:58+00:00",
+      "text": "Capability, Not Compute: NSA Discretion in the Frontier AI EO - The Well News Capability, Not Compute: NSA Discretion in the Frontier AI EO The Well News",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 35.807,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.97",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.967,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
       ],
       "registry_category": "general_ai",
       "source_priority": "low"
@@ -4518,10 +5005,10 @@
         "agentic commerce"
       ],
       "engagement": {},
-      "score": 37.417,
+      "score": 35.727,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.89",
+        "novelty=0.81",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4530,7 +5017,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.889,
+      "novelty_score": 0.812,
       "source_priority_score": 0.35,
       "source_tags": [
         "agent_commerce",
@@ -4540,57 +5027,22 @@
       "source_priority": "low"
     },
     {
-      "id": "6daf4dce47918727",
-      "title": "Samsung profits jump 1,800% as AI chip sales soar - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RSlZNMzN0UWtYc1BKa0lLeVB2M01ENGJTOUtaMDBDSEc4b1YzYnJQN1lwTzNCNFdqMEp6cVgzSklad2x1bVZTT1E2TmI3SFhydXBQLWJVVUNUdw?oc=5",
+      "id": "cd4e1bf23245b5c8",
+      "title": "What Makes AI Infrastructure Different from Traditional IT - ASUS Pressroom",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95UUlCTUF6SmpvenRKYmJvamI2ZmtxZEFlcnlTWWUzSXhmeWNTR0s1aXZrSVZ3SUhQazFwYjl1bm5VazlXWnhUd1FMUmRNemxLb2hOSmZEQ25WMEMwazhNNVE1cFBSRDc0NEpldHMtd1ZsaG5aY1d0QzdQalY?oc=5",
       "source": "Google News General AI Discovery",
       "source_kind": "google_news_rss",
       "category": "general_ai",
-      "published_at": "2026-07-07T03:24:14+00:00",
-      "text": "Samsung profits jump 1,800% as AI chip sales soar - BBC Samsung profits jump 1,800% as AI chip sales soar BBC",
-      "matched_terms": [
-        "AI",
-        "AI chip"
-      ],
-      "engagement": {},
-      "score": 37.007,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "2ba7e7b995eda6db",
-      "title": "Asian markets retreat after rebounding AI stocks send the S&P 500 to brink of a new record - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSDU2NTVaM1IzZjJ2bzBvbFFXMGl4NjJFbWtIV2xsYm1yRkF6bDRZUlB2anN6QkRiVWdNQmI2ZUczbGk2V2lRWWNGXzROVmsxNWNvRzZUM1l1djBvMGMzS1Jhc1JrTjUwTlBiUnR4YVNlYXJqUWYyZUIxV0VFemxJbkZrUUpwbU44WlN5Wk8xN1NITGRCelNUYS1QbmhMekdzVHIyQ9IBqgFBVV95cUxQV0N2X0k0QlJfSkRsMHZXYmljVHZzMy1DVDltaFFhMW9xdDY3QnV3OFJ0N2xFZDl1TE9WUU9uOGNPcS16ai1PQWI5ZHdvTkNQeVdXMjNyQjlCS2J4VkRNa0hkTWV6NTh0dWZucEI5SVFSLTlzMFRUSzZidnFwVkhZRVRQbU9saEpkWl9LeTV5ME5Yd0tNc29HdnNMYldJZEwxZ1NoNUtjbldoQQ?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-07T07:12:17+00:00",
-      "text": "Asian markets retreat after rebounding AI stocks send the S&P 500 to brink of a new record - ABC News - Breaking News, Latest News and Videos Asian markets retreat after rebounding AI stocks send the S&P 500 to brink of a new record ABC News - Breaking News, Latest News and Videos",
+      "published_at": "2026-07-07T08:34:14+00:00",
+      "text": "What Makes AI Infrastructure Different from Traditional IT - ASUS Pressroom What Makes AI Infrastructure Different from Traditional IT ASUS Pressroom",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 36.287,
+      "score": 35.536,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.99",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4599,7 +5051,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.989,
+      "novelty_score": 0.955,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4609,32 +5061,99 @@
       "source_priority": "low"
     },
     {
-      "id": "d9e8796fd9305da7",
-      "title": "Chinese Firms Leave Nvidia for Local AI Suppliers, Survey Shows - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdTRqRk05WVQ1RGVzYlhlNEFWYUlMQUg1aHRZNWNJRVZEcUNQYjJqT3JwOHhfWURDSWkwT3V0MUYwTTEtdXowMXJhcUwzMzdWOFdzSjVoNWl5Nl9HVjlpcHI4WUNlLXRzVG9OdXFFM1hCdkhyc19ONlpuc1oxQWJZN25rNFMtY1ZGMUJwV3ZWWmptdUk1dmhob085RnoxOVR6TnNuckh3MmQ3LWM0dC0wXy02WQ?oc=5",
+      "id": "c9696e7b632bd9dc",
+      "title": "Into the spider’s lair: how an Australian film-maker made an impossible documentary with AI - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaHlRa1BibUhGemczVUQtSkNfSkswMzZTQlFBU2NJUzB0enNna3NJU3o3TDFLYW5yZzZjUFVEc1RTTHBJZlhXc041WlJyd2R3bl9UaU5YVEdCS3JVTGNLQ2ZoMi1SUndveElUb0VtbjV3ekF3bElxS0dmZzhzb1VMRy1BeEk2YkQ3d1Y3a3dBVUgzTTJWZjA1QkozWmxlX28wZURyX0phZWZkNHlWcUR2VDRWMkx0cVd5YklTaGp6YTI2Zw?oc=5",
       "source": "Google News General AI Discovery",
       "source_kind": "google_news_rss",
       "category": "general_ai",
-      "published_at": "2026-07-07T02:09:00+00:00",
-      "text": "Chinese Firms Leave Nvidia for Local AI Suppliers, Survey Shows - Bloomberg.com Chinese Firms Leave Nvidia for Local AI Suppliers, Survey Shows Bloomberg.com",
+      "published_at": "2026-07-07T08:01:00+00:00",
+      "text": "Into the spider’s lair: how an Australian film-maker made an impossible documentary with AI - The Guardian Into the spider’s lair: how an Australian film-maker made an impossible documentary with AI The Guardian",
       "matched_terms": [
-        "AI",
-        "Nvidia"
+        "AI"
       ],
       "engagement": {},
-      "score": 36.145,
+      "score": 35.155,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.83",
-        "matched_terms=2",
+        "novelty=0.94",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.831,
+      "novelty_score": 0.937,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "e098dec7a89849ca",
+      "title": "UNU Macau AI Conference 2026 - United Nations University",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAtZTdrQjBoLTFBenJaZXVZY01WUEdUQ3FOTU9nejBKZktMR0hyZUZTakJlcFVmd1owelEwRW1qcW9ocjBhZ3Uw?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T07:53:33+00:00",
+      "text": "UNU Macau AI Conference 2026 - United Nations University UNU Macau AI Conference 2026 United Nations University",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 35.069,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.93",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.933,
+      "source_priority_score": 0.35,
+      "source_tags": [
+        "discovery",
+        "news"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "low"
+    },
+    {
+      "id": "6ec2ff57fca7df4c",
+      "title": "AI meets the grid: Shaping the data center power play - Capgemini",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3VXcVczQ2VPNXJqc2hPZlZzbjVjWmsxZWxVSEhPSm1ETEZRaWJCQ2dIeVd0cjNuMHJLVkRIai1tWGM0bUF5VEdXVWlrQTdSc0RqZWUwR3lKb3ZrX092SzlVTTJxaEd2WmpHb1JFZURVdzhXNEhGeGVaU2RUclpaMjc0M1BlMUk3ZjRJazlOWVI3Zw?oc=5",
+      "source": "Google News General AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T07:16:21+00:00",
+      "text": "AI meets the grid: Shaping the data center power play - Capgemini AI meets the grid: Shaping the data center power play Capgemini",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 34.643,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.914,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4656,10 +5175,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 36.066,
+      "score": 34.375,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.98",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4668,7 +5187,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.979,
+      "novelty_score": 0.902,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -4692,10 +5211,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 36.017,
+      "score": 34.327,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.39",
+        "novelty=0.31",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4704,7 +5223,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.389,
+      "novelty_score": 0.312,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -4713,40 +5232,6 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "116063ac8afe57b6",
-      "title": "CTTC Opens With A Reality Check On AI - Clinical Leader",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORGxVTVY1Y3pKbEVuYkNXWldrRF83eDdwcHppWFRZM2V6WmJFRWlkb256U1F3TGZuOW5tblhtU00wb3BIQWtyY3E1WU9CWFVXbjRxaXFOallldWZFaFhoVTZnOU5DUDdicGZ0blNFS3NUNkYteThHdHBzVkdQLXRxMnZuNA?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-07T06:45:00+00:00",
-      "text": "CTTC Opens With A Reality Check On AI - Clinical Leader CTTC Opens With A Reality Check On AI Clinical Leader",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 35.974,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.97",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.975,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
     },
     {
       "id": "536601c48cc3ebe8",
@@ -4761,10 +5246,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 35.351,
+      "score": 33.661,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.95",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4773,41 +5258,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.946,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "9d1a4756ac07d1b2",
-      "title": "AI just supercharged the race to find room temperature superconductors - ScienceDaily",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE10VzNRelhpOF9DaGZYWmF3ampKUkktMXo5NzJSM2xoQzVoX0ZqY3VsSW1xcngwellNallsZGctMVZrS3N6a2hFRDg5a1hROUZZZjdzbEdLQWdmdGlCYmM3YnpzMlhKcC1BbTk4N2dKZw?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-07T05:40:42+00:00",
-      "text": "AI just supercharged the race to find room temperature superconductors - ScienceDaily AI just supercharged the race to find room temperature superconductors ScienceDaily",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 35.237,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.94",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.941,
+      "novelty_score": 0.869,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -4829,10 +5280,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 34.659,
+      "score": 32.969,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.91",
+        "novelty=0.84",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4841,7 +5292,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.915,
+      "novelty_score": 0.838,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -4864,10 +5315,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 34.501,
+      "score": 32.811,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.91",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -4876,111 +5327,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.908,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "b5cc391452fff446",
-      "title": "In Pictures: European AI Roundtable on Copyright – Fuelling Creativity in the AI Age - CCIA",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZk40QmFTWUNUYWt5QVVBalJodW5hTDl4cGp1WWExcjFtb0VydHFwODBLNFpSTE9qNUZYZWRKVnpwRWVObUVEdlg2U0ppNXN2LURmdDFkNE9QT2h3bk5HQ3M2M1loaWVHZ0luZFBFcEpJLTQwZUp3Q0gzVEc3MnBZLUxPd1U1d0gzcV9EZTRuNVMwaVA1ZG5rQVEzcHJ6Sk92alhDZzBSR0gzaENGc3lUTQ?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-07T04:30:00+00:00",
-      "text": "In Pictures: European AI Roundtable on Copyright – Fuelling Creativity in the AI Age - CCIA In Pictures: European AI Roundtable on Copyright – Fuelling Creativity in the AI Age CCIA",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 34.427,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.90",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "73c247ffafda2a60",
-      "title": "Microsoft scrambles to secure AI talent, guts Xbox workforce - Channel Dive",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSlJBbi13YW5KZ21NUHdvemhoR0oyc3psMWE1OFlxemNyVEhPSUJaWm1EZ0IyZVpuYWRhZW85TUotamR2Q3phVzZ6WVRBRUFDTUd3OUFET2NwM3NGQXd2a1BUSmwzLUo3TDhDei0xYU9CRjN5eVpYczJKQU5scldpVmVKSU9GQQ?oc=5",
-      "source": "Google News Frontier AI Policy and Access",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-07T04:07:30+00:00",
-      "text": "Microsoft scrambles to secure AI talent, guts Xbox workforce - Channel Dive Microsoft scrambles to secure AI talent, guts Xbox workforce Channel Dive",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 34.17,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.89",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.893,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "policy",
-        "safety",
-        "frontier_models"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "4f1accb2bc8e793d",
-      "title": "Samsung’s Record Profit Fails to Impress After AI Chip Rally - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZXlBQTJVQk9CdHJjRUFlbEs5ZXNXZThNbXhpQklkWmNtemZhckI0UjhJUHpHQXNfRllJY2VDcll1VFRmTi12TzdUQUJRcC1DWHZzTGdpXzc3azJ6RDJiSFJKRWFYcVdWMXJ0Mzl2bnlhZTdDWDBzYzJXNmNqRFBBV2VHUUFENVRLTEVHQnYxTnFna1lJakZrSDRScTlUQ3Y1VmkxUmZBVE13OHVpV2RaaF9wRQ?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T22:46:56+00:00",
-      "text": "Samsung’s Record Profit Fails to Impress After AI Chip Rally - Bloomberg.com Samsung’s Record Profit Fails to Impress After AI Chip Rally Bloomberg.com",
-      "matched_terms": [
-        "AI",
-        "AI chip"
-      ],
-      "engagement": {},
-      "score": 33.83,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.73",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.726,
+      "novelty_score": 0.831,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -5003,10 +5350,10 @@
         "AI regulation"
       ],
       "engagement": {},
-      "score": 33.734,
+      "score": 32.044,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.72",
+        "novelty=0.64",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -5015,110 +5362,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.721,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "eb80dfd603c7b89c",
-      "title": "Asian Equities Mostly Lower as AI-Led Rally Takes Breather - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcnN0ZWNTR1gyUENNTGs3Ri13LTVlYWFBbzhrZF9SeVNkeDNMTzU4U01nVmZITkhxLVltd3hPdjVmVTA4eFFadzFCdEs5cHF6THpWRkVFUUN6dHczY014Ql9tRmFQNzhkaTBjVmhGUFpNZVlmRkNfYVV5MGNhR3lfX01ZMG81RXJTdFhoaUlmbnBjY0ZFVjRUUGtJRlFNckY1TEIyTQ?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-07T03:26:00+00:00",
-      "text": "Asian Equities Mostly Lower as AI-Led Rally Takes Breather - WSJ Asian Equities Mostly Lower as AI-Led Rally Takes Breather WSJ",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 33.694,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.87",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.871,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "26470d73e811e0ed",
-      "title": "Can Open USD support Stripe's ambitions?｜Open USD, Stripe - ChainCatcher - 链捕手ChainCatcher",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tcmpkcE8zV1hxT1lJcmppZWNfbzBIMlBaR1dJdXdlTGc2Wnc2cXM2NTBTSkNfREd0ckt1NHpLdXpwbmZJRHhQaUdPUW1SVGpXejBmT1dpaTgtVVU?oc=5",
-      "source": "Google News AI Payments and Agent Commerce",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-07T03:23:44+00:00",
-      "text": "Can Open USD support Stripe's ambitions?｜Open USD, Stripe - ChainCatcher - 链捕手ChainCatcher Can Open USD support Stripe's ambitions?｜Open USD, Stripe - ChainCatcher 链捕手ChainCatcher",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 33.668,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.87",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "agent_commerce",
-        "payments"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "ba82c7be9ab58d40",
-      "title": "Anthropic says Claude has carved out its own space to ponder - Axios",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1TVMyVm52dWlYU0ljcl80SEU1cmRlNG9ZaUllUVAzMmNOVjdoVC01OWRoSERoMi1PZ0dlWGdYZldhb0hlZkExNFlMRXloMURBbWNEWkkyaW5ETnZHQ0lEQ25tQXhxVjI3d19sa3ljcw?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T22:32:19+00:00",
-      "text": "Anthropic says Claude has carved out its own space to ponder - Axios Anthropic says Claude has carved out its own space to ponder Axios",
-      "matched_terms": [
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 33.662,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.72",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.718,
+      "novelty_score": 0.644,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -5142,10 +5386,10 @@
         "Visa"
       ],
       "engagement": {},
-      "score": 33.396,
+      "score": 31.706,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.55",
+        "novelty=0.48",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -5154,7 +5398,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.554,
+      "novelty_score": 0.478,
       "source_priority_score": 0.35,
       "source_tags": [
         "agent_commerce",
@@ -5177,10 +5421,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 33.345,
+      "score": 31.655,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.70",
+        "novelty=0.63",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -5189,7 +5433,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.704,
+      "novelty_score": 0.627,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
@@ -5213,10 +5457,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 33.292,
+      "score": 31.602,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.70",
+        "novelty=0.62",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -5225,77 +5469,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.701,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "policy",
-        "safety",
-        "frontier_models"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "27b3a262e0a31f96",
-      "title": "Pharma.AI Q2 2026 Summer Webinar: A Deep Dive into Insilico Medicine’s Latest Platform Upgrades - Insilico Medicine",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX1NEOFpyWjNLR1dLd2lJY0EyNXhkU0xRRGFmOXBDNmhfMFNZUjhjVXNiQ3dpcUZWenRTVEVpY2ctZDRYUWJjR214NjNDQXkxQjdsUk1yMS1NT1I4ZE5zclhlNmFUQ2xndmswMmlfSDVzTE93ZlpIeXZ4ZXpETWtIYzVORQ?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-07T01:57:07+00:00",
-      "text": "Pharma.AI Q2 2026 Summer Webinar: A Deep Dive into Insilico Medicine’s Latest Platform Upgrades - Insilico Medicine Pharma.AI Q2 2026 Summer Webinar: A Deep Dive into Insilico Medicine’s Latest Platform Upgrades Insilico Medicine",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 32.676,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.82",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.825,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "b9cc426de0c79565",
-      "title": "Anthropic's new \"J-lens\" reveals a silent workspace inside Claude that mirrors a leading theory of consciousness - Venturebeat",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaGt4NlVwNDlnZmtRbTM3VDZPZy1mTGpLRWpDQmJ5SzdaVWh0N28zZmFqMVh0NVRTYkZ5TW9nQ1VEYVMtMWNRM2M5UmwtUC1sbEI5amdKTHQwYUhSZHpXSndFQ0xJMGl6enc4aFN6MmZENVNkN3EyRndJQUJkRVhwbFA2ZnBXZFl0NFNlaDNGSjhKajJpeVp5NDNTdHNyM1QtQ3BUSEN6VmpkZzlDNmIxTXN0d3lHTWVxaHhsUjNrYXdteGpROHA0SXJzWlJtMmZBWHdtaXQ1Z0hxQzR6?oc=5",
-      "source": "Google News Frontier AI Policy and Access",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T21:00:00+00:00",
-      "text": "Anthropic's new \"J-lens\" reveals a silent workspace inside Claude that mirrors a leading theory of consciousness - Venturebeat Anthropic's new \"J-lens\" reveals a silent workspace inside Claude that mirrors a leading theory of consciousness Venturebeat",
-      "matched_terms": [
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 32.604,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.67",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.67,
+      "novelty_score": 0.624,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
@@ -5318,10 +5492,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 32.544,
+      "score": 30.854,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.82",
+        "novelty=0.74",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -5330,7 +5504,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.819,
+      "novelty_score": 0.742,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -5353,10 +5527,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 32.483,
+      "score": 30.793,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.66",
+        "novelty=0.59",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -5365,7 +5539,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.664,
+      "novelty_score": 0.588,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -5390,10 +5564,10 @@
         "Visa"
       ],
       "engagement": {},
-      "score": 32.281,
+      "score": 30.59,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.35",
+        "novelty=0.28",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -5402,7 +5576,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.352,
+      "novelty_score": 0.275,
       "source_priority_score": 0.35,
       "source_tags": [
         "agent_commerce",
@@ -5412,22 +5586,22 @@
       "source_priority": "low"
     },
     {
-      "id": "d1366e3c760c5ff1",
-      "title": "AI Giants Are Handing Out Tons of Free Computing Power to Grab Startup Share - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNek1pRE45bkJuOXNxLUlQcHNITkVDMXZNNUFCaERxdjFqU3VwcTh2ZndleC1IYXZRUDBBMlVoellRT3NTT2tUR1hscVNCZjYwWmh5R2dEdE1jZG5nQjk5Y3ViMnlYcjE5NmU3cnZ5U0YwY3ZRa3NCTFNDclBFR184UDVHbGlET0JBbFVqTjFNd2daZjU5Z0tmVVpFaWN4eVV0T0g5eTJFUVNDa2Q2QW1HVmxCcw?oc=5",
-      "source": "Google News General AI Discovery",
+      "id": "e97a1721c2196a9c",
+      "title": "Claude Sonnet 5 Hits 1,866 Elo at $2 a Million [2026] - tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Gc0xkX2c0Z0d6b250TVg0WnlXZVVMdHlqZFBRalcxSUdIeDYyVThGeWI4bl82bFJLa0JDSmVpN3V4X3g4Y0tXSWM0VmVpMjdTZHVWOFlodVUzemZBRWtRSFA2Z0lMQmM?oc=5",
+      "source": "Google News Frontier AI Policy and Access",
       "source_kind": "google_news_rss",
       "category": "general_ai",
-      "published_at": "2026-07-07T01:00:00+00:00",
-      "text": "AI Giants Are Handing Out Tons of Free Computing Power to Grab Startup Share - WSJ AI Giants Are Handing Out Tons of Free Computing Power to Grab Startup Share WSJ",
+      "published_at": "2026-07-07T01:06:04+00:00",
+      "text": "Claude Sonnet 5 Hits 1,866 Elo at $2 a Million [2026] - tech-insider.org Claude Sonnet 5 Hits 1,866 Elo at $2 a Million [2026] tech-insider.org",
       "matched_terms": [
-        "AI"
+        "Claude"
       ],
       "engagement": {},
-      "score": 32.021,
+      "score": 30.4,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.79",
+        "novelty=0.72",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -5436,76 +5610,42 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.795,
+      "novelty_score": 0.721,
       "source_priority_score": 0.35,
       "source_tags": [
-        "discovery",
-        "news"
+        "policy",
+        "safety",
+        "frontier_models"
       ],
       "registry_category": "general_ai",
       "source_priority": "low"
     },
     {
-      "id": "43118694469d0d9c",
-      "title": "TeraWulf Soars On Signing $19 Billion AI Lease With Anthropic - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNTFsM3FzSmJnVmp4bEtybTExX3BxUGlqOGxoOWVjYXZ6cWFXTDBTNGMyVjQxWFRIOGtnRGF0RUswSlVEdTB4YVFOTjFOSXBySGtUN1Y1cV9ZVWxYanc2ZVBOdFQ3bl83cmI2dmtnVXpQVUhPX3l2b1k4aGJnaUJCSlJWZDFmdzFYZm9aLVJpcVNjMWM4S1hoSEppcw?oc=5",
+      "id": "933fb4b2f8d5bc6f",
+      "title": "Companies cutting jobs as investments shift toward AI - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMXJBRjJvS3ZTelBiejB5LThOTTVKblgzUzBxY2pPYkd6Q2dETWdQYXdKcXV0WjNYTkhaM3o1MXJXSXRlVjhKY0RUMXJvQllVMlhmYmRFTmFWcHRVSU1LSUdORHBZbVpPVlR1QXF4MzlWNFdnUm5YajlKZ3QxN0JGQlVZck1wLW5hMy12NFpFdVJ4RFlQOTE3UFFKTXUtNnRQWks2WjVVU21WTFA1T1E?oc=5",
       "source": "Google News General AI Discovery",
       "source_kind": "google_news_rss",
       "category": "general_ai",
-      "published_at": "2026-07-06T20:03:00+00:00",
-      "text": "TeraWulf Soars On Signing $19 Billion AI Lease With Anthropic - Investor's Business Daily TeraWulf Soars On Signing $19 Billion AI Lease With Anthropic Investor's Business Daily",
-      "matched_terms": [
-        "AI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 31.951,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.64",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.64,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "f6103f81b21d3abb",
-      "title": "AI actor Tilly Norwood set to star in first feature film - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQam1xRnItYlhDbWdTbVV4RGRDNi1SRklVYnJWcWhqeElKSkVLREFabC1fejBKZkV1ZnNZV1o3T3NlLWtMVjdkX3pDQXFGVmt2OXBTRWRsT2loMnBWbXliU2Vhb2NEVC04Wmx3Z3QzZFY0cE1Ra2s5aGhleHR2eklfRQ?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T18:28:00+00:00",
-      "text": "AI actor Tilly Norwood set to star in first feature film - CBS News AI actor Tilly Norwood set to star in first feature film CBS News",
+      "published_at": "2026-07-06T23:58:12+00:00",
+      "text": "Companies cutting jobs as investments shift toward AI - Reuters Companies cutting jobs as investments shift toward AI Reuters",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 31.029,
+      "score": 29.623,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.59",
+        "novelty=0.69",
         "matched_terms=1",
-        "engineering_relevance=0.25",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.591,
+      "novelty_score": 0.686,
       "source_priority_score": 0.35,
       "source_tags": [
         "discovery",
@@ -5527,10 +5667,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 30.919,
+      "score": 29.228,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.74",
+        "novelty=0.67",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -5539,46 +5679,12 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.745,
+      "novelty_score": 0.668,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
         "healthcare_ai",
         "discovery"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "70908de4b6140b77",
-      "title": "Trump Wants to Fast Track AI - Inside Climate News",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45MjRtYTE0QTgzRUpYZHhUcDJYejVuMU9fdDJCMU82YmJQY3dYWU5ZT0Zyb0x6amxJaUVEUEptWklsZTRtQUZ4bkQ2aThaOUFJbHlhNWMxbVFoVEM0dllGNmhfTXdNa0xLVmJZUEZaazVKN3pURnFBclc4VVhKdw?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T23:23:17+00:00",
-      "text": "Trump Wants to Fast Track AI - Inside Climate News Trump Wants to Fast Track AI Inside Climate News",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 30.913,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.74",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.745,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
       ],
       "registry_category": "general_ai",
       "source_priority": "low"
@@ -5597,10 +5703,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 30.618,
+      "score": 28.928,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.58",
+        "novelty=0.50",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -5609,154 +5715,12 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.58,
+      "novelty_score": 0.503,
       "source_priority_score": 0.35,
       "source_tags": [
         "policy",
         "safety",
         "frontier_models"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "472878e93734a913",
-      "title": "AI Model Context Protocol Adds Centralised Auth for Enterprise",
-      "url": "https://www.infoq.com/news/2026/07/mcp-ema-enterprise-auth",
-      "source": "InfoQ AI ML Data Engineering",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T08:00:00+00:00",
-      "text": "AI Model Context Protocol Adds Centralised Auth for Enterprise The Model Context Protocol team has promoted its Enterprise-Managed Authorisation extension to stable status, adding a centralised way for organisations to control access to MCP servers through their identity provider. The project states the aim is to replace per-server consent prompts with a zero-touch flow in which users sign in once and then access approved servers without further setup. By Matt Saunders",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 29.934,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.26",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.264,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "software_engineering",
-        "mlops",
-        "data_engineering"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "a81d2326b42735fe",
-      "title": "How authoritarian governments twist AI safety to coerce tech companies to comply - Fast Company",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY3hrSG9SUl9XU0ZoZHJZVDNST0kyendqZVNnZnpVRmdPbVlmeFVFNklwd1NMdThHWmxrM1NKSnhsU2tRQUxuVVZEZl9LZXdrU0FsWEd1NWFxSVU2WGgxam5tckhxb2JVdHU0Q241dEx2UEo0RUoxdHUzR2c1NkExUEFESGtNelN4OTdfeHZ3OG41elEwbTdWdHlqWmNPekUtYmc?oc=5",
-      "source": "Google News Frontier AI Policy and Access",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T16:42:26+00:00",
-      "text": "How authoritarian governments twist AI safety to coerce tech companies to comply - Fast Company How authoritarian governments twist AI safety to coerce tech companies to comply Fast Company",
-      "matched_terms": [
-        "AI",
-        "AI safety"
-      ],
-      "engagement": {},
-      "score": 29.653,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.54",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.536,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "policy",
-        "safety",
-        "frontier_models"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "f9abfa38324065c7",
-      "title": "Doctors are embracing AI, with reservations - Association of Health Care Journalists",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZTZ2NDBsaWZqUUJDazNEMllPUUF4bFMxcl9ORW91TWlaYVZFdHNCeUs0VjRYN2dGbzNHNU04ZExmcC1iZkJWOWR2MnlobENmVzZLMnJKNXllNHNDRDFBeXpmdUVrRk1VRTlnckhDcTFYcldGMnNmcjF6UWxPTjhvWU1mcGxmdEJidDAtdVdB?oc=5",
-      "source": "Google News Medical AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T20:49:45+00:00",
-      "text": "Doctors are embracing AI, with reservations - Association of Health Care Journalists Doctors are embracing AI, with reservations Association of Health Care Journalists",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 29.154,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.66",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.665,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "discovery"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
-    },
-    {
-      "id": "604ce04bbd8097ac",
-      "title": "AI tool can identify biological profiles associated with thrombosis risk - Medical Xpress",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTjRLLTJwUUFCcUFmNTJqa180ZXJ2R3UzbzJVMHl1WHhxSnVRMkJra3ZIQlpBS2lia2JtRlVIVlZsRGR3YU1qdTlHeFFfZDBIUEkyelF0bzlGVjVmZkc0YlMwUHdfejZoeEc4bEZKZ3JYSWdPRVJYOGxxV0V4RXlFNklyRWtrclhha2c?oc=5",
-      "source": "Google News Bio and Genetics AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-07-06T20:40:07+00:00",
-      "text": "AI tool can identify biological profiles associated with thrombosis risk - Medical Xpress AI tool can identify biological profiles associated with thrombosis risk Medical Xpress",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 29.043,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.66",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.66,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "bio_ai",
-        "genomics_ai",
-        "genetics_ai",
-        "discovery"
       ],
       "registry_category": "general_ai",
       "source_priority": "low"
