@@ -417,7 +417,11 @@ def dedupe_and_fill_items(
     if category == "general_ai":
         primary_items = primary or data.get(fallback_key, [])
         require_guo = any(is_guo_yichen_reference_item(item) for item in primary_items)
-        return select_unique(primary_items, category, limit, historical_items, require_guo_general=require_guo)
+        pool = primary_items + data.get("top_100_news_candidates", []) + data.get(fallback_key, [])
+        selected = select_unique(pool, category, limit, historical_items, require_guo_general=require_guo)
+        if len(selected) < limit:
+            selected = select_unique(pool, category, limit, historical_items, require_guo_general=False)
+        return selected
     pool: list[dict[str, Any]] = []
     for item in primary + data.get("top_100_news_candidates", []) + data.get(fallback_key, []):
         candidate = dict(item)
@@ -437,7 +441,11 @@ def section_items(
     if category == "general_ai":
         fallback_items = data.get(fallback_key, [])
         require_guo = any(is_guo_yichen_reference_item(item) for item in fallback_items)
-        return select_unique(fallback_items, category, limit, historical_items, require_guo_general=require_guo)
+        pool = fallback_items + data.get("top_100_news_candidates", [])
+        selected = select_unique(pool, category, limit, historical_items, require_guo_general=require_guo)
+        if len(selected) < limit:
+            selected = select_unique(pool, category, limit, historical_items, require_guo_general=False)
+        return selected
     pool = data.get("top_100_news_candidates", [])
     selected = select_unique(pool, category, limit, historical_items)
     if len(selected) >= limit:
