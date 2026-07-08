@@ -398,6 +398,10 @@ def canonical_event_key(title: str) -> str | None:
 
 
 def is_same_event(left: Candidate, right: Candidate) -> bool:
+    left_url = event_url_key(left.url)
+    right_url = event_url_key(right.url)
+    if left_url and right_url and left_url == right_url:
+        return True
     left_key = canonical_event_key(left.title)
     right_key = canonical_event_key(right.title)
     if left_key and left_key == right_key:
@@ -409,11 +413,20 @@ def is_same_event(left: Candidate, right: Candidate) -> bool:
     intersection = left_tokens & right_tokens
     smaller = min(len(left_tokens), len(right_tokens))
     union = left_tokens | right_tokens
+    if left.source.lower() == right.source.lower() and len(intersection) >= 2 and len(intersection) / max(smaller, 1) >= 0.67:
+        return True
     if len(intersection) >= 5 and len(intersection) / max(smaller, 1) >= 0.5:
         return True
     if len(intersection) >= 4 and len(intersection) / max(len(union), 1) >= 0.42:
         return True
     return False
+
+
+def event_url_key(url: str) -> str:
+    parsed = urllib.parse.urlsplit(str(url or "").strip())
+    if not parsed.scheme or not parsed.netloc:
+        return ""
+    return urllib.parse.urlunsplit((parsed.scheme, parsed.netloc.lower(), parsed.path.rstrip("/"), "", "")).lower()
 
 
 def candidate_from_dict(item: dict[str, Any]) -> Candidate:

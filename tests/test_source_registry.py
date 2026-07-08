@@ -20,6 +20,7 @@ from scripts.build_digest_candidates import (  # noqa: E402
     title_from_url,
     topic_key,
 )
+from scripts.render_digest_site import is_same_event as render_is_same_event  # noqa: E402
 
 
 class SourceRegistryTest(unittest.TestCase):
@@ -366,6 +367,34 @@ class SourceRegistryTest(unittest.TestCase):
         selected = select_unique_events(candidates, "engineering_ai", 2, [previous])
 
         self.assertEqual([candidate.source for candidate in selected], ["test-2"])
+
+    def test_render_history_dedupe_matches_normalized_urls(self) -> None:
+        left = {
+            "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+            "url": "https://aws.amazon.com/blogs/machine-learning/from-hugging-face-to-amazon-sagemaker-studio-in-one-click-2?utm_source=x",
+            "source": "Amazon AWS AI",
+        }
+        right = {
+            "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+            "url": "https://aws.amazon.com/blogs/machine-learning/from-hugging-face-to-amazon-sagemaker-studio-in-one-click-2",
+            "source": "Amazon AWS AI",
+        }
+
+        self.assertTrue(render_is_same_event(left, right))
+
+    def test_render_history_dedupe_matches_same_source_project_titles(self) -> None:
+        left = {
+            "title": "sqlite-utils 4.0, now with database schema migrations",
+            "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4",
+            "source": "Simon Willison",
+        }
+        right = {
+            "title": "sqlite-utils 0.2",
+            "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2",
+            "source": "Simon Willison",
+        }
+
+        self.assertTrue(render_is_same_event(left, right))
 
     def test_biomedical_prefers_trusted_sources_before_broad_google(self) -> None:
         def item(idx: int, title: str, source: str, source_kind: str, tags: Optional[list[str]] = None) -> Candidate:

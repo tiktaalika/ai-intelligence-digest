@@ -23,6 +23,8 @@ SUMMARY_CACHE = DIGEST_DIR / "site_summaries.json"
 ARCHIVE_PAGE_SIZE = 7
 HISTORY_DEDUP_START = datetime(2026, 7, 5).date()
 GITHUB_REPO_URL = "https://github.com/tiktaalika/ai-engineering-newsletter"
+PUBLISHED_SELECTIONS: dict[str, dict[str, list[dict[str, Any]]]] = {}
+BUILDING_SELECTION_INDEX = False
 
 
 COMMON_EVENT_WORDS = {
@@ -224,7 +226,7 @@ def event_tokens(title: str) -> set[str]:
 
 
 def is_same_event(left: dict[str, Any], right: dict[str, Any]) -> bool:
-    if left.get("url") and right.get("url") and left.get("url") == right.get("url"):
+    if left.get("url") and right.get("url") and normalize_url(left.get("url", "")) == normalize_url(right.get("url", "")):
         return True
     left_tokens = event_tokens(left.get("title", ""))
     right_tokens = event_tokens(right.get("title", ""))
@@ -233,9 +235,21 @@ def is_same_event(left: dict[str, Any], right: dict[str, Any]) -> bool:
     intersection = left_tokens & right_tokens
     smaller = min(len(left_tokens), len(right_tokens))
     union = left_tokens | right_tokens
+    if effective_source(left).lower() == effective_source(right).lower() and len(intersection) >= 2 and len(intersection) / max(smaller, 1) >= 0.67:
+        return True
     return (len(intersection) >= 5 and len(intersection) / max(smaller, 1) >= 0.5) or (
         len(intersection) >= 4 and len(intersection) / max(len(union), 1) >= 0.42
     )
+
+
+def normalize_url(url: str) -> str:
+    url = str(url or "").strip()
+    if not url:
+        return ""
+    parsed = re.sub(r"#.*$", "", url)
+    parsed = re.sub(r"[?&](utm_[^=&]+|fbclid|gclid|mc_cid|mc_eid)=[^&]+", "", parsed, flags=re.IGNORECASE)
+    parsed = parsed.rstrip("/")
+    return parsed.lower()
 
 
 def topic_key(item: dict[str, Any]) -> str:
@@ -306,7 +320,7 @@ def is_medical_bio_ai_item(item: dict[str, Any]) -> bool:
     return any(re.search(pattern, text) for pattern in medical_patterns)
 
 
-def historical_reference_items(date_slug: str, lookback_days: int = 6) -> list[dict[str, Any]]:
+def historical_reference_items(date_slug: str, lookback_days: int = 7) -> list[dict[str, Any]]:
     try:
         current = datetime.strptime(date_slug, "%Y-%m-%d").date()
     except ValueError:
@@ -335,6 +349,44 @@ def historical_reference_items(date_slug: str, lookback_days: int = 6) -> list[d
         ):
             references.extend(data.get(key, []))
     return references
+
+
+def historical_published_items(date_slug: str, lookback_days: int = 7) -> list[dict[str, Any]]:
+    try:
+        current = datetime.strptime(date_slug, "%Y-%m-%d").date()
+    except ValueError:
+        return []
+    references: list[dict[str, Any]] = []
+    for previous_date, sections in PUBLISHED_SELECTIONS.items():
+        try:
+            previous = datetime.strptime(previous_date, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        age = (current - previous).days
+        if age <= 0 or age > lookback_days:
+            continue
+        for items in sections.values():
+            references.extend(items)
+    return references
+
+
+def ensure_published_selection_index() -> None:
+    global BUILDING_SELECTION_INDEX
+    if PUBLISHED_SELECTIONS or BUILDING_SELECTION_INDEX:
+        return
+    BUILDING_SELECTION_INDEX = True
+    try:
+        for date_slug in sorted(candidate_dates()):
+            data, general, engineering, medical, research, _paper_push = day_items(date_slug)
+            del data
+            PUBLISHED_SELECTIONS[date_slug] = {
+                "general_ai": general,
+                "engineering_ai": engineering,
+                "medical_bio_ai": medical,
+                "research": research,
+            }
+    finally:
+        BUILDING_SELECTION_INDEX = False
 
 
 def is_recent_repeat(item: dict[str, Any], historical_items: list[dict[str, Any]]) -> bool:
@@ -401,7 +453,11 @@ def select_unique(
             continue
         if item in selected or any(is_same_event(item, existing) for existing in selected):
             continue
+        source = effective_source(item).lower()
+        if category in {"general_ai", "engineering_ai"} and source_counts.get(source, 0) >= max_per_source_first_pass:
+            continue
         selected.append(item)
+        source_counts[source] = source_counts.get(source, 0) + 1
     return selected
 
 
@@ -527,7 +583,12 @@ def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], lis
         issue_date = datetime.strptime(date_slug, "%Y-%m-%d").date()
     except ValueError:
         issue_date = HISTORY_DEDUP_START
-    historical_items = historical_reference_items(date_slug) if issue_date >= HISTORY_DEDUP_START else []
+    if issue_date >= HISTORY_DEDUP_START and PUBLISHED_SELECTIONS:
+        historical_items = historical_published_items(date_slug)
+    elif issue_date >= HISTORY_DEDUP_START:
+        historical_items = historical_reference_items(date_slug)
+    else:
+        historical_items = []
     paper_push = load_paper_push(date_slug)
     final_path = DIGEST_DIR / f"{date_slug}-final.md"
     if final_path.exists():
@@ -1106,6 +1167,7 @@ def switch_href(language: str, page_number: int) -> str:
 
 
 def render_archive_page(language: str, page_number: int, total_pages: int, entries: list[dict[str, Any]]) -> str:
+    ensure_published_selection_index()
     summaries = load_summaries()
     latest = next((entry["date"] for entry in entries if entry["available"]), "No newsletters yet")
     start = (page_number - 1) * ARCHIVE_PAGE_SIZE
