@@ -188,6 +188,19 @@ https://tiktaalika.github.io/ai-engineering-newsletter/en/  # English edition
 https://tiktaalika.github.io/ai-engineering-newsletter/zh/  # Chinese edition
 ```
 
+The repository can also be mirrored to XFEL GitLab for internal backup or review:
+
+```bash
+git push origin main
+git push gitlab main
+```
+
+If the local shell alias below is installed, this single command pushes `main` to both remotes:
+
+```bash
+pushnewsletter
+```
+
 ## LinkedIn Handling
 
 LinkedIn is useful for CAE and AI-for-engineering practice notes, but its logged-in feed is not a stable public API. This project treats LinkedIn as a public search source and records it transparently. If a source cannot be fetched, the failure appears in the run log instead of being silently ignored.
@@ -208,6 +221,10 @@ For each selected item, the automation should output:
 2. Five-sentence Chinese summary.
 3. Original English link.
 4. Chinese translation of the key original content.
+
+## License
+
+This project is released under the MIT License. See `LICENSE`.
 
 ## GitHub Trend Monitor
 
