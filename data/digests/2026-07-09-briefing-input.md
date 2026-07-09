@@ -3,106 +3,106 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17173
-- filtered_count: 2239
-- duplicate_count: 73
-- failures: 27
+- fetched_count: 17091
+- filtered_count: 2182
+- duplicate_count: 71
+- failures: 36
 
 ## Top 10 General AI News
 1. [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations)
    - source: OpenAI
-   - score: 62.167
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.795; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 61.862
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.782; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Introducing GPT‑Live](https://simonwillison.net/2026/Jul/8/introducing-gptlive)
    - source: Simon Willison
-   - score: 60.807
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.855; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.349
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.834; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO](https://www.latent.space/p/modal2026)
    - source: Latent Space
-   - score: 60.66
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.848; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.202
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.827; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [[AINews] SpaceXAI launches Grok 4.5, first Opus-class model post Cursor acquisition](https://www.latent.space/p/ainews-spacexai-launches-grok-45)
    - source: Latent Space
-   - score: 56.46
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.96; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Quoting Kenton Varda](https://simonwillison.net/2026/Jul/8/kenton-varda)
-   - source: Simon Willison
-   - score: 56.344
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.804; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Our approach to government and national security partnerships](https://openai.com/index/government-national-security-partnerships)
+   - score: 56.002
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.939; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Our approach to government and national security partnerships](https://openai.com/index/government-national-security-partnerships)
    - source: OpenAI
-   - score: 56.282
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.801; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.976
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.787; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Quoting Kenton Varda](https://simonwillison.net/2026/Jul/8/kenton-varda)
+   - source: Simon Willison
+   - score: 55.886
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.783; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Automating cross-repo documentation with GitHub Agentic Workflows](https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows)
    - source: GitHub Blog AI and ML
-   - score: 54.713
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.881; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.407
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.867; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Data for Agents](https://huggingface.co/blog/nvidia/open-data-for-agents)
    - source: Hugging Face
-   - score: 52.051
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.76; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.593
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.739; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.74; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Native-speed vLLM transformers modeling backend](https://huggingface.co/blog/native-speed-vllm-transformers-backend)
    - source: Hugging Face
-   - score: 46.115
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.49; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.49; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 45.657
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.469; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.47; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [The Pragmatic Engineer AMA](https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-ama)
    - source: The Pragmatic Engineer
-   - score: 43.971
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.75; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.75; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 43.513
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.729; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.73; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [Bridging Design & Simulation in Humanoid Robotics](https://blogs.sw.siemens.com/simcenter/bridging-design-simulation-in-humanoid-robotics)
+1. [Open-source AI Datasets for AI Physics Model Training](https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training)
+   - source: Rescale
+   - score: 80.232
+   - score_breakdown: general=0.5; engineering=1.0; research=0.333; novelty=0.98; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=3; engineering_relevance=1.00; research_relevance=0.33; visible_engagement=unavailable
+2. [Bridging Design & Simulation in Humanoid Robotics](https://blogs.sw.siemens.com/simcenter/bridging-design-simulation-in-humanoid-robotics)
    - source: Siemens Simcenter
-   - score: 73.557
-   - score_breakdown: general=0.167; engineering=1.0; research=0.333; novelty=0.98; source_priority=1.0
+   - score: 73.527
+   - score_breakdown: general=0.167; engineering=1.0; research=0.333; novelty=0.978; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.33; visible_engagement=unavailable
-2. [Rewriting Bun in Rust](https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust)
+3. [Rewriting Bun in Rust](https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust)
    - source: Simon Willison
-   - score: 71.184
-   - score_breakdown: general=0.833; engineering=0.25; research=0.0; novelty=0.864; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=5; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-3. [AI Models Overthink Problems—and It’s a Security Risk](https://spectrum.ieee.org/ai-reasoning-models-security-risk)
+   - score: 70.725
+   - score_breakdown: general=0.833; engineering=0.25; research=0.0; novelty=0.844; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=5; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+4. [AI Models Overthink Problems—and It’s a Security Risk](https://spectrum.ieee.org/ai-reasoning-models-security-risk)
    - source: IEEE Spectrum AI
-   - score: 70.627
-   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.324; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.32; matched_terms=6; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
-4. [Agentic Ai Meets Weldline Mapping For End To End Injection Molding Simulation](https://www.synera.ai/news/agentic-ai-meets-weldline-mapping-for-end-to-end-injection-molding-simulation)
+   - score: 69.71
+   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.282; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.28; matched_terms=6; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+5. [Agentic Ai Meets Weldline Mapping For End To End Injection Molding Simulation](https://www.synera.ai/news/agentic-ai-meets-weldline-mapping-for-end-to-end-injection-molding-simulation)
    - source: Synera
    - score: 67.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; engineering_workflow_ai_boost=10; visible_engagement=unavailable
-5. [This startup thinks robotics is about to have its ChatGPT moment](https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment)
-   - source: TechCrunch AI
-   - score: 64.449
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.861; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research](https://aws.amazon.com/blogs/machine-learning/powering-scientific-discovery-byokg-and-graphrag-for-intelligent-pharmaceutical-research)
    - source: Amazon AWS AI
-   - score: 66.407
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.837; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-2. [What happens on ‘MAHA Monday’?](https://www.statnews.com/2026/07/09/maha-mondays-great-american-state-fair-status-report-alex-hogan)
+   - score: 66.101
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.823; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+2. [STAT+: AstraZeneca, Ionis report major trial failure with heart disease drug](https://www.statnews.com/2026/07/09/astrazeneca-ionis-attr-wainua-trial-failure)
    - source: STAT Health Tech
-   - score: 57.241
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.996; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.825
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.977; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Google’s deepfake detector system used to debunk McConnell hoax pic](https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic)
    - source: TechCrunch AI
-   - score: 54.58
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.875; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.274
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.861; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Anthropic Launches Claude Science, Illumina's Spatial Insights Tool, Wellcome Sanger Institute, Google DeepMind AI Consortium](https://www.bio-itworld.com/news/2026/06/30/anthropic-launches-claude-science--illumina's-spatial-insights-tool--wellcome-sanger-institute--google-deepmind-ai-consortium)
    - source: Bio-IT World
    - score: 53.033
@@ -117,8 +117,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [Flint: A visualization language for the AI era](https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era)
    - source: Microsoft Research
-   - score: 70.366
-   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.926; source_priority=1.0
+   - score: 70.235
+   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.92; source_priority=1.0
 2. [Nvidia Physical Ai](https://huggingface.co/blog/nvidia-physical-ai)
    - source: Hugging Face Papers
    - score: 57.867
@@ -156,7 +156,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Cadence: 'query'
 - Navasto: 'query'
 - PhysicsX: 'query'
-- Rescale: mismatched tag: line 93, column 2
 - ESI Group: 'query'
 - CADFEM: 'query'
 - Nature Machine Intelligence: 'query'
@@ -169,8 +168,18 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
+- Google News General AI Discovery: HTTP Error 503: Service Unavailable
+- Google News AI Payments and Agent Commerce: HTTP Error 503: Service Unavailable
+- Google News Frontier AI Policy and Access: HTTP Error 503: Service Unavailable
+- Google News Engineering AI Discovery: HTTP Error 503: Service Unavailable
+- Trusted Engineering AI Vendor Discovery: HTTP Error 503: Service Unavailable
+- Trusted Engineering Media Discovery: HTTP Error 503: Service Unavailable
+- Google News Medical AI Discovery: HTTP Error 503: Service Unavailable
+- Google News Bio and Genetics AI Discovery: HTTP Error 503: Service Unavailable
+- Trusted Biomedical AI Source Discovery: HTTP Error 503: Service Unavailable
 - NEJM AI: 'query'
 - The Lancet Digital Health: 'query'
 - Nature Medicine: 'query'
 - Nature Biotechnology: 'query'
 - Cell Patterns: 'query'
+- Curated AI Newsletter Discovery: HTTP Error 503: Service Unavailable
