@@ -137,6 +137,16 @@ def load_summaries() -> dict[str, str]:
     return load_json(SUMMARY_CACHE)
 
 
+def load_paper_push(date_slug: str) -> dict[str, Any] | None:
+    path = DIGEST_DIR / f"{date_slug}-paper-push.json"
+    if not path.exists():
+        return None
+    data = load_json(path)
+    if not (data.get("cae_papers") or data.get("biomedical_papers")):
+        return None
+    return data
+
+
 def parse_final_sections(markdown: str) -> dict[str, list[dict[str, str]]]:
     sections = {"general_ai": [], "engineering_ai": [], "medical_bio_ai": []}
     current: str | None = None
@@ -567,6 +577,7 @@ def research_items(
 
 def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], dict[str, Any] | None]:
     data = load_json(DIGEST_DIR / f"{date_slug}-candidates.json")
+    paper_push = load_paper_push(date_slug)
     try:
         issue_date = datetime.strptime(date_slug, "%Y-%m-%d").date()
     except ValueError:
@@ -605,7 +616,7 @@ def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], lis
             engineering,
             medical,
             research,
-            None,
+            paper_push,
         )
     general = section_items(data, "general_ai", 10, "top_10_general_ai", historical_items)
     engineering = section_items(data, "engineering_ai", 5, "top_5_engineering_ai", historical_items + general)
@@ -617,7 +628,7 @@ def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], lis
         engineering,
         medical,
         research,
-        None,
+        paper_push,
     )
 
 
@@ -714,8 +725,54 @@ def render_right_column(
     """
 
 
+def render_paper_push(paper_push: dict[str, Any] | None, language: str) -> str:
+    if not paper_push:
+        return ""
+    title = paper_push.get("title_zh") if language == "zh" else paper_push.get("title_en")
+    intro = paper_push.get("intro_zh") if language == "zh" else paper_push.get("intro_en")
+    cae_papers = list(paper_push.get("cae_papers") or [])
+    bio_papers = list(paper_push.get("biomedical_papers") or [])
+    papers = cae_papers + bio_papers
+    if not papers:
+        return ""
+
+    cards = []
+    for idx, paper in enumerate(papers, 1):
+        summary = paper.get("summary_zh") if language == "zh" else paper.get("summary_en")
+        meta = " · ".join(
+            part
+            for part in [
+                paper.get("source", ""),
+                paper.get("published", ""),
+            ]
+            if part
+        )
+        why = paper.get("why", "")
+        cards.append(
+            f"""
+          <article class="paper-item">
+            <div class="rank">{idx:02d}</div>
+            <div>
+              <h4><a href="{esc(paper.get("url", "#"))}">{esc(paper.get("title", "Untitled"))}</a></h4>
+              <p class="en-summary">{esc(summary)}</p>
+              <div class="meta"><span>{esc(meta)}</span></div>
+              <p class="reason">{esc(why)}</p>
+            </div>
+          </article>
+            """
+        )
+    return f"""
+      <section class="paper-push">
+        <p class="eyebrow">Friday Paper Push</p>
+        <h3>{esc(title or "Weekly AI-for-CAE Paper Push")}</h3>
+        <p class="paper-intro">{esc(intro or "")}</p>
+        {''.join(cards)}
+      </section>
+    """
+
+
 def render_day_zh(date_slug: str, summaries: dict[str, str]) -> str:
-    data, general, cae, medical, _research, _paper_push = day_items(date_slug)
+    data, general, cae, medical, _research, paper_push = day_items(date_slug)
     general_html = "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(general, 1))
     engineering_html = "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(cae, 1))
     medical_html = "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(medical, 1))
@@ -730,12 +787,12 @@ def render_day_zh(date_slug: str, summaries: dict[str, str]) -> str:
             "Biomedical AI Top 5",
             medical_html or empty_note("zh", "general"),
         ),
-        "",
+        render_paper_push(paper_push, "zh"),
     )
 
 
 def render_day_en(date_slug: str) -> str:
-    data, general, cae, medical, _research, _paper_push = day_items(date_slug)
+    data, general, cae, medical, _research, paper_push = day_items(date_slug)
     general_html = "".join(item_card_en(item, idx) for idx, item in enumerate(general, 1))
     engineering_html = "".join(item_card_en(item, idx) for idx, item in enumerate(cae, 1))
     medical_html = "".join(item_card_en(item, idx) for idx, item in enumerate(medical, 1))
@@ -750,7 +807,7 @@ def render_day_en(date_slug: str) -> str:
             "Top 5 Biomedical AI News",
             medical_html or empty_note("en", "general"),
         ),
-        "",
+        render_paper_push(paper_push, "en"),
     )
 
 
@@ -1045,6 +1102,9 @@ def site_css() -> str:
     .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
     .subsection { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
     .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
+    .paper-push { margin-top: 26px; padding-top: 20px; border-top: 2px solid var(--ink); }
+    .paper-intro { margin: 0 0 8px; color: var(--muted); line-height: 1.5; max-width: 820px; }
+    .paper-item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
     .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
     h4 { margin: 0; font-size: 18px; line-height: 1.25; }
     .zh-summary { margin: 0 0 7px; font-size: 18px; line-height: 1.38; font-weight: 700; color: var(--ink); }
