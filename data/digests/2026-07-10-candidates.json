@@ -1,0 +1,22 @@
+{
+  "run_log": {
+    "generated_at": "2026-07-10T07:02:35+00:00",
+    "window_hours": 24,
+    "source_count": 0,
+    "fetched_count": 0,
+    "filtered_count": 0,
+    "duplicate_count": 0,
+    "failures": []
+  },
+  "selection_policy": {
+    "note": "Minimal placeholder issue for the Friday AI-for-CAE Paper Push. Daily news candidates were not generated in this automation run."
+  },
+  "top_10_general_ai": [],
+  "top_5_engineering_ai": [],
+  "top_5_medical_bio_ai": [],
+  "top_5_cae_ai_engineering": [],
+  "research_radar": [],
+  "supplemental_search_tasks": [],
+  "watchlist_updates": [],
+  "top_100_news_candidates": []
+}
