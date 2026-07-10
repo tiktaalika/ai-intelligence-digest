@@ -71,6 +71,9 @@ class SourceRegistryTest(unittest.TestCase):
         for name in [
             "Engineering.com",
             "Engineering.com Artificial Intelligence",
+            "Engineering.com Design News Weekly",
+            "Engineering.com Simulation News",
+            "Design News",
             "Engineering24",
             "Industrial AI Network",
             "Industrial AI Network News",
@@ -89,7 +92,23 @@ class SourceRegistryTest(unittest.TestCase):
         self.assertEqual(trusted_media["priority"], "high")
         self.assertIn("trusted_discovery", trusted_media["tags"])
         self.assertIn("site:engineering.com", trusted_media["query"])
+        self.assertIn("site:designnews.com", trusted_media["query"])
         self.assertIn("site:industrial-ai-network.com", trusted_media["query"])
+
+    def test_user_requested_newsletters_are_curated(self) -> None:
+        registry = load_source_registry()
+        sources = {source["name"]: source for source in registry["sources"]}
+        for name in [
+            "Generative AI Newsletter",
+            "Generative AI Newsletter Discovery",
+        ]:
+            self.assertIn(name, sources)
+            self.assertTrue(sources[name]["enabled"])
+            self.assertIn("newsletter", sources[name]["tags"])
+            self.assertIn("user_requested", sources[name]["tags"])
+
+        self.assertEqual(sources["Generative AI Newsletter"]["priority"], "high")
+        self.assertEqual(sources["Generative AI Newsletter Discovery"]["kind"], "google_news_rss")
 
     def test_biomedical_sources_are_curated(self) -> None:
         registry = load_source_registry()

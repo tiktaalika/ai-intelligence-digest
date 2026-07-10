@@ -291,6 +291,41 @@
       "category": "cae_ai_engineering",
       "query": "site:linkedin.com/posts \"AI for engineering\" OR \"engineering simulation\" \"AI\"",
       "reach": "linkedin_public"
+    },
+    {
+      "name": "Engineering.com Design News Weekly",
+      "kind": "web_search_query",
+      "category": "cae_ai_engineering",
+      "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
+      "reach": "curated_newsletter"
+    },
+    {
+      "name": "Engineering.com Simulation News",
+      "kind": "web_search_query",
+      "category": "cae_ai_engineering",
+      "query": "site:engineering.com/category/technology/simulation (AI OR \"artificial intelligence\" OR simulation OR CAE OR CFD OR FEA OR \"digital twin\" OR Siemens OR Simcenter OR surrogate)",
+      "reach": "curated_newsletter"
+    },
+    {
+      "name": "Design News",
+      "kind": "web_search_query",
+      "category": "cae_ai_engineering",
+      "query": "site:designnews.com (AI OR CAD OR CAE OR simulation OR manufacturing OR automation OR robotics)",
+      "reach": "cae_industry"
+    },
+    {
+      "name": "Generative AI Newsletter",
+      "kind": "web_search_query",
+      "category": "general_ai",
+      "query": "site:genai.works (OpenAI OR Anthropic OR Claude OR ChatGPT OR \"AI agent\" OR \"generative AI\" OR \"AI newsletter\")",
+      "reach": "curated_newsletter"
+    },
+    {
+      "name": "Generative AI Newsletter Discovery",
+      "kind": "google_news_rss",
+      "category": "general_ai",
+      "query": "(\"Generative AI\" OR genai.works OR \"newsletter@genai.works\") (OpenAI OR Anthropic OR Claude OR ChatGPT OR \"AI agent\" OR \"generative AI\") when:2d",
+      "reach": "curated_newsletter"
     }
   ]
 }

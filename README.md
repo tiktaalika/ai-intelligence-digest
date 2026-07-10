@@ -39,7 +39,7 @@ For General AI, the selector follows the `guo-yichen/news-summary` source strate
 The same source-first rule applies to the right column:
 
 - Engineering AI is anchored on curated engineering and industrial sources first: Siemens Digital Industries Software, Siemens Simcenter, Siemens Art of the Possible, Ansys, COMSOL, Rescale, NAFEMS, and the configured watchlist of Dassault Systemes, Autodesk, Altair, Hexagon/MSC, PTC, Cadence, Synopsys, SimScale, Synera, PhysicsX, Luminary Cloud, Neural Concept, Monolith AI, nTop, and related CAE / simulation vendors. Broad Google News Engineering AI discovery is low-priority fallback; source-specific trusted vendor discovery is separate and capped.
-- Engineering media and industrial-AI discovery also includes user-requested sources such as Engineering.com, Engineering24, Rescale, AI for Industry / Industrial AI Network, and source-specific Google News recall limited to trusted engineering domains. Engineering24 is kept as a manual watchlist entry until a stable public URL or RSS feed is confirmed.
+- Engineering media and industrial-AI discovery also includes user-requested sources such as Engineering.com, Engineering.com Design News Weekly, Engineering.com Simulation News, Design News, Engineering24, Rescale, AI for Industry / Industrial AI Network, and source-specific Google News recall limited to trusted engineering domains. Engineering24 is kept as a manual watchlist entry until a stable public URL or RSS feed is confirmed.
 - Biomedical AI is anchored on trusted biomedical, clinical, digital-health, biotech, genomics, and drug-discovery sources first. Current defaults include NEJM AI, Nature Medicine, Nature Biotechnology, The Lancet Digital Health, Cell Patterns, STAT, Healthcare IT News, MobiHealthNews, MedCity News, Fierce Biotech, Fierce Healthcare, Bio-IT World, Drug Target Review, GenomeWeb, and Pharmaceutical Technology, plus source-specific trusted domain discovery. Broad Google News Medical/Bio discovery is low-priority fallback and capped.
 
 ## Upstream References
@@ -60,6 +60,8 @@ Adopted from these references:
 Not adopted for the current no-API public version:
 
 - Twitter/X timeline scraping, logged-in feeds, YouTube transcript APIs, email ingestion, Notion, and LLM summarization. Those need credentials, paid APIs, or a wider privacy/security surface.
+
+User-forwarded newsletters such as Generative AI, Design News Weekly, and Simulation News are represented as public source/watchlist entries. The pipeline does not read a private mailbox; it uses the public newsletter/site pages and tries to follow the original source links when those newsletters surface useful stories.
 
 ## Source Registry
 

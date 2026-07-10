@@ -460,13 +460,42 @@ sources:
     notes: User-requested engineering media source. No stable RSS confirmed; covered by Trusted Engineering Media Discovery for no-API runs.
     enabled: true
   - name: Engineering.com Artificial Intelligence
-    url: https://www.engineering.com/artificial-intelligence/
+    url: https://www.engineering.com/category/technology/artificial-intelligence/
     source_type: website
     category: engineering_ai
     priority: high
     tags: [engineering_media, artificial_intelligence, industrial_ai]
     notes: User-requested Engineering.com AI category watchlist; direct page may not expose stable RSS.
     enabled: true
+  - name: Engineering.com Design News Weekly
+    url: https://www.engineering.com/category/technology/design/
+    source_type: newsletter
+    category: engineering_ai
+    priority: high
+    tags: [engineering_media, newsletter, design, cad, manufacturing, wtwh, user_requested]
+    query: site:engineering.com/category/technology/design (AI OR "artificial intelligence" OR CAD OR CAE OR simulation OR manufacturing OR "Solid Edge" OR Designcenter OR Siemens OR Autodesk OR PLM)
+    notes: User-requested newsletter/source from Design News Weekly email; use the public Engineering.com Design category and source-of-source links, not private email scraping.
+    enabled: true
+    max_entries: 6
+  - name: Engineering.com Simulation News
+    url: https://www.engineering.com/category/technology/simulation/
+    source_type: newsletter
+    category: engineering_ai
+    priority: high
+    tags: [engineering_media, newsletter, simulation, cae, digital_twin, wtwh, user_requested]
+    query: site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate)
+    notes: User-requested newsletter/source from Simulation News email; use the public Engineering.com Simulation category and source-of-source links, not private email scraping.
+    enabled: true
+    max_entries: 6
+  - name: Design News
+    url: https://www.designnews.com/
+    source_type: website
+    category: engineering_ai
+    priority: medium
+    tags: [engineering_media, design_engineering, manufacturing, automation, industrial_ai, user_requested]
+    notes: Engineering design/manufacturing media watchlist added from user's Design News Weekly reference; filtered for AI, CAD, CAE, simulation, automation, and industrial AI relevance.
+    enabled: true
+    max_entries: 6
   - name: Engineering24
     url: https://www.engineering24.com/
     source_type: manual
@@ -1019,8 +1048,8 @@ sources:
     category: engineering_ai
     priority: high
     tags: [engineering_ai, trusted_discovery, engineering_media, industrial_ai, user_requested]
-    query: (site:engineering.com OR site:industrial-ai-network.com) (AI OR "artificial intelligence" OR "industrial AI" OR "engineering AI" OR simulation OR CAE OR CAD OR PLM OR "digital twin" OR manufacturing OR robotics OR "AI agent" OR "industrial copilot") when:30d
-    notes: Trusted discovery for user-requested Engineering.com and Industrial AI Network sources when direct RSS is unavailable.
+    query: (site:engineering.com OR site:designnews.com OR site:industrial-ai-network.com) (AI OR "artificial intelligence" OR "industrial AI" OR "engineering AI" OR simulation OR CAE OR CAD OR PLM OR "digital twin" OR manufacturing OR robotics OR "AI agent" OR "industrial copilot" OR "Designcenter" OR "Solid Edge") when:30d
+    notes: Trusted discovery for user-requested Engineering.com, Design News, and Industrial AI Network sources when direct RSS is unavailable.
     enabled: true
     max_entries: 8
   - name: Google News Medical AI Discovery
@@ -1212,3 +1241,24 @@ sources:
     query: ("Generative AI Daily Newsletter" OR "AI newsletter" OR "The Rundown AI" OR "Ben's Bites" OR "Superhuman AI" OR "Import AI") (OpenAI OR Anthropic OR Claude OR ChatGPT OR "AI agent") when:2d
     notes: Discovery source for curated newsletters; add exact newsletter archives when known.
     enabled: true
+  - name: Generative AI Newsletter
+    url: https://www.genai.works/
+    source_type: newsletter
+    category: community
+    priority: high
+    tags: [newsletter, generative_ai, ai_news, curated, user_requested]
+    query: site:genai.works (OpenAI OR Anthropic OR Claude OR ChatGPT OR "AI agent" OR "generative AI" OR "AI newsletter")
+    notes: User receives the Generative AI newsletter from genai.works; use public pages/search for source-of-source discovery, not private inbox scraping.
+    enabled: true
+    max_entries: 5
+  - name: Generative AI Newsletter Discovery
+    url: https://news.google.com/rss/search
+    source_type: newsletter
+    fetch_type: google_news_rss
+    category: community
+    priority: medium
+    tags: [newsletter, generative_ai, ai_news, curated, user_requested]
+    query: ("Generative AI" OR genai.works OR "newsletter@genai.works") (OpenAI OR Anthropic OR Claude OR ChatGPT OR "AI agent" OR "generative AI") when:2d
+    notes: Supplemental public discovery for stories surfaced by the user's Generative AI newsletter; rank real source links, not placeholder search URLs.
+    enabled: true
+    max_entries: 5
