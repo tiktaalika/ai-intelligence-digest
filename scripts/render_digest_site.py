@@ -137,18 +137,6 @@ def load_summaries() -> dict[str, str]:
     return load_json(SUMMARY_CACHE)
 
 
-def load_paper_push(date_slug: str) -> dict[str, Any] | None:
-    try:
-        if datetime.strptime(date_slug, "%Y-%m-%d").weekday() != 4:
-            return None
-    except ValueError:
-        return None
-    path = DIGEST_DIR / f"{date_slug}-paper-push.json"
-    if not path.exists():
-        return None
-    return load_json(path)
-
-
 def parse_final_sections(markdown: str) -> dict[str, list[dict[str, str]]]:
     sections = {"general_ai": [], "engineering_ai": [], "medical_bio_ai": []}
     current: str | None = None
@@ -589,7 +577,6 @@ def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], lis
         historical_items = historical_reference_items(date_slug)
     else:
         historical_items = []
-    paper_push = load_paper_push(date_slug)
     final_path = DIGEST_DIR / f"{date_slug}-final.md"
     if final_path.exists():
         final_items = hydrate_final_items(data, final_path)
@@ -618,7 +605,7 @@ def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], lis
             engineering,
             medical,
             research,
-            paper_push,
+            None,
         )
     general = section_items(data, "general_ai", 10, "top_10_general_ai", historical_items)
     engineering = section_items(data, "engineering_ai", 5, "top_5_engineering_ai", historical_items + general)
@@ -630,7 +617,7 @@ def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], lis
         engineering,
         medical,
         research,
-        paper_push,
+        None,
     )
 
 
@@ -692,61 +679,6 @@ def empty_note(language: str, section: str) -> str:
     return f'<p class="empty-note">{esc(messages.get(section, messages["general"]))}</p>'
 
 
-def paper_item_card(item: dict[str, Any], idx: int, language: str) -> str:
-    summary = item.get("summary_zh", "") if language == "zh" else item.get("summary_en", "")
-    why = item.get("why", "")
-    meta_parts = [item.get("source", ""), item.get("published", "")]
-    meta = "".join(f"<span>{esc(part)}</span>" for part in meta_parts if part)
-    return f"""
-      <article class="item paper-item">
-        <div class="rank">{idx:02d}</div>
-        <div>
-          {f'<p class="zh-summary">{esc(summary)}</p>' if summary and language == "zh" else ""}
-          <h4><a href="{esc(item.get("url", "#"))}">{esc(item.get("title", "Untitled"))}</a></h4>
-          {f'<p class="en-summary">{esc(summary)}</p>' if summary and language == "en" else ""}
-          <div class="meta">{meta}</div>
-          {f'<p class="reason">{esc(why)}</p>' if why else ""}
-        </div>
-      </article>
-    """
-
-
-def render_paper_push(paper_push: dict[str, Any], language: str) -> str:
-    title = paper_push.get("title_zh", "Paper Push") if language == "zh" else paper_push.get("title_en", "Paper Push")
-    intro = paper_push.get("intro_zh", "") if language == "zh" else paper_push.get("intro_en", "")
-    cae_title = "AI4CAE Papers" if language == "en" else "AI4CAE 论文"
-    bio_title = "Biomedical AI Papers" if language == "en" else "Biomedical 论文"
-    cae_sources_title = "Sources checked" if language == "en" else "检索来源"
-    bio_sources_title = "Biomedical sources checked" if language == "en" else "Biomedical 检索来源"
-    cae_items = "".join(paper_item_card(item, idx, language) for idx, item in enumerate(paper_push.get("cae_papers", []), 1))
-    bio_items = "".join(paper_item_card(item, idx, language) for idx, item in enumerate(paper_push.get("biomedical_papers", []), 1))
-    cae_sources = "；".join(paper_push.get("cae_sources_checked", [])) if language == "zh" else "; ".join(paper_push.get("cae_sources_checked", []))
-    bio_sources = "；".join(paper_push.get("biomedical_sources_checked", [])) if language == "zh" else "; ".join(paper_push.get("biomedical_sources_checked", []))
-    bio_section = ""
-    if paper_push.get("biomedical_papers"):
-        bio_section = f"""
-          <section>
-            <h3>{esc(bio_title)}</h3>
-            {f'<p class="reason"><strong>{esc(bio_sources_title)}:</strong> {esc(bio_sources)}</p>' if bio_sources else ""}
-            {bio_items}
-          </section>
-        """
-    return f"""
-      <section class="paper-push">
-        <h3>{esc(title)}</h3>
-        {f'<p class="reason">{esc(intro)}</p>' if intro else ""}
-        <div class="columns">
-          <section>
-            <h3>{esc(cae_title)}</h3>
-            {f'<p class="reason"><strong>{esc(cae_sources_title)}:</strong> {esc(cae_sources)}</p>' if cae_sources else ""}
-            {cae_items}
-          </section>
-          {bio_section}
-        </div>
-      </section>
-    """
-
-
 def render_research_radar(items: list[dict[str, Any]], language: str, summaries: dict[str, str]) -> str:
     if not items:
         return ""
@@ -783,7 +715,7 @@ def render_right_column(
 
 
 def render_day_zh(date_slug: str, summaries: dict[str, str]) -> str:
-    data, general, cae, medical, _research, paper_push = day_items(date_slug)
+    data, general, cae, medical, _research, _paper_push = day_items(date_slug)
     general_html = "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(general, 1))
     engineering_html = "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(cae, 1))
     medical_html = "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(medical, 1))
@@ -798,12 +730,12 @@ def render_day_zh(date_slug: str, summaries: dict[str, str]) -> str:
             "Biomedical AI Top 5",
             medical_html or empty_note("zh", "general"),
         ),
-        render_paper_push(paper_push, "zh") if paper_push else "",
+        "",
     )
 
 
 def render_day_en(date_slug: str) -> str:
-    data, general, cae, medical, _research, paper_push = day_items(date_slug)
+    data, general, cae, medical, _research, _paper_push = day_items(date_slug)
     general_html = "".join(item_card_en(item, idx) for idx, item in enumerate(general, 1))
     engineering_html = "".join(item_card_en(item, idx) for idx, item in enumerate(cae, 1))
     medical_html = "".join(item_card_en(item, idx) for idx, item in enumerate(medical, 1))
@@ -818,7 +750,7 @@ def render_day_en(date_slug: str) -> str:
             "Top 5 Biomedical AI News",
             medical_html or empty_note("en", "general"),
         ),
-        render_paper_push(paper_push, "en") if paper_push else "",
+        "",
     )
 
 
@@ -1110,10 +1042,8 @@ def site_css() -> str:
     .audit { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-content: start; }
     .audit span { border: 1px solid var(--line); padding: 7px 10px; color: var(--muted); font-family: "Avenir Next", Verdana, sans-serif; font-size: 13px; }
     .columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); gap: 24px; }
-    .paper-push { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
     .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
     .subsection { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
-    .paper-item { border-top: 1px solid var(--line); }
     .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
     .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
     h4 { margin: 0; font-size: 18px; line-height: 1.25; }
@@ -1222,7 +1152,7 @@ def render_archive_page(language: str, page_number: int, total_pages: int, entri
     if language == "zh":
         lang_attr = "zh-CN"
         title = "AI Engineering Newsletter 中文版"
-        subtitle = "一个页面聚合 News Push、Paper Push 和 GitHub Trend Monitor。覆盖 General AI、Engineering AI、CAE、CAD、simulation、digital twin、industrial AI 与 scientific ML；最新日期在最上面。"
+        subtitle = "一个页面聚合 News Push 和 GitHub Trend Monitor。覆盖 General AI、Engineering AI、CAE、CAD、simulation、digital twin、industrial AI 与 scientific ML；最新日期在最上面。"
         switch = f'<a class="active" href="{esc(archive_page_href("zh", page_number, page_number))}">中文版</a><a href="{esc(switch_href("zh", page_number))}">English</a>'
         days = "\n".join(
             render_day_zh(entry["date"], summaries) if entry["available"] else render_missing_day(entry["date"], "zh")
@@ -1232,7 +1162,7 @@ def render_archive_page(language: str, page_number: int, total_pages: int, entri
     else:
         lang_attr = "en"
         title = "AI Engineering Newsletter"
-        subtitle = "One public page for News Push, Paper Push, and GitHub Trend Monitor across general AI, engineering AI, CAE, CAD, simulation, digital twins, industrial AI, and scientific ML."
+        subtitle = "One public page for News Push and GitHub Trend Monitor across general AI, engineering AI, CAE, CAD, simulation, digital twins, industrial AI, and scientific ML."
         switch = f'<a href="{esc(switch_href("en", page_number))}">中文版</a><a class="active" href="{esc(archive_page_href("en", page_number, page_number))}">English</a>'
         days = "\n".join(
             render_day_en(entry["date"]) if entry["available"] else render_missing_day(entry["date"], "en")
@@ -1286,7 +1216,7 @@ def render_landing_page() -> str:
     <div class="landing-panel">
       <p class="eyebrow">Bilingual daily archive</p>
       <h1>AI Engineering Newsletter</h1>
-      <p class="subtitle">One static public site for News Push, Paper Push, and GitHub Trend Monitor. Latest Issued: <strong>{esc(latest)}</strong>.</p>
+      <p class="subtitle">One static public site for News Push and GitHub Trend Monitor. Latest Issued: <strong>{esc(latest)}</strong>.</p>
       <div class="landing-links">
         <a class="edition" href="en/index.html"><strong>English Edition</strong><span>Public-facing newsletter with English titles, summaries, source links, and audit metadata.</span></a>
         <a class="edition" href="zh/index.html"><strong>中文版</strong><span>中文摘要版，方便日常阅读；每天自动提醒使用这个入口。</span></a>

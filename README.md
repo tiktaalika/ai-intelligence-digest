@@ -1,13 +1,13 @@
 # AI Engineering Newsletter
 
-This workspace contains an auditable AI Engineering Newsletter pipeline. It refreshes a static website with daily news, paper highlights, and GitHub trend monitoring. The public English site can run without an OpenAI API key; the Chinese reading edition is optional and only needs an LLM key when Chinese summaries/translations are regenerated.
+This workspace contains an auditable AI Engineering Newsletter pipeline. It refreshes a static website with daily news and GitHub trend monitoring. The public English site can run without an OpenAI API key; the Chinese reading edition is optional and only needs an LLM key when Chinese summaries/translations are regenerated.
 
 ## What It Produces
 
 - Top 10 English-language General AI News items covering model releases, AI products, company dynamics, open-source models, policy, funding, and major research progress.
 - Top 5 English-language Engineering AI News items from a rolling window, covering engineering, simulation, CAD, CAE, SPDM, PLM, digital twins, physical AI, scientific ML, and industrial AI.
 - Top 5 English-language Medical, Medicine, and Bio/Genetics AI News items covering healthcare AI, clinical AI, biotech, genomics, genetics, and drug-discovery-related AI.
-- A static website with a root language selector, an English public edition, an optional Chinese reading edition, Paper Push sections, and GitHub Trend Monitor pages.
+- A static website with a root language selector, an English public edition, an optional Chinese reading edition, and GitHub Trend Monitor pages.
 - Optional Research Radar and Watchlist Updates sections.
 - A candidate audit file with up to 100 scored news candidates from the enabled curated source registry.
 - A run log with source failures and ranking reasons.
@@ -94,11 +94,12 @@ For the no-API public site, this is enough:
 
 ```bash
 python3 scripts/build_digest_candidates.py --window-hours 24
+python3 scripts/generate_daily_report.py
 python3 -m trend_report all
 python3 scripts/render_digest_site.py
 ```
 
-This mode uses public RSS/web feeds, public arXiv-style links already stored in paper push JSON files, and GitHub public APIs. `GITHUB_TOKEN` is optional locally and only raises GitHub API rate limits. In GitHub Actions, `${{ secrets.GITHUB_TOKEN }}` is provided by GitHub automatically and is not a user-created API key.
+This mode uses public RSS/web feeds and GitHub public APIs. `GITHUB_TOKEN` is optional locally and only raises GitHub API rate limits. In GitHub Actions, `${{ secrets.GITHUB_TOKEN }}` is provided by GitHub automatically and is not a user-created API key.
 
 Only create your private environment file if you want to regenerate Chinese LLM summaries/translations:
 
@@ -128,7 +129,10 @@ Outputs:
 ```text
 data/digests/YYYY-MM-DD-candidates.json
 data/digests/YYYY-MM-DD-briefing-input.md
+data/digests/YYYY-MM-DD-final.md
 ```
+
+`*-final.md` is the daily readable report. It is deterministic and does not require an OpenAI API key, so the pipeline can still publish a daily markdown issue even when no LLM step runs.
 
 The briefing input uses this structure:
 
@@ -165,7 +169,6 @@ python3 scripts/render_digest_site.py
 The newest newsletter appears at the top in both language editions. Each dated issue can include:
 
 - Daily News Push from `data/digests/YYYY-MM-DD-candidates.json`
-- Friday-only Paper Push from `data/digests/YYYY-MM-DD-paper-push.json`
 - GitHub Trend Monitor links rendered from `reports/weekly/` and `reports/monthly/`
 
 The Chinese page uses the human-written Chinese final markdown when available. The English page uses selected items with English titles, source links, source snippets, scores, and audit metadata, so it can be built without OpenAI.

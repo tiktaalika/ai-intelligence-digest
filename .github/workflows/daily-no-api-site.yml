@@ -41,6 +41,10 @@ jobs:
         run: |
           DATE="$(TZ=Europe/Berlin date +%F)"
           python3 scripts/build_digest_candidates.py --window-hours 24 --date "$DATE"
+      - name: Generate daily markdown report
+        run: |
+          DATE="$(TZ=Europe/Berlin date +%F)"
+          python3 scripts/generate_daily_report.py --date "$DATE"
       - name: Render combined site
         run: python3 scripts/render_digest_site.py
       - name: Check recent duplicate items
@@ -51,7 +55,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update no-api newsletter site"
-          file_pattern: "data/digests/*-candidates.json data/digests/*-briefing-input.md site/**"
+          file_pattern: "data/digests/*-candidates.json data/digests/*-briefing-input.md data/digests/*-final.md site/**"
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload site
