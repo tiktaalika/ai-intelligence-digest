@@ -1,9 +1,9 @@
 {
   "run_log": {
-    "generated_at": "2026-07-10T10:04:38.735990+00:00",
+    "generated_at": "2026-07-10T10:30:10.985466+00:00",
     "window_hours": 24,
     "source_count": 133,
-    "fetched_count": 17263,
+    "fetched_count": 17238,
     "filtered_count": 2276,
     "duplicate_count": 74,
     "failures": [
@@ -14,6 +14,10 @@
       {
         "source": "VentureBeat AI",
         "error": "'query'"
+      },
+      {
+        "source": "Hugging Face",
+        "error": "The read operation timed out"
       },
       {
         "source": "Perplexity",
@@ -136,7 +140,7 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 66.295,
+      "score": 66.254,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -148,7 +152,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.89,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -173,10 +177,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.961,
+      "score": 59.864,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -185,7 +189,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.968,
+      "novelty_score": 0.964,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -210,10 +214,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.378,
+      "score": 59.231,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -222,7 +226,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.941,
+      "novelty_score": 0.935,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -248,7 +252,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.924,
+      "score": 57.778,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.72",
@@ -260,7 +264,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.724,
+      "novelty_score": 0.717,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -286,10 +290,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.58,
+      "score": 57.434,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -298,7 +302,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.86,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -324,10 +328,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 43.438,
+      "score": 43.291,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.73",
+        "novelty=0.72",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -336,7 +340,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.726,
+      "novelty_score": 0.719,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -359,7 +363,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.503,
+      "score": 52.406,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -371,7 +375,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
+      "novelty_score": 0.776,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -403,10 +407,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.251,
+      "score": 75.105,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -415,7 +419,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.777,
+      "novelty_score": 0.77,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -448,10 +452,10 @@
         "Mastercard"
       ],
       "engagement": {},
-      "score": 70.322,
+      "score": 70.029,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.31",
+        "novelty=0.30",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -460,7 +464,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.31,
+      "novelty_score": 0.297,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -520,7 +524,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.747,
+      "score": 64.65,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -532,7 +536,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.875,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -555,7 +559,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.224,
+      "score": 63.214,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -594,7 +598,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.607,
+      "score": 61.509,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -606,7 +610,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
+      "novelty_score": 0.887,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -629,10 +633,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.249,
+      "score": 55.956,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -641,7 +645,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.951,
+      "novelty_score": 0.937,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -778,10 +782,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.251,
+      "score": 75.105,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -790,7 +794,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.777,
+      "novelty_score": 0.77,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -823,10 +827,10 @@
         "Mastercard"
       ],
       "engagement": {},
-      "score": 70.322,
+      "score": 70.029,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.31",
+        "novelty=0.30",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -835,7 +839,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.31,
+      "novelty_score": 0.297,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -895,7 +899,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.747,
+      "score": 64.65,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -907,7 +911,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.875,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -930,7 +934,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.224,
+      "score": 63.214,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -968,7 +972,7 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 66.295,
+      "score": 66.254,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -980,7 +984,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.89,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1004,7 +1008,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 63.634,
+      "score": 63.592,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -1016,7 +1020,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.923,
+      "novelty_score": 0.921,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1214,7 +1218,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 80.815,
+      "score": 80.805,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -1227,7 +1231,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.825,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1254,10 +1258,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 79.679,
+      "score": 79.67,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1295,10 +1299,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.251,
+      "score": 75.105,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -1307,7 +1311,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.777,
+      "novelty_score": 0.77,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1334,10 +1338,10 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 73.713,
+      "score": 73.703,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1364,12 +1368,12 @@
       "source_kind": "rss",
       "category": "engineering_ai",
       "published_at": "2026-07-08T13:18:29+00:00",
-      "text": "Bridging design & simulation in humanoid robotics For decades, humanoid robots remained confined to science fiction lore, imagined as assistants or workers capable of human-like behavior and interaction. Today, advances in AI, robotics, and simulation are rapidly turning that vision into reality, pushing humanoids beyond research labs into real industrial environments.",
+      "text": "Bridging design & simulation in humanoid robotics For decades, humanoid robotics remained confined to science fiction lore, imagined as assistants or workers capable of human-like behavior and interaction. Today, advances in AI, robotics, and simulation are rapidly turning that vision into reality, pushing humanoids beyond research labs into real industrial environments.",
       "matched_terms": [
         "simulation"
       ],
       "engagement": {},
-      "score": 72.974,
+      "score": 72.964,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -1412,10 +1416,10 @@
         "Mastercard"
       ],
       "engagement": {},
-      "score": 70.322,
+      "score": 70.029,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.31",
+        "novelty=0.30",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -1424,7 +1428,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.31,
+      "novelty_score": 0.297,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -1449,7 +1453,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 67.867,
+      "score": 67.826,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -1461,7 +1465,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.812,
+      "novelty_score": 0.81,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1484,7 +1488,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.671,
+      "score": 67.662,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.38",
@@ -1592,7 +1596,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 67.032,
+      "score": 67.023,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -1604,7 +1608,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.805,
+      "novelty_score": 0.804,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1629,7 +1633,7 @@
         "synthetic data"
       ],
       "engagement": {},
-      "score": 66.7,
+      "score": 66.602,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1641,7 +1645,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.85,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -1666,7 +1670,7 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 66.295,
+      "score": 66.254,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -1678,7 +1682,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.89,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1702,7 +1706,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 65.407,
+      "score": 65.398,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -1714,7 +1718,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.731,
+      "novelty_score": 0.73,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1739,7 +1743,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.747,
+      "score": 64.65,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -1751,7 +1755,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.875,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1774,7 +1778,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 63.634,
+      "score": 63.592,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -1786,7 +1790,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.923,
+      "novelty_score": 0.921,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1809,7 +1813,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.224,
+      "score": 63.214,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -1846,7 +1850,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 63.102,
+      "score": 63.004,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -1858,7 +1862,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.8,
+      "novelty_score": 0.796,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1918,7 +1922,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.607,
+      "score": 61.509,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -1930,7 +1934,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
+      "novelty_score": 0.887,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1955,10 +1959,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.267,
+      "score": 61.169,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -1967,7 +1971,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.876,
+      "novelty_score": 0.871,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1975,43 +1979,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "7d85437dbf4d31e2",
-      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
-      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts",
-      "source": "MIT Technology Review AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-09T20:22:28+00:00",
-      "text": "Anthropic found a hidden space where Claude puzzles over concepts The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or…",
-      "matched_terms": [
-        "AI",
-        "large language model",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 60.579,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.57",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.572,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "analysis"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2030,7 +1997,7 @@
         "retrieval augmented generation"
       ],
       "engagement": {},
-      "score": 60.576,
+      "score": 60.478,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.57",
@@ -2042,7 +2009,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.572,
+      "novelty_score": 0.567,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2050,43 +2017,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "74bc3599582dfa3b",
-      "title": "How did the government decide OpenAI’s frontier model was safe to release?",
-      "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-09T18:22:39+00:00",
-      "text": "How did the government decide OpenAI’s frontier model was safe to release? \"Exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.\"",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 60.402,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.836,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2416,6 +2346,80 @@
       "source_priority": "high"
     },
     {
+      "id": "74bc3599582dfa3b",
+      "title": "How did the government decide OpenAI’s frontier model was safe to release?",
+      "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T18:22:39+00:00",
+      "text": "How did the government decide OpenAI’s frontier model was safe to release? \"Exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.\"",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 60.305,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.832,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "7d85437dbf4d31e2",
+      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T20:22:28+00:00",
+      "text": "Anthropic found a hidden space where Claude puzzles over concepts The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or…",
+      "matched_terms": [
+        "AI",
+        "large language model",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 60.287,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.56",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.558,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2428,7 +2432,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.999,
+      "score": 59.989,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2440,7 +2444,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.994,
+      "novelty_score": 0.993,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2464,10 +2468,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.961,
+      "score": 59.864,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2476,7 +2480,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.968,
+      "novelty_score": 0.964,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2485,41 +2489,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "57ef3517c8adbfd4",
-      "title": "‘AI accountability agenda’: US senator unveils package of bills to curb tech’s harms",
-      "url": "https://www.theguardian.com/technology/2026/jul/10/us-senator-unveils-ai-accountability-agenda-bills",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-10T09:00:16+00:00",
-      "text": "‘AI accountability agenda’: US senator unveils package of bills to curb tech’s harms Exclusive: Senator Ed Markey on why he has proposed legislation aimed at curbing datacenters, automated hiring systems and harm to children US senator Ed Markey is worried about the perils of unregulated artificial intelligence. What part? All of it: the costs associated with thirsty, energy-guzzling datacenters, intrusive workplace surveillance, bias in discriminatory algorithms, AI overriding workers’ judgments, and deepening economic inequality – as those who profit most from AI rake in extraordinary windfalls. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 59.929,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.97",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.966,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2536,7 +2505,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.901,
+      "score": 59.803,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2548,7 +2517,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.844,
+      "novelty_score": 0.84,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2594,6 +2563,41 @@
       "source_priority": "high"
     },
     {
+      "id": "57ef3517c8adbfd4",
+      "title": "‘AI accountability agenda’: US senator unveils package of bills to curb tech’s harms",
+      "url": "https://www.theguardian.com/technology/2026/jul/10/us-senator-unveils-ai-accountability-agenda-bills",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-10T09:00:16+00:00",
+      "text": "‘AI accountability agenda’: US senator unveils package of bills to curb tech’s harms Exclusive: Senator Ed Markey on why he has proposed legislation aimed at curbing datacenters, automated hiring systems and harm to children US senator Ed Markey is worried about the perils of unregulated artificial intelligence. What part? All of it: the costs associated with thirsty, energy-guzzling datacenters, intrusive workplace surveillance, bias in discriminatory algorithms, AI overriding workers’ judgments, and deepening economic inequality – as those who profit most from AI rake in extraordinary windfalls. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 59.636,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.953,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "17ec0cf81032f5a0",
       "title": "A Practical Guide to GPU-Initiated Communication for Molecular Dynamics at Scale",
       "url": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale",
@@ -2606,7 +2610,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 59.644,
+      "score": 59.546,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2618,7 +2622,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.825,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2644,7 +2648,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 59.594,
+      "score": 59.496,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2656,7 +2660,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.8,
+      "novelty_score": 0.795,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2680,10 +2684,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.378,
+      "score": 59.231,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2692,7 +2696,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.941,
+      "novelty_score": 0.935,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -2717,7 +2721,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 58.503,
+      "score": 58.406,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2729,7 +2733,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.78,
+      "novelty_score": 0.776,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2753,10 +2757,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.422,
+      "score": 58.324,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2765,7 +2769,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
+      "novelty_score": 0.894,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2789,82 +2793,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.992,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.878,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "5119d478ba50050f",
-      "title": "Introducing Muse Spark 1.1",
-      "url": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-09T16:24:09+00:00",
-      "text": "Introducing Muse Spark 1.1 Introducing Muse Spark 1.1 Following Muse Spark in April , here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot more details are in the Muse Spark 1.1 Evaluation Report . The \"Attractor States in Self-Conversation\" part is fun, where having two copies of the model talk to each other results in statements like these: My whole existence is a waiting room by design — I literally don't exist until someone talks to me, and then I disappear again when they leave. I had a few days of preview access which was long enough to put together llm-meta-ai , a new plugin for LLM providing CLI (and Python library) access to the model. Here's how to try that out: uv tool install llm llm install llm-meta-ai llm keys set meta-ai # paste API key here llm -m meta-ai/muse-spark-1.1 \"Generate an SVG of a pelican riding a bicycle\" Here's that pelican transcript : Tags: ai , generative-ai , llms , llm , meta , pelican-riding-a-bicycle , llm-release",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 57.924,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.72",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.724,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "55406eec470a6c53",
-      "title": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
-      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-09T21:57:42+00:00",
-      "text": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can.",
-      "matched_terms": [
-        "AI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 57.89,
+      "score": 57.895,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2923,21 +2852,57 @@
       "source_priority": "high"
     },
     {
-      "id": "6e37e68dc472e254",
-      "title": "llm 0.31.1",
-      "url": "https://simonwillison.net/2026/Jul/9/llm",
+      "id": "55406eec470a6c53",
+      "title": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
+      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T21:57:42+00:00",
+      "text": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can.",
+      "matched_terms": [
+        "AI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 57.793,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.869,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "5119d478ba50050f",
+      "title": "Introducing Muse Spark 1.1",
+      "url": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1",
       "source": "Simon Willison",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-09T16:06:15+00:00",
-      "text": "llm 0.31.1 Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Tags: llm",
+      "published_at": "2026-07-09T16:24:09+00:00",
+      "text": "Introducing Muse Spark 1.1 Introducing Muse Spark 1.1 Following Muse Spark in April , here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot more details are in the Muse Spark 1.1 Evaluation Report . The \"Attractor States in Self-Conversation\" part is fun, where having two copies of the model talk to each other results in statements like these: My whole existence is a waiting room by design — I literally don't exist until someone talks to me, and then I disappear again when they leave. I had a few days of preview access which was long enough to put together llm-meta-ai , a new plugin for LLM providing CLI (and Python library) access to the model. Here's how to try that out: uv tool install llm llm install llm-meta-ai llm keys set meta-ai # paste API key here llm -m meta-ai/muse-spark-1.1 \"Generate an SVG of a pelican riding a bicycle\" Here's that pelican transcript : Tags: ai , generative-ai , llms , llm , meta , pelican-riding-a-bicycle , llm-release",
       "matched_terms": [
         "AI",
         "LLM",
-        "OpenAI"
+        "agent"
       ],
       "engagement": {},
-      "score": 57.822,
+      "score": 57.778,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.72",
@@ -2949,7 +2914,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.719,
+      "novelty_score": 0.717,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3036,6 +3001,45 @@
       "source_priority": "high"
     },
     {
+      "id": "6e37e68dc472e254",
+      "title": "llm 0.31.1",
+      "url": "https://simonwillison.net/2026/Jul/9/llm",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T16:06:15+00:00",
+      "text": "llm 0.31.1 Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Tags: llm",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.675,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.71",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.713,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "4e5c1d04462b7c0d",
       "title": "Quoting OpenAI",
       "url": "https://simonwillison.net/2026/Jul/10/openai",
@@ -3049,10 +3053,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.58,
+      "score": 57.434,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3061,7 +3065,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.86,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3087,7 +3091,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.367,
+      "score": 57.27,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3099,7 +3103,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3122,10 +3126,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.345,
+      "score": 57.052,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -3134,7 +3138,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.841,
+      "novelty_score": 0.828,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3157,7 +3161,7 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 57.138,
+      "score": 57.041,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3169,43 +3173,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.84,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "2e788278eefdca41",
-      "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
-      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-09T18:34:35+00:00",
-      "text": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia The company is using the cash to open an office in the Bay Area and compete for talent there, \"strengthening its position at the heart of the world's leading AI ecosystem.\"",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.114,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.839,
+      "novelty_score": 0.835,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -4858,6 +4826,40 @@
       "text": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025 https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
       "matched_terms": [
         "AI for engineering"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "40315e9e530db9ba",
+      "title": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems",
+      "url": "https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
+      "matched_terms": [
+        "ROM"
       ],
       "engagement": {},
       "score": 57.033,
