@@ -3,65 +3,65 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17283
-- filtered_count: 2264
+- fetched_count: 17294
+- filtered_count: 2260
 - duplicate_count: 77
-- failures: 27
+- failures: 25
 
 ## Top 10 General AI News
 1. [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-f5c)
    - source: Latent Space
-   - score: 61.488
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.916; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 61.411
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.913; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Quoting Nilay Patel](https://simonwillison.net/2026/Jul/10/nilay-patel)
    - source: Simon Willison
-   - score: 52.121
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.763; source_priority=1.0
+   - score: 52.044
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.76; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [llm-meta-ai 0.1](https://simonwillison.net/2026/Jul/9/llm-meta-ai)
    - source: Simon Willison
-   - score: 46.901
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.374; source_priority=1.0
+   - score: 46.823
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.371; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.37; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [How GPT-5.6 Changes Knowledge Work](https://every.to/chain-of-thought/how-gpt-5-6-changes-knowledge-work)
    - source: Chain of Thought
-   - score: 40.418
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.74; source_priority=0.65
+   - score: 40.341
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.737; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.74; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [Simulation Monitoring Automation](https://rescale.com/blog/simulation-monitoring-automation)
-   - source: Rescale
-   - score: 70.938
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.982; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-2. [From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet](https://www.neuralconcept.com/post/from-dataset-to-design-impact-how-neural-concept-set-a-new-benchmark-on-mits-drivaernet)
+1. [From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet](https://www.neuralconcept.com/post/from-dataset-to-design-impact-how-neural-concept-set-a-new-benchmark-on-mits-drivaernet)
    - source: Neural Concept
    - score: 62.367
    - score_breakdown: general=0.167; engineering=1.0; research=0.667; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.67; visible_engagement=unavailable
-3. [Boris Scharinger Industrial Ai From Pilot To Profit](https://www.industrial-ai-network.com/news/boris-scharinger-industrial-ai-from-pilot-to-profit)
+2. [Boris Scharinger Industrial Ai From Pilot To Profit](https://www.industrial-ai-network.com/news/boris-scharinger-industrial-ai-from-pilot-to-profit)
    - source: Industrial AI Network
    - score: 60.367
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Automating Fea Tasks Bridging The Gap Between Design Simulation](https://www.synera.ai/webinar/automating-fea-tasks-bridging-the-gap-between-design-simulation)
+3. [Automating Fea Tasks Bridging The Gap Between Design Simulation](https://www.synera.ai/webinar/automating-fea-tasks-bridging-the-gap-between-design-simulation)
    - source: Synera
    - score: 60.367
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [11.18.2024 Luminary Cloud Uses NVIDIA Omniverse Blueprint for Real-Time Computer-Aided Engineering Digital Twins Luminary Press](https://www.luminarycloud.com/resources/luminary-cloud-uses-nvidia-omniverse-blueprint-for-real-time-computer-aided-engineering-digital-twins)
+4. [11.18.2024 Luminary Cloud Uses NVIDIA Omniverse Blueprint for Real-Time Computer-Aided Engineering Digital Twins Luminary Press](https://www.luminarycloud.com/resources/luminary-cloud-uses-nvidia-omniverse-blueprint-for-real-time-computer-aided-engineering-digital-twins)
    - source: Luminary Cloud
    - score: 60.367
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+5. [2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions](https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions)
+   - source: Synopsys
+   - score: 59.485
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.971; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.97; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit](https://developer.nvidia.com/blog/accelerating-end-to-end-co-folding-performance-with-nvidia-bionemo-agent-toolkit)
    - source: NVIDIA AI
-   - score: 59.588
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.799; source_priority=1.0
+   - score: 59.536
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.797; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Sair Data Accelerating Drug Discovery With Ai](https://huggingface.co/blog/SandboxAQ/sair-data-accelerating-drug-discovery-with-ai)
    - source: Hugging Face Papers
@@ -130,9 +130,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Cadence: 'query'
 - Navasto: 'query'
 - PhysicsX: 'query'
+- Rescale: mismatched tag: line 93, column 2
 - ESI Group: 'query'
 - CADFEM: 'query'
-- Nature Machine Intelligence: 'query'
 - Science Robotics: 'query'
 - ACM AI-related feeds: 'query'
 - Reddit MachineLearning: 'query'
@@ -144,6 +144,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
 - NEJM AI: 'query'
 - The Lancet Digital Health: 'query'
-- Nature Medicine: 'query'
-- Nature Biotechnology: 'query'
 - Cell Patterns: 'query'
