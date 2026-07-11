@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-07-11T08:28:44.585212+00:00",
+    "generated_at": "2026-07-11T08:59:43.746784+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17294,
-    "filtered_count": 2260,
+    "fetched_count": 16284,
+    "filtered_count": 2265,
     "duplicate_count": 77,
     "failures": [
       {
@@ -48,15 +48,15 @@
         "error": "'query'"
       },
       {
-        "source": "Rescale",
-        "error": "mismatched tag: line 93, column 2"
-      },
-      {
         "source": "ESI Group",
         "error": "'query'"
       },
       {
         "source": "CADFEM",
+        "error": "'query'"
+      },
+      {
+        "source": "Nature Machine Intelligence",
         "error": "'query'"
       },
       {
@@ -104,6 +104,14 @@
         "error": "'query'"
       },
       {
+        "source": "Nature Medicine",
+        "error": "'query'"
+      },
+      {
+        "source": "Nature Biotechnology",
+        "error": "'query'"
+      },
+      {
         "source": "Cell Patterns",
         "error": "'query'"
       }
@@ -132,10 +140,10 @@
         "model release"
       ],
       "engagement": {},
-      "score": 61.411,
+      "score": 61.233,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -144,7 +152,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.913,
+      "novelty_score": 0.905,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -168,10 +176,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.044,
+      "score": 51.866,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.75",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -180,7 +188,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.76,
+      "novelty_score": 0.751,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -206,10 +214,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 46.823,
+      "score": 46.645,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.37",
+        "novelty=0.36",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -218,7 +226,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.371,
+      "novelty_score": 0.363,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -243,10 +251,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 40.341,
+      "score": 40.163,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -255,7 +263,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.737,
+      "novelty_score": 0.729,
       "source_priority_score": 0.65,
       "source_tags": [
         "newsletter",
@@ -268,6 +276,41 @@
     }
   ],
   "top_5_engineering_ai": [
+    {
+      "id": "e369b6082884aab2",
+      "title": "Simulation Monitoring Automation",
+      "url": "https://rescale.com/blog/simulation-monitoring-automation",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-10T15:00:00+00:00",
+      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 70.921,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.981,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
     {
       "id": "b70c88e92880a6a9",
       "title": "From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet",
@@ -412,41 +455,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "d22f990a554daaa6",
-      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
-      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "source": "Synopsys",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": "2026-07-10T04:12:34+00:00",
-      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "matched_terms": [
-        "multiphysics"
-      ],
-      "engagement": {},
-      "score": 59.485,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.97",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.971,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "eda",
-        "simulation",
-        "digital_twin"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
     }
   ],
   "top_5_medical_bio_ai": [
@@ -465,10 +473,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 59.536,
+      "score": 59.418,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -477,7 +485,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.797,
+      "novelty_score": 0.792,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -636,6 +644,41 @@
   ],
   "top_5_cae_ai_engineering": [
     {
+      "id": "e369b6082884aab2",
+      "title": "Simulation Monitoring Automation",
+      "url": "https://rescale.com/blog/simulation-monitoring-automation",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-10T15:00:00+00:00",
+      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 70.921,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.981,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "b70c88e92880a6a9",
       "title": "From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet",
       "url": "https://www.neuralconcept.com/post/from-dataset-to-design-impact-how-neural-concept-set-a-new-benchmark-on-mits-drivaernet",
@@ -779,41 +822,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "d22f990a554daaa6",
-      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
-      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "source": "Synopsys",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": "2026-07-10T04:12:34+00:00",
-      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "matched_terms": [
-        "multiphysics"
-      ],
-      "engagement": {},
-      "score": 59.485,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.97",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.971,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "eda",
-        "simulation",
-        "digital_twin"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
     }
   ],
   "research_radar": [
@@ -1137,7 +1145,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 80.301,
+      "score": 80.289,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -1150,7 +1158,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.802,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1158,6 +1166,80 @@
         "simulation",
         "industrial_ai",
         "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "da9d0703229ae16b",
+      "title": "Open-source AI Datasets for AI Physics Model Training",
+      "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T15:00:00+00:00",
+      "text": "Open-source AI Datasets for AI Physics Model Training Start training surrogate models faster with open-source AI Datasets now available in Rescale AI Physics. Engineers can now train models directly from the DrivAerML dataset, a subset of the high-fidelity open-source public dataset for automotive aerodynamics based on 500 parametrically morphed variants. Providing a great way to get started with AI Physics without having to first generate your own simulation dataset.",
+      "matched_terms": [
+        "simulation",
+        "surrogate model",
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 79.154,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.931,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "90cd344a0949cc26",
+      "title": "GeoTransolver AI Model Architecture Integration for CFD Applications",
+      "url": "https://rescale.com/blog/geotransolver-ai-model-architecture-integration-cfd-applications",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-02T15:00:00+00:00",
+      "text": "GeoTransolver AI Model Architecture Integration for CFD Applications Power complex and high-accuracy AI surrogate models for CFD and FEA with GeoTransolver model architecture. Now available in Rescale AI Physics as part of the NVIDIA PhysicsNeMo library, GeoTransolver is a geometry-aware transformer architecture that uses GALE attention to model relationships across complex 3D geometries and unstructured meshes. It is designed to generalize across changing operating conditions and learn transient, geometry-aware physical behavior, making it well-suited for surrogate models that need to predict aerodynamic, structural, or deformation behavior across a range of design variants.",
+      "matched_terms": [
+        "surrogate model",
+        "FEA",
+        "CFD"
+      ],
+      "engagement": {},
+      "score": 73.188,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.78",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.781,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1175,7 +1257,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 72.461,
+      "score": 72.449,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1187,12 +1269,47 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.93,
+      "novelty_score": 0.929,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
         "simulation",
         "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e369b6082884aab2",
+      "title": "Simulation Monitoring Automation",
+      "url": "https://rescale.com/blog/simulation-monitoring-automation",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-10T15:00:00+00:00",
+      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 70.921,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.981,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1216,10 +1333,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.55,
+      "score": 67.373,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.42",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -1228,7 +1345,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.427,
+      "novelty_score": 0.418,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1253,7 +1370,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.158,
+      "score": 67.146,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.36",
@@ -1266,7 +1383,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.356,
+      "novelty_score": 0.355,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1361,7 +1478,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 66.519,
+      "score": 66.507,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1397,7 +1514,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 65.667,
+      "score": 65.617,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -1409,7 +1526,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.712,
+      "novelty_score": 0.71,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1417,6 +1534,41 @@
         "ai"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "cd0ef033508aa3cc",
+      "title": "Knowledge Base Support on AWS and Azure",
+      "url": "https://rescale.com/blog/knowledge-base-support-on-aws-and-azure",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-06-29T15:29:12+00:00",
+      "text": "Knowledge Base Support on AWS and Azure Connect and interact with all your data in one place. Rescale now connects engineering data stored in AWS S3 and Azure Blob Storage directly to the Rescale Assistant through vectorized search. Once connected, engineers can ask natural language questions and receive fast, contextually grounded answers drawn from their organization's own data, rather than relying only on general AI knowledge or manual file searches.",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 64.882,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.71",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.707,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1433,7 +1585,7 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 64.095,
+      "score": 64.044,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -1445,7 +1597,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.792,
+      "novelty_score": 0.79,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1472,7 +1624,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 64.083,
+      "score": 63.964,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1484,7 +1636,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.852,
+      "novelty_score": 0.847,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -1493,6 +1645,41 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "3824b64966784a9b",
+      "title": "Agentic Simulation Report Generation",
+      "url": "https://rescale.com/blog/agentic-simulation-report-generation",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-06-25T16:13:24+00:00",
+      "text": "Agentic Simulation Report Generation Presentation-ready reports in minutes vs. hours. Rescale’s Report Generator Agent eliminates the gap between raw results and structured reporting. Once a simulation study is complete, the agent takes the results data and automatically generates a report aligned to a customer's own reporting templates, including findings, relevant charts, and recommendations.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 62.699,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.61",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.608,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1546,10 +1733,10 @@
         "synthetic data"
       ],
       "engagement": {},
-      "score": 61.566,
+      "score": 61.448,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.62",
+        "novelty=0.61",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -1558,7 +1745,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.617,
+      "novelty_score": 0.611,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -1582,7 +1769,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 61.434,
+      "score": 61.383,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -1594,7 +1781,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.823,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1618,10 +1805,10 @@
         "model release"
       ],
       "engagement": {},
-      "score": 61.411,
+      "score": 61.233,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -1630,7 +1817,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.913,
+      "novelty_score": 0.905,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -2017,7 +2204,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.613,
+      "score": 59.495,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.64",
@@ -2029,7 +2216,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.642,
+      "novelty_score": 0.636,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2038,6 +2225,41 @@
       ],
       "registry_category": "startup",
       "source_priority": "high"
+    },
+    {
+      "id": "d22f990a554daaa6",
+      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
+      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
+      "source": "Synopsys",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": "2026-07-10T04:12:34+00:00",
+      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
+      "matched_terms": [
+        "multiphysics"
+      ],
+      "engagement": {},
+      "score": 59.474,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.97",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.97,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "eda",
+        "simulation",
+        "digital_twin"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
     },
     {
       "id": "e9ab71285ee1fea7",
@@ -2054,10 +2276,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 59.536,
+      "score": 59.418,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2066,7 +2288,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.797,
+      "novelty_score": 0.792,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2076,41 +2298,6 @@
       ],
       "registry_category": "vendor",
       "source_priority": "high"
-    },
-    {
-      "id": "d22f990a554daaa6",
-      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
-      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "source": "Synopsys",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": "2026-07-10T04:12:34+00:00",
-      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "matched_terms": [
-        "multiphysics"
-      ],
-      "engagement": {},
-      "score": 59.485,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.97",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.971,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "eda",
-        "simulation",
-        "digital_twin"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
     },
     {
       "id": "98d85122ab641d19",
@@ -2125,7 +2312,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.872,
+      "score": 58.753,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -2137,7 +2324,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.905,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2160,10 +2347,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.53,
+      "score": 58.174,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.88",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2172,7 +2359,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.879,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2195,7 +2382,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.038,
+      "score": 57.92,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -2207,7 +2394,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
+      "novelty_score": 0.875,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2341,7 +2528,7 @@
         "AI chip"
       ],
       "engagement": {},
-      "score": 57.185,
+      "score": 57.067,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2353,7 +2540,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2361,79 +2548,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "d43549f4e587eb34",
-      "title": "Apple sues OpenAI, alleging artificial intelligence company stole trade secrets",
-      "url": "https://www.theguardian.com/technology/2026/jul/10/apple-sues-openai-trade-secrets",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-10T22:33:21+00:00",
-      "text": "Apple sues OpenAI, alleging artificial intelligence company stole trade secrets Suit claims OpenAI poached Apple workers, coaxing them to share confidential material in bid to create hardware Apple filed a lawsuit against OpenAI on Friday alleging the artificial intelligence firm stole company trade secrets in a move to create its own hardware device. The suit claims OpenAI poached Apple employees, coaxing them to hand over confidential material, product designs and other tightly held information. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.178,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.69",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.69,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b5a51385824380ce",
-      "title": "Kernel Fusion in NVIDIA CUDA: Optimizing Memory Traffic and Launch Overhead",
-      "url": "https://developer.nvidia.com/blog/kernel-fusion-in-nvidia-cuda-optimizing-memory-traffic-and-launch-overhead",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-10T16:41:03+00:00",
-      "text": "Kernel Fusion in NVIDIA CUDA: Optimizing Memory Traffic and Launch Overhead There are many ways to optimize code for GPUs. In this post, you’ll learn how kernel fusion can improve memory bandwidth and reduce kernel launch overhead,...",
-      "matched_terms": [
-        "Nvidia",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 57.047,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.835,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -4622,108 +4736,6 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Automating Cae Reporting https://www.synera.ai/webinar/automating-cae-reporting",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a04eae22c7539e13",
-      "title": "Automatisierung Cae Berichterstattung",
-      "url": "https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "0a951fddf5b3666d",
-      "title": "Automatisierung Fea Aufgaben",
-      "url": "https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automatisierung Fea Aufgaben https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "d8f5a4edfd9ee155",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
       "matched_terms": [
         "CAE"
       ],
