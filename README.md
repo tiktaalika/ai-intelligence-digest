@@ -190,7 +190,7 @@ After the first push, enable Pages in GitHub if needed:
 Repository Settings -> Pages -> Source: GitHub Actions
 ```
 
-The no-API GitHub Actions workflow at `.github/workflows/daily-no-api-site.yml` refreshes public news candidates, runs the publication checks, rebuilds the site, and deploys GitHub Pages every morning. The separate Pages workflow is manual recovery only, which avoids two deployments racing after one daily update. The GitHub trend workflow at `.github/workflows/github-trend-report.yml` refreshes weekly/monthly trend reports and deploys the combined site after it succeeds. All three publication paths share one Pages concurrency queue. GitHub scheduled workflows are best-effort and may start later than the configured time; the repeated morning attempts are intentional and idempotent.
+The no-API GitHub Actions workflow at `.github/workflows/daily-no-api-site.yml` refreshes public news candidates, runs the publication checks, rebuilds the site, and deploys GitHub Pages every morning. The separate Pages workflow is manual recovery only, which avoids two deployments racing after one daily update. The GitHub trend workflow at `.github/workflows/github-trend-report.yml` creates one weekly report on Sunday evening, anchored to the Sunday week-ending date, and one monthly report for the previous calendar month on the first day of the next month. It deploys the combined site after it succeeds. All three publication paths share one Pages concurrency queue. GitHub scheduled workflows are best-effort and may start later than the configured time; period dates remain anchored even if a run starts late.
 
 ```text
 https://tiktaalika.github.io/ai-engineering-newsletter/     # language selector

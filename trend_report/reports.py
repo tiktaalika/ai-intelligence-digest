@@ -21,7 +21,9 @@ class Period:
 
 
 def weekly_period(settings, today: date | None = None) -> Period:
-    end = today or date.today()
+    current = today or date.today()
+    days_since_sunday = (current.weekday() + 1) % 7
+    end = current - timedelta(days=days_since_sunday)
     start = end - timedelta(days=7)
     return Period("weekly", start, end, settings.reports_weekly_dir, int(settings.raw.get("reporting", {}).get("weekly_top_n", 20)))
 

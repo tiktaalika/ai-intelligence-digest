@@ -3,7 +3,8 @@ name: GitHub Trend Report
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 6 * * 1"
+    # Sunday evening. The report period is anchored to Sunday even if GitHub starts late.
+    - cron: "0 20 * * 0"
     - cron: "15 7 1 * *"
 
 permissions:
@@ -37,6 +38,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -m trend_report collect
       - name: Generate weekly report
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 20 * * 0'
         run: python -m trend_report weekly
       - name: Generate monthly report on first day
         if: github.event_name == 'workflow_dispatch' || startsWith(github.event.schedule, '15 7 1')
