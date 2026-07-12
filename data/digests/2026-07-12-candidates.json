@@ -1,9 +1,9 @@
 {
   "run_log": {
-    "generated_at": "2026-07-12T08:32:09.058950+00:00",
+    "generated_at": "2026-07-12T08:54:17.435232+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17273,
+    "fetched_count": 17272,
     "filtered_count": 2213,
     "duplicate_count": 71,
     "failures": [
@@ -176,7 +176,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.934,
+      "score": 58.926,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.95",
@@ -211,7 +211,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.844,
+      "score": 57.717,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -223,7 +223,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.858,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -542,7 +542,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.934,
+      "score": 58.926,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.95",
@@ -577,7 +577,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.844,
+      "score": 57.717,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -589,7 +589,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.858,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -994,7 +994,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 79.75,
+      "score": 79.741,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1007,7 +1007,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
+      "novelty_score": 0.776,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1034,7 +1034,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 78.615,
+      "score": 78.606,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -1046,7 +1046,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.907,
+      "novelty_score": 0.906,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1071,7 +1071,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 72.648,
+      "score": 72.64,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -1083,7 +1083,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.757,
+      "novelty_score": 0.756,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1106,7 +1106,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 71.909,
+      "score": 71.901,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1141,7 +1141,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.381,
+      "score": 70.373,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.96",
@@ -1153,7 +1153,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.957,
+      "novelty_score": 0.956,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1246,7 +1246,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 66.607,
+      "score": 66.598,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.33",
@@ -1259,7 +1259,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.331,
+      "novelty_score": 0.33,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1284,7 +1284,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 65.968,
+      "score": 65.959,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -1318,7 +1318,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 64.343,
+      "score": 64.334,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1355,7 +1355,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 63.305,
+      "score": 63.268,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -1367,7 +1367,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.605,
+      "novelty_score": 0.603,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1425,7 +1425,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 62.16,
+      "score": 62.151,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -1461,7 +1461,7 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 61.732,
+      "score": 61.696,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1473,7 +1473,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.685,
+      "novelty_score": 0.683,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1858,10 +1858,10 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 59.071,
+      "score": 59.035,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
+        "novelty=0.71",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1870,7 +1870,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.715,
+      "novelty_score": 0.714,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1878,43 +1878,6 @@
         "ai"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "bae9f19d27c2ee09",
-      "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
-      "url": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-12T01:08:17+00:00",
-      "text": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place, sort, and manipulate a...",
-      "matched_terms": [
-        "foundation model",
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 58.971,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.92",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.923,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -1930,7 +1893,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.934,
+      "score": 58.926,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.95",
@@ -1953,6 +1916,43 @@
       "source_priority": "medium"
     },
     {
+      "id": "bae9f19d27c2ee09",
+      "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
+      "url": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-12T01:08:17+00:00",
+      "text": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place, sort, and manipulate a...",
+      "matched_terms": [
+        "foundation model",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 58.887,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.92",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.919,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "2c2086ccb9738af0",
       "title": "Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading",
       "url": "https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading",
@@ -1968,7 +1968,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 58.57,
+      "score": 58.485,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -1980,7 +1980,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.602,
+      "novelty_score": 0.598,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2040,7 +2040,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.844,
+      "score": 57.717,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2052,7 +2052,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.858,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
