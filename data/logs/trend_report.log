@@ -543,3 +543,40 @@ RuntimeError: HTTP 403 for https://api.github.com/search/repositories?q=cae+in%3
 2026-07-12 12:54:13,722 INFO trend_report: Wrote 133 normalized records to /home/runner/work/ai-engineering-newsletter/ai-engineering-newsletter/data/repos.jsonl
 2026-07-12 12:54:13,860 INFO trend_report: Generated weekly report at /home/runner/work/ai-engineering-newsletter/ai-engineering-newsletter/reports/weekly/2026-07-12-weekly-github-trends.md
 2026-07-12 12:54:13,990 INFO trend_report: Generated monthly report at /home/runner/work/ai-engineering-newsletter/ai-engineering-newsletter/reports/monthly/2026-06-30-monthly-github-trends.md
+2026-07-12 20:53:37,175 INFO trend_report: Fetching GitHub Search for AI Agent keyword agent
+2026-07-12 20:53:38,175 INFO trend_report: Fetching GitHub Search for AI Agent keyword agents
+2026-07-12 20:53:39,176 INFO trend_report: Fetching GitHub Search for AI Agent keyword autonomous agent
+2026-07-12 20:53:40,177 INFO trend_report: Fetching GitHub Search for AI Agent keyword multi-agent
+2026-07-12 20:53:41,178 INFO trend_report: Fetching GitHub Search for AI Agent keyword crewai
+2026-07-12 20:53:42,179 INFO trend_report: Fetching GitHub Search for AI Agent keyword langgraph
+2026-07-12 20:53:42,180 INFO trend_report: Fetching GitHub Search for MCP keyword mcp
+2026-07-12 20:53:43,180 INFO trend_report: Fetching GitHub Search for MCP keyword model context protocol
+2026-07-12 20:53:44,181 INFO trend_report: Fetching GitHub Search for MCP keyword mcp-server
+2026-07-12 20:53:45,182 INFO trend_report: Fetching GitHub Search for MCP keyword mcp-client
+2026-07-12 20:53:46,183 INFO trend_report: Fetching GitHub Search for MCP keyword claude desktop
+2026-07-12 20:53:46,184 INFO trend_report: Fetching GitHub Search for RAG keyword rag
+2026-07-12 20:53:47,184 INFO trend_report: Fetching GitHub Search for RAG keyword retrieval augmented generation
+2026-07-12 20:53:48,185 INFO trend_report: Fetching GitHub Search for RAG keyword retrieval
+2026-07-12 20:53:49,186 INFO trend_report: Fetching GitHub Search for RAG keyword vector database
+2026-07-12 20:53:50,187 INFO trend_report: Fetching GitHub Search for RAG keyword embeddings
+2026-07-12 20:53:50,188 INFO trend_report: Fetching GitHub Search for LLM Infrastructure keyword llm inference
+2026-07-12 20:53:51,188 INFO trend_report: Fetching GitHub Search for LLM Infrastructure keyword serving
+2026-07-12 20:53:52,189 INFO trend_report: Fetching GitHub Search for LLM Infrastructure keyword vllm
+2026-07-12 20:53:52,190 INFO trend_report: Fetching GitHub Search for Simulation keyword simulation
+2026-07-12 20:53:53,190 INFO trend_report: Fetching GitHub Search for Simulation keyword cae
+2026-07-12 20:53:54,193 INFO trend_report: Fetching GitHub Search for Simulation keyword cfd
+2026-07-12 20:53:55,194 INFO trend_report: Fetching GitHub Search for Simulation keyword fem
+2026-07-12 20:53:56,195 INFO trend_report: Fetching GitHub Search for Simulation keyword finite element
+2026-07-12 20:53:57,196 INFO trend_report: Fetching GitHub Search for Simulation keyword multiphysics
+2026-07-12 20:53:57,197 INFO trend_report: Fetching GitHub Search for Engineering AI keyword engineering ai
+2026-07-12 20:53:58,197 INFO trend_report: Fetching GitHub Search for Engineering AI keyword ai engineering
+2026-07-12 20:53:59,198 INFO trend_report: Fetching GitHub Search for Engineering AI keyword simulation ai
+2026-07-12 20:54:00,199 INFO trend_report: Fetching GitHub Search for Engineering AI keyword design automation
+2026-07-12 20:54:01,200 INFO trend_report: Fetching GitHub Search for Engineering AI keyword cad
+2026-07-12 20:54:02,203 INFO trend_report: Fetching GitHub Search for Engineering AI keyword cae
+2026-07-12 20:54:03,780 INFO trend_report: Parsed 4 relevant GitHub Trending repositories
+2026-07-12 20:54:03,784 INFO trend_report: Parsed 0 relevant repositories from oss_insight_trending
+2026-07-12 20:54:03,793 INFO trend_report: Parsed 2 relevant repositories from gitstar_ranking
+2026-07-12 20:54:03,794 INFO trend_report: Recorded Star History placeholder note
+2026-07-12 20:54:03,798 INFO trend_report: Wrote 133 normalized records to /home/runner/work/ai-engineering-newsletter/ai-engineering-newsletter/data/repos.jsonl
+2026-07-12 20:54:03,899 INFO trend_report: Generated weekly report at /home/runner/work/ai-engineering-newsletter/ai-engineering-newsletter/reports/weekly/2026-07-12-weekly-github-trends.md

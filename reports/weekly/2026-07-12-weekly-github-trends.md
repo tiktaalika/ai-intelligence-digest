@@ -254,7 +254,7 @@ No emerging low-star/high-growth repositories found.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 32064 | 0 | 5751 | 2026-07-12 | Simulation | FreeCAD | 0.1153 | github_search |
 | 2 | [Genesis-Embodied-AI/genesis-world](https://github.com/Genesis-Embodied-AI/genesis-world) | Simulation platform for general-purpose robotics & embodied AI learning. | Python | 29544 | 0 | 2811 | 2026-07-12 | Simulation | Genesis-Embodied-AI | 0.1141 | github_search |
-| 3 | [Dujltqzv/Some-Many-Books](https://github.com/Dujltqzv/Some-Many-Books) | 个人收藏书籍列表　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　... | - | 21110 | 0 | 2083 | 2026-07-12 | Simulation | Dujltqzv | 0.0801 | github_search |
+| 3 | [Dujltqzv/Some-Many-Books](https://github.com/Dujltqzv/Some-Many-Books) | 个人收藏书籍列表　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　... | - | 21118 | 0 | 2083 | 2026-07-12 | Simulation | Dujltqzv | 0.0801 | github_search |
 | 4 | [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simu... | C# | 19553 | 0 | 4471 | 2026-07-12 | AI Agent | Unity-Technologies | 0.1094 | github_search |
 | 5 | [o3de/o3de](https://github.com/o3de/o3de) | Open 3D Engine (O3DE) is an Apache 2.0-licensed multi-platform 3D engine that enables developers and conten... | C++ | 9503 | 0 | 2512 | 2026-07-12 | Simulation | o3de | 0.1045 | github_search |
 | 6 | [openfoam/openfoam-dev](https://github.com/openfoam/openfoam-dev) | Open source computational fluid dynamics simulation toolbox. | C++ | 8900 | 231 | 2300 | 2026-07-05 | Simulation | openfoam | 0.1095 | dummy |
@@ -281,7 +281,7 @@ No emerging low-star/high-growth repositories found.
 | 6 | [google/cadvisor](https://github.com/google/cadvisor) | Analyzes resource usage and performance characteristics of running containers. | Go | 19285 | 0 | 2478 | 2026-07-11 | Engineering AI | google | 0.1092 | github_search |
 | 7 | [openscad/openscad](https://github.com/openscad/openscad) | OpenSCAD - The Programmers Solid 3D CAD Modeller | C++ | 9818 | 0 | 1714 | 2026-07-12 | Engineering AI | openscad | 0.1047 | github_search |
 | 8 | [Open-Cascade-SAS/OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 2641 | 0 | 646 | 2026-07-12 | Engineering AI | Open-Cascade-SAS | 0.1013 | github_search |
-| 9 | [Cai-aa/CAE-Agent-Hub](https://github.com/Cai-aa/CAE-Agent-Hub) | - | Python | 566 | 0 | 74 | 2026-07-12 | AI Agent | Cai-aa | 0.1003 | github_search |
+| 9 | [Cai-aa/CAE-Agent-Hub](https://github.com/Cai-aa/CAE-Agent-Hub) | - | Python | 570 | 0 | 75 | 2026-07-12 | AI Agent | Cai-aa | 0.1003 | github_search |
 | 10 | [Lymphatus/caesium-clt](https://github.com/Lymphatus/caesium-clt) | Caesium Command Line Tools - Lossy/lossless image compression tool | Rust | 549 | 0 | 45 | 2026-07-08 | Simulation | Lymphatus | 0.1003 | github_search |
 
 #### Top by Total Stars
@@ -292,11 +292,11 @@ No emerging low-star/high-growth repositories found.
 | 2 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 32064 | 0 | 5751 | 2026-07-12 | Simulation | FreeCAD | 0.1153 | github_search |
 | 3 | [langfuse/langfuse](https://github.com/langfuse/langfuse) | 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, da... | TypeScript | 30957 | 0 | 3264 | 2026-07-12 | LLM Infrastructure | langfuse | 0.1148 | github_search |
 | 4 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes ... | Python | 26987 | 0 | 5984 | 2026-07-12 | AI Agent | mlflow | 0.1129 | github_search |
-| 5 | [Dujltqzv/Some-Many-Books](https://github.com/Dujltqzv/Some-Many-Books) | 个人收藏书籍列表　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　... | - | 21110 | 0 | 2083 | 2026-07-12 | Simulation | Dujltqzv | 0.0801 | github_search |
+| 5 | [Dujltqzv/Some-Many-Books](https://github.com/Dujltqzv/Some-Many-Books) | 个人收藏书籍列表　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　... | - | 21118 | 0 | 2083 | 2026-07-12 | Simulation | Dujltqzv | 0.0801 | github_search |
 | 6 | [google/cadvisor](https://github.com/google/cadvisor) | Analyzes resource usage and performance characteristics of running containers. | Go | 19285 | 0 | 2478 | 2026-07-11 | Engineering AI | google | 0.1092 | github_search |
 | 7 | [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) | [WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huye... | Jupyter Notebook | 16462 | 0 | 2391 | 2026-07-12 | Engineering AI | chiphuyen | 0.0779 | github_search |
 | 8 | [openscad/openscad](https://github.com/openscad/openscad) | OpenSCAD - The Programmers Solid 3D CAD Modeller | C++ | 9818 | 0 | 1714 | 2026-07-12 | Engineering AI | openscad | 0.1047 | github_search |
-| 9 | [caelestia-dots/caelestia](https://github.com/caelestia-dots/caelestia) | A fluid, morphing config for your Linux desktop | TypeScript | 3682 | 0 | 329 | 2026-07-12 | Simulation | caelestia-dots | 0.0718 | github_search |
+| 9 | [caelestia-dots/caelestia](https://github.com/caelestia-dots/caelestia) | A fluid, morphing config for your Linux desktop | TypeScript | 3684 | 0 | 329 | 2026-07-12 | Simulation | caelestia-dots | 0.0718 | github_search |
 | 10 | [Open-Cascade-SAS/OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 2641 | 0 | 646 | 2026-07-12 | Engineering AI | Open-Cascade-SAS | 0.1013 | github_search |
 
 #### Newly Emerging
