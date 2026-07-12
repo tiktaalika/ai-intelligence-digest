@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-07-12T09:16:32.289861+00:00",
+    "generated_at": "2026-07-12T09:30:06.164592+00:00",
     "window_hours": 24,
     "source_count": 138,
     "fetched_count": 17272,
-    "filtered_count": 2212,
-    "duplicate_count": 70,
+    "filtered_count": 2213,
+    "duplicate_count": 71,
     "failures": [
       {
         "source": "Reuters Technology",
@@ -176,7 +176,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.917,
+      "score": 58.912,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.94",
@@ -188,7 +188,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.945,
+      "novelty_score": 0.944,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -211,7 +211,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.589,
+      "score": 57.512,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -223,7 +223,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.849,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -542,7 +542,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.917,
+      "score": 58.912,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.94",
@@ -554,7 +554,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.945,
+      "novelty_score": 0.944,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -577,7 +577,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.589,
+      "score": 57.512,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -589,7 +589,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.849,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -994,7 +994,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 79.733,
+      "score": 79.728,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1034,7 +1034,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 78.598,
+      "score": 78.593,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -1071,7 +1071,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 72.631,
+      "score": 72.626,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -1106,7 +1106,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 71.892,
+      "score": 71.887,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1141,7 +1141,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.365,
+      "score": 70.359,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.96",
@@ -1246,7 +1246,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 66.59,
+      "score": 66.585,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.33",
@@ -1284,7 +1284,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 65.951,
+      "score": 65.946,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -1318,7 +1318,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 64.326,
+      "score": 64.32,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1355,7 +1355,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 63.232,
+      "score": 63.21,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -1367,7 +1367,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.601,
+      "novelty_score": 0.6,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1425,7 +1425,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 62.143,
+      "score": 62.137,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -1461,7 +1461,7 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 61.66,
+      "score": 61.638,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1473,7 +1473,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.682,
+      "novelty_score": 0.68,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1858,7 +1858,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 58.998,
+      "score": 58.976,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -1870,7 +1870,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.712,
+      "novelty_score": 0.711,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1893,7 +1893,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.917,
+      "score": 58.912,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.94",
@@ -1905,7 +1905,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.945,
+      "novelty_score": 0.944,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -1929,10 +1929,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 58.802,
+      "score": 58.75,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -1941,7 +1941,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.915,
+      "novelty_score": 0.913,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -1968,7 +1968,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 58.4,
+      "score": 58.348,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.59",
@@ -1980,7 +1980,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.594,
+      "novelty_score": 0.592,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2114,7 +2114,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.589,
+      "score": 57.512,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2126,7 +2126,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.849,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
