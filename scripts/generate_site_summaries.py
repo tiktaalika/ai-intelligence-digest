@@ -191,7 +191,7 @@ def select_unique(items: list[dict[str, Any]], category: str, limit: int) -> lis
 
 
 def selected_items(date_slug: str) -> list[dict[str, str]]:
-    from scripts import render_digest_site as site
+    import render_digest_site as site
 
     site.ensure_published_selection_index()
     _data, general, engineering, medical, _research, _paper_push = site.day_items(date_slug)

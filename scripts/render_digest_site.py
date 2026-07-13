@@ -652,13 +652,12 @@ def item_card_zh(item: dict[str, Any], idx: int, summaries: dict[str, str]) -> s
     if any(term in embedded_summary for term in placeholder_terms):
         embedded_summary = ""
     summary = esc(cached_summary or embedded_summary)
-    summary_html = f'<p class="zh-summary">{summary}</p>' if summary else ""
+    summary_html = f'          <p class="zh-summary">{summary}</p>\n' if summary else ""
     return f"""
       <article class="item">
         <div class="rank">{idx:02d}</div>
         <div>
-          {summary_html}
-          <h4><a href="{esc(item.get("url", "#"))}">{esc(item.get("title", "Untitled"))}</a></h4>
+{summary_html}          <h4><a href="{esc(item.get("url", "#"))}">{esc(item.get("title", "Untitled"))}</a></h4>
           <div class="meta"><span>{esc(effective_source(item))}</span><span>score {esc(item.get("score", ""))}</span></div>
           <p class="reason">{esc("; ".join(item.get("score_reasons", [])[:2]))}</p>
         </div>
