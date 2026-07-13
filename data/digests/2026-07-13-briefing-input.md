@@ -3,32 +3,32 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17246
-- filtered_count: 2210
+- fetched_count: 17239
+- filtered_count: 2209
 - duplicate_count: 72
 - failures: 7
 
 ## Top 10 General AI News
 1. [Fable gets another bump](https://simonwillison.net/2026/Jul/12/bump)
    - source: Simon Willison
-   - score: 66.382
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.805; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 66.316
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.802; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Directly Responsible Individuals (DRI)](https://simonwillison.net/2026/Jul/12/directly-responsible-individuals)
    - source: Simon Willison
-   - score: 60.615
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.846; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.55
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.843; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [The eBay Scandal Gets a Thriller-Like Documentary](https://www.nytimes.com/2026/07/13/technology/ebay-documentary-scandal-whatever-it-takes.html)
    - source: New York Times Technology
-   - score: 56.802
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.976; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.671
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.97; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [As states absorb Medicaid funding cuts, family caregivers face financial ruin](https://www.statnews.com/2026/07/13/family-caregiver-wages-financial-ruin-medicaid-funding-cuts)
    - source: STAT Health Tech
-   - score: 56.439
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.959; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.308
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.953; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Effective Context Engineering For Ai Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
    - source: Anthropic
    - score: 53.033
@@ -41,9 +41,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [China’s massive AI rollout - podcast](https://www.theguardian.com/news/audio/2026/jul/13/chinas-massive-ai-rollout-podcast)
    - source: The Guardian Technology
-   - score: 51.977
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.757; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.846
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.751; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.75; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)
    - source: Anthropic
    - score: 49.7
@@ -56,14 +56,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 10. [Chasing new skills, going back to basics and pushing for collective action: how software engineers are adapting to AI](https://www.theguardian.com/technology/ng-interactive/2026/jul/12/software-developers-engineers-ai)
    - source: The Guardian Technology
-   - score: 47.64
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.256; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.26; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 47.509
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.25; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.25; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Python in the Loop: AI-Driven Simulation and Validation for Autonomous Systems – Simcenter Prescan 2606](https://blogs.sw.siemens.com/simcenter/python-in-the-loop-ai-driven-simulation-and-validation-for-autonomous-systems-simcenter-prescan-2606)
    - source: Siemens Simcenter
-   - score: 71.311
+   - score: 71.307
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.999; source_priority=1.0
    - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Electric Motor Simulation Powerful Tool For Design Optimization](https://www.neuralconcept.com/post/electric-motor-simulation-powerful-tool-for-design-optimization)
@@ -90,19 +90,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [As states absorb Medicaid funding cuts, family caregivers face financial ruin](https://www.statnews.com/2026/07/13/family-caregiver-wages-financial-ruin-medicaid-funding-cuts)
    - source: STAT Health Tech
-   - score: 56.439
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.959; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.308
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.953; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Opinion: Is there a doctor on board? Yes, and airlines depend on it](https://www.statnews.com/2026/07/13/doctors-airlines-volunteer-emergency-inflight-emergency-divert)
    - source: STAT Health Tech
-   - score: 56.439
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.959; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.308
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.953; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [China’s massive AI rollout - podcast](https://www.theguardian.com/news/audio/2026/jul/13/chinas-massive-ai-rollout-podcast)
    - source: The Guardian Technology
-   - score: 51.977
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.757; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.846
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.751; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.75; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Healthcare Life Sciences](https://www.anthropic.com/news/healthcare-life-sciences)
    - source: Anthropic
    - score: 43.033
