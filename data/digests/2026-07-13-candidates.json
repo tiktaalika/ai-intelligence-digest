@@ -1,12 +1,16 @@
 {
   "run_log": {
-    "generated_at": "2026-07-13T10:42:48.413095+00:00",
+    "generated_at": "2026-07-13T20:07:15.558607+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17296,
-    "filtered_count": 2209,
-    "duplicate_count": 72,
+    "fetched_count": 17259,
+    "filtered_count": 2217,
+    "duplicate_count": 71,
     "failures": [
+      {
+        "source": "Siemens Art of the Possible",
+        "error": "The read operation timed out"
+      },
       {
         "source": "Ansys",
         "error": "The read operation timed out"
@@ -63,10 +67,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.068,
+      "score": 62.834,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.64",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -75,7 +79,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.791,
+      "novelty_score": 0.644,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -102,10 +106,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 60.301,
+      "score": 57.068,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.68",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -114,7 +118,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.832,
+      "novelty_score": 0.685,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -127,241 +131,61 @@
       "source_priority": "high"
     },
     {
-      "id": "4d7710527d2f8285",
-      "title": "The eBay Scandal Gets a Thriller-Like Documentary",
-      "url": "https://www.nytimes.com/2026/07/13/technology/ebay-documentary-scandal-whatever-it-takes.html",
-      "source": "New York Times Technology",
+      "id": "e66750c48f5ddc59",
+      "title": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-13T09:01:41+00:00",
-      "text": "The eBay Scandal Gets a Thriller-Like Documentary A newly available documentary, ‘Whatever It Takes,’ examines eBay workers’ plot to cyberstalk journalists and critics.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 56.175,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.95",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.947,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "6f64ff2ad4b14bfc",
-      "title": "As states absorb Medicaid funding cuts, family caregivers face financial ruin",
-      "url": "https://www.statnews.com/2026/07/13/family-caregiver-wages-financial-ruin-medicaid-funding-cuts",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-13T08:30:00+00:00",
-      "text": "As states absorb Medicaid funding cuts, family caregivers face financial ruin Family caregivers of people with disabilities face a grim financial future as several states consider steep cuts to their wages.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 55.812,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.931,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "42516bb950518fef",
-      "title": "Effective Context Engineering For Ai Agents",
-      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Effective Context Engineering For Ai Agents https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "published_at": "2026-07-13T16:42:15+00:00",
+      "text": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI In this post, we introduce the UI for optimized generative AI inference recommendations in Amazon SageMaker AI Studio, a low-code no-code (LCNC) experience. The API already gives you programmatic access to recommendations, but it assumes you know which parameters to set and how to interpret raw benchmark output. The UI removes that assumption. It guides you through preset use-case profiles, visual comparisons of results, and one-click deployment, so teams without deep infrastructure expertise can get a validated configuration on their own.",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent",
+        "generative AI",
+        "inference",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 69.217,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.964,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "f4f67329799c5616",
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T18:00:00+00:00",
+      "text": "What Anthropic’s latest AI discovery does—and doesn’t—show This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s looking into whether AI models can feel pain, for example,…",
+      "matched_terms": [
+        "AI",
         "Anthropic"
       ],
       "engagement": {},
-      "score": 53.033,
+      "score": 61.875,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "178b134a9ea0565a",
-      "title": "Anthropic Launches Claude Science, Illumina's Spatial Insights Tool, Wellcome Sanger Institute, Google DeepMind AI Consortium",
-      "url": "https://www.bio-itworld.com/news/2026/06/30/anthropic-launches-claude-science--illumina's-spatial-insights-tool--wellcome-sanger-institute--google-deepmind-ai-consortium",
-      "source": "Bio-IT World",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Anthropic Launches Claude Science, Illumina's Spatial Insights Tool, Wellcome Sanger Institute, Google DeepMind AI Consortium https://www.bio-itworld.com/news/2026/06/30/anthropic-launches-claude-science--illumina's-spatial-insights-tool--wellcome-sanger-institute--google-deepmind-ai-consortium",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "Google DeepMind",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 53.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "bio_ai",
-        "biotech",
-        "genomics_ai",
-        "drug_discovery",
-        "research"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "bee7d25a9801ef96",
-      "title": "China’s massive AI rollout - podcast",
-      "url": "https://www.theguardian.com/news/audio/2026/jul/13/chinas-massive-ai-rollout-podcast",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-13T02:00:34+00:00",
-      "text": "China’s massive AI rollout - podcast Senior China correspondent Amy Hawkins on China’s embrace of AI, from medical avatars to food delivery drones and state surveillance While the spread of AI has been met perhaps with a lot of scepticism in the west, China has fully embraced the technology, explains Amy Hawkins , from millions of users talking to AI doctors, to the use of intelligent robots in factories, and drones delivering food on the Great Wall of China. AI has also been eagerly taken up by the state, not least in the opportunities it provides for further surveillance, the Guardian’s senior China correspondent says. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 51.349,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.728,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "8c7fd6681555a3f0",
-      "title": "Core Views On Ai Safety",
-      "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Core Views On Ai Safety https://www.anthropic.com/news/core-views-on-ai-safety",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "AI safety"
-      ],
-      "engagement": {},
-      "score": 49.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "fabe8f8f1dc379e7",
-      "title": "Research Upgrading agentic coding capabilities with the new Devstral models July 10, 2025 By Mistral AI",
-      "url": "https://mistral.ai/news/devstral-2507",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Research Upgrading agentic coding capabilities with the new Devstral models July 10, 2025 By Mistral AI https://mistral.ai/news/devstral-2507/",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 49.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
+        "novelty=0.93",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -370,33 +194,33 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.35,
+      "novelty_score": 0.934,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "open_model"
+        "ai",
+        "analysis"
       ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
-      "id": "8a1eddf7b92feb63",
-      "title": "Vibe for code Coding agents in the terminal, IDE, and background.",
-      "url": "https://mistral.ai/products/vibe/code",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
+      "id": "ecbc76a36f0e024f",
+      "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+      "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
       "category": "general_ai",
-      "published_at": null,
-      "text": "Vibe for code Coding agents in the terminal, IDE, and background. https://mistral.ai/products/vibe/code/",
+      "published_at": "2026-07-13T18:22:10+00:00",
+      "text": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims.",
       "matched_terms": [
         "AI",
-        "agent"
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 46.367,
+      "score": 60.265,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.35",
+        "novelty=0.98",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -405,34 +229,252 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
+      "novelty_score": 0.982,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "open_model"
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "148cb744a6b6cf86",
+      "title": "Building an agentic AI solution at Bluesight with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-solution-at-bluesight-with-amazon-bedrock",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T17:34:38+00:00",
+      "text": "Building an agentic AI solution at Bluesight with Amazon Bedrock In this post, we describe how Bluesight used two AWS engagements and Amazon Bedrock AgentCore to evolve from a single-product AI prototype to Prism, a unified agentic AI solution spanning six healthcare compliance products. Prism Assistant for ControlCheck launched in May 2026 and is already in use by 20 health systems. A more complex multi-product agentic solution is on track for later in 2026.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 60.084,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.974,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "a2ef2f6fd453a00e",
+      "title": "NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300X",
+      "url": "https://developer.nvidia.com/blog/nvidia-ising-decoding-cuts-color-code-logical-error-rates-by-over-300x",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T19:00:00+00:00",
+      "text": "NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300X Useful quantum computers will require fault tolerant logical operations. Researchers are actively exploring many different quantum error correction (QEC) codes...",
+      "matched_terms": [
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 59.743,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.988,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "968878a6f63224d0",
+      "title": "The AI Arms Race in Technical Interviews Is Escalating",
+      "url": "https://spectrum.ieee.org/technical-interview-ai-arms-race",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T15:15:03+00:00",
+      "text": "The AI Arms Race in Technical Interviews Is Escalating Software engineering jobs are under threat from AI . Some applicants are fighting back by using AI in the interview process, employing AI assistants that suggest responses on the fly during remote technical interviews. Meanwhile, some employers are countering with—you guessed it—AI. They’re applying AI-powered tools to detect telltale signs of AI use during interviews. This two-sided dynamic is turning hiring into an AI arms race with no clear winners. Yet as interviewers and interviewees navigate this daunting reality, experts believe the human aspect of the job search will prevail. What’s driving the increase of AI in hiring? AI hiring strategist Tatiana Teppoeva characterizes this phenomenon as playing cat and mouse in a climate of relentless AI-fueled tech layoffs and a job market filled with more applicants than open positions. “What AI tools do well is identify if a person is performing according to some pattern or expected outcome,” Teppoeva says. When candidates experience constant rejection because they don’t fit the pattern, they might be forced to game the system using AI interview assistants, she adds. Archie Payne ",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 57.318,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.848,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8a07043ad3d39823",
+      "title": "Should AI help you get away with killing your spouse?",
+      "url": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T16:31:23+00:00",
+      "text": "Should AI help you get away with killing your spouse? What does a world of total user-aligned AI actually look like?",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.509,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.963,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "4d7710527d2f8285",
+      "title": "The eBay Scandal Gets a Thriller-Like Documentary",
+      "url": "https://www.nytimes.com/2026/07/13/technology/ebay-documentary-scandal-whatever-it-takes.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T18:07:52+00:00",
+      "text": "The eBay Scandal Gets a Thriller-Like Documentary A newly available documentary, ‘Whatever It Takes,’ examines eBay workers’ plot to cyberstalk journalists and critics.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 55.965,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.94",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.938,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
     {
+      "id": "b0ce4fdc4c7eb432",
+      "title": "Building a Foundation Stack for General-Purpose Robots",
+      "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-13T10:19:51+00:00",
+      "text": "Building a Foundation Stack for General-Purpose Robots This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe. Robotics systems have long been assembled from separate perception, planning, and control parts that rarely add up to intelligence a robot can carry from one task to another, or one machine to another. The central problem in embodied AI is to find the equivalent recipe, and the field does not yet agree on what it is. X Square Robot , a Chinese embodied-AI company, has made an unusually explicit bet. It argues that the recipe is an integrated stack, spanning the data a robot learns from, a world model for predicting changes in the physical world, and an action model that brings together perception, planning, reasoning, and decision-making to generate executable robot behavior. The company also believes that the stack should be built and released in the open . X Square Robot shares its vision of bringing robots into real homes. X Square Robot X Square Robot’s embodied AI stack What holds the stack together is a sma",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "large language model",
+        "foundation model",
+        "benchmark",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 78.769,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.69",
+        "matched_terms=6",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.694,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "e5d2e12963a9fef8",
-      "title": "Python in the Loop: AI-Driven Simulation and Validation for Autonomous Systems – Simcenter Prescan 2606",
+      "title": "Python in the loop: AI-Driven simulation and validation for autonomous systems – Simcenter Prescan 2606",
       "url": "https://blogs.sw.siemens.com/simcenter/python-in-the-loop-ai-driven-simulation-and-validation-for-autonomous-systems-simcenter-prescan-2606",
       "source": "Siemens Simcenter",
       "source_kind": "rss",
       "category": "engineering_ai",
       "published_at": "2026-07-13T08:50:01+00:00",
-      "text": "Python in the Loop: AI-Driven Simulation and Validation for Autonomous Systems – Simcenter Prescan 2606 What’s new ADAS and autonomous system development increasingly relies on Python, machine learning frameworks, and large volumes of sensor data. Yet…",
+      "text": "Python in the loop: AI-Driven simulation and validation for autonomous systems – Simcenter Prescan 2606 What’s new ADAS and autonomous system development increasingly relies on Python, machine learning frameworks, and large volumes of sensor data. Yet…",
       "matched_terms": [
         "simulation"
       ],
       "engagement": {},
-      "score": 71.29,
+      "score": 71.075,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -441,7 +483,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.998,
+      "novelty_score": 0.988,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -488,6 +530,41 @@
       "source_priority": "high"
     },
     {
+      "id": "b780b3f3a1a31460",
+      "title": "The New York nurses replaced by AI: ‘It should concern every patient who cares about quality of care’",
+      "url": "https://www.theguardian.com/technology/2026/jul/13/nurses-new-york-ai",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-13T12:00:47+00:00",
+      "text": "The New York nurses replaced by AI: ‘It should concern every patient who cares about quality of care’ The union for 12 nurses laid off by Montefiore hospital say company broke contract they recently won through a strike Marilyn Shuler has worked as a utilization review nurse for 39 years at Montefiore hospital in the Bronx in New York City, helping to read patient charts and communicate with insurance companies over coverage. After nearly four decades in her job, Shuler is one of 12 nurses who were laid off Sunday after being replaced with AI-powered software, according to the New York State Nurses Association (NYSNA), which represents nurses at the hospital. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 58.592,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.75",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.747,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "2281a3ecd176d213",
       "title": "Association For Industrial Ai",
       "url": "https://www.industrial-ai-network.com/association-for-industrial-ai",
@@ -524,95 +601,62 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "5f08d5e0ccaa9c87",
-      "title": "Agentic Ai For Engineering In Aerospace And Defense",
-      "url": "https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Agentic Ai For Engineering In Aerospace And Defense https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense",
-      "matched_terms": [
-        "AI for engineering"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "c47f51de21ac3351",
-      "title": "03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases",
-      "url": "https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology",
-      "source": "Luminary Cloud",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology/",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud_cae",
-        "simulation",
-        "physics_ai"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
     }
   ],
   "top_5_medical_bio_ai": [
     {
-      "id": "6f64ff2ad4b14bfc",
-      "title": "As states absorb Medicaid funding cuts, family caregivers face financial ruin",
-      "url": "https://www.statnews.com/2026/07/13/family-caregiver-wages-financial-ruin-medicaid-funding-cuts",
+      "id": "148cb744a6b6cf86",
+      "title": "Building an agentic AI solution at Bluesight with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-solution-at-bluesight-with-amazon-bedrock",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T17:34:38+00:00",
+      "text": "Building an agentic AI solution at Bluesight with Amazon Bedrock In this post, we describe how Bluesight used two AWS engagements and Amazon Bedrock AgentCore to evolve from a single-product AI prototype to Prism, a unified agentic AI solution spanning six healthcare compliance products. Prism Assistant for ControlCheck launched in May 2026 and is already in use by 20 health systems. A more complex multi-product agentic solution is on track for later in 2026.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 60.084,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.974,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "45b545c6724ac42d",
+      "title": "STAT+: Dementia study replicates promising outcomes following risk-reduction strategies",
+      "url": "https://www.statnews.com/2026/07/13/aaic-in-30-alzheimers-treaatments-dementia-day-2-conference",
       "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-13T08:30:00+00:00",
-      "text": "As states absorb Medicaid funding cuts, family caregivers face financial ruin Family caregivers of people with disabilities face a grim financial future as several states consider steep cuts to their wages.",
+      "published_at": "2026-07-13T16:49:15+00:00",
+      "text": "STAT+: Dementia study replicates promising outcomes following risk-reduction strategies A dementia prevention trial praised as a \"landmark\" effort further demonstrated the promise of structured programs tailored to local cultures.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 55.812,
+      "score": 55.064,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -621,7 +665,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.931,
+      "novelty_score": 0.897,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -632,22 +676,22 @@
       "source_priority": "high"
     },
     {
-      "id": "427b16db47b2971c",
-      "title": "Opinion: Is there a doctor on board? Yes, and airlines depend on it",
-      "url": "https://www.statnews.com/2026/07/13/doctors-airlines-volunteer-emergency-inflight-emergency-divert",
+      "id": "af01c46ac9e89265",
+      "title": "STAT+: Pharmalittle: We’re reading about an RFK Jr. push against psychiatric meds, a Sanofi blood cancer drug, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/13/rfk-push-against-ssri-antidepressants-sanofi-blood-cancer-drug",
       "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-13T08:30:00+00:00",
-      "text": "Opinion: Is there a doctor on board? Yes, and airlines depend on it Physicians who volunteer on flights assume responsibility with no patient history, limited equipment, and an audience of 200 people.",
+      "published_at": "2026-07-13T13:08:34+00:00",
+      "text": "STAT+: Pharmalittle: We’re reading about an RFK Jr. push against psychiatric meds, a Sanofi blood cancer drug, and more U.S. health secretary Robert F. Kennedy Jr. is pressing forward with his effort to help Americans stop taking SSRI antidepressants",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 55.812,
+      "score": 52.536,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.78",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -656,7 +700,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.931,
+      "novelty_score": 0.782,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -667,50 +711,16 @@
       "source_priority": "high"
     },
     {
-      "id": "bee7d25a9801ef96",
-      "title": "China’s massive AI rollout - podcast",
-      "url": "https://www.theguardian.com/news/audio/2026/jul/13/chinas-massive-ai-rollout-podcast",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-13T02:00:34+00:00",
-      "text": "China’s massive AI rollout - podcast Senior China correspondent Amy Hawkins on China’s embrace of AI, from medical avatars to food delivery drones and state surveillance While the spread of AI has been met perhaps with a lot of scepticism in the west, China has fully embraced the technology, explains Amy Hawkins , from millions of users talking to AI doctors, to the use of intelligent robots in factories, and drones delivering food on the Great Wall of China. AI has also been eagerly taken up by the state, not least in the opportunities it provides for further surveillance, the Guardian’s senior China correspondent says. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 51.349,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.728,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "1b0c05d7110d3244",
-      "title": "Healthcare Life Sciences",
-      "url": "https://www.anthropic.com/news/healthcare-life-sciences",
-      "source": "Anthropic",
+      "id": "0841986160fb4aa5",
+      "title": "ProPharma Advances Technology Enablement Strategy with AI-Assisted Capability for ANDA Submission Development",
+      "url": "https://www.bio-itworld.com/news/2026/07/08/propharma-advances-technology-enablement-strategy-with-ai-assisted-capability-for-anda-submission-development",
+      "source": "Bio-IT World",
       "source_kind": "sitemap_or_search",
       "category": "general_ai",
       "published_at": null,
-      "text": "Healthcare Life Sciences https://www.anthropic.com/news/healthcare-life-sciences",
+      "text": "ProPharma Advances Technology Enablement Strategy with AI-Assisted Capability for ANDA Submission Development https://www.bio-itworld.com/news/2026/07/08/propharma-advances-technology-enablement-strategy-with-ai-assisted-capability-for-anda-submission-development",
       "matched_terms": [
-        "Anthropic"
+        "AI"
       ],
       "engagement": {},
       "score": 43.033,
@@ -728,11 +738,13 @@
       "novelty_score": 0.35,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
+        "bio_ai",
+        "biotech",
+        "genomics_ai",
+        "drug_discovery",
+        "research"
       ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -775,22 +787,62 @@
   ],
   "top_5_cae_ai_engineering": [
     {
+      "id": "b0ce4fdc4c7eb432",
+      "title": "Building a Foundation Stack for General-Purpose Robots",
+      "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-13T10:19:51+00:00",
+      "text": "Building a Foundation Stack for General-Purpose Robots This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe. Robotics systems have long been assembled from separate perception, planning, and control parts that rarely add up to intelligence a robot can carry from one task to another, or one machine to another. The central problem in embodied AI is to find the equivalent recipe, and the field does not yet agree on what it is. X Square Robot , a Chinese embodied-AI company, has made an unusually explicit bet. It argues that the recipe is an integrated stack, spanning the data a robot learns from, a world model for predicting changes in the physical world, and an action model that brings together perception, planning, reasoning, and decision-making to generate executable robot behavior. The company also believes that the stack should be built and released in the open . X Square Robot shares its vision of bringing robots into real homes. X Square Robot X Square Robot’s embodied AI stack What holds the stack together is a sma",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "large language model",
+        "foundation model",
+        "benchmark",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 78.769,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.69",
+        "matched_terms=6",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.694,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "e5d2e12963a9fef8",
-      "title": "Python in the Loop: AI-Driven Simulation and Validation for Autonomous Systems – Simcenter Prescan 2606",
+      "title": "Python in the loop: AI-Driven simulation and validation for autonomous systems – Simcenter Prescan 2606",
       "url": "https://blogs.sw.siemens.com/simcenter/python-in-the-loop-ai-driven-simulation-and-validation-for-autonomous-systems-simcenter-prescan-2606",
       "source": "Siemens Simcenter",
       "source_kind": "rss",
       "category": "engineering_ai",
       "published_at": "2026-07-13T08:50:01+00:00",
-      "text": "Python in the Loop: AI-Driven Simulation and Validation for Autonomous Systems – Simcenter Prescan 2606 What’s new ADAS and autonomous system development increasingly relies on Python, machine learning frameworks, and large volumes of sensor data. Yet…",
+      "text": "Python in the loop: AI-Driven simulation and validation for autonomous systems – Simcenter Prescan 2606 What’s new ADAS and autonomous system development increasingly relies on Python, machine learning frameworks, and large volumes of sensor data. Yet…",
       "matched_terms": [
         "simulation"
       ],
       "engagement": {},
-      "score": 71.29,
+      "score": 71.075,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -799,7 +851,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.998,
+      "novelty_score": 0.988,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -846,6 +898,41 @@
       "source_priority": "high"
     },
     {
+      "id": "b780b3f3a1a31460",
+      "title": "The New York nurses replaced by AI: ‘It should concern every patient who cares about quality of care’",
+      "url": "https://www.theguardian.com/technology/2026/jul/13/nurses-new-york-ai",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-13T12:00:47+00:00",
+      "text": "The New York nurses replaced by AI: ‘It should concern every patient who cares about quality of care’ The union for 12 nurses laid off by Montefiore hospital say company broke contract they recently won through a strike Marilyn Shuler has worked as a utilization review nurse for 39 years at Montefiore hospital in the Bronx in New York City, helping to read patient charts and communicate with insurance companies over coverage. After nearly four decades in her job, Shuler is one of 12 nurses who were laid off Sunday after being replaced with AI-powered software, according to the New York State Nurses Association (NYSNA), which represents nurses at the hospital. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 58.592,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.75",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.747,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "2281a3ecd176d213",
       "title": "Association For Industrial Ai",
       "url": "https://www.industrial-ai-network.com/association-for-industrial-ai",
@@ -879,75 +966,6 @@
         "digital_thread",
         "industrial_copilot",
         "user_requested"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "5f08d5e0ccaa9c87",
-      "title": "Agentic Ai For Engineering In Aerospace And Defense",
-      "url": "https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Agentic Ai For Engineering In Aerospace And Defense https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense",
-      "matched_terms": [
-        "AI for engineering"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "c47f51de21ac3351",
-      "title": "03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases",
-      "url": "https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology",
-      "source": "Luminary Cloud",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology/",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud_cae",
-        "simulation",
-        "physics_ai"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1279,6 +1297,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1531,6 +1559,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1633,42 +1671,43 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "475a7ecbe023e4bc",
-      "title": "Your next colleague is an agent: The dawn of agentic AI-aided engineering",
-      "url": "https://blogs.sw.siemens.com/art-of-the-possible/agentic-ai-aided-engineering",
-      "source": "Siemens Art of the Possible",
+      "id": "b0ce4fdc4c7eb432",
+      "title": "Building a Foundation Stack for General-Purpose Robots",
+      "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
+      "source": "IEEE Spectrum AI",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-03T09:59:13+00:00",
-      "text": "Your next colleague is an agent: The dawn of agentic AI-aided engineering What if every engineer had instant access to simulation expertise? Agentic AI-Aided Engineering could transform engineering by putting intelligent AI agents alongside designers, automating complex CAE workflows, and breaking long-standing expertise bottlenecks. Discover how this emerging approach could democratize simulation and accelerate innovation across the engineering lifecycle",
+      "published_at": "2026-07-13T10:19:51+00:00",
+      "text": "Building a Foundation Stack for General-Purpose Robots This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe. Robotics systems have long been assembled from separate perception, planning, and control parts that rarely add up to intelligence a robot can carry from one task to another, or one machine to another. The central problem in embodied AI is to find the equivalent recipe, and the field does not yet agree on what it is. X Square Robot , a Chinese embodied-AI company, has made an unusually explicit bet. It argues that the recipe is an integrated stack, spanning the data a robot learns from, a world model for predicting changes in the physical world, and an action model that brings together perception, planning, reasoning, and decision-making to generate executable robot behavior. The company also believes that the stack should be built and released in the open . X Square Robot shares its vision of bringing robots into real homes. X Square Robot X Square Robot’s embodied AI stack What holds the stack together is a sma",
       "matched_terms": [
-        "CAE",
-        "simulation"
+        "AI",
+        "artificial intelligence",
+        "large language model",
+        "foundation model",
+        "benchmark",
+        "robotics"
       ],
       "engagement": {},
-      "score": 79.15,
+      "score": 78.769,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "engineering_workflow_ai_boost=10",
+        "novelty=0.69",
+        "matched_terms=6",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.749,
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.694,
       "source_priority_score": 1.0,
       "source_tags": [
-        "agentic_ai",
-        "cae",
-        "simulation",
-        "industrial_ai",
-        "simcenter"
+        "computer_science",
+        "engineering",
+        "ai"
       ],
-      "registry_category": "engineering_ai",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -1686,10 +1725,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 78.015,
+      "score": 77.799,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1698,7 +1737,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.879,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1723,10 +1762,10 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 72.048,
+      "score": 71.833,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.72",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1735,7 +1774,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.729,
+      "novelty_score": 0.72,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1758,10 +1797,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 71.309,
+      "score": 71.094,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1770,7 +1809,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.878,
+      "novelty_score": 0.868,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1782,21 +1821,21 @@
     },
     {
       "id": "e5d2e12963a9fef8",
-      "title": "Python in the Loop: AI-Driven Simulation and Validation for Autonomous Systems – Simcenter Prescan 2606",
+      "title": "Python in the loop: AI-Driven simulation and validation for autonomous systems – Simcenter Prescan 2606",
       "url": "https://blogs.sw.siemens.com/simcenter/python-in-the-loop-ai-driven-simulation-and-validation-for-autonomous-systems-simcenter-prescan-2606",
       "source": "Siemens Simcenter",
       "source_kind": "rss",
       "category": "engineering_ai",
       "published_at": "2026-07-13T08:50:01+00:00",
-      "text": "Python in the Loop: AI-Driven Simulation and Validation for Autonomous Systems – Simcenter Prescan 2606 What’s new ADAS and autonomous system development increasingly relies on Python, machine learning frameworks, and large volumes of sensor data. Yet…",
+      "text": "Python in the loop: AI-Driven simulation and validation for autonomous systems – Simcenter Prescan 2606 What’s new ADAS and autonomous system development increasingly relies on Python, machine learning frameworks, and large volumes of sensor data. Yet…",
       "matched_terms": [
         "simulation"
       ],
       "engagement": {},
-      "score": 71.29,
+      "score": 71.075,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1805,7 +1844,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.998,
+      "novelty_score": 0.988,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1828,10 +1867,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.782,
+      "score": 69.566,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1840,7 +1879,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.929,
+      "novelty_score": 0.92,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1848,6 +1887,44 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e66750c48f5ddc59",
+      "title": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T16:42:15+00:00",
+      "text": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI In this post, we introduce the UI for optimized generative AI inference recommendations in Amazon SageMaker AI Studio, a low-code no-code (LCNC) experience. The API already gives you programmatic access to recommendations, but it assumes you know which parameters to set and how to interpret raw benchmark output. The UI removes that assumption. It guides you through preset use-case profiles, visual comparisons of results, and one-click deployment, so teams without deep infrastructure expertise can get a validated configuration on their own.",
+      "matched_terms": [
+        "AI",
+        "generative AI",
+        "inference",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 69.217,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.964,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -1921,85 +1998,6 @@
       "source_priority": "high"
     },
     {
-      "id": "fe3de2743b2d3686",
-      "title": "Fable gets another bump",
-      "url": "https://simonwillison.net/2026/Jul/12/bump",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-12T21:20:07+00:00",
-      "text": "Fable gets another bump One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19. As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits. Anthropic's original rationale for this was compute constraints - they wanted a better idea of both demand and compute availability before committing to keeping the new model cheap for subscribers. OpenAI appear confident that they won't need to restrict access to GPT-5.6 in the same way. Here's Thibault Sottiaux this morning : The last 48 hours of Codex and ChatGPT Work have been intense! Three important updates: Temporarily removing the 5 hour usage limit restriction for all Plus, Business and Pro plans Rolling out changes that will make GPT 5.6 Sol more efficient across the board and that will be reflected in less usage being ",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 66.068,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.79",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.791,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "6041d49125de848e",
-      "title": "Ask, don’t click: Agentic AI takes the pain out of simulation post-processing",
-      "url": "https://blogs.sw.siemens.com/art-of-the-possible/ask-dont-click-agentic-ai-takes-the-pain-out-of-simulation-post-processing",
-      "source": "Siemens Art of the Possible",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-06-15T13:55:04+00:00",
-      "text": "Ask, don’t click: Agentic AI takes the pain out of simulation post-processing Picture this. You have just finished a hydraulic drive-cycle simulation in Simcenter Amesim. The solver finished in four minutes. Excellent….",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 66.007,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.30",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.303,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "agentic_ai",
-        "cae",
-        "simulation",
-        "industrial_ai",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "fdcca13bb581de3f",
       "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
       "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
@@ -2012,10 +2010,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 65.368,
+      "score": 65.152,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.72",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2024,7 +2022,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.729,
+      "novelty_score": 0.719,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2046,7 +2044,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 63.743,
+      "score": 63.527,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.65",
@@ -2058,7 +2056,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.655,
+      "novelty_score": 0.645,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2069,33 +2067,35 @@
       "source_priority": "high"
     },
     {
-      "id": "ae4d16f55fe1c562",
-      "title": "sqlite-utils 4.1.1",
-      "url": "https://simonwillison.net/2026/Jul/12/sqlite-utils",
+      "id": "fe3de2743b2d3686",
+      "title": "Fable gets another bump",
+      "url": "https://simonwillison.net/2026/Jul/12/bump",
       "source": "Simon Willison",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-12T20:55:30+00:00",
-      "text": "sqlite-utils 4.1.1 Release: sqlite-utils 4.1.1 Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE. table.transform() now raises a TransactionError if called while a transaction is open with PRAGMA foreign_keys enabled and the table is referenced by foreign keys with destructive ON DELETE actions - CASCADE , SET NULL or SET DEFAULT . The pragma cannot be changed inside a transaction, so previously dropping the old table as part of the transform could fire those actions and silently delete or modify referencing rows. See Foreign keys and transactions for details and workarounds. ( #794 ) The CLI and Python API documentation now cross-reference each other: CLI sections link to the equivalent Python API functionality and Python API sections link back to the corresponding CLI command. ( #791 ) Tags: sqlite , sqlite-utils",
+      "category": "general_ai",
+      "published_at": "2026-07-12T21:20:07+00:00",
+      "text": "Fable gets another bump One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19. As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits. Anthropic's original rationale for this was compute constraints - they wanted a better idea of both demand and compute availability before committing to keeping the new model cheap for subscribers. OpenAI appear confident that they won't need to restrict access to GPT-5.6 in the same way. Here's Thibault Sottiaux this morning : The last 48 hours of Codex and ChatGPT Work have been intense! Three important updates: Temporarily removing the 5 hour usage limit restriction for all Plus, Business and Pro plans Rolling out changes that will make GPT 5.6 Sol more efficient across the board and that will be reflected in less usage being ",
       "matched_terms": [
         "AI",
-        "RAG",
+        "LLM",
+        "OpenAI",
+        "Anthropic",
         "Claude"
       ],
       "engagement": {},
-      "score": 62.76,
+      "score": 62.834,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
+        "novelty=0.64",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.785,
+      "novelty_score": 0.644,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2106,43 +2106,6 @@
       ],
       "registry_category": "community",
       "source_priority": "high"
-    },
-    {
-      "id": "0a8b371ce265afaa",
-      "title": "How Agentic Engineering is Reshaping Simulation-Driven Product Design — Key Takeaways Agentic AI is transforming hardware engineering by combining Physics AI for fast simulation predictions with Engineering AI orchestration, compressing months of design optimization into minutes. May 18, 2026",
-      "url": "https://www.simscale.com/blog/agentic-engineering-reshaping-simulation-driven-product-design",
-      "source": "SimScale",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "How Agentic Engineering is Reshaping Simulation-Driven Product Design — Key Takeaways Agentic AI is transforming hardware engineering by combining Physics AI for fast simulation predictions with Engineering AI orchestration, compressing months of design optimization into minutes. May 18, 2026 https://www.simscale.com/blog/agentic-engineering-reshaping-simulation-driven-product-design/",
-      "matched_terms": [
-        "simulation",
-        "design optimization",
-        "engineering AI"
-      ],
-      "engagement": {},
-      "score": 62.5,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "cloud_cae",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
     },
     {
       "id": "b70c88e92880a6a9",
@@ -2180,6 +2143,41 @@
       "source_priority": "high"
     },
     {
+      "id": "f4f67329799c5616",
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T18:00:00+00:00",
+      "text": "What Anthropic’s latest AI discovery does—and doesn’t—show This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s looking into whether AI models can feel pain, for example,…",
+      "matched_terms": [
+        "AI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 61.875,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.934,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "3824b64966784a9b",
       "title": "Agentic Simulation Report Generation",
       "url": "https://rescale.com/blog/agentic-simulation-report-generation",
@@ -2192,10 +2190,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.56,
+      "score": 61.344,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.55",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2204,7 +2202,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.556,
+      "novelty_score": 0.546,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2212,43 +2210,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b47d35712994a918",
-      "title": "Flint: A visualization language for the AI era",
-      "url": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era",
-      "source": "Microsoft Research",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-08T16:00:00+00:00",
-      "text": "Flint: A visualization language for the AI era Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications. The post Flint: A visualization language for the AI era appeared first on Microsoft Research .",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 60.734,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.49",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.488,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2578,78 +2539,219 @@
       "source_priority": "high"
     },
     {
-      "id": "378c44623d2638dd",
-      "title": "Directly Responsible Individuals (DRI)",
-      "url": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals",
-      "source": "Simon Willison",
+      "id": "ecbc76a36f0e024f",
+      "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+      "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-12T23:57:14+00:00",
-      "text": "Directly Responsible Individuals (DRI) Directly Responsible Individuals (DRI) I went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is \"ultimately accountable for the success or failure of a specific project, initiative, or activity\". I've been thinking about this term recently in the context of LLM-powered agents and how they fit into human organizations. I don't think an agent should ever be considered the DRI for a project - that's something that feels uniquely human to me, because humans can take accountability for their actions where machines cannot. (See also IBM's legendary 1979 training slide that states \"A computer can never be held accountable, therefore a computer must never make a management decision.\") Tags: apple , management , ai , gitlab , generative-ai , llms , ai-ethics , coding-agents",
+      "published_at": "2026-07-13T18:22:10+00:00",
+      "text": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims.",
       "matched_terms": [
         "AI",
-        "LLM",
-        "agent"
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 60.301,
+      "score": 60.265,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=3",
+        "novelty=0.98",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.832,
+      "novelty_score": 0.982,
       "source_priority_score": 1.0,
       "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "community",
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
-      "id": "d22f990a554daaa6",
-      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
-      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "source": "Synopsys",
-      "source_kind": "sitemap_or_search",
+      "id": "3c3e73f176f399f7",
+      "title": "Open earbuds let you tune in without tuning out the world. Here are the five best pairs",
+      "url": "https://www.theguardian.com/thefilter-us/2026/jul/13/best-open-ear-earbuds",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-12T23:41:30+00:00",
-      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
+      "published_at": "2026-07-13T19:15:08+00:00",
+      "text": "Open earbuds let you tune in without tuning out the world. Here are the five best pairs Don’t float through the world in an AirPod bubble – enjoy music or podcasts and carry on using these tested favorites I tested 42 pairs of wireless earbuds to find the best in US Sign up for the Filter US newsletter, your weekly guide to buying fewer, better things In a feat of engineering that borders on magic, the best wireless earbuds can silence the noisy world around you at the tap of a finger. So, why would you buy open earbuds, which are specifically designed to let in environmental sounds? Frankly, I didn’t understand the appeal of them either until I started testing them, and now I use open earbuds even more than my noise-cancelling earbuds. For situations from hiking to running errands, these are the headphones you should be wearing. Here’s what you’re missing out on, and a few of the best pairs to try. Best overall open-ear earbuds: Soundcore Aeroclip Open-Ear Earbuds Best premium open-ear earbuds: Bose Ultra Open Earbuds Continue reading...",
       "matched_terms": [
-        "multiphysics"
+        "AI"
       ],
       "engagement": {},
-      "score": 59.881,
+      "score": 60.236,
       "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.99",
+        "source_priority=1.00",
+        "novelty=0.97",
         "matched_terms=1",
-        "engineering_relevance=1.00",
+        "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.989,
-      "source_priority_score": 0.65,
+      "novelty_score": 0.973,
+      "source_priority_score": 1.0,
       "source_tags": [
-        "eda",
-        "simulation",
-        "digital_twin"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "148cb744a6b6cf86",
+      "title": "Building an agentic AI solution at Bluesight with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-solution-at-bluesight-with-amazon-bedrock",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T17:34:38+00:00",
+      "text": "Building an agentic AI solution at Bluesight with Amazon Bedrock In this post, we describe how Bluesight used two AWS engagements and Amazon Bedrock AgentCore to evolve from a single-product AI prototype to Prism, a unified agentic AI solution spanning six healthcare compliance products. Prism Assistant for ControlCheck launched in May 2026 and is already in use by 20 health systems. A more complex multi-product agentic solution is on track for later in 2026.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 60.084,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.974,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "627b787675b4fef3",
+      "title": "Implement on-behalf-of token exchange for multi-tenant agents with Amazon Bedrock AgentCore Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/implement-on-behalf-of-token-exchange-for-multi-tenant-agents-with-amazon-bedrock-agentcore-gateway",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T17:27:40+00:00",
+      "text": "Implement on-behalf-of token exchange for multi-tenant agents with Amazon Bedrock AgentCore Gateway Building multi-tenant agents with Amazon Bedrock AgentCore and Apply fine-grained access control with Bedrock AgentCore Gateway interceptors establish the conceptual foundation for on-behalf-of (OBO) token exchange in agentic systems. This post is the implementation guide. It walks through a complete multi-tenant OBO setup against Okta, shows the JSON Web Token (JWT) claim transformations on each hop, and demonstrates how audience binding produces defense in depth that scales across tenants.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 60.057,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.972,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "b47d35712994a918",
+      "title": "Flint: A visualization language for the AI era",
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era",
+      "source": "Microsoft Research",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-08T16:00:00+00:00",
+      "text": "Flint: A visualization language for the AI era Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications. The post Flint: A visualization language for the AI era appeared first on Microsoft Research .",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 59.81,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.45",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.446,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "computer_science",
+        "ai"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "a2ef2f6fd453a00e",
+      "title": "NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300X",
+      "url": "https://developer.nvidia.com/blog/nvidia-ising-decoding-cuts-color-code-logical-error-rates-by-over-300x",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T19:00:00+00:00",
+      "text": "NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300X Useful quantum computers will require fault tolerant logical operations. Researchers are actively exploring many different quantum error correction (QEC) codes...",
+      "matched_terms": [
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 59.743,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.988,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
     },
     {
       "id": "d0a7f3d2c70a8110",
@@ -2687,22 +2789,132 @@
       "source_priority": "high"
     },
     {
-      "id": "d579803380058aab",
-      "title": "Waze is getting a bunch of new AI-powered features",
-      "url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
-      "source": "The Verge AI",
+      "id": "d22f990a554daaa6",
+      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
+      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
+      "source": "Synopsys",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": "2026-07-12T23:41:30+00:00",
+      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
+      "matched_terms": [
+        "multiphysics"
+      ],
+      "engagement": {},
+      "score": 59.665,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.979,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "eda",
+        "simulation",
+        "digital_twin"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
+    },
+    {
+      "id": "d8c4f12b71f9e00d",
+      "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
+      "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T15:34:59+00:00",
+      "text": "Anthropic starts localizing Claude pricing for India, its biggest market after the US Claude users in India are starting to see Indian rupee-denominated subscription plans.",
+      "matched_terms": [
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 59.627,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.953,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "ae4d16f55fe1c562",
+      "title": "sqlite-utils 4.1.1",
+      "url": "https://simonwillison.net/2026/Jul/12/sqlite-utils",
+      "source": "Simon Willison",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-13T09:00:00+00:00",
-      "text": "Waze is getting a bunch of new AI-powered features Waze is getting an AI makeover. Google is integrating its flagship AI assistant, Gemini, into the driving app with the goal of letting users personalize their trips a little more. Of the four new updates, only two are being described as involving Gemini. Waze says its updating its conversation reporting feature, first introduced in 2024, […]",
+      "published_at": "2026-07-12T20:55:30+00:00",
+      "text": "sqlite-utils 4.1.1 Release: sqlite-utils 4.1.1 Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE. table.transform() now raises a TransactionError if called while a transaction is open with PRAGMA foreign_keys enabled and the table is referenced by foreign keys with destructive ON DELETE actions - CASCADE , SET NULL or SET DEFAULT . The pragma cannot be changed inside a transaction, so previously dropping the old table as part of the transform could fire those actions and silently delete or modify referencing rows. See Foreign keys and transactions for details and workarounds. ( #794 ) The CLI and Python API documentation now cross-reference each other: CLI sections link to the equivalent Python API functionality and Python API sections link back to the corresponding CLI command. ( #791 ) Tags: sqlite , sqlite-utils",
+      "matched_terms": [
+        "AI",
+        "RAG",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 59.526,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.64",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.638,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "d880ad9433b48638",
+      "title": "Waze adds new AI-powered features and customization updates",
+      "url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-13T14:18:16+00:00",
+      "text": "Waze adds new AI-powered features and customization updates Some of the new features are powered by Google's Gemini AI assistant, which reflects the tech giant's broader push to integrate Gemini across its products while also better positioning Waze to compete with rival services such as Apple Maps.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 59.655,
+      "score": 59.5,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2711,7 +2923,114 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.946,
+      "novelty_score": 0.939,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "29f637f9e2214d14",
+      "title": "How SimScale’s AI Agent Transforms Simulation Workflows On April 23, we dived deep into an end-to-end agentic workflow in SimScale. It was a great live session in Alex Graham May 13, 2026 Engineering AI",
+      "url": "https://www.simscale.com/blog/how-ai-agents-transform-simulation-workflows",
+      "source": "SimScale",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "How SimScale’s AI Agent Transforms Simulation Workflows On April 23, we dived deep into an end-to-end agentic workflow in SimScale. It was a great live session in Alex Graham May 13, 2026 Engineering AI https://www.simscale.com/blog/how-ai-agents-transform-simulation-workflows/",
+      "matched_terms": [
+        "simulation",
+        "engineering AI"
+      ],
+      "engagement": {},
+      "score": 59.167,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "cloud_cae",
+        "simulation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
+    },
+    {
+      "id": "b780b3f3a1a31460",
+      "title": "The New York nurses replaced by AI: ‘It should concern every patient who cares about quality of care’",
+      "url": "https://www.theguardian.com/technology/2026/jul/13/nurses-new-york-ai",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-13T12:00:47+00:00",
+      "text": "The New York nurses replaced by AI: ‘It should concern every patient who cares about quality of care’ The union for 12 nurses laid off by Montefiore hospital say company broke contract they recently won through a strike Marilyn Shuler has worked as a utilization review nurse for 39 years at Montefiore hospital in the Bronx in New York City, helping to read patient charts and communicate with insurance companies over coverage. After nearly four decades in her job, Shuler is one of 12 nurses who were laid off Sunday after being replaced with AI-powered software, according to the New York State Nurses Association (NYSNA), which represents nurses at the hospital. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 58.592,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.75",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.747,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6358ddebecad3055",
+      "title": "The 6 wildest claims in Apple’s lawsuit against OpenAI",
+      "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T17:00:00+00:00",
+      "text": "The 6 wildest claims in Apple’s lawsuit against OpenAI When Apple employees interviewed for jobs at OpenAI, the AI startup's hardware head allegedly asked them to show up with something unusual: components they were working on and unreleased product samples. That's according to a blockbuster lawsuit filed by Apple, which accuses OpenAI of stealing confidential documents, spying on hardware prototypes, and tricking one of […]",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 58.521,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.90",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.902,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2734,10 +3053,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 59.161,
+      "score": 58.238,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.57",
+        "novelty=0.53",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2746,7 +3065,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.568,
+      "novelty_score": 0.526,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2868,38 +3187,78 @@
       "source_priority": "high"
     },
     {
-      "id": "0c7722cea1edd875",
-      "title": "Christopher Nolan says people ‘disdain’ AI and the idea it will replace humans is ‘nonsense’",
-      "url": "https://www.theguardian.com/film/2026/jul/13/christopher-nolan-odyssey-director-comments-ai-artificial-intelligence",
-      "source": "The Guardian Technology",
+      "id": "968878a6f63224d0",
+      "title": "The AI Arms Race in Technical Interviews Is Escalating",
+      "url": "https://spectrum.ieee.org/technical-interview-ai-arms-race",
+      "source": "IEEE Spectrum AI",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-13T00:56:38+00:00",
-      "text": "Christopher Nolan says people ‘disdain’ AI and the idea it will replace humans is ‘nonsense’ Odyssey director addresses industry fears over artificial intelligence and says rightwing criticism of Lupita Nyong’o as Helen of Troy is ‘irrelevant’ The Oscar-winning director Christopher Nolan believes the kind of movies he makes – big-budget action films shot mostly on location – would survive the spread of artificial intelligence, a technology he says many people “disdain”. The Oppenheimer and The Dark Knight director is promoting his latest blockbuster , an adaptation of the Greek epic The Odyssey, which will be released in cinemas this week. Continue reading...",
+      "category": "general_ai",
+      "published_at": "2026-07-13T15:15:03+00:00",
+      "text": "The AI Arms Race in Technical Interviews Is Escalating Software engineering jobs are under threat from AI . Some applicants are fighting back by using AI in the interview process, employing AI assistants that suggest responses on the fly during remote technical interviews. Meanwhile, some employers are countering with—you guessed it—AI. They’re applying AI-powered tools to detect telltale signs of AI use during interviews. This two-sided dynamic is turning hiring into an AI arms race with no clear winners. Yet as interviewers and interviewees navigate this daunting reality, experts believe the human aspect of the job search will prevail. What’s driving the increase of AI in hiring? AI hiring strategist Tatiana Teppoeva characterizes this phenomenon as playing cat and mouse in a climate of relentless AI-fueled tech layoffs and a job market filled with more applicants than open positions. “What AI tools do well is identify if a person is performing according to some pattern or expected outcome,” Teppoeva says. When candidates experience constant rejection because they don’t fit the pattern, they might be forced to game the system using AI interview assistants, she adds. Archie Payne ",
       "matched_terms": [
         "AI",
-        "artificial intelligence"
+        "agent"
       ],
       "engagement": {},
-      "score": 57.45,
+      "score": 57.318,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.85",
         "matched_terms=2",
-        "engineering_relevance=0.25",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.695,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "computer_science",
+        "engineering",
+        "ai"
       ],
       "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "378c44623d2638dd",
+      "title": "Directly Responsible Individuals (DRI)",
+      "url": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-12T23:57:14+00:00",
+      "text": "Directly Responsible Individuals (DRI) Directly Responsible Individuals (DRI) I went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is \"ultimately accountable for the success or failure of a specific project, initiative, or activity\". I've been thinking about this term recently in the context of LLM-powered agents and how they fit into human organizations. I don't think an agent should ever be considered the DRI for a project - that's something that feels uniquely human to me, because humans can take accountability for their actions where machines cannot. (See also IBM's legendary 1979 training slide that states \"A computer can never be held accountable, therefore a computer must never make a management decision.\") Tags: apple , management , ai , gitlab , generative-ai , llms , ai-ethics , coding-agents",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 57.068,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.68",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.685,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -4920,312 +5279,6 @@
       "text": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
       "matched_terms": [
         "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "5f598d3dedb3f122",
-      "title": "Ai Agents In Engineering",
-      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
-      "matched_terms": [
-        "engineering AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "674b5396927b0e3a",
-      "title": "Ai Agents In Engineering Ai Conference 2025",
-      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
-      "matched_terms": [
-        "engineering AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "3cfd8b1d1cd4d509",
-      "title": "Altair Learning Synera Basics Intro Fea Automation",
-      "url": "https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ea9ebd5a3b0bd743",
-      "title": "Altair Learning Synera Basics Intro Fea Automation",
-      "url": "https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "51f9f00633997da4",
-      "title": "Automating Cae Reporting",
-      "url": "https://www.synera.ai/webinar/automating-cae-reporting",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automating Cae Reporting https://www.synera.ai/webinar/automating-cae-reporting",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a04eae22c7539e13",
-      "title": "Automatisierung Cae Berichterstattung",
-      "url": "https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "0a951fddf5b3666d",
-      "title": "Automatisierung Fea Aufgaben",
-      "url": "https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automatisierung Fea Aufgaben https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "d8f5a4edfd9ee155",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba6a4cbdb5dbf1b3",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
       ],
       "engagement": {},
       "score": 57.033,

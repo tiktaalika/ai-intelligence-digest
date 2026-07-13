@@ -3,108 +3,108 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17296
-- filtered_count: 2209
-- duplicate_count: 72
-- failures: 7
+- fetched_count: 17259
+- filtered_count: 2217
+- duplicate_count: 71
+- failures: 8
 
 ## Top 10 General AI News
 1. [Fable gets another bump](https://simonwillison.net/2026/Jul/12/bump)
    - source: Simon Willison
-   - score: 66.068
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.791; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 62.834
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.644; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.64; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Directly Responsible Individuals (DRI)](https://simonwillison.net/2026/Jul/12/directly-responsible-individuals)
    - source: Simon Willison
-   - score: 60.301
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.832; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [The eBay Scandal Gets a Thriller-Like Documentary](https://www.nytimes.com/2026/07/13/technology/ebay-documentary-scandal-whatever-it-takes.html)
+   - score: 57.068
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.685; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.68; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Launching UI for generative AI inference recommendations in Amazon SageMaker AI](https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai)
+   - source: Amazon AWS AI
+   - score: 69.217
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.964; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+4. [What Anthropic’s latest AI discovery does—and doesn’t—show](https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show)
+   - source: MIT Technology Review AI
+   - score: 61.875
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.934; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+5. [The wildest allegations in Apple’s trade secrets lawsuit against OpenAI](https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai)
+   - source: TechCrunch AI
+   - score: 60.265
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.982; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Building an agentic AI solution at Bluesight with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-solution-at-bluesight-with-amazon-bedrock)
+   - source: Amazon AWS AI
+   - score: 60.084
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.974; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300X](https://developer.nvidia.com/blog/nvidia-ising-decoding-cuts-color-code-logical-error-rates-by-over-300x)
+   - source: NVIDIA AI
+   - score: 59.743
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.988; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+8. [The AI Arms Race in Technical Interviews Is Escalating](https://spectrum.ieee.org/technical-interview-ai-arms-race)
+   - source: IEEE Spectrum AI
+   - score: 57.318
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.848; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [Should AI help you get away with killing your spouse?](https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse)
+   - source: TechCrunch AI
+   - score: 56.509
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.963; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [The eBay Scandal Gets a Thriller-Like Documentary](https://www.nytimes.com/2026/07/13/technology/ebay-documentary-scandal-whatever-it-takes.html)
    - source: New York Times Technology
-   - score: 56.175
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.947; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [As states absorb Medicaid funding cuts, family caregivers face financial ruin](https://www.statnews.com/2026/07/13/family-caregiver-wages-financial-ruin-medicaid-funding-cuts)
-   - source: STAT Health Tech
-   - score: 55.812
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.931; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Effective Context Engineering For Ai Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
-   - source: Anthropic
-   - score: 53.033
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Anthropic Launches Claude Science, Illumina's Spatial Insights Tool, Wellcome Sanger Institute, Google DeepMind AI Consortium](https://www.bio-itworld.com/news/2026/06/30/anthropic-launches-claude-science--illumina's-spatial-insights-tool--wellcome-sanger-institute--google-deepmind-ai-consortium)
-   - source: Bio-IT World
-   - score: 53.033
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [China’s massive AI rollout - podcast](https://www.theguardian.com/news/audio/2026/jul/13/chinas-massive-ai-rollout-podcast)
-   - source: The Guardian Technology
-   - score: 51.349
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.728; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)
-   - source: Anthropic
-   - score: 49.7
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Research Upgrading agentic coding capabilities with the new Devstral models July 10, 2025 By Mistral AI](https://mistral.ai/news/devstral-2507)
-   - source: Mistral AI
-   - score: 49.033
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-10. [Vibe for code Coding agents in the terminal, IDE, and background.](https://mistral.ai/products/vibe/code)
-   - source: Mistral AI
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.965
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.938; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [Python in the Loop: AI-Driven Simulation and Validation for Autonomous Systems – Simcenter Prescan 2606](https://blogs.sw.siemens.com/simcenter/python-in-the-loop-ai-driven-simulation-and-validation-for-autonomous-systems-simcenter-prescan-2606)
+1. [Building a Foundation Stack for General-Purpose Robots](https://spectrum.ieee.org/x-square-robot-embodied-ai-stack)
+   - source: IEEE Spectrum AI
+   - score: 78.769
+   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.694; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.69; matched_terms=6; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+2. [Python in the loop: AI-Driven simulation and validation for autonomous systems – Simcenter Prescan 2606](https://blogs.sw.siemens.com/simcenter/python-in-the-loop-ai-driven-simulation-and-validation-for-autonomous-systems-simcenter-prescan-2606)
    - source: Siemens Simcenter
-   - score: 71.29
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.998; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Electric Motor Simulation Powerful Tool For Design Optimization](https://www.neuralconcept.com/post/electric-motor-simulation-powerful-tool-for-design-optimization)
+   - score: 71.075
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.988; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Electric Motor Simulation Powerful Tool For Design Optimization](https://www.neuralconcept.com/post/electric-motor-simulation-powerful-tool-for-design-optimization)
    - source: Neural Concept
    - score: 60.367
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Association For Industrial Ai](https://www.industrial-ai-network.com/association-for-industrial-ai)
+4. [The New York nurses replaced by AI: ‘It should concern every patient who cares about quality of care’](https://www.theguardian.com/technology/2026/jul/13/nurses-new-york-ai)
+   - source: The Guardian Technology
+   - score: 58.592
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.747; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.75; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+5. [Association For Industrial Ai](https://www.industrial-ai-network.com/association-for-industrial-ai)
    - source: Industrial AI Network
-   - score: 57.033
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Agentic Ai For Engineering In Aerospace And Defense](https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense)
-   - source: Synera
-   - score: 57.033
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases](https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology)
-   - source: Luminary Cloud
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [As states absorb Medicaid funding cuts, family caregivers face financial ruin](https://www.statnews.com/2026/07/13/family-caregiver-wages-financial-ruin-medicaid-funding-cuts)
+1. [Building an agentic AI solution at Bluesight with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-solution-at-bluesight-with-amazon-bedrock)
+   - source: Amazon AWS AI
+   - score: 60.084
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.974; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [STAT+: Dementia study replicates promising outcomes following risk-reduction strategies](https://www.statnews.com/2026/07/13/aaic-in-30-alzheimers-treaatments-dementia-day-2-conference)
    - source: STAT Health Tech
-   - score: 55.812
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.931; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Opinion: Is there a doctor on board? Yes, and airlines depend on it](https://www.statnews.com/2026/07/13/doctors-airlines-volunteer-emergency-inflight-emergency-divert)
+   - score: 55.064
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.897; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [STAT+: Pharmalittle: We’re reading about an RFK Jr. push against psychiatric meds, a Sanofi blood cancer drug, and more](https://www.statnews.com/pharmalot/2026/07/13/rfk-push-against-ssri-antidepressants-sanofi-blood-cancer-drug)
    - source: STAT Health Tech
-   - score: 55.812
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.931; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [China’s massive AI rollout - podcast](https://www.theguardian.com/news/audio/2026/jul/13/chinas-massive-ai-rollout-podcast)
-   - source: The Guardian Technology
-   - score: 51.349
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.728; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Healthcare Life Sciences](https://www.anthropic.com/news/healthcare-life-sciences)
-   - source: Anthropic
+   - score: 52.536
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.782; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [ProPharma Advances Technology Enablement Strategy with AI-Assisted Capability for ANDA Submission Development](https://www.bio-itworld.com/news/2026/07/08/propharma-advances-technology-enablement-strategy-with-ai-assisted-capability-for-anda-submission-development)
+   - source: Bio-IT World
    - score: 43.033
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
@@ -152,6 +152,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
+- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [Reddit MachineLearning](https://www.google.com/search?q=site%3Awww.reddit.com%20AI): site:www.reddit.com AI (website, low)
@@ -169,6 +170,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Similar-title and canonical-URL duplicate detection is applied before final selection.
 
 ## Source Failures
+- Siemens Art of the Possible: The read operation timed out
 - Ansys: The read operation timed out
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
