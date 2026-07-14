@@ -3,68 +3,68 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17269
+- fetched_count: 17321
 - filtered_count: 2231
 - duplicate_count: 72
-- failures: 7
+- failures: 8
 
 ## Top 10 General AI News
 1. [DOOMQL](https://simonwillison.net/2026/Jul/13/doomql)
    - source: Simon Willison
-   - score: 62.982
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.833; source_priority=1.0
+   - score: 62.914
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.829; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [datasette code-frequency chart on GitHub](https://simonwillison.net/2026/Jul/13/datasette-code-frequency)
    - source: Simon Willison
-   - score: 62.7
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.82; source_priority=1.0
+   - score: 62.632
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.817; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??](https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months)
    - source: Latent Space
-   - score: 57.944
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.876; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.875
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.873; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock)
    - source: Amazon AWS AI
-   - score: 61.187
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.872; source_priority=1.0
+   - score: 61.142
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.87; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Hermes agent maker Nous Research in talks for new funding at $1.5B valuation](https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation)
    - source: TechCrunch AI
-   - score: 61.093
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.898; source_priority=1.0
+   - score: 61.048
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.896; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 6. [New York becomes the first state to enact a data center moratorium](https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium)
    - source: The Verge AI
-   - score: 59.796
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.991; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 59.659
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.985; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 7. [Implement on-behalf-of token exchange for multi-tenant agents with Amazon Bedrock AgentCore Gateway](https://aws.amazon.com/blogs/machine-learning/implement-on-behalf-of-token-exchange-for-multi-tenant-agents-with-amazon-bedrock-agentcore-gateway)
    - source: Amazon AWS AI
-   - score: 57.038
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.835; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.992
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.833; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [STAT+: 10 charts that explain America’s hidden alcohol epidemic](https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series)
    - source: STAT Health Tech
-   - score: 56.786
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.649
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.969; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [PsiQuantum has a plan to make a massive quantum computer out of light](https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light)
    - source: MIT Technology Review AI
-   - score: 56.442
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.959; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.305
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.953; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”](https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone)
    - source: TechCrunch AI
-   - score: 55.375
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
+   - score: 55.329
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.909; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Empowering India’s next generation of innovators with ATL Saathi](https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi)
    - source: Google DeepMind
-   - score: 66.636
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.908; source_priority=1.0
+   - score: 66.617
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.907; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [Manufacturing Simulation Software Solutions For Optimization](https://www.neuralconcept.com/post/manufacturing-simulation-software-solutions-for-optimization)
    - source: Neural Concept
@@ -73,8 +73,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Already rich, already successful, why the last wave of tech winners is grinding again](https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again)
    - source: TechCrunch AI
-   - score: 59.34
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.932; source_priority=1.0
+   - score: 59.294
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.93; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Join Industrial Ai Discord](https://www.industrial-ai-network.com/help/join-industrial-ai-discord)
    - source: Industrial AI Network
@@ -90,26 +90,26 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: Drug metabolism AI competition results show that bigger may not always be better](https://www.statnews.com/2026/07/14/openadmet-ai-drug-metabolism-prediction-inductive-bio)
    - source: STAT Health Tech
-   - score: 56.786
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.649
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.969; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [STAT+: 10 charts that explain America’s hidden alcohol epidemic](https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series)
    - source: STAT Health Tech
-   - score: 56.786
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [STAT+: AIDS activists slam Biden R&D deal with Gilead over HIV prevention drug patents](https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents)
-   - source: STAT Health Tech
-   - score: 48.866
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.615; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.62; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Novartis Chai Discovery Antibody Identification](https://www.pharmaceutical-technology.com/news/novartis-chai-discovery-antibody-identification)
+   - score: 56.649
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.969; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Novartis Chai Discovery Antibody Identification](https://www.pharmaceutical-technology.com/news/novartis-chai-discovery-antibody-identification)
    - source: Pharmaceutical Technology
-   - score: 45.905
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.99; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Healthcare Life Sciences](https://www.anthropic.com/news/healthcare-life-sciences)
+   - score: 45.768
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.983; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Healthcare Life Sciences](https://www.anthropic.com/news/healthcare-life-sciences)
    - source: Anthropic
+   - score: 43.033
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Why Healthcare Ai Has Reached Tipping Point](https://www.healthcareitnews.com/news/why-healthcare-ai-has-reached-tipping-point)
+   - source: Healthcare IT News
    - score: 43.033
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
@@ -152,7 +152,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
-- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [Reddit MachineLearning](https://www.google.com/search?q=site%3Awww.reddit.com%20AI): site:www.reddit.com AI (website, low)
@@ -170,6 +169,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Similar-title and canonical-URL duplicate detection is applied before final selection.
 
 ## Source Failures
+- OpenAI Research RSS: HTTP Error 429: Too Many Requests
 - Ansys: The read operation timed out
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
