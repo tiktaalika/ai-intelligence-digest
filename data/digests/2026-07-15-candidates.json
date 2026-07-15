@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-07-15T06:08:25.593785+00:00",
+    "generated_at": "2026-07-15T08:36:21.418982+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17255,
-    "filtered_count": 2258,
-    "duplicate_count": 74,
+    "fetched_count": 17251,
+    "filtered_count": 2262,
+    "duplicate_count": 73,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -66,10 +62,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.705,
+      "score": 63.858,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.84",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -78,7 +74,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
+      "novelty_score": 0.842,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -106,10 +102,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 63.185,
+      "score": 62.338,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.77",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -118,7 +114,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
+      "novelty_score": 0.773,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -144,10 +140,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.334,
+      "score": 57.487,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.86",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -156,7 +152,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.894,
+      "novelty_score": 0.855,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -181,10 +177,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 56.051,
+      "score": 55.486,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.76",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -193,7 +189,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.79,
+      "novelty_score": 0.765,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -217,10 +213,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 41.627,
+      "score": 40.78,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.80",
+        "novelty=0.76",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -229,7 +225,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.795,
+      "novelty_score": 0.757,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -256,10 +252,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 67.426,
+      "score": 66.861,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.83",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -268,7 +264,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.827,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -295,10 +291,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 66.759,
+      "score": 66.194,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -307,7 +303,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.853,
+      "novelty_score": 0.827,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -333,10 +329,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 64.054,
+      "score": 63.489,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -345,7 +341,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.881,
+      "novelty_score": 0.856,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -369,10 +365,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 62.03,
+      "score": 61.465,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -381,7 +377,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.941,
+      "novelty_score": 0.915,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -392,23 +388,23 @@
       "source_priority": "high"
     },
     {
-      "id": "7218bca86f1b347e",
-      "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
-      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move",
-      "source": "TechCrunch AI",
+      "id": "d29f24bf1aed133b",
+      "title": "‘Not up for grabs’: Albanese establishes AI office and vows to protect Australian creatives from copyright ‘theft’",
+      "url": "https://www.theguardian.com/technology/2026/jul/15/office-of-ai-artificial-intelligence-copyright-australia-government",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-14T22:22:24+00:00",
-      "text": "OpenAI’s first hardware device is reportedly a screenless speaker that can move The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.\"",
+      "published_at": "2026-07-15T06:18:06+00:00",
+      "text": "‘Not up for grabs’: Albanese establishes AI office and vows to protect Australian creatives from copyright ‘theft’ PM lays out plan for datacentre development and rejects prospect tech companies will be given free use of Australian data Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast Anthony Albanese has promised “the strongest possible protection” for Australian creatives against misuse of their work by artificial intelligence models, warning it would be “theft” if writers, artists and musicians didn’t have control of their work or receive payment for its use. Amid growing community concern about large energy-intensive datacentres, the federal government will also set strict new rules for the facilities, including where they can be built, that they shouldn’t compete for land with housing, their power and water use, and that they don’t increase electricity prices for consumers. Continue reading...",
       "matched_terms": [
         "AI",
-        "OpenAI"
+        "artificial intelligence"
       ],
       "engagement": {},
-      "score": 58.887,
+      "score": 59.082,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.93",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -417,14 +413,13 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.919,
+      "novelty_score": 0.928,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
@@ -443,7 +438,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 76.975,
+      "score": 76.919,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -455,7 +450,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.984,
+      "novelty_score": 0.981,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -485,10 +480,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.774,
+      "score": 74.079,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.48",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -497,7 +492,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.558,
+      "novelty_score": 0.481,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -520,7 +515,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.952,
+      "score": 70.895,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -532,7 +527,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.983,
+      "novelty_score": 0.98,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -557,7 +552,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.918,
+      "score": 70.861,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -569,7 +564,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.981,
+      "novelty_score": 0.979,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -631,10 +626,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 62.03,
+      "score": 61.465,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -643,7 +638,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.941,
+      "novelty_score": 0.915,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -651,6 +646,41 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "dd42c5b1b6b4431d",
+      "title": "STAT+: Under a new leader, the FDA’s biologics center moves to steady itself after stormy chapter",
+      "url": "https://www.statnews.com/2026/07/15/fda-cber-acting-director-karim-mikhail-return-normal-vinay-prasad",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-15T08:30:00+00:00",
+      "text": "STAT+: Under a new leader, the FDA’s biologics center moves to steady itself after stormy chapter After his predecessor's turbulent tenure, Karim Mikhail is working to restore staff morale and revisit controversial rejections.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.26,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.997,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -667,10 +697,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 57.553,
+      "score": 56.988,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.83",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -679,7 +709,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.833,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -687,41 +717,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "0a7e2b7c1ac125b2",
-      "title": "STAT+: FTC settles lawsuit with CVS Caremark over charges it manipulated insulin prices, impeded access",
-      "url": "https://www.statnews.com/pharmalot/2026/07/14/ftc-settles-lawsuit-cvs-caremark-insulin-prices-access",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-14T20:55:49+00:00",
-      "text": "STAT+: FTC settles lawsuit with CVS Caremark over charges it manipulated insulin prices, impeded access The FTC settled a lawsuit against CVS Caremark over allegations that the company artificially inflated the price of insulin and impeded access to the diabetes treatment.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 51.001,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.71",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.712,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -762,41 +757,39 @@
       "source_priority": "high"
     },
     {
-      "id": "fe1eae05e539576e",
-      "title": "FDA Clears CliniComp PACS Viewer (MIMPS), Unifying Diagnostic Imaging, Enterprise EHR, and Native AI in a Single Platform",
-      "url": "https://www.bio-itworld.com/news/2026/07/08/fda-clears-clinicomp-pacs-viewer-(mimps)-unifying-diagnostic-imaging-enterprise-ehr-and-native-ai-in-a-single-platform",
-      "source": "Bio-IT World",
+      "id": "6f3a003c6c2ef7bd",
+      "title": "Doubling Medical Safety Fine Tuning Open Llms Womens Health Without",
+      "url": "https://www.databricks.com/dataaisummit/session/doubling-medical-safety-fine-tuning-open-llms-womens-health-without",
+      "source": "Databricks AI",
       "source_kind": "sitemap_or_search",
       "category": "general_ai",
       "published_at": null,
-      "text": "FDA Clears CliniComp PACS Viewer (MIMPS), Unifying Diagnostic Imaging, Enterprise EHR, and Native AI in a Single Platform https://www.bio-itworld.com/news/2026/07/08/fda-clears-clinicomp-pacs-viewer-(mimps)-unifying-diagnostic-imaging-enterprise-ehr-and-native-ai-in-a-single-platform",
+      "text": "Doubling Medical Safety Fine Tuning Open Llms Womens Health Without https://www.databricks.com/dataaisummit/session/doubling-medical-safety-fine-tuning-open-llms-womens-health-without",
       "matched_terms": [
-        "AI"
+        "AI",
+        "LLM"
       ],
       "engagement": {},
-      "score": 43.033,
+      "score": 35.167,
       "score_reasons": [
-        "source_priority=1.00",
+        "source_priority=0.65",
         "novelty=0.35",
-        "matched_terms=1",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
       "novelty_score": 0.35,
-      "source_priority_score": 1.0,
+      "source_priority_score": 0.65,
       "source_tags": [
-        "bio_ai",
-        "biotech",
-        "genomics_ai",
-        "drug_discovery",
-        "research"
+        "data",
+        "enterprise_ai"
       ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
+      "registry_category": "vendor",
+      "source_priority": "medium"
     }
   ],
   "top_5_cae_ai_engineering": [
@@ -814,7 +807,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 76.975,
+      "score": 76.919,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -826,7 +819,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.984,
+      "novelty_score": 0.981,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -856,10 +849,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.774,
+      "score": 74.079,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.48",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -868,7 +861,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.558,
+      "novelty_score": 0.481,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -891,7 +884,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.952,
+      "score": 70.895,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -903,7 +896,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.983,
+      "novelty_score": 0.98,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -928,7 +921,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.918,
+      "score": 70.861,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -940,7 +933,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.981,
+      "novelty_score": 0.979,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1701,7 +1694,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 78.155,
+      "score": 78.098,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -1714,7 +1707,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.704,
+      "novelty_score": 0.701,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1741,7 +1734,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 77.02,
+      "score": 76.963,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1753,7 +1746,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.834,
+      "novelty_score": 0.832,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1777,7 +1770,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 76.975,
+      "score": 76.919,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1789,7 +1782,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.984,
+      "novelty_score": 0.981,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1819,10 +1812,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.774,
+      "score": 74.079,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.48",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -1831,7 +1824,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.558,
+      "novelty_score": 0.481,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -1856,7 +1849,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 71.053,
+      "score": 70.997,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1868,7 +1861,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.684,
+      "novelty_score": 0.682,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1891,7 +1884,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.952,
+      "score": 70.895,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1903,7 +1896,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.983,
+      "novelty_score": 0.98,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1928,7 +1921,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.918,
+      "score": 70.861,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1940,7 +1933,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.981,
+      "novelty_score": 0.979,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1963,7 +1956,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.314,
+      "score": 70.258,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1975,7 +1968,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.832,
+      "novelty_score": 0.83,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1998,7 +1991,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.295,
+      "score": 70.239,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -2010,7 +2003,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.953,
+      "novelty_score": 0.95,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2033,7 +2026,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.786,
+      "score": 68.73,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -2045,7 +2038,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.882,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2053,46 +2046,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "fa5ebecdf68abc39",
-      "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
-      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-14T16:00:00+00:00",
-      "text": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...",
-      "matched_terms": [
-        "AI",
-        "reasoning model",
-        "agent",
-        "AI agent",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 67.426,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2166,6 +2119,46 @@
       "source_priority": "high"
     },
     {
+      "id": "fa5ebecdf68abc39",
+      "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
+      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-14T16:00:00+00:00",
+      "text": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...",
+      "matched_terms": [
+        "AI",
+        "reasoning model",
+        "agent",
+        "AI agent",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 66.861,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.827,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "b5d32d2e9ec20faa",
       "title": "How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo",
       "url": "https://developer.nvidia.com/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo",
@@ -2181,10 +2174,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 66.759,
+      "score": 66.194,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2193,7 +2186,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.853,
+      "novelty_score": 0.827,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2217,7 +2210,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.012,
+      "score": 64.955,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.26",
@@ -2230,7 +2223,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.258,
+      "novelty_score": 0.256,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2240,46 +2233,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "c771154ff947a0c3",
-      "title": "simonw/pedalican",
-      "url": "https://simonwillison.net/2026/Jul/14/pedalican",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-14T22:29:45+00:00",
-      "text": "simonw/pedalican simonw/pedalican Clearly I wasn't paying attention when these were first announced back in May, but today I accidentally activated a \"pet\" in Codex Desktop - a little animated robot, reminiscent of Clippy - and then learned you can create your own. So I did, and now I have a cute little pelican on a bicycle bouncing around my desktop giving me updates on my Codex tasks. Your browser does not support HTML5 video. The most interesting thing about this process was watching how the custom pet was created. I told it I wanted a custom pet that was a pelican riding a bicycle and GPT-5.6 Sol xhigh did the rest of the work, using several rounds with gpt-image-2 to generate the necessary sprite assets. I had it make extensive notes and record all of the intermediary steps . My GItHub repo includes every generated image and combined sprite sheet, plus GIFs for each of the animation loops such as this one, called waving.gif : That GIF was compiled from a single image generated by gpt-image-2 that looked like this: And that image was created by executing this prompt against the initial generated character reference image , which was created with this prompt , which has this str",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 64.705,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2296,10 +2249,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 64.589,
+      "score": 64.347,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2308,7 +2261,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.804,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2331,7 +2284,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 64.373,
+      "score": 64.316,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -2343,13 +2296,53 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.684,
+      "novelty_score": 0.681,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c771154ff947a0c3",
+      "title": "simonw/pedalican",
+      "url": "https://simonwillison.net/2026/Jul/14/pedalican",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-14T22:29:45+00:00",
+      "text": "simonw/pedalican simonw/pedalican Clearly I wasn't paying attention when these were first announced back in May, but today I accidentally activated a \"pet\" in Codex Desktop - a little animated robot, reminiscent of Clippy - and then learned you can create your own. So I did, and now I have a cute little pelican on a bicycle bouncing around my desktop giving me updates on my Codex tasks. Your browser does not support HTML5 video. The most interesting thing about this process was watching how the custom pet was created. I told it I wanted a custom pet that was a pelican riding a bicycle and GPT-5.6 Sol xhigh did the rest of the work, using several rounds with gpt-image-2 to generate the necessary sprite assets. I had it make extensive notes and record all of the intermediary steps . My GItHub repo includes every generated image and combined sprite sheet, plus GIFs for each of the animation loops such as this one, called waving.gif : That GIF was compiled from a single image generated by gpt-image-2 that looked like this: And that image was created by executing this prompt against the initial generated character reference image , which was created with this prompt , which has this str",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 63.858,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.842,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2367,10 +2360,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 64.054,
+      "score": 63.489,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2379,7 +2372,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.881,
+      "novelty_score": 0.856,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2387,46 +2380,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "cb721d1c88ba5f81",
-      "title": "Quoting Armin Ronacher",
-      "url": "https://simonwillison.net/2026/Jul/14/armin-ronacher",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-14T18:04:23+00:00",
-      "text": "Quoting Armin Ronacher The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely written down in one place. It lives partly in documentation and code, but also in code review, conversations, arguments, and the experience of having to explain a change to somebody else. Before agents, some of this shared understanding was maintained by friction. If I wanted to change your storage layer, I usually had to read your code, ask you questions, and perhaps coordinate with another team whose service depended on it. This was slow, and much of that slowness was waste but not all of it was. Some of it was the process by which your understanding became mine, and by which both of us discovered whether we still agreed about how the system worked. This friction synchronizes people. — Armin Ronacher , The Tower Keeps Rising Tags: ai , software-engineering , llms , coding-agents , ai-assisted-programming , generative-ai , armin-ronacher , agentic-engineering",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 63.185,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2442,7 +2395,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 62.748,
+      "score": 62.691,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.61",
@@ -2454,7 +2407,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.61,
+      "novelty_score": 0.607,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2500,6 +2453,46 @@
       "source_priority": "high"
     },
     {
+      "id": "cb721d1c88ba5f81",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Jul/14/armin-ronacher",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-14T18:04:23+00:00",
+      "text": "Quoting Armin Ronacher The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely written down in one place. It lives partly in documentation and code, but also in code review, conversations, arguments, and the experience of having to explain a change to somebody else. Before agents, some of this shared understanding was maintained by friction. If I wanted to change your storage layer, I usually had to read your code, ask you questions, and perhaps coordinate with another team whose service depended on it. This was slow, and much of that slowness was waste but not all of it was. Some of it was the process by which your understanding became mine, and by which both of us discovered whether we still agreed about how the system worked. This friction synchronizes people. — Armin Ronacher , The Tower Keeps Rising Tags: ai , software-engineering , llms , coding-agents , ai-assisted-programming , generative-ai , armin-ronacher , agentic-engineering",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 62.338,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.773,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "26ddb907f98c77b2",
       "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
       "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b",
@@ -2513,10 +2506,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 62.03,
+      "score": 61.465,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2525,7 +2518,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.941,
+      "novelty_score": 0.915,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2551,10 +2544,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 61.421,
+      "score": 60.856,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.58",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2563,7 +2556,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.61,
+      "novelty_score": 0.584,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2586,7 +2579,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 60.564,
+      "score": 60.508,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.51",
@@ -2598,7 +2591,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.511,
+      "novelty_score": 0.508,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2947,7 +2940,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.986,
+      "score": 59.929,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2959,7 +2952,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.993,
+      "novelty_score": 0.991,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3041,6 +3034,41 @@
       "source_priority": "medium"
     },
     {
+      "id": "d29f24bf1aed133b",
+      "title": "‘Not up for grabs’: Albanese establishes AI office and vows to protect Australian creatives from copyright ‘theft’",
+      "url": "https://www.theguardian.com/technology/2026/jul/15/office-of-ai-artificial-intelligence-copyright-australia-government",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-15T06:18:06+00:00",
+      "text": "‘Not up for grabs’: Albanese establishes AI office and vows to protect Australian creatives from copyright ‘theft’ PM lays out plan for datacentre development and rejects prospect tech companies will be given free use of Australian data Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast Anthony Albanese has promised “the strongest possible protection” for Australian creatives against misuse of their work by artificial intelligence models, warning it would be “theft” if writers, artists and musicians didn’t have control of their work or receive payment for its use. Amid growing community concern about large energy-intensive datacentres, the federal government will also set strict new rules for the facilities, including where they can be built, that they shouldn’t compete for land with housing, their power and water use, and that they don’t increase electricity prices for consumers. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 59.082,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.928,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "7218bca86f1b347e",
       "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
       "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move",
@@ -3054,10 +3082,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.887,
+      "score": 58.322,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3066,7 +3094,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.919,
+      "novelty_score": 0.893,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3090,10 +3118,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.831,
+      "score": 58.266,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3102,7 +3130,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.917,
+      "novelty_score": 0.891,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3126,10 +3154,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.764,
+      "score": 58.199,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3138,7 +3166,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.913,
+      "novelty_score": 0.888,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3161,10 +3189,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.442,
+      "score": 57.877,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -3173,7 +3201,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3181,116 +3209,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "8ec1cf2be3ad5d8d",
-      "title": "5 Trends That Defined AI Engineering at World’s Fair 2026",
-      "url": "https://www.latent.space/p/aiewf26trends",
-      "source": "Latent Space",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-14T23:21:21+00:00",
-      "text": "5 Trends That Defined AI Engineering at World’s Fair 2026 At this year's AIE World’s Fair, AI engineering entered a new phase: building systems around agents, rather than just building with agents.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 58.334,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.894,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "4ae01c6119d52d68",
-      "title": "Anthropic’s newest ad is creeping people out",
-      "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-14T19:41:27+00:00",
-      "text": "Anthropic’s newest ad is creeping people out Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make Anthropic seem aware of the responsibility it carries — would appear to be more of the same.",
-      "matched_terms": [
-        "AI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 58.272,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "b9d297a1151089b0",
-      "title": "Lessons From the Leaderboard: What 5,000+ Kagglers Taught Us About Improving AI Reasoning",
-      "url": "https://developer.nvidia.com/blog/lessons-from-the-leaderboard-what-5000-kagglers-taught-us-about-improving-ai-reasoning",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-14T18:20:32+00:00",
-      "text": "Lessons From the Leaderboard: What 5,000+ Kagglers Taught Us About Improving AI Reasoning The NVIDIA Nemotron Model Reasoning Challenge invited the Kaggle community to explore a focused question: What techniques can improve reasoning accuracy when...",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.963,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.877,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3327,6 +3245,42 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "4ae01c6119d52d68",
+      "title": "Anthropic’s newest ad is creeping people out",
+      "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-14T19:41:27+00:00",
+      "text": "Anthropic’s newest ad is creeping people out Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make Anthropic seem aware of the responsibility it carries — would appear to be more of the same.",
+      "matched_terms": [
+        "AI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 57.707,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.865,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3404,20 +3358,20 @@
       "source_priority": "high"
     },
     {
-      "id": "8fd9ba932172ad69",
-      "title": "Scaling UX testing with Amazon Nova Act: A new approach to user flow analysis",
-      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-ux-testing-with-amazon-nova-act-a-new-approach-to-user-flow-analysis",
-      "source": "Amazon AWS AI",
+      "id": "8ec1cf2be3ad5d8d",
+      "title": "5 Trends That Defined AI Engineering at World’s Fair 2026",
+      "url": "https://www.latent.space/p/aiewf26trends",
+      "source": "Latent Space",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-14T16:43:41+00:00",
-      "text": "Scaling UX testing with Amazon Nova Act: A new approach to user flow analysis Using generative AI enables parallel execution of comprehensive user flow testing at scale. This solution demonstrates how to build a cloud-deployed UX testing platform that automatically generates test scenarios from documentation, executes user flows at scale using the intelligent navigation capabilities of Nova Act, and provides actionable insights through automated analysis.",
+      "published_at": "2026-07-14T23:21:21+00:00",
+      "text": "5 Trends That Defined AI Engineering at World’s Fair 2026 At this year's AIE World’s Fair, AI engineering entered a new phase: building systems around agents, rather than just building with agents.",
       "matched_terms": [
         "AI",
-        "generative AI"
+        "agent"
       ],
       "engagement": {},
-      "score": 57.593,
+      "score": 57.487,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -3429,34 +3383,35 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.86,
+      "novelty_score": 0.855,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
       ],
-      "registry_category": "vendor",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
-      "id": "1c593434ffb2405d",
-      "title": "Scaling medical content review at Flo Health with Amazon Bedrock – Part 2",
-      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-medical-content-review-at-flo-health-with-amazon-bedrock-part-2",
-      "source": "Amazon AWS AI",
+      "id": "b9d297a1151089b0",
+      "title": "Lessons From the Leaderboard: What 5,000+ Kagglers Taught Us About Improving AI Reasoning",
+      "url": "https://developer.nvidia.com/blog/lessons-from-the-leaderboard-what-5000-kagglers-taught-us-about-improving-ai-reasoning",
+      "source": "NVIDIA AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-14T16:33:08+00:00",
-      "text": "Scaling medical content review at Flo Health with Amazon Bedrock – Part 2 In this post, we share how Flo Health’s engineering team turned a proof of concept (PoC) from the AWS Generative AI Innovation Center into a production-grade, AI-powered medical content review and generation system built on Amazon Bedrock. T",
+      "published_at": "2026-07-14T18:20:32+00:00",
+      "text": "Lessons From the Leaderboard: What 5,000+ Kagglers Taught Us About Improving AI Reasoning The NVIDIA Nemotron Model Reasoning Challenge invited the Kaggle community to explore a focused question: What techniques can improve reasoning accuracy when...",
       "matched_terms": [
         "AI",
-        "generative AI"
+        "Nvidia"
       ],
       "engagement": {},
-      "score": 57.553,
+      "score": 57.398,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3465,84 +3420,50 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.851,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
     },
     {
-      "id": "d03c89151d098f57",
-      "title": "Spotify expands its AI push with a ChatGPT-like music assistant",
-      "url": "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant",
-      "source": "TechCrunch AI",
+      "id": "dd42c5b1b6b4431d",
+      "title": "STAT+: Under a new leader, the FDA’s biologics center moves to steady itself after stormy chapter",
+      "url": "https://www.statnews.com/2026/07/15/fda-cber-acting-director-karim-mikhail-return-normal-vinay-prasad",
+      "source": "STAT Health Tech",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T14:06:47+00:00",
-      "text": "Spotify expands its AI push with a ChatGPT-like music assistant Spotify is rolling out a new AI-powered conversational feature that lets Premium subscribers chat with the app to discover music, podcasts, audiobooks, and more.",
+      "category": "general_ai",
+      "published_at": "2026-07-15T08:30:00+00:00",
+      "text": "STAT+: Under a new leader, the FDA’s biologics center moves to steady itself after stormy chapter After his predecessor's turbulent tenure, Karim Mikhail is working to restore staff morale and revisit controversial rejections.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 57.16,
+      "score": 57.26,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=1.00",
         "matched_terms=1",
-        "engineering_relevance=0.25",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.833,
+      "novelty_score": 0.997,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "a0f97bb99d39b8a3",
-      "title": "Superhuman’s new auto-draft feature almost makes me like AI replies",
-      "url": "https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T14:00:00+00:00",
-      "text": "Superhuman’s new auto-draft feature almost makes me like AI replies Superhuman’s latest AI email drafting feature is its most convincing yet, generating replies that often required little to no editing in our testing.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.134,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.832,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -5325,6 +5246,74 @@
       "text": "Introducing Intact Simulation Add In https://www.synera.ai/news/introducing-intact-simulation-add-in",
       "matched_terms": [
         "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "84173670abec4920",
+      "title": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai",
+      "url": "https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ca5f8805ed4cc18e",
+      "title": "Nasa Ai Agents Build Spaceship From Text",
+      "url": "https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "matched_terms": [
+        "ROM"
       ],
       "engagement": {},
       "score": 57.033,
