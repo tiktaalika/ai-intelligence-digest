@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-07-17T08:28:55.312556+00:00",
+    "generated_at": "2026-07-17T08:58:24.739535+00:00",
     "window_hours": 24,
     "source_count": 138,
     "fetched_count": 17321,
-    "filtered_count": 2296,
+    "filtered_count": 2295,
     "duplicate_count": 75,
     "failures": [
       {
@@ -67,10 +67,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.154,
+      "score": 74.985,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=9",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -79,7 +79,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.81,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -105,7 +105,7 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 66.411,
+      "score": 66.362,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -117,7 +117,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.897,
+      "novelty_score": 0.895,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -142,10 +142,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.941,
+      "score": 58.773,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -154,7 +154,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.77,
+      "novelty_score": 0.762,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -180,7 +180,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 55.009,
+      "score": 54.84,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.74",
@@ -192,7 +192,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.743,
+      "novelty_score": 0.735,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -216,7 +216,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 50.812,
+      "score": 50.644,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -228,7 +228,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.704,
+      "novelty_score": 0.696,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -253,10 +253,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.89,
+      "score": 56.777,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -265,7 +265,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.828,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -291,7 +291,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.556,
+      "score": 56.444,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -303,7 +303,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.662,
+      "novelty_score": 0.657,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -327,10 +327,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.028,
+      "score": 54.859,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -339,7 +339,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.888,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -366,10 +366,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.556,
+      "score": 63.444,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -378,7 +378,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.828,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -404,10 +404,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.237,
+      "score": 60.124,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -416,7 +416,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.829,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -446,10 +446,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 71.027,
+      "score": 70.858,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -458,7 +458,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.736,
+      "novelty_score": 0.728,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -484,10 +484,10 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 62.835,
+      "score": 62.722,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -496,7 +496,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.818,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -520,10 +520,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 60.942,
+      "score": 60.604,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.49",
+        "novelty=0.47",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -532,7 +532,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.49,
+      "novelty_score": 0.474,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -629,10 +629,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.333,
+      "score": 57.008,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -641,7 +641,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 1.0,
+      "novelty_score": 0.985,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -664,10 +664,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.876,
+      "score": 49.538,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.65",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -676,7 +676,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.661,
+      "novelty_score": 0.646,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -810,10 +810,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 71.027,
+      "score": 70.858,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -822,7 +822,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.736,
+      "novelty_score": 0.728,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -848,10 +848,10 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 62.835,
+      "score": 62.722,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -860,7 +860,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.818,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -884,10 +884,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 60.942,
+      "score": 60.604,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.49",
+        "novelty=0.47",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -896,7 +896,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.49,
+      "novelty_score": 0.474,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -994,7 +994,7 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 66.411,
+      "score": 66.362,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1006,7 +1006,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.897,
+      "novelty_score": 0.895,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -1694,7 +1694,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 77.001,
+      "score": 76.99,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.65",
@@ -1707,7 +1707,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.652,
+      "novelty_score": 0.651,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1734,7 +1734,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 75.866,
+      "score": 75.855,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1746,7 +1746,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.782,
+      "novelty_score": 0.781,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1770,7 +1770,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 75.822,
+      "score": 75.811,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1812,10 +1812,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.154,
+      "score": 74.985,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=9",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -1824,7 +1824,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.81,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1853,10 +1853,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 71.027,
+      "score": 70.858,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -1865,7 +1865,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.736,
+      "novelty_score": 0.728,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1892,7 +1892,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 69.899,
+      "score": 69.888,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -1904,7 +1904,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.632,
+      "novelty_score": 0.631,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1927,7 +1927,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.798,
+      "score": 69.787,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1964,7 +1964,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.764,
+      "score": 69.753,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1976,7 +1976,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.929,
+      "novelty_score": 0.928,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1999,7 +1999,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.161,
+      "score": 69.149,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2034,7 +2034,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.141,
+      "score": 69.13,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2069,7 +2069,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.633,
+      "score": 67.621,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -2081,7 +2081,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.832,
+      "novelty_score": 0.831,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2176,7 +2176,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 66.588,
+      "score": 66.475,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.64",
@@ -2188,7 +2188,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.64,
+      "novelty_score": 0.635,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2213,7 +2213,7 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 66.411,
+      "score": 66.362,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2225,7 +2225,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.897,
+      "novelty_score": 0.895,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2251,10 +2251,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.556,
+      "score": 63.444,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2263,7 +2263,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.828,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2287,7 +2287,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 63.219,
+      "score": 63.208,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -2322,10 +2322,10 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 62.835,
+      "score": 62.722,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -2334,7 +2334,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.818,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2392,7 +2392,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 61.594,
+      "score": 61.583,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -2415,42 +2415,6 @@
       "source_priority": "high"
     },
     {
-      "id": "9d62699b319a5080",
-      "title": "How to Make an Invisible Drone",
-      "url": "https://spectrum.ieee.org/invisible-spinning-drone",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-16T16:09:21+00:00",
-      "text": "How to Make an Invisible Drone There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, but it’s also the way that they look in flight: With uncannily linear movements and an even less canny ability to hover perfectly still, they tend to draw the eye as affronts to nature. In a paper presented this week at RSS 2026 in Sydney, roboticists from Northwestern University, Evanston, Ill. demonstrated a drone called Phantom Twist that is essentially invisible to humans, being an order of magnitude more difficult to see in flight than a typical quadrotor. They accomplished this with the aid of computational design, and while the resulting hardware is, I would argue, also an order of magnitude more of an affront to nature than a typical quadrotor represents, it’s pretty amazing how well it works. Phantom Twist spins so fast, it’s practically invisible. Michael Rubenstein/Northwestern University The trick here is easy to see, even if the drone isn’t. By spinning in flight at between 15 and 25 Hz, Phantom Twist takes advantage of humans’ decided",
-      "matched_terms": [
-        "AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 60.942,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.49",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.49,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "063bf5b4a668dd15",
       "title": "Firefox in WebAssembly",
       "url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly",
@@ -2465,10 +2429,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 60.937,
+      "score": 60.768,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2477,7 +2441,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.861,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2487,6 +2451,42 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "9d62699b319a5080",
+      "title": "How to Make an Invisible Drone",
+      "url": "https://spectrum.ieee.org/invisible-spinning-drone",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-16T16:09:21+00:00",
+      "text": "How to Make an Invisible Drone There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, but it’s also the way that they look in flight: With uncannily linear movements and an even less canny ability to hover perfectly still, they tend to draw the eye as affronts to nature. In a paper presented this week at RSS 2026 in Sydney, roboticists from Northwestern University, Evanston, Ill. demonstrated a drone called Phantom Twist that is essentially invisible to humans, being an order of magnitude more difficult to see in flight than a typical quadrotor. They accomplished this with the aid of computational design, and while the resulting hardware is, I would argue, also an order of magnitude more of an affront to nature than a typical quadrotor represents, it’s pretty amazing how well it works. Phantom Twist spins so fast, it’s practically invisible. Michael Rubenstein/Northwestern University The trick here is easy to see, even if the drone isn’t. By spinning in flight at between 15 and 25 Hz, Phantom Twist takes advantage of humans’ decided",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 60.604,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.47",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.474,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2830,10 +2830,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.237,
+      "score": 60.124,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2842,7 +2842,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.829,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2868,7 +2868,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.142,
+      "score": 60.03,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2880,7 +2880,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.825,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2903,7 +2903,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.035,
+      "score": 60.024,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=1.00",
@@ -2915,7 +2915,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.995,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2974,7 +2974,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 59.645,
+      "score": 59.597,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.59",
@@ -2986,7 +2986,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.59,
+      "novelty_score": 0.588,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3009,7 +3009,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 59.411,
+      "score": 59.399,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.46",
@@ -3080,7 +3080,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 59.16,
+      "score": 59.148,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.96",
@@ -3092,7 +3092,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.956,
+      "novelty_score": 0.955,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3117,10 +3117,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.941,
+      "score": 58.773,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3129,7 +3129,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.77,
+      "novelty_score": 0.762,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3157,7 +3157,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.57,
+      "score": 58.457,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -3169,7 +3169,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.602,
+      "novelty_score": 0.597,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3193,10 +3193,10 @@
         "knowledge base"
       ],
       "engagement": {},
-      "score": 58.147,
+      "score": 58.034,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3205,7 +3205,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.885,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3267,10 +3267,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 57.827,
+      "score": 57.714,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.57",
+        "novelty=0.56",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3279,7 +3279,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.568,
+      "novelty_score": 0.563,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3376,7 +3376,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.599,
+      "score": 57.486,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3388,7 +3388,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3412,10 +3412,10 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 57.596,
+      "score": 57.258,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3424,46 +3424,11 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.86,
+      "novelty_score": 0.845,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "dacff5f9558455f0",
-      "title": "STAT+: Can ultrasound unlock the power of gene therapy? A startup makes big claims",
-      "url": "https://www.statnews.com/2026/07/17/sonathera-ultrasound-duchenne-muscular-dystrophy-treatment",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-17T08:30:00+00:00",
-      "text": "STAT+: Can ultrasound unlock the power of gene therapy? A startup makes big claims Sonothera is developing a new way to deliver genes into cells that, if borne out, could have a big impact on muscular dystrophy and other diseases.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.333,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=1.00",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 1.0,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -5314,6 +5279,40 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0099e6807563ee55",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
       "matched_terms": [
         "ROM"
       ],

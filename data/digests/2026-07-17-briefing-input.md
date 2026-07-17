@@ -4,78 +4,78 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 17321
-- filtered_count: 2296
+- filtered_count: 2295
 - duplicate_count: 75
 - failures: 7
 
 ## Top 10 General AI News
 1. [Kimi K3, and what we can still learn from the pelican benchmark](https://simonwillison.net/2026/Jul/16/kimi-k3)
    - source: Simon Willison
-   - score: 75.154
-   - score_breakdown: general=1.0; engineering=0.0; research=0.667; novelty=0.81; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=9; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+   - score: 74.985
+   - score_breakdown: general=1.0; engineering=0.0; research=0.667; novelty=0.802; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=9; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 2. [Our approach to bioresilience](https://deepmind.google/blog/our-approach-to-bioresilience)
    - source: Google DeepMind
-   - score: 66.411
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.897; source_priority=1.0
+   - score: 66.362
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.895; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 3. [Quoting Thibault Sottiaux](https://simonwillison.net/2026/Jul/16/bad-codex-bug)
    - source: Simon Willison
-   - score: 58.941
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.77; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.773
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.762; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval](https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb)
    - source: Hugging Face
-   - score: 55.009
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.743; source_priority=1.0
+   - score: 54.84
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.735; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.74; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences](https://www.latent.space/p/the-lab-of-the-future-should-feel)
    - source: Latent Space
-   - score: 50.812
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.704; source_priority=1.0
+   - score: 50.644
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.696; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.70; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Why teens deserve access to safe AI](https://openai.com/index/why-teens-deserve-access-safe-ai)
    - source: OpenAI
-   - score: 56.89
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.828; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.777
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.823; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [How Cars24 scales conversations and builds faster with OpenAI](https://openai.com/index/cars24)
    - source: OpenAI
-   - score: 56.556
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.662; source_priority=1.0
+   - score: 56.444
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.657; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.66; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing](https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest)
    - source: Latent Space
-   - score: 55.028
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.895; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.859
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.888; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField](https://developer.nvidia.com/blog/scaling-agentic-ai-factories-through-extreme-co-design-with-nvidia-bluefield)
    - source: NVIDIA AI
-   - score: 63.556
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.828; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.444
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.823; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Integrating Context-Aware Video AI Agents Into Enterprise Workflows](https://developer.nvidia.com/blog/integrating-context-aware-video-ai-agents-into-enterprise-workflows)
    - source: NVIDIA AI
-   - score: 60.237
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.829; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.124
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.824; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Inkling: Our open-weights model](https://simonwillison.net/2026/Jul/16/inkling)
    - source: Simon Willison
-   - score: 71.027
-   - score_breakdown: general=0.833; engineering=0.25; research=0.333; novelty=0.736; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.74; matched_terms=5; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 70.858
+   - score_breakdown: general=0.833; engineering=0.25; research=0.333; novelty=0.728; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.73; matched_terms=5; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 2. [How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product](https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product)
    - source: TechCrunch AI
-   - score: 62.835
-   - score_breakdown: general=0.333; engineering=0.25; research=0.333; novelty=0.818; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 62.722
+   - score_breakdown: general=0.333; engineering=0.25; research=0.333; novelty=0.813; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 3. [How to Make an Invisible Drone](https://spectrum.ieee.org/invisible-spinning-drone)
    - source: IEEE Spectrum AI
-   - score: 60.942
-   - score_breakdown: general=0.333; engineering=0.25; research=1.0; novelty=0.49; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.49; matched_terms=2; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+   - score: 60.604
+   - score_breakdown: general=0.333; engineering=0.25; research=1.0; novelty=0.474; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.47; matched_terms=2; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 4. [What Is Engineering Simulation And How Does It Work](https://www.neuralconcept.com/post/what-is-engineering-simulation-and-how-does-it-work)
    - source: Neural Concept
    - score: 60.367
@@ -90,14 +90,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: Can ultrasound unlock the power of gene therapy? A startup makes big claims](https://www.statnews.com/2026/07/17/sonathera-ultrasound-duchenne-muscular-dystrophy-treatment)
    - source: STAT Health Tech
-   - score: 57.333
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=1.0; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.008
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.985; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [STAT+: Fresh turmoil roils American Diabetes Association following controversy at conference](https://www.statnews.com/2026/07/16/american-diabetes-association-annual-conference-controversy-continues)
    - source: STAT Health Tech
-   - score: 49.876
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.661; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.66; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.538
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.646; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.65; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Headless Ai Aims Eliminate Healthcare Bottlenecks](https://www.healthcareitnews.com/news/headless-ai-aims-eliminate-healthcare-bottlenecks)
    - source: Healthcare IT News
    - score: 43.033
@@ -117,8 +117,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [Our approach to bioresilience](https://deepmind.google/blog/our-approach-to-bioresilience)
    - source: Google DeepMind
-   - score: 66.411
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.897; source_priority=1.0
+   - score: 66.362
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.895; source_priority=1.0
 2. [Assistant](https://ai.meta.com/meta-ai/assistant)
    - source: Meta AI
    - score: 51.033
