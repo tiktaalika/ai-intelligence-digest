@@ -1,15 +1,31 @@
 {
   "run_log": {
-    "generated_at": "2026-07-19T06:08:28.600056+00:00",
+    "generated_at": "2026-07-19T08:33:28.597057+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17310,
-    "filtered_count": 2218,
+    "fetched_count": 17259,
+    "filtered_count": 2186,
     "duplicate_count": 72,
     "failures": [
       {
+        "source": "Siemens Digital Industries Software",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "Siemens Simcenter",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "Siemens Art of the Possible",
+        "error": "The read operation timed out"
+      },
+      {
         "source": "Ansys",
         "error": "The read operation timed out"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -59,10 +75,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.48,
+      "score": 63.242,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -71,7 +87,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.916,
+      "novelty_score": 0.905,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -97,10 +113,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 63.23,
+      "score": 62.4,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.93",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -109,7 +125,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.965,
+      "novelty_score": 0.927,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -134,10 +150,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 48.521,
+      "score": 47.69,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.56",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -146,7 +162,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.599,
+      "novelty_score": 0.562,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -170,10 +186,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.977,
+      "score": 56.147,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -182,7 +198,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.984,
+      "novelty_score": 0.946,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -192,6 +208,74 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "9631c446002ea6e9",
+      "title": "Victoria announces new social media ‘demasking’ powers for accounts accused of vilification",
+      "url": "https://www.theguardian.com/australia-news/2026/jul/19/victoria-proposes-social-media-account-identification-powers",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-19T07:22:01+00:00",
+      "text": "Victoria announces new social media ‘demasking’ powers for accounts accused of vilification New laws would give Vcat power to force social and AI platforms to identify anonymous users in move premier says will protect children Get our breaking news email , free app or daily news podcast Social media companies could be forced to identify anonymous accounts accused of online vilification, under new laws being proposed in Victoria. The Victorian premier, Jacinta Allan, announced a suite of social media reforms on Sunday, saying families needed new ways to protect their children online. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.515,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.963,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "9093cc59c0960167",
+      "title": "‘We noticed a login from a new device’: the message from fraudsters targeting your X account",
+      "url": "https://www.theguardian.com/money/2026/jul/19/x-scams-login-new-device-message-account-crypto-phishing",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-19T06:00:18+00:00",
+      "text": "‘We noticed a login from a new device’: the message from fraudsters targeting your X account They are out to steal your password to commit further fraud such as crypto scams or phishing attacks You have had an X account for years, since it was known as Twitter. When an email arrives about a new login from a location nowhere near where you live, alarm bells begin to ring. “We noticed a login to your account from a new device. Was this you?” the email asks. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 55.578,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.92",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.92,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -207,10 +291,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.684,
+      "score": 52.13,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
+        "novelty=0.64",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -219,7 +303,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.667,
+      "novelty_score": 0.642,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -242,10 +326,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 51.524,
+      "score": 50.97,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.71",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -254,7 +338,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.736,
+      "novelty_score": 0.711,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -302,90 +386,17 @@
       "source_priority": "high"
     },
     {
-      "id": "3c310bf42b74d0e3",
-      "title": "Frontier Threats Red Teaming For Ai Safety",
-      "url": "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety",
+      "id": "b3af42e15cc93e21",
+      "title": "Ai Assistance Coding Skills",
+      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
       "source": "Anthropic",
       "source_kind": "sitemap_or_search",
       "category": "general_ai",
       "published_at": null,
-      "text": "Frontier Threats Red Teaming For Ai Safety https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety",
+      "text": "Ai Assistance Coding Skills https://www.anthropic.com/research/AI-assistance-coding-skills",
       "matched_terms": [
         "AI",
-        "Anthropic",
-        "AI safety"
-      ],
-      "engagement": {},
-      "score": 49.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "f0e043a201f7c6c9",
-      "title": "Studio Build, test, and run AI agents and apps.",
-      "url": "https://mistral.ai/products/studio",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Studio Build, test, and run AI agents and apps. https://mistral.ai/products/studio/",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 49.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "fabe8f8f1dc379e7",
-      "title": "Research Upgrading agentic coding capabilities with the new Devstral models July 10, 2025 By Mistral AI",
-      "url": "https://mistral.ai/news/devstral-2507",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Research Upgrading agentic coding capabilities with the new Devstral models July 10, 2025 By Mistral AI https://mistral.ai/news/devstral-2507/",
-      "matched_terms": [
-        "AI",
-        "agent"
+        "Anthropic"
       ],
       "engagement": {},
       "score": 49.033,
@@ -404,48 +415,14 @@
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
-        "open_model"
+        "safety",
+        "policy"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
-    {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 70.368,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.956,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
     {
       "id": "9e62f8571a01deca",
       "title": "Industrial Ai Terminology Guide Pdf Version 2",
@@ -554,16 +531,16 @@
       "source_priority": "high"
     },
     {
-      "id": "955ec8dc94a3f30b",
-      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
-      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "id": "68416d20bf0d7089",
+      "title": "Ai In Cae",
+      "url": "https://www.neuralconcept.com/post/ai-in-cae",
       "source": "Neural Concept",
       "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
       "published_at": null,
-      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
       "matched_terms": [
-        "simulation"
+        "CAE"
       ],
       "engagement": {},
       "score": 57.033,
@@ -587,6 +564,43 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "fe0a0e4f6d1f91a3",
+      "title": "Data Center Cooling: Four Lessons from Teams That Simulate Before They Build The servers keeping global AI workloads running generate more heat per rack than most facilities were built to handle. A Alex Graham May 19, 2026 AEC , CFD , Energy , Thermal Simulation",
+      "url": "https://www.simscale.com/blog/data-center-cooling-simulation-lessons",
+      "source": "SimScale",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Data Center Cooling: Four Lessons from Teams That Simulate Before They Build The servers keeping global AI workloads running generate more heat per rack than most facilities were built to handle. A Alex Graham May 19, 2026 AEC , CFD , Energy , Thermal Simulation https://www.simscale.com/blog/data-center-cooling-simulation-lessons/",
+      "matched_terms": [
+        "simulation",
+        "ROM",
+        "CFD",
+        "thermal simulation"
+      ],
+      "engagement": {},
+      "score": 55.833,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=4",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "cloud_cae",
+        "simulation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
     }
   ],
   "top_5_medical_bio_ai": [
@@ -673,7 +687,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 36.542,
+      "score": 36.486,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.56",
@@ -685,7 +699,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.564,
+      "novelty_score": 0.562,
       "source_priority_score": 0.65,
       "source_tags": [
         "bio_ai",
@@ -769,41 +783,6 @@
     }
   ],
   "top_5_cae_ai_engineering": [
-    {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 70.368,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.956,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
     {
       "id": "9e62f8571a01deca",
       "title": "Industrial Ai Terminology Guide Pdf Version 2",
@@ -912,16 +891,16 @@
       "source_priority": "high"
     },
     {
-      "id": "955ec8dc94a3f30b",
-      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
-      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "id": "68416d20bf0d7089",
+      "title": "Ai In Cae",
+      "url": "https://www.neuralconcept.com/post/ai-in-cae",
       "source": "Neural Concept",
       "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
       "published_at": null,
-      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
       "matched_terms": [
-        "simulation"
+        "CAE"
       ],
       "engagement": {},
       "score": 57.033,
@@ -945,6 +924,43 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "fe0a0e4f6d1f91a3",
+      "title": "Data Center Cooling: Four Lessons from Teams That Simulate Before They Build The servers keeping global AI workloads running generate more heat per rack than most facilities were built to handle. A Alex Graham May 19, 2026 AEC , CFD , Energy , Thermal Simulation",
+      "url": "https://www.simscale.com/blog/data-center-cooling-simulation-lessons",
+      "source": "SimScale",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Data Center Cooling: Four Lessons from Teams That Simulate Before They Build The servers keeping global AI workloads running generate more heat per rack than most facilities were built to handle. A Alex Graham May 19, 2026 AEC , CFD , Energy , Thermal Simulation https://www.simscale.com/blog/data-center-cooling-simulation-lessons/",
+      "matched_terms": [
+        "simulation",
+        "ROM",
+        "CFD",
+        "thermal simulation"
+      ],
+      "engagement": {},
+      "score": 55.833,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=4",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "cloud_cae",
+        "simulation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
     }
   ],
   "research_radar": [
@@ -961,10 +977,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.48,
+      "score": 63.242,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -973,7 +989,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.916,
+      "novelty_score": 0.905,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1144,6 +1160,16 @@
       "source_type": "website",
       "priority": "medium",
       "tags": "enterprise_ai",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Meta AI",
+      "category": "research",
+      "query": "site:ai.meta.com AI",
+      "url": "https://www.google.com/search?q=site%3Aai.meta.com%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "open_source, research",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1409,6 +1435,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Meta AI",
+      "category": "research",
+      "query": "site:ai.meta.com AI",
+      "url": "https://www.google.com/search?q=site%3Aai.meta.com%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "open_source, research",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Perplexity",
       "category": "startup",
       "query": "site:www.perplexity.ai AI",
@@ -1651,82 +1687,6 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "475a7ecbe023e4bc",
-      "title": "Your next colleague is an agent: The dawn of agentic AI-aided engineering",
-      "url": "https://blogs.sw.siemens.com/art-of-the-possible/agentic-ai-aided-engineering",
-      "source": "Siemens Art of the Possible",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-03T09:59:13+00:00",
-      "text": "Your next colleague is an agent: The dawn of agentic AI-aided engineering What if every engineer had instant access to simulation expertise? Agentic AI-Aided Engineering could transform engineering by putting intelligent AI agents alongside designers, automating complex CAE workflows, and breaking long-standing expertise bottlenecks. Discover how this emerging approach could democratize simulation and accelerate innovation across the engineering lifecycle",
-      "matched_terms": [
-        "CAE",
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 75.955,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.60",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.604,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "agentic_ai",
-        "cae",
-        "simulation",
-        "industrial_ai",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "da9d0703229ae16b",
-      "title": "Open-source AI Datasets for AI Physics Model Training",
-      "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-08T15:00:00+00:00",
-      "text": "Open-source AI Datasets for AI Physics Model Training Start training surrogate models faster with open-source AI Datasets now available in Rescale AI Physics. Engineers can now train models directly from the DrivAerML dataset, a subset of the high-fidelity open-source public dataset for automotive aerodynamics based on 500 parametrically morphed variants. Providing a great way to get started with AI Physics without having to first generate your own simulation dataset.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 74.82,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.734,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "ed26ceddfa654dba",
       "title": "Celebrating 40 Years of Multiphysics Simulation",
       "url": "https://www.comsol.com/blogs/celebrating-40-years-of-multiphysics-simulation",
@@ -1740,7 +1700,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 74.775,
+      "score": 74.72,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1752,225 +1712,11 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.884,
+      "novelty_score": 0.881,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 70.368,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.956,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "90cd344a0949cc26",
-      "title": "GeoTransolver AI Model Architecture Integration for CFD Applications",
-      "url": "https://rescale.com/blog/geotransolver-ai-model-architecture-integration-cfd-applications",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-02T15:00:00+00:00",
-      "text": "GeoTransolver AI Model Architecture Integration for CFD Applications Power complex and high-accuracy AI surrogate models for CFD and FEA with GeoTransolver model architecture. Now available in Rescale AI Physics as part of the NVIDIA PhysicsNeMo library, GeoTransolver is a geometry-aware transformer architecture that uses GALE attention to model relationships across complex 3D geometries and unstructured meshes. It is designed to generalize across changing operating conditions and learn transient, geometry-aware physical behavior, making it well-suited for surrogate models that need to predict aerodynamic, structural, or deformation behavior across a range of design variants.",
-      "matched_terms": [
-        "surrogate model",
-        "FEA",
-        "CFD"
-      ],
-      "engagement": {},
-      "score": 68.853,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.58",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.584,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "4693532790c5e944",
-      "title": "Leveraging know-how with AI into efficient product design",
-      "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
-      "source": "Siemens Art of the Possible",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T13:29:04+00:00",
-      "text": "Leveraging know-how with AI into efficient product design Is your engineering data a hidden goldmine? Overcome the ‘cold start’ problem in AI by using geometric similarity and transfer learning to transform existing models and simulations into powerful assets, speeding up product design and innovation",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 68.752,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.883,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "agentic_ai",
-        "cae",
-        "simulation",
-        "industrial_ai",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f7a88fc37e79f3e4",
-      "title": "Agent-Driven Simulation Troubleshooting",
-      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T12:00:00+00:00",
-      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 68.718,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "e231033a4c78d110",
-      "title": "Bridging design & simulation in humanoid robotics",
-      "url": "https://blogs.sw.siemens.com/simcenter/bridging-design-simulation-in-humanoid-robotics",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-08T13:18:29+00:00",
-      "text": "Bridging design & simulation in humanoid robotics For decades, humanoid robotics remained confined to science fiction lore, imagined as assistants or workers capable of human-like behavior and interaction. Today, advances in AI, robotics, and simulation are rapidly turning that vision into reality, pushing humanoids beyond research labs into real industrial environments.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 68.114,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.732,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "e5d2e12963a9fef8",
-      "title": "Python in the loop: AI-driven simulation and validation for autonomous systems – Simcenter Prescan 2606",
-      "url": "https://blogs.sw.siemens.com/simcenter/python-in-the-loop-ai-driven-simulation-and-validation-for-autonomous-systems-simcenter-prescan-2606",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-13T08:50:01+00:00",
-      "text": "Python in the loop: AI-driven simulation and validation for autonomous systems – Simcenter Prescan 2606 What’s new ADAS and autonomous system development increasingly relies on Python, machine learning frameworks, and large volumes of sensor data. Yet…",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 68.095,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -2046,41 +1792,6 @@
       "source_priority": "high"
     },
     {
-      "id": "e369b6082884aab2",
-      "title": "Simulation Monitoring Automation",
-      "url": "https://rescale.com/blog/simulation-monitoring-automation",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-10T15:00:00+00:00",
-      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 66.586,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.784,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "28c7ee44d88bdbf2",
       "title": "Controlling Reasoning Effort in LLMs",
       "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
@@ -2093,10 +1804,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.48,
+      "score": 63.242,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2105,7 +1816,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.916,
+      "novelty_score": 0.905,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2131,10 +1842,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 63.23,
+      "score": 62.4,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.93",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2143,48 +1854,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.965,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "bec1a5591181b303",
-      "title": "Claude make Fable 5 permanent",
-      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-18T06:00:13+00:00",
-      "text": "Claude make Fable 5 permanent Claude make Fable 5 permanent An update from the @claudeai account on Twitter: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits. Pro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit. As I was saying last week , the competition from GPT-5.6 Sol (and maybe to a lesser extent Kimi 3 ) made untenable Anthropic's plan to remove Fable 5 from their subscription accounts and make it available exclusively through API pricing. Why pay $100 or $200/month for a subscription plan that doesn't include Anthropic's best model? Their original plan was driven by concerns over compute capacity. I wonder if they'll have to dial back their training efforts in order to make more GPUs available to help serve the model. A lot of people were losing sleep over trying to make the most of Fable 5 before subscriber access was withdrawn. It's nice not to have to worry about the Fablepocalypse any more. Update : Important to note that users on the $20/month plan will still not have access to Fable 5 on that subscription. The Max plans are $100 and $200/month.",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "Anthropic",
-        "GPU",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 62.369,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.62",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.623,
+      "novelty_score": 0.927,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2244,7 +1914,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 62.173,
+      "score": 62.117,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2256,7 +1926,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.584,
+      "novelty_score": 0.581,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2279,10 +1949,10 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 61.926,
+      "score": 61.689,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.68",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2291,7 +1961,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.694,
+      "novelty_score": 0.683,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2302,38 +1972,44 @@
       "source_priority": "high"
     },
     {
-      "id": "cd0ef033508aa3cc",
-      "title": "Knowledge Base Support on AWS and Azure",
-      "url": "https://rescale.com/blog/knowledge-base-support-on-aws-and-azure",
-      "source": "Rescale",
+      "id": "bec1a5591181b303",
+      "title": "Claude make Fable 5 permanent",
+      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent",
+      "source": "Simon Willison",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-06-29T15:29:12+00:00",
-      "text": "Knowledge Base Support on AWS and Azure Connect and interact with all your data in one place. Rescale now connects engineering data stored in AWS S3 and Azure Blob Storage directly to the Rescale Assistant through vectorized search. Once connected, engineers can ask natural language questions and receive fast, contextually grounded answers drawn from their organization's own data, rather than relying only on general AI knowledge or manual file searches.",
+      "category": "general_ai",
+      "published_at": "2026-07-18T06:00:13+00:00",
+      "text": "Claude make Fable 5 permanent Claude make Fable 5 permanent An update from the @claudeai account on Twitter: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits. Pro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit. As I was saying last week , the competition from GPT-5.6 Sol (and maybe to a lesser extent Kimi 3 ) made untenable Anthropic's plan to remove Fable 5 from their subscription accounts and make it available exclusively through API pricing. Why pay $100 or $200/month for a subscription plan that doesn't include Anthropic's best model? Their original plan was driven by concerns over compute capacity. I wonder if they'll have to dial back their training efforts in order to make more GPUs available to help serve the model. A lot of people were losing sleep over trying to make the most of Fable 5 before subscriber access was withdrawn. It's nice not to have to worry about the Fablepocalypse any more. Update : Important to note that users on the $20/month plan will still not have access to Fable 5 on that subscription. The Max plans are $100 and $200/month.",
       "matched_terms": [
-        "ROM"
+        "AI",
+        "LLM",
+        "Anthropic",
+        "GPU",
+        "Claude"
       ],
       "engagement": {},
-      "score": 60.547,
+      "score": 61.539,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
+        "novelty=0.59",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.51,
+      "novelty_score": 0.585,
       "source_priority_score": 1.0,
       "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
       ],
-      "registry_category": "engineering_ai",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2746,7 +2422,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.989,
+      "score": 58.934,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.95",
@@ -2758,7 +2434,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.948,
+      "novelty_score": 0.945,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2767,41 +2443,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "3824b64966784a9b",
-      "title": "Agentic Simulation Report Generation",
-      "url": "https://rescale.com/blog/agentic-simulation-report-generation",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-06-25T16:13:24+00:00",
-      "text": "Agentic Simulation Report Generation Presentation-ready reports in minutes vs. hours. Rescale’s Report Generator Agent eliminates the gap between raw results and structured reporting. Once a simulation study is complete, the agent takes the results data and automatically generates a report aligned to a customer's own reporting templates, including findings, relevant charts, and recommendations.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 58.364,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.41",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.411,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
     },
     {
       "id": "c0dcd6361ecf5ed3",
@@ -2816,7 +2457,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.113,
+      "score": 58.058,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.91",
@@ -2828,7 +2469,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.906,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -5257,6 +4898,390 @@
       "source_tags": [
         "engineering_agents",
         "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba6a4cbdb5dbf1b3",
+      "title": "Cae Automation Design Smarter Develop Faster",
+      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c47f51de21ac3351",
+      "title": "03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases",
+      "url": "https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology",
+      "source": "Luminary Cloud",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology/",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud_cae",
+        "simulation",
+        "physics_ai"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "68416d20bf0d7089",
+      "title": "Ai In Cae",
+      "url": "https://www.neuralconcept.com/post/ai-in-cae",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "955ec8dc94a3f30b",
+      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
+      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6b83445bacefae79",
+      "title": "Cae Tools Used In Automotive Industry",
+      "url": "https://www.neuralconcept.com/post/cae-tools-used-in-automotive-industry",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Tools Used In Automotive Industry https://www.neuralconcept.com/post/cae-tools-used-in-automotive-industry",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba2eeead7c00722a",
+      "title": "Deep Neural Network In Simulations",
+      "url": "https://www.neuralconcept.com/post/deep-neural-network-in-simulations",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Deep Neural Network In Simulations https://www.neuralconcept.com/post/deep-neural-network-in-simulations",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e043e3171654f4d6",
+      "title": "Dynamic Simulation In Engineering Techniques And Applications",
+      "url": "https://www.neuralconcept.com/post/dynamic-simulation-in-engineering-techniques-and-applications",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Dynamic Simulation In Engineering Techniques And Applications https://www.neuralconcept.com/post/dynamic-simulation-in-engineering-techniques-and-applications",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ea2ea522bdc901b2",
+      "title": "Electric Vehicle Simulation Reducing Development Costs And Time",
+      "url": "https://www.neuralconcept.com/post/electric-vehicle-simulation-reducing-development-costs-and-time",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Electric Vehicle Simulation Reducing Development Costs And Time https://www.neuralconcept.com/post/electric-vehicle-simulation-reducing-development-costs-and-time",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "77b99301ad811d40",
+      "title": "Engineering Ais Last Frontier",
+      "url": "https://www.neuralconcept.com/post/engineering-ais-last-frontier",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Engineering Ais Last Frontier https://www.neuralconcept.com/post/engineering-ais-last-frontier",
+      "matched_terms": [
+        "engineering AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "49300d4b8ffb7df9",
+      "title": "From Concept To Reality The Development Of An Ai Designed Car",
+      "url": "https://www.neuralconcept.com/post/from-concept-to-reality-the-development-of-an-ai-designed-car",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Concept To Reality The Development Of An Ai Designed Car https://www.neuralconcept.com/post/from-concept-to-reality-the-development-of-an-ai-designed-car",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f8b147ae324cca6d",
+      "title": "Full Guide To Hydrodynamic Simulation Theory To Application",
+      "url": "https://www.neuralconcept.com/post/full-guide-to-hydrodynamic-simulation-theory-to-application",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Full Guide To Hydrodynamic Simulation Theory To Application https://www.neuralconcept.com/post/full-guide-to-hydrodynamic-simulation-theory-to-application",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
