@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-07-19T09:16:32.821246+00:00",
+    "generated_at": "2026-07-19T09:31:34.034094+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17287,
-    "filtered_count": 2197,
+    "fetched_count": 17324,
+    "filtered_count": 2222,
     "duplicate_count": 72,
     "failures": [
       {
@@ -59,7 +59,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.172,
+      "score": 63.147,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -71,7 +71,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.902,
+      "novelty_score": 0.901,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -97,10 +97,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.153,
+      "score": 62.067,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -109,7 +109,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.916,
+      "novelty_score": 0.912,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -134,7 +134,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.444,
+      "score": 47.358,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -146,7 +146,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.55,
+      "novelty_score": 0.547,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -170,7 +170,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.9,
+      "score": 55.814,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -182,7 +182,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.935,
+      "novelty_score": 0.931,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -207,10 +207,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.151,
+      "score": 56.979,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -219,7 +219,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
+      "novelty_score": 0.984,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -241,10 +241,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.148,
+      "score": 56.976,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -253,7 +253,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
+      "novelty_score": 0.984,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -275,10 +275,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.021,
+      "score": 55.849,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -287,7 +287,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.94,
+      "novelty_score": 0.933,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -309,7 +309,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 51.965,
+      "score": 51.908,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -321,7 +321,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.635,
+      "novelty_score": 0.632,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -345,7 +345,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 50.749,
+      "score": 50.692,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -357,7 +357,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.549,
+      "novelty_score": 0.547,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -418,7 +418,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.296,
+      "score": 70.29,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -667,7 +667,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 36.47,
+      "score": 36.464,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.56",
@@ -679,7 +679,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.561,
+      "novelty_score": 0.56,
       "source_priority_score": 0.65,
       "source_tags": [
         "bio_ai",
@@ -776,7 +776,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.296,
+      "score": 70.29,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -955,7 +955,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.172,
+      "score": 63.147,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -967,7 +967,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.902,
+      "novelty_score": 0.901,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1141,16 +1141,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Meta AI",
-      "category": "research",
-      "query": "site:ai.meta.com AI",
-      "url": "https://www.google.com/search?q=site%3Aai.meta.com%20AI",
-      "source_type": "website",
-      "priority": "high",
-      "tags": "open_source, research",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Perplexity",
       "category": "startup",
       "query": "site:www.perplexity.ai AI",
@@ -1278,16 +1268,6 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
-      "source": "Nature Machine Intelligence",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "research, journal",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1413,16 +1393,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Meta AI",
-      "category": "research",
-      "query": "site:ai.meta.com AI",
-      "url": "https://www.google.com/search?q=site%3Aai.meta.com%20AI",
-      "source_type": "website",
-      "priority": "high",
-      "tags": "open_source, research",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Perplexity",
       "category": "startup",
       "query": "site:www.perplexity.ai AI",
@@ -1553,16 +1523,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Nature Machine Intelligence",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "research, journal",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1678,7 +1638,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 75.883,
+      "score": 75.877,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -1691,7 +1651,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.601,
+      "novelty_score": 0.6,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1718,7 +1678,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 74.748,
+      "score": 74.742,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -1754,7 +1714,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 74.704,
+      "score": 74.698,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1788,7 +1748,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.296,
+      "score": 70.29,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -1825,7 +1785,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 68.781,
+      "score": 68.775,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -1860,7 +1820,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.68,
+      "score": 68.674,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1897,7 +1857,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.646,
+      "score": 68.64,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1932,7 +1892,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.042,
+      "score": 68.037,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -1967,7 +1927,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.023,
+      "score": 68.017,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1979,7 +1939,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.849,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2072,7 +2032,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 66.515,
+      "score": 66.509,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2107,7 +2067,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.172,
+      "score": 63.147,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2119,7 +2079,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.902,
+      "novelty_score": 0.901,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2166,45 +2126,6 @@
       "source_priority": "high"
     },
     {
-      "id": "9caad94b78301c86",
-      "title": "Claude Code uses Bun written in Rust now",
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-19T03:54:09+00:00",
-      "text": "Claude Code uses Bun written in Rust now In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code installation to see if I could find evidence that it was using Bun written in Rust. I found these two commands convincing: strings ~/.local/bin/claude | grep -m1 'Bun v1' For me this outputs Bun v1.4.0 (macOS arm64) . The most recent release of Bun on GitHub is currently v1.3.14 from May 12th, so that v1.4.0 version number in Claude supports them shipping a preview of a not-yet-released Bun version. strings ~/.local/bin/claude | grep -Eo 'src/[[:alnum:]_./-]+\\.rs' This outputs a list of 563 filenames , starting with these: src/runtime/bake/dev_server/mod.rs src/runtime/bake/production.rs src/bundler/bundle_v2.rs It looks like Bun in Rust is indeed being run in production across millions of different devices. Like Jarred said, \"Boring is good\". Tags: bun , rust , anthropic , claude-code , jarred-sumner",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 62.153,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.92",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.916,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
       "id": "fdcca13bb581de3f",
       "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
       "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
@@ -2217,7 +2138,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 62.101,
+      "score": 62.095,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2239,6 +2160,45 @@
       "source_priority": "high"
     },
     {
+      "id": "9caad94b78301c86",
+      "title": "Claude Code uses Bun written in Rust now",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-19T03:54:09+00:00",
+      "text": "Claude Code uses Bun written in Rust now In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code installation to see if I could find evidence that it was using Bun written in Rust. I found these two commands convincing: strings ~/.local/bin/claude | grep -m1 'Bun v1' For me this outputs Bun v1.4.0 (macOS arm64) . The most recent release of Bun on GitHub is currently v1.3.14 from May 12th, so that v1.4.0 version number in Claude supports them shipping a preview of a not-yet-released Bun version. strings ~/.local/bin/claude | grep -Eo 'src/[[:alnum:]_./-]+\\.rs' This outputs a list of 563 filenames , starting with these: src/runtime/bake/dev_server/mod.rs src/runtime/bake/production.rs src/bundler/bundle_v2.rs It looks like Bun in Rust is indeed being run in production across millions of different devices. Like Jarred said, \"Boring is good\". Tags: bun , rust , anthropic , claude-code , jarred-sumner",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 62.067,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.912,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "e723c4e752505f26",
       "title": "Our approach to bioresilience",
       "url": "https://deepmind.google/blog/our-approach-to-bioresilience",
@@ -2252,7 +2212,7 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 61.618,
+      "score": 61.594,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -2264,7 +2224,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.68,
+      "novelty_score": 0.679,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2291,7 +2251,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.292,
+      "score": 61.206,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.57",
@@ -2303,7 +2263,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.574,
+      "novelty_score": 0.57,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2328,7 +2288,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 60.476,
+      "score": 60.47,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.51",
@@ -2760,7 +2720,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.917,
+      "score": 58.911,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.94",
@@ -2772,7 +2732,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.945,
+      "novelty_score": 0.944,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2795,7 +2755,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.293,
+      "score": 58.287,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.41",
@@ -2830,7 +2790,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.042,
+      "score": 58.036,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.90",
@@ -2960,74 +2920,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "e140d994fd4a7ba4",
-      "title": "Politicians Are Trying to Change What Chatbots Say About Them",
-      "url": "https://www.nytimes.com/2026/07/19/us/politics/chatbots-political-campaigns.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-19T09:00:38+00:00",
-      "text": "Politicians Are Trying to Change What Chatbots Say About Them Political campaigns have something new to worry about these days: unflattering or incomplete information produced by A.I. programs when voters ask questions about candidates.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.151,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "990f0d99200ad6d8",
-      "title": "The ‘Bad Blood’ Between Polymarket’s Shayne Coplan and Kalshi’s Tarek Mansour",
-      "url": "https://www.nytimes.com/2026/07/19/technology/polymarket-kalshi-rivalry-coplan-mansour.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-19T09:00:24+00:00",
-      "text": "The ‘Bad Blood’ Between Polymarket’s Shayne Coplan and Kalshi’s Tarek Mansour Shayne Coplan of Polymarket and Tarek Mansour of Kalshi are young billionaires intent on dominating prediction markets. It’s more than a battle. It’s “bad blood.”",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.148,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -5250,6 +5142,74 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0a951fddf5b3666d",
+      "title": "Automatisierung Fea Aufgaben",
+      "url": "https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automatisierung Fea Aufgaben https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d8f5a4edfd9ee155",
+      "title": "Cae Automation Design Smarter Develop Faster",
+      "url": "https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
       "matched_terms": [
         "CAE"
       ],
