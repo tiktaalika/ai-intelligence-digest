@@ -1,31 +1,15 @@
 {
   "run_log": {
-    "generated_at": "2026-07-19T08:33:28.597057+00:00",
+    "generated_at": "2026-07-19T08:57:46.571030+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17259,
-    "filtered_count": 2186,
+    "fetched_count": 17288,
+    "filtered_count": 2196,
     "duplicate_count": 72,
     "failures": [
       {
-        "source": "Siemens Digital Industries Software",
-        "error": "The read operation timed out"
-      },
-      {
-        "source": "Siemens Simcenter",
-        "error": "The read operation timed out"
-      },
-      {
-        "source": "Siemens Art of the Possible",
-        "error": "The read operation timed out"
-      },
-      {
         "source": "Ansys",
         "error": "The read operation timed out"
-      },
-      {
-        "source": "Rescale",
-        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -75,7 +59,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.242,
+      "score": 63.203,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -87,7 +71,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.903,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -113,10 +97,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.4,
+      "score": 62.26,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -125,7 +109,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.927,
+      "novelty_score": 0.921,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -150,7 +134,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.69,
+      "score": 47.551,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -162,7 +146,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.562,
+      "novelty_score": 0.555,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -186,10 +170,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.147,
+      "score": 56.007,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -198,7 +182,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.946,
+      "novelty_score": 0.94,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -223,10 +207,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.515,
+      "score": 56.236,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -235,7 +219,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.963,
+      "novelty_score": 0.95,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -257,10 +241,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.578,
+      "score": 55.3,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -269,7 +253,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.92,
+      "novelty_score": 0.908,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -291,7 +275,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.13,
+      "score": 52.037,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.64",
@@ -303,7 +287,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.642,
+      "novelty_score": 0.638,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -326,7 +310,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 50.97,
+      "score": 50.877,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -338,7 +322,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.711,
+      "novelty_score": 0.707,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -423,6 +407,41 @@
     }
   ],
   "top_5_engineering_ai": [
+    {
+      "id": "a9313472d40e9aa4",
+      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
+      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-17T12:01:00+00:00",
+      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 70.303,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.953,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
     {
       "id": "9e62f8571a01deca",
       "title": "Industrial Ai Terminology Guide Pdf Version 2",
@@ -531,16 +550,16 @@
       "source_priority": "high"
     },
     {
-      "id": "68416d20bf0d7089",
-      "title": "Ai In Cae",
-      "url": "https://www.neuralconcept.com/post/ai-in-cae",
+      "id": "955ec8dc94a3f30b",
+      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
+      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
       "source": "Neural Concept",
       "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
       "published_at": null,
-      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
+      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
       "matched_terms": [
-        "CAE"
+        "simulation"
       ],
       "engagement": {},
       "score": 57.033,
@@ -564,43 +583,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "fe0a0e4f6d1f91a3",
-      "title": "Data Center Cooling: Four Lessons from Teams That Simulate Before They Build The servers keeping global AI workloads running generate more heat per rack than most facilities were built to handle. A Alex Graham May 19, 2026 AEC , CFD , Energy , Thermal Simulation",
-      "url": "https://www.simscale.com/blog/data-center-cooling-simulation-lessons",
-      "source": "SimScale",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Data Center Cooling: Four Lessons from Teams That Simulate Before They Build The servers keeping global AI workloads running generate more heat per rack than most facilities were built to handle. A Alex Graham May 19, 2026 AEC , CFD , Energy , Thermal Simulation https://www.simscale.com/blog/data-center-cooling-simulation-lessons/",
-      "matched_terms": [
-        "simulation",
-        "ROM",
-        "CFD",
-        "thermal simulation"
-      ],
-      "engagement": {},
-      "score": 55.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=4",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "cloud_cae",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
     }
   ],
   "top_5_medical_bio_ai": [
@@ -687,7 +669,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 36.486,
+      "score": 36.477,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.56",
@@ -699,7 +681,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.562,
+      "novelty_score": 0.561,
       "source_priority_score": 0.65,
       "source_tags": [
         "bio_ai",
@@ -783,6 +765,41 @@
     }
   ],
   "top_5_cae_ai_engineering": [
+    {
+      "id": "a9313472d40e9aa4",
+      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
+      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-17T12:01:00+00:00",
+      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 70.303,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.953,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
     {
       "id": "9e62f8571a01deca",
       "title": "Industrial Ai Terminology Guide Pdf Version 2",
@@ -891,16 +908,16 @@
       "source_priority": "high"
     },
     {
-      "id": "68416d20bf0d7089",
-      "title": "Ai In Cae",
-      "url": "https://www.neuralconcept.com/post/ai-in-cae",
+      "id": "955ec8dc94a3f30b",
+      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
+      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
       "source": "Neural Concept",
       "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
       "published_at": null,
-      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
+      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
       "matched_terms": [
-        "CAE"
+        "simulation"
       ],
       "engagement": {},
       "score": 57.033,
@@ -924,43 +941,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "fe0a0e4f6d1f91a3",
-      "title": "Data Center Cooling: Four Lessons from Teams That Simulate Before They Build The servers keeping global AI workloads running generate more heat per rack than most facilities were built to handle. A Alex Graham May 19, 2026 AEC , CFD , Energy , Thermal Simulation",
-      "url": "https://www.simscale.com/blog/data-center-cooling-simulation-lessons",
-      "source": "SimScale",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Data Center Cooling: Four Lessons from Teams That Simulate Before They Build The servers keeping global AI workloads running generate more heat per rack than most facilities were built to handle. A Alex Graham May 19, 2026 AEC , CFD , Energy , Thermal Simulation https://www.simscale.com/blog/data-center-cooling-simulation-lessons/",
-      "matched_terms": [
-        "simulation",
-        "ROM",
-        "CFD",
-        "thermal simulation"
-      ],
-      "engagement": {},
-      "score": 55.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=4",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "cloud_cae",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
     }
   ],
   "research_radar": [
@@ -977,7 +957,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.242,
+      "score": 63.203,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -989,7 +969,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.903,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1687,6 +1667,82 @@
   ],
   "top_100_news_candidates": [
     {
+      "id": "475a7ecbe023e4bc",
+      "title": "Your next colleague is an agent: The dawn of agentic AI-aided engineering",
+      "url": "https://blogs.sw.siemens.com/art-of-the-possible/agentic-ai-aided-engineering",
+      "source": "Siemens Art of the Possible",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-03T09:59:13+00:00",
+      "text": "Your next colleague is an agent: The dawn of agentic AI-aided engineering What if every engineer had instant access to simulation expertise? Agentic AI-Aided Engineering could transform engineering by putting intelligent AI agents alongside designers, automating complex CAE workflows, and breaking long-standing expertise bottlenecks. Discover how this emerging approach could democratize simulation and accelerate innovation across the engineering lifecycle",
+      "matched_terms": [
+        "CAE",
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 75.89,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.60",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.601,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "agentic_ai",
+        "cae",
+        "simulation",
+        "industrial_ai",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "da9d0703229ae16b",
+      "title": "Open-source AI Datasets for AI Physics Model Training",
+      "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T15:00:00+00:00",
+      "text": "Open-source AI Datasets for AI Physics Model Training Start training surrogate models faster with open-source AI Datasets now available in Rescale AI Physics. Engineers can now train models directly from the DrivAerML dataset, a subset of the high-fidelity open-source public dataset for automotive aerodynamics based on 500 parametrically morphed variants. Providing a great way to get started with AI Physics without having to first generate your own simulation dataset.",
+      "matched_terms": [
+        "simulation",
+        "surrogate model",
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 74.755,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.73",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.731,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "ed26ceddfa654dba",
       "title": "Celebrating 40 Years of Multiphysics Simulation",
       "url": "https://www.comsol.com/blogs/celebrating-40-years-of-multiphysics-simulation",
@@ -1700,7 +1756,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 74.72,
+      "score": 74.711,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1717,6 +1773,220 @@
       "source_tags": [
         "multiphysics",
         "simulation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a9313472d40e9aa4",
+      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
+      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-17T12:01:00+00:00",
+      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 70.303,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.953,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "90cd344a0949cc26",
+      "title": "GeoTransolver AI Model Architecture Integration for CFD Applications",
+      "url": "https://rescale.com/blog/geotransolver-ai-model-architecture-integration-cfd-applications",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-02T15:00:00+00:00",
+      "text": "GeoTransolver AI Model Architecture Integration for CFD Applications Power complex and high-accuracy AI surrogate models for CFD and FEA with GeoTransolver model architecture. Now available in Rescale AI Physics as part of the NVIDIA PhysicsNeMo library, GeoTransolver is a geometry-aware transformer architecture that uses GALE attention to model relationships across complex 3D geometries and unstructured meshes. It is designed to generalize across changing operating conditions and learn transient, geometry-aware physical behavior, making it well-suited for surrogate models that need to predict aerodynamic, structural, or deformation behavior across a range of design variants.",
+      "matched_terms": [
+        "surrogate model",
+        "FEA",
+        "CFD"
+      ],
+      "engagement": {},
+      "score": 68.788,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.58",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.581,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "4693532790c5e944",
+      "title": "Leveraging know-how with AI into efficient product design",
+      "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
+      "source": "Siemens Art of the Possible",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-14T13:29:04+00:00",
+      "text": "Leveraging know-how with AI into efficient product design Is your engineering data a hidden goldmine? Overcome the ‘cold start’ problem in AI by using geometric similarity and transfer learning to transform existing models and simulations into powerful assets, speeding up product design and innovation",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 68.687,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.88,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "agentic_ai",
+        "cae",
+        "simulation",
+        "industrial_ai",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f7a88fc37e79f3e4",
+      "title": "Agent-Driven Simulation Troubleshooting",
+      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-14T12:00:00+00:00",
+      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 68.653,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.878,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e231033a4c78d110",
+      "title": "Bridging design & simulation in humanoid robotics",
+      "url": "https://blogs.sw.siemens.com/simcenter/bridging-design-simulation-in-humanoid-robotics",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T13:18:29+00:00",
+      "text": "Bridging design & simulation in humanoid robotics For decades, humanoid robotics remained confined to science fiction lore, imagined as assistants or workers capable of human-like behavior and interaction. Today, advances in AI, robotics, and simulation are rapidly turning that vision into reality, pushing humanoids beyond research labs into real industrial environments.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 68.05,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.73",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.73,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e5d2e12963a9fef8",
+      "title": "Python in the loop: AI-driven simulation and validation for autonomous systems – Simcenter Prescan 2606",
+      "url": "https://blogs.sw.siemens.com/simcenter/python-in-the-loop-ai-driven-simulation-and-validation-for-autonomous-systems-simcenter-prescan-2606",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-13T08:50:01+00:00",
+      "text": "Python in the loop: AI-driven simulation and validation for autonomous systems – Simcenter Prescan 2606 What’s new ADAS and autonomous system development increasingly relies on Python, machine learning frameworks, and large volumes of sensor data. Yet…",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 68.03,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.85,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1792,6 +2062,41 @@
       "source_priority": "high"
     },
     {
+      "id": "e369b6082884aab2",
+      "title": "Simulation Monitoring Automation",
+      "url": "https://rescale.com/blog/simulation-monitoring-automation",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-10T15:00:00+00:00",
+      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 66.522,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.78",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.781,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "28c7ee44d88bdbf2",
       "title": "Controlling Reasoning Effort in LLMs",
       "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
@@ -1804,7 +2109,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.242,
+      "score": 63.203,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1816,7 +2121,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.903,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1825,45 +2130,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "9caad94b78301c86",
-      "title": "Claude Code uses Bun written in Rust now",
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-19T03:54:09+00:00",
-      "text": "Claude Code uses Bun written in Rust now In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code installation to see if I could find evidence that it was using Bun written in Rust. I found these two commands convincing: strings ~/.local/bin/claude | grep -m1 'Bun v1' For me this outputs Bun v1.4.0 (macOS arm64) . The most recent release of Bun on GitHub is currently v1.3.14 from May 12th, so that v1.4.0 version number in Claude supports them shipping a preview of a not-yet-released Bun version. strings ~/.local/bin/claude | grep -Eo 'src/[[:alnum:]_./-]+\\.rs' This outputs a list of 563 filenames , starting with these: src/runtime/bake/dev_server/mod.rs src/runtime/bake/production.rs src/bundler/bundle_v2.rs It looks like Bun in Rust is indeed being run in production across millions of different devices. Like Jarred said, \"Boring is good\". Tags: bun , rust , anthropic , claude-code , jarred-sumner",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 62.4,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.927,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -1902,6 +2168,45 @@
       "source_priority": "high"
     },
     {
+      "id": "9caad94b78301c86",
+      "title": "Claude Code uses Bun written in Rust now",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-19T03:54:09+00:00",
+      "text": "Claude Code uses Bun written in Rust now In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code installation to see if I could find evidence that it was using Bun written in Rust. I found these two commands convincing: strings ~/.local/bin/claude | grep -m1 'Bun v1' For me this outputs Bun v1.4.0 (macOS arm64) . The most recent release of Bun on GitHub is currently v1.3.14 from May 12th, so that v1.4.0 version number in Claude supports them shipping a preview of a not-yet-released Bun version. strings ~/.local/bin/claude | grep -Eo 'src/[[:alnum:]_./-]+\\.rs' This outputs a list of 563 filenames , starting with these: src/runtime/bake/dev_server/mod.rs src/runtime/bake/production.rs src/bundler/bundle_v2.rs It looks like Bun in Rust is indeed being run in production across millions of different devices. Like Jarred said, \"Boring is good\". Tags: bun , rust , anthropic , claude-code , jarred-sumner",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 62.26,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.92",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.921,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "fdcca13bb581de3f",
       "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
       "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
@@ -1914,7 +2219,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 62.117,
+      "score": 62.108,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -1949,7 +2254,7 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 61.689,
+      "score": 61.649,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1961,7 +2266,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.683,
+      "novelty_score": 0.681,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -1988,10 +2293,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.539,
+      "score": 61.399,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.58",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2000,7 +2305,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.585,
+      "novelty_score": 0.579,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2010,6 +2315,41 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "cd0ef033508aa3cc",
+      "title": "Knowledge Base Support on AWS and Azure",
+      "url": "https://rescale.com/blog/knowledge-base-support-on-aws-and-azure",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-06-29T15:29:12+00:00",
+      "text": "Knowledge Base Support on AWS and Azure Connect and interact with all your data in one place. Rescale now connects engineering data stored in AWS S3 and Azure Blob Storage directly to the Rescale Assistant through vectorized search. Once connected, engineers can ask natural language questions and receive fast, contextually grounded answers drawn from their organization's own data, rather than relying only on general AI knowledge or manual file searches.",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 60.483,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.51",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.507,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2422,7 +2762,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.934,
+      "score": 58.924,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.95",
@@ -2445,6 +2785,41 @@
       "source_priority": "medium"
     },
     {
+      "id": "3824b64966784a9b",
+      "title": "Agentic Simulation Report Generation",
+      "url": "https://rescale.com/blog/agentic-simulation-report-generation",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-06-25T16:13:24+00:00",
+      "text": "Agentic Simulation Report Generation Presentation-ready reports in minutes vs. hours. Rescale’s Report Generator Agent eliminates the gap between raw results and structured reporting. Once a simulation study is complete, the agent takes the results data and automatically generates a report aligned to a customer's own reporting templates, including findings, relevant charts, and recommendations.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 58.3,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.41",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.408,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "c0dcd6361ecf5ed3",
       "title": "Ferrari Cuts Powertrain Prototypes By 40 Percent With Simulation",
       "url": "https://www.synopsys.com/success-stories/ferrari-cuts-powertrain-prototypes-by-40-percent-with-simulation.html",
@@ -2457,7 +2832,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.058,
+      "score": 58.049,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.91",
@@ -2469,7 +2844,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.906,
+      "novelty_score": 0.905,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -4898,390 +5273,6 @@
       "source_tags": [
         "engineering_agents",
         "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba6a4cbdb5dbf1b3",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "c47f51de21ac3351",
-      "title": "03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases",
-      "url": "https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology",
-      "source": "Luminary Cloud",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology/",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud_cae",
-        "simulation",
-        "physics_ai"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "68416d20bf0d7089",
-      "title": "Ai In Cae",
-      "url": "https://www.neuralconcept.com/post/ai-in-cae",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "955ec8dc94a3f30b",
-      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
-      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "6b83445bacefae79",
-      "title": "Cae Tools Used In Automotive Industry",
-      "url": "https://www.neuralconcept.com/post/cae-tools-used-in-automotive-industry",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Tools Used In Automotive Industry https://www.neuralconcept.com/post/cae-tools-used-in-automotive-industry",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba2eeead7c00722a",
-      "title": "Deep Neural Network In Simulations",
-      "url": "https://www.neuralconcept.com/post/deep-neural-network-in-simulations",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Deep Neural Network In Simulations https://www.neuralconcept.com/post/deep-neural-network-in-simulations",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "e043e3171654f4d6",
-      "title": "Dynamic Simulation In Engineering Techniques And Applications",
-      "url": "https://www.neuralconcept.com/post/dynamic-simulation-in-engineering-techniques-and-applications",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Dynamic Simulation In Engineering Techniques And Applications https://www.neuralconcept.com/post/dynamic-simulation-in-engineering-techniques-and-applications",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ea2ea522bdc901b2",
-      "title": "Electric Vehicle Simulation Reducing Development Costs And Time",
-      "url": "https://www.neuralconcept.com/post/electric-vehicle-simulation-reducing-development-costs-and-time",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Electric Vehicle Simulation Reducing Development Costs And Time https://www.neuralconcept.com/post/electric-vehicle-simulation-reducing-development-costs-and-time",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "77b99301ad811d40",
-      "title": "Engineering Ais Last Frontier",
-      "url": "https://www.neuralconcept.com/post/engineering-ais-last-frontier",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Engineering Ais Last Frontier https://www.neuralconcept.com/post/engineering-ais-last-frontier",
-      "matched_terms": [
-        "engineering AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "49300d4b8ffb7df9",
-      "title": "From Concept To Reality The Development Of An Ai Designed Car",
-      "url": "https://www.neuralconcept.com/post/from-concept-to-reality-the-development-of-an-ai-designed-car",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "From Concept To Reality The Development Of An Ai Designed Car https://www.neuralconcept.com/post/from-concept-to-reality-the-development-of-an-ai-designed-car",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f8b147ae324cca6d",
-      "title": "Full Guide To Hydrodynamic Simulation Theory To Application",
-      "url": "https://www.neuralconcept.com/post/full-guide-to-hydrodynamic-simulation-theory-to-application",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Full Guide To Hydrodynamic Simulation Theory To Application https://www.neuralconcept.com/post/full-guide-to-hydrodynamic-simulation-theory-to-application",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"

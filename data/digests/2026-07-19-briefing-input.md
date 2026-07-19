@@ -3,51 +3,51 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17259
-- filtered_count: 2186
+- fetched_count: 17288
+- filtered_count: 2196
 - duplicate_count: 72
-- failures: 11
+- failures: 7
 
 ## Top 10 General AI News
 1. [Controlling Reasoning Effort in LLMs](https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms)
    - source: Ahead of AI
-   - score: 63.242
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.905; source_priority=1.0
+   - score: 63.203
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.903; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [Claude Code uses Bun written in Rust now](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust)
    - source: Simon Willison
-   - score: 62.4
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.927; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 62.26
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.921; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-830)
    - source: Latent Space
-   - score: 47.69
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.562; source_priority=1.0
+   - score: 47.551
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.555; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [AI Mania Is Eviscerating Global Decision-Making](https://simonwillison.net/2026/Jul/19/ai-mania)
    - source: Simon Willison
-   - score: 56.147
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.946; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.007
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.94; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Victoria announces new social media ‘demasking’ powers for accounts accused of vilification](https://www.theguardian.com/australia-news/2026/jul/19/victoria-proposes-social-media-account-identification-powers)
    - source: The Guardian Technology
-   - score: 56.515
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.963; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.236
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.95; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [‘We noticed a login from a new device’: the message from fraudsters targeting your X account](https://www.theguardian.com/money/2026/jul/19/x-scams-login-new-device-message-account-crypto-phishing)
    - source: The Guardian Technology
-   - score: 55.578
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.92; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.3
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.908; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Databricks hits $188B valuation, extending its run as AI’s favorite second act](https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act)
    - source: TechCrunch AI
-   - score: 52.13
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.642; source_priority=1.0
+   - score: 52.037
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.638; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.64; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 8. [Neil Rimer thinks the AI money is coming back out](https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out)
    - source: TechCrunch AI
-   - score: 50.97
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.711; source_priority=1.0
+   - score: 50.877
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.707; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.71; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)
    - source: Anthropic
@@ -61,31 +61,31 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [Industrial Ai Terminology Guide Pdf Version 2](https://www.industrial-ai-network.com/publications/industrial-ai-terminology-guide-pdf-version-2)
+1. [Rescale Interlink: Open-Source Data Transfer and Job Management](https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management)
+   - source: Rescale
+   - score: 70.303
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.953; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Industrial Ai Terminology Guide Pdf Version 2](https://www.industrial-ai-network.com/publications/industrial-ai-terminology-guide-pdf-version-2)
    - source: Industrial AI Network
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Algorithmus Basierte Fea](https://www.synera.ai/de/workflows/algorithmus-basierte-fea)
+3. [Algorithmus Basierte Fea](https://www.synera.ai/de/workflows/algorithmus-basierte-fea)
    - source: Synera
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-3. [03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases](https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology)
+4. [03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases](https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology)
    - source: Luminary Cloud
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Ai In Cae](https://www.neuralconcept.com/post/ai-in-cae)
+5. [Ai Simulation For Engineering Smarter Modeling And Better Insights](https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights)
    - source: Neural Concept
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Data Center Cooling: Four Lessons from Teams That Simulate Before They Build The servers keeping global AI workloads running generate more heat per rack than most facilities were built to handle. A Alex Graham May 19, 2026 AEC , CFD , Energy , Thermal Simulation](https://www.simscale.com/blog/data-center-cooling-simulation-lessons)
-   - source: SimScale
-   - score: 55.833
-   - score_breakdown: general=0.667; engineering=1.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=4; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Enterprise-Grade Clinical Communications in 2026: Cloud Resiliency, Interoperability, and AI-Ready Workflows (Lessons from HCA Healthcare)](https://www.healthcareitnews.com/resource/enterprise-grade-clinical-communications-2026-cloud-resiliency-interoperability-and-ai)
@@ -100,8 +100,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Ean 2026 Bocunebarts Promise As Migraine Preventive In Treatment Refractory Patients](https://www.pharmaceutical-technology.com/analyst-comment/ean-2026-bocunebarts-promise-as-migraine-preventive-in-treatment-refractory-patients)
    - source: Pharmaceutical Technology
-   - score: 36.486
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.562; source_priority=0.65
+   - score: 36.477
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.561; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.56; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [2135932.Article](https://www.drugtargetreview.com/home/as-ai-agents-mature-the-question-becomes-what-is-the-human-for/2135932.article)
    - source: Drug Target Review
@@ -117,8 +117,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [Controlling Reasoning Effort in LLMs](https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms)
    - source: Ahead of AI
-   - score: 63.242
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.905; source_priority=1.0
+   - score: 63.203
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.903; source_priority=1.0
 2. [Agents Course](https://huggingface.co/learn/agents-course)
    - source: Hugging Face Papers
    - score: 51.033
@@ -171,11 +171,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Similar-title and canonical-URL duplicate detection is applied before final selection.
 
 ## Source Failures
-- Siemens Digital Industries Software: The read operation timed out
-- Siemens Simcenter: The read operation timed out
-- Siemens Art of the Possible: The read operation timed out
 - Ansys: The read operation timed out
-- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
