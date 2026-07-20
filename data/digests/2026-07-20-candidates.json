@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-07-20T06:08:30.241046+00:00",
+    "generated_at": "2026-07-20T09:34:14.366875+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17204,
-    "filtered_count": 2211,
+    "fetched_count": 17280,
+    "filtered_count": 2228,
     "duplicate_count": 71,
     "failures": [
       {
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -66,10 +62,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 66.528,
+      "score": 65.35,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.91",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -78,7 +74,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.963,
+      "novelty_score": 0.91,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -104,10 +100,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 48.009,
+      "score": 46.83,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.42",
+        "novelty=0.37",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -116,7 +112,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.425,
+      "novelty_score": 0.371,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -129,31 +125,67 @@
       "source_priority": "high"
     },
     {
-      "id": "12611e6a05569bd4",
-      "title": "Al-altered images on birdwatching forums putting research at risk",
-      "url": "https://www.theguardian.com/environment/2026/jul/20/ai-slop-manipulated-fake-images-birds-citizen-science-aoe",
-      "source": "The Guardian Technology",
+      "id": "3921df47f5928440",
+      "title": "AI is more likely than humans to form biases when hiring",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans",
+      "source": "MIT Technology Review AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-20T04:00:45+00:00",
-      "text": "Al-altered images on birdwatching forums putting research at risk Experts warn increase in enhanced photos on birding platforms creating fake sightings, threatening credibility of tool used by scientists For many birdwatchers, recording a species outside its normal range is the holy grail. In the UK, the discoveries often make national headlinesThe western reef heron, for example, usually found in Africa and southern Europe, spotted in a seaside town in north Wales in June, which was widely celebrated on birding forums. But a new scourge is threatening to disrupt the fun: AI slop. Continue reading...",
+      "published_at": "2026-07-20T08:39:01+00:00",
+      "text": "AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
       "matched_terms": [
-        "AI"
+        "AI",
+        "LLM"
       ],
       "engagement": {},
-      "score": 58.536,
+      "score": 62.701,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=1",
+        "novelty=0.97",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.933,
+      "novelty_score": 0.971,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d7a5fc6bc82449ef",
+      "title": "Jeff Bezos and UK government invest in £2bn British startup CuspAI",
+      "url": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-20T08:37:52+00:00",
+      "text": "Jeff Bezos and UK government invest in £2bn British startup CuspAI Company aims to develop AI software that cuts research times and use of rare metals in chipmakers’ supply chains Business live – latest updates Amazon’s founder, Jeff Bezos, and the UK government have invested in a £2bn British artificial intelligence startup that is aiming to become the “search engine for rare materials” that accelerates the next wave of technological breakthroughs. The Cambridge-based CuspAI has raised $450m (£330m) in funding from investors including Bezos and the government’s sovereign AI fund, valuing the two-year-old business at $2.6bn. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 62.687,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.971,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -176,10 +208,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.208,
+      "score": 57.422,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -188,7 +220,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.888,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -199,60 +231,22 @@
       "source_priority": "high"
     },
     {
-      "id": "2dc73751ee8338b4",
-      "title": "Sleeper Agents Training Deceptive Llms That Persist Through Safety Training",
-      "url": "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Sleeper Agents Training Deceptive Llms That Persist Through Safety Training https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 55.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "6a9003c90047f2c7",
-      "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
-      "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse",
-      "source": "TechCrunch AI",
+      "id": "98edde858c71ab0c",
+      "title": "Why Silicon Valley Can’t Stop Looking Over Its Shoulder at China",
+      "url": "https://www.nytimes.com/2026/07/20/technology/china-us-ai-race.html",
+      "source": "New York Times Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-19T14:52:08+00:00",
-      "text": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’ \"Everybody knows the Greeks are inside.\"",
+      "published_at": "2026-07-20T09:02:12+00:00",
+      "text": "Why Silicon Valley Can’t Stop Looking Over Its Shoulder at China Chinese companies are offering artificial intelligence that is nearly as good as the leading U.S. technologies, but it’s still America’s race to lose.",
       "matched_terms": [
-        "AI"
+        "artificial intelligence"
       ],
       "engagement": {},
-      "score": 53.833,
+      "score": 56.966,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -261,52 +255,48 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.841,
+      "novelty_score": 0.983,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
-      "id": "414ce4b52e368291",
-      "title": "Demystifying Evals For Ai Agents",
-      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
+      "id": "e790526a3b8ed441",
+      "title": "STAT+: State audit of Medicaid records points to methods used by PBMs to obscure drug costs",
+      "url": "https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
       "category": "general_ai",
-      "published_at": null,
-      "text": "Demystifying Evals For Ai Agents https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "published_at": "2026-07-20T08:30:00+00:00",
+      "text": "STAT+: State audit of Medicaid records points to methods used by PBMs to obscure drug costs An audit of state Medicaid records revealed how PBMs are using complicated tactics for handling prescription drug claims that ultimately overcharge taxpayers.",
       "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "Anthropic"
+        "AI"
       ],
       "engagement": {},
-      "score": 53.033,
+      "score": 56.597,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=4",
+        "novelty=0.97",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
+      "novelty_score": 0.967,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -347,6 +337,42 @@
       "source_priority": "high"
     },
     {
+      "id": "274d5e0ca502ee24",
+      "title": "Coding Agents Social Sciences",
+      "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+      "source": "Anthropic",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Coding Agents Social Sciences https://www.anthropic.com/research/coding-agents-social-sciences",
+      "matched_terms": [
+        "agent",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 49.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "safety",
+        "policy"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "fabe8f8f1dc379e7",
       "title": "Research Upgrading agentic coding capabilities with the new Devstral models July 10, 2025 By Mistral AI",
       "url": "https://mistral.ai/news/devstral-2507",
@@ -380,41 +406,6 @@
       ],
       "registry_category": "vendor",
       "source_priority": "high"
-    },
-    {
-      "id": "8a1eddf7b92feb63",
-      "title": "Vibe for code Coding agents in the terminal, IDE, and background.",
-      "url": "https://mistral.ai/products/vibe/code",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Vibe for code Coding agents in the terminal, IDE, and background. https://mistral.ai/products/vibe/code/",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
@@ -436,10 +427,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 64.345,
+      "score": 61.987,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.40",
+        "novelty=0.29",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -448,7 +439,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.402,
+      "novelty_score": 0.295,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -604,6 +595,41 @@
   ],
   "top_5_medical_bio_ai": [
     {
+      "id": "e790526a3b8ed441",
+      "title": "STAT+: State audit of Medicaid records points to methods used by PBMs to obscure drug costs",
+      "url": "https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-20T08:30:00+00:00",
+      "text": "STAT+: State audit of Medicaid records points to methods used by PBMs to obscure drug costs An audit of state Medicaid records revealed how PBMs are using complicated tactics for handling prescription drug claims that ultimately overcharge taxpayers.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.597,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.967,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "a5f73659bb59dfdf",
       "title": "Singapore Adapt Foundation Ai Healthcare Models",
       "url": "https://www.healthcareitnews.com/news/asia/singapore-adapt-foundation-ai-healthcare-models",
@@ -709,40 +735,6 @@
       "source_priority": "medium"
     },
     {
-      "id": "58af3708e88c5f00",
-      "title": "Physician Answering Service",
-      "url": "https://elevenlabs.io/agents/physician-answering-service",
-      "source": "ElevenLabs",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Physician Answering Service https://elevenlabs.io/agents/physician-answering-service",
-      "matched_terms": [
-        "agent"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "audio_ai",
-        "voice"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "medium"
-    },
-    {
       "id": "68a3ba97855761de",
       "title": "Robotics",
       "url": "https://www.pharmaceutical-technology.com/sector/theme/technology/robotics",
@@ -798,10 +790,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 64.345,
+      "score": 61.987,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.40",
+        "novelty=0.29",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -810,7 +802,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.402,
+      "novelty_score": 0.295,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1173,16 +1165,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Snowflake AI",
-      "category": "vendor",
-      "query": "site:www.snowflake.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "data, enterprise_ai",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1445,16 +1427,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Snowflake AI",
-      "category": "vendor",
-      "query": "site:www.snowflake.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "data, enterprise_ai",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1700,7 +1672,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 75.405,
+      "score": 75.326,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -1713,7 +1685,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.579,
+      "novelty_score": 0.575,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1740,7 +1712,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 74.27,
+      "score": 74.191,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -1752,7 +1724,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.709,
+      "novelty_score": 0.706,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1776,7 +1748,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 74.225,
+      "score": 74.147,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -1788,7 +1760,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.859,
+      "novelty_score": 0.855,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1810,7 +1782,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.818,
+      "score": 69.739,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1822,7 +1794,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.931,
+      "novelty_score": 0.928,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1847,7 +1819,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 68.303,
+      "score": 68.224,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -1859,7 +1831,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.559,
+      "novelty_score": 0.556,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1882,10 +1854,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.202,
+      "score": 68.123,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1894,7 +1866,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1919,10 +1891,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.168,
+      "score": 68.089,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1931,7 +1903,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.856,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1954,10 +1926,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.564,
+      "score": 67.486,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1966,7 +1938,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.707,
+      "novelty_score": 0.704,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1989,10 +1961,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.545,
+      "score": 67.466,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2001,7 +1973,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.828,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2082,6 +2054,41 @@
       "source_priority": "high"
     },
     {
+      "id": "e369b6082884aab2",
+      "title": "Simulation Monitoring Automation",
+      "url": "https://rescale.com/blog/simulation-monitoring-automation",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-10T15:00:00+00:00",
+      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 65.958,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.76",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.756,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "115d933ecc6df9df",
       "title": "Quoting Sam Altman",
       "url": "https://simonwillison.net/2026/Jul/20/sam-altman",
@@ -2097,10 +2104,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 66.528,
+      "score": 65.35,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.91",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2109,7 +2116,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.963,
+      "novelty_score": 0.91,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2122,71 +2129,67 @@
       "source_priority": "high"
     },
     {
-      "id": "e369b6082884aab2",
-      "title": "Simulation Monitoring Automation",
-      "url": "https://rescale.com/blog/simulation-monitoring-automation",
-      "source": "Rescale",
+      "id": "3921df47f5928440",
+      "title": "AI is more likely than humans to form biases when hiring",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans",
+      "source": "MIT Technology Review AI",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-10T15:00:00+00:00",
-      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
+      "category": "general_ai",
+      "published_at": "2026-07-20T08:39:01+00:00",
+      "text": "AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
       "matched_terms": [
-        "simulation"
+        "AI",
+        "LLM"
       ],
       "engagement": {},
-      "score": 66.036,
+      "score": 62.701,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
+        "novelty=0.97",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.759,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.971,
       "source_priority_score": 1.0,
       "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
+        "ai",
+        "analysis"
       ],
-      "registry_category": "engineering_ai",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
-      "id": "a90caad7a6dbf774",
-      "title": "Could AI be conscious?",
-      "url": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious",
+      "id": "d7a5fc6bc82449ef",
+      "title": "Jeff Bezos and UK government invest in £2bn British startup CuspAI",
+      "url": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai",
       "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-19T11:00:25+00:00",
-      "text": "Could AI be conscious? Experts believe it’s at least possible. We urgently need a plan to navigate the ethical implications In January, the AI company Anthropic published a new constitution for Claude, its most advanced large language model (LLM), which contained the comment: “We are caught in a difficult position where we neither want to overstate the likelihood of Claude’s moral patienthood nor dismiss it out of hand.” A month later, Anthropic’s CEO Dario Amodei went on a podcast and said his company couldn’t rule out the possibility that Claude was conscious. Philosopher David Chalmers, who coined the phrase “the hard problem of consciousness”, has said there is a significant chance of conscious LLMs within a decade. And what about Claude itself? When asked during testing to estimate the probability that it is a moral patient , meaning that its wellbeing matters in its own right, it gave numbers ranging from 5% to 40% and stressed how uncertain it was. Modern AI systems are extraordinarily complex, and they are advancing fast. In terms of structural complexity and computational scale, by some measures a few are already in the range of a mouse brain, and at recent growth rates, t",
+      "category": "general_ai",
+      "published_at": "2026-07-20T08:37:52+00:00",
+      "text": "Jeff Bezos and UK government invest in £2bn British startup CuspAI Company aims to develop AI software that cuts research times and use of rare metals in chipmakers’ supply chains Business live – latest updates Amazon’s founder, Jeff Bezos, and the UK government have invested in a £2bn British artificial intelligence startup that is aiming to become the “search engine for rare materials” that accelerates the next wave of technological breakthroughs. The Cambridge-based CuspAI has raised $450m (£330m) in funding from investors including Bezos and the government’s sovereign AI fund, valuing the two-year-old business at $2.6bn. Continue reading...",
       "matched_terms": [
         "AI",
-        "LLM",
-        "large language model",
-        "Anthropic",
-        "Claude",
-        "Dario Amodei"
+        "artificial intelligence"
       ],
       "engagement": {},
-      "score": 64.345,
+      "score": 62.687,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.40",
-        "matched_terms=6",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
+        "novelty=0.97",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.402,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.971,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2231,6 +2234,45 @@
       "source_priority": "high"
     },
     {
+      "id": "a90caad7a6dbf774",
+      "title": "Could AI be conscious?",
+      "url": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-19T11:00:25+00:00",
+      "text": "Could AI be conscious? Experts believe it’s at least possible. We urgently need a plan to navigate the ethical implications In January, the AI company Anthropic published a new constitution for Claude, its most advanced large language model (LLM), which contained the comment: “We are caught in a difficult position where we neither want to overstate the likelihood of Claude’s moral patienthood nor dismiss it out of hand.” A month later, Anthropic’s CEO Dario Amodei went on a podcast and said his company couldn’t rule out the possibility that Claude was conscious. Philosopher David Chalmers, who coined the phrase “the hard problem of consciousness”, has said there is a significant chance of conscious LLMs within a decade. And what about Claude itself? When asked during testing to estimate the probability that it is a moral patient , meaning that its wellbeing matters in its own right, it gave numbers ranging from 5% to 40% and stressed how uncertain it was. Modern AI systems are extraordinarily complex, and they are advancing fast. In terms of structural complexity and computational scale, by some measures a few are already in the range of a mouse brain, and at recent growth rates, t",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "large language model",
+        "Anthropic",
+        "Claude",
+        "Dario Amodei"
+      ],
+      "engagement": {},
+      "score": 61.987,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.29",
+        "matched_terms=6",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.295,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "fdcca13bb581de3f",
       "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
       "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
@@ -2243,7 +2285,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 61.623,
+      "score": 61.544,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -2255,7 +2297,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.559,
+      "novelty_score": 0.555,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2277,10 +2319,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 61.123,
+      "score": 60.786,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.79",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2289,7 +2331,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.809,
+      "novelty_score": 0.793,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2639,7 +2681,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 59.997,
+      "score": 59.919,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.48",
@@ -2651,7 +2693,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.485,
+      "novelty_score": 0.481,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2674,7 +2716,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.985,
+      "score": 59.907,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2686,7 +2728,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.993,
+      "novelty_score": 0.99,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2745,10 +2787,10 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 59.569,
+      "score": 59.232,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.57",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2757,7 +2799,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.586,
+      "novelty_score": 0.571,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2802,76 +2844,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "12611e6a05569bd4",
-      "title": "Al-altered images on birdwatching forums putting research at risk",
-      "url": "https://www.theguardian.com/environment/2026/jul/20/ai-slop-manipulated-fake-images-birds-citizen-science-aoe",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-20T04:00:45+00:00",
-      "text": "Al-altered images on birdwatching forums putting research at risk Experts warn increase in enhanced photos on birding platforms creating fake sightings, threatening credibility of tool used by scientists For many birdwatchers, recording a species outside its normal range is the holy grail. In the UK, the discoveries often make national headlinesThe western reef heron, for example, usually found in Africa and southern Europe, spotted in a seaside town in north Wales in June, which was widely celebrated on birding forums. But a new scourge is threatening to disrupt the fun: AI slop. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 58.536,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.933,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "dde9b3e385312c79",
-      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
-      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-19T19:24:45+00:00",
-      "text": "Can an Apple lawsuit derail OpenAI’s hardware plans? On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 58.208,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.888,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
     },
     {
       "id": "3e25372b9239ef76",
@@ -2922,10 +2894,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 57.814,
+      "score": 57.736,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.39",
+        "novelty=0.38",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2934,7 +2906,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.386,
+      "novelty_score": 0.382,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -3031,7 +3003,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 57.563,
+      "score": 57.485,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.88",
@@ -3043,7 +3015,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.883,
+      "novelty_score": 0.88,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3052,6 +3024,42 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
+    },
+    {
+      "id": "dde9b3e385312c79",
+      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-19T19:24:45+00:00",
+      "text": "Can an Apple lawsuit derail OpenAI’s hardware plans? On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.422,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.853,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
     },
     {
       "id": "8426bc9786769987",
@@ -5239,40 +5247,6 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Automating Cae Reporting https://www.synera.ai/webinar/automating-cae-reporting",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a04eae22c7539e13",
-      "title": "Automatisierung Cae Berichterstattung",
-      "url": "https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
       "matched_terms": [
         "CAE"
       ],
