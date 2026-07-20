@@ -3,47 +3,47 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17280
-- filtered_count: 2228
+- fetched_count: 17323
+- filtered_count: 2220
 - duplicate_count: 71
-- failures: 7
+- failures: 8
 
 ## Top 10 General AI News
 1. [Quoting Sam Altman](https://simonwillison.net/2026/Jul/20/sam-altman)
    - source: Simon Willison
-   - score: 65.35
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.91; source_priority=1.0
+   - score: 65.283
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.907; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [SQLite Query Explainer](https://simonwillison.net/2026/Jul/18/sqlite-query-explainer)
    - source: Simon Willison
-   - score: 46.83
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.371; source_priority=1.0
+   - score: 46.764
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.368; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.37; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [AI is more likely than humans to form biases when hiring](https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans)
    - source: MIT Technology Review AI
-   - score: 62.701
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.971; source_priority=1.0
+   - score: 62.567
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.965; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [Jeff Bezos and UK government invest in £2bn British startup CuspAI](https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai)
    - source: The Guardian Technology
-   - score: 62.687
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.971; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 62.554
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.965; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 5. [Can an Apple lawsuit derail OpenAI’s hardware plans?](https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans)
    - source: TechCrunch AI
-   - score: 57.422
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.853; source_priority=1.0
+   - score: 57.378
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.85; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Why Silicon Valley Can’t Stop Looking Over Its Shoulder at China](https://www.nytimes.com/2026/07/20/technology/china-us-ai-race.html)
    - source: New York Times Technology
-   - score: 56.966
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.983; source_priority=1.0
+   - score: 56.833
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.977; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [STAT+: State audit of Medicaid records points to methods used by PBMs to obscure drug costs](https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban)
    - source: STAT Health Tech
-   - score: 56.597
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.967; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.464
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.96; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Human-centered health experiences in the age of AI agents](https://www.healthcareitnews.com/resource/human-centered-health-experiences-age-ai-agents)
    - source: Healthcare IT News
    - score: 49.7
@@ -63,8 +63,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [Could AI be conscious?](https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious)
    - source: The Guardian Technology
-   - score: 61.987
-   - score_breakdown: general=1.0; engineering=0.25; research=0.0; novelty=0.295; source_priority=1.0
+   - score: 61.854
+   - score_breakdown: general=1.0; engineering=0.25; research=0.0; novelty=0.289; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.29; matched_terms=6; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [From Llm To Agentic Ai](https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai)
    - source: Industrial AI Network
@@ -90,9 +90,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: State audit of Medicaid records points to methods used by PBMs to obscure drug costs](https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban)
    - source: STAT Health Tech
-   - score: 56.597
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.967; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.464
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.96; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Singapore Adapt Foundation Ai Healthcare Models](https://www.healthcareitnews.com/news/asia/singapore-adapt-foundation-ai-healthcare-models)
    - source: Healthcare IT News
    - score: 43.033
@@ -152,7 +152,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
-- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [Reddit MachineLearning](https://www.google.com/search?q=site%3Awww.reddit.com%20AI): site:www.reddit.com AI (website, low)
@@ -171,6 +170,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - Ansys: The read operation timed out
+- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
