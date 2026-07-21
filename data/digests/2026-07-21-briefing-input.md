@@ -3,79 +3,79 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17294
-- filtered_count: 2247
+- fetched_count: 17231
+- filtered_count: 2236
 - duplicate_count: 75
 - failures: 7
 
 ## Top 10 General AI News
 1. [Reverse-engineering is cheap now](https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering)
    - source: Simon Willison
-   - score: 59.096
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.777; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.936
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.77; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.77; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Who’s Afraid of Chinese Models?](https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models)
    - source: Simon Willison
-   - score: 58.324
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.742; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.74; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.164
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.735; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.73; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Safety and alignment in an era of long-horizon models](https://openai.com/index/safety-alignment-long-horizon-models)
    - source: OpenAI
-   - score: 55.243
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.753; source_priority=1.0
+   - score: 55.136
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.749; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.75; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Agent swarms and the new model economics](https://cursor.com/blog/agent-swarm-model-economics)
    - source: Cursor Blog RSS
-   - score: 52.368
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.774; source_priority=1.0
+   - score: 52.261
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.769; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.77; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [OpenAI is scared of open-weight models. Should the US be?](https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be)
    - source: TechCrunch AI
-   - score: 60.766
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.853; source_priority=1.0
+   - score: 60.66
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.848; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Agent Toolkit](https://aws.amazon.com/blogs/machine-learning/build-specialized-agent-workflows-for-your-business-with-amazon-quick-and-nvidia-nemo-agent-toolkit)
    - source: Amazon AWS AI
-   - score: 60.186
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.827; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.08
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.822; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [How Couchbase built a multi-model AI architecture for Capella iQ with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/how-couchbase-built-a-multi-model-ai-architecture-for-capella-iq-with-amazon-bedrock)
    - source: Amazon AWS AI
-   - score: 60.176
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.826; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.069
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.821; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [The best LED face masks in the UK, tested: 12 light therapy devices that are worth the hype](https://www.theguardian.com/thefilter/2025/sep/19/best-led-red-light-therapy-face-masks)
    - source: The Guardian Technology
-   - score: 59.542
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.979; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 59.223
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.965; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [Man of his word: Pope Leo speeches declared human-authored by Australian AI detection tool](https://www.theguardian.com/world/2026/jul/21/pope-leo-speech-human-not-ai-artificial-intelligence)
    - source: The Guardian Technology
-   - score: 58.488
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.901; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.168
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.886; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Google is working on a new AI chip designed to make Gemini more efficient](https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient)
    - source: TechCrunch AI
-   - score: 57.845
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.872; source_priority=1.0
+   - score: 57.738
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.867; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Enhancing pharmaceutical process design with simulation](https://blogs.sw.siemens.com/simcenter/enhance-pharmaceutical-process-design)
    - source: Siemens Simcenter
-   - score: 77.647
-   - score_breakdown: general=0.5; engineering=1.0; research=0.0; novelty=0.984; source_priority=1.0
+   - score: 77.636
+   - score_breakdown: general=0.5; engineering=1.0; research=0.0; novelty=0.983; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=3; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Integrate NVIDIA Omniverse RTX Sensor Simulation Into Existing Apps](https://developer.nvidia.com/blog/integrate-nvidia-omniverse-rtx-sensor-simulation-into-existing-apps)
    - source: NVIDIA AI
-   - score: 70.222
-   - score_breakdown: general=0.5; engineering=0.75; research=0.0; novelty=0.806; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=3; engineering_relevance=0.75; research_relevance=0.00; visible_engagement=unavailable
+   - score: 70.115
+   - score_breakdown: general=0.5; engineering=0.75; research=0.0; novelty=0.801; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=3; engineering_relevance=0.75; research_relevance=0.00; visible_engagement=unavailable
 3. [Bub – living an artist’s dreams and dreads in New York](https://www.theguardian.com/games/2026/jul/21/bub-autobiographical-game-new-york-artist)
    - source: The Guardian Technology
-   - score: 63.429
-   - score_breakdown: general=0.167; engineering=0.25; research=0.333; novelty=0.997; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 63.109
+   - score_breakdown: general=0.167; engineering=0.25; research=0.333; novelty=0.982; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 4. [Industrial Ai Solutions Market Reality](https://www.industrial-ai-network.com/articles/industrial-ai-solutions-market-reality)
    - source: Industrial AI Network
    - score: 57.033
@@ -90,19 +90,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: Makers of rare disease drugs seek exemption from Trump’s price-cut pilots](https://www.statnews.com/2026/07/21/rare-disease-coalition-orphan-drug-exemption-medicare-pilot-price-programs)
    - source: STAT Health Tech
-   - score: 56.53
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.963; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.211
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.949; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [THC drinks are sold beside sodas, iced tea, and even chocolate milk, often in violation of state laws](https://www.statnews.com/2026/07/21/thc-drinks-risk-accidental-ingestion-issue-labels-regulations)
    - source: STAT Health Tech
-   - score: 56.53
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.963; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.211
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.949; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [FDA still focused on lettuce supplier as source of parasite, despite faulty test result](https://www.statnews.com/2026/07/20/cyclospora-lettuce-tests-continue-restaurant-visits-decline)
    - source: STAT Health Tech
-   - score: 48.372
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.593; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.59; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 48.052
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.578; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.58; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Bristol Myers Squibb Nvidia Build Ai Factory Drug Discovery](https://www.mobihealthnews.com/news/bristol-myers-squibb-nvidia-build-ai-factory-drug-discovery)
    - source: MobiHealthNews
    - score: 46.367
@@ -140,6 +140,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Reuters Technology](https://www.google.com/search?q=site%3Awww.reuters.com%20AI): site:www.reuters.com AI (website, high)
 - [VentureBeat AI](https://www.google.com/search?q=site%3Aventurebeat.com%20AI): site:venturebeat.com AI (website, medium)
 - [Perplexity](https://www.google.com/search?q=site%3Awww.perplexity.ai%20AI): site:www.perplexity.ai AI (website, medium)
+- [Snowflake AI](https://www.google.com/search?q=site%3Awww.snowflake.com%20AI): site:www.snowflake.com AI (website, medium)
 - [Engineering.com Design News Weekly](https://www.google.com/search?q=site%3Aengineering.com/category/technology/design%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20CAD%20OR%20CAE%20OR%20simulation%20OR%20manufacturing%20OR%20%22Solid%20Edge%22%20OR%20Designcenter%20OR%20Siemens%20OR%20Autodesk%20OR%20PLM%29): site:engineering.com/category/technology/design (AI OR "artificial intelligence" OR CAD OR CAE OR simulation OR manufacturing OR "Solid Edge" OR Designcenter OR Siemens OR Autodesk OR PLM) (newsletter, high)
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
