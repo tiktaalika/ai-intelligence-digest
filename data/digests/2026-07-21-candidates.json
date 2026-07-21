@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-07-21T08:46:00.954901+00:00",
+    "generated_at": "2026-07-21T09:16:37.897294+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17224,
-    "filtered_count": 2228,
-    "duplicate_count": 75,
+    "fetched_count": 17293,
+    "filtered_count": 2246,
+    "duplicate_count": 76,
     "failures": [
       {
         "source": "Ansys",
@@ -61,10 +61,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 59.406,
+      "score": 59.23,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -73,7 +73,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.791,
+      "novelty_score": 0.783,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -100,10 +100,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 58.633,
+      "score": 58.458,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.75",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -112,7 +112,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.756,
+      "novelty_score": 0.748,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -138,7 +138,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 55.449,
+      "score": 55.332,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -150,7 +150,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.763,
+      "novelty_score": 0.758,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -174,7 +174,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 52.574,
+      "score": 52.457,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -186,7 +186,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.784,
+      "novelty_score": 0.778,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
@@ -212,7 +212,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.973,
+      "score": 60.856,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -224,7 +224,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.862,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -249,10 +249,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 60.393,
+      "score": 60.276,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -261,7 +261,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.836,
+      "novelty_score": 0.831,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -286,10 +286,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 60.382,
+      "score": 60.265,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -298,7 +298,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.836,
+      "novelty_score": 0.83,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -306,6 +306,40 @@
         "mlops"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "c582c3b013cd14be",
+      "title": "The best LED face masks in the UK, tested: 12 light therapy devices that are worth the hype",
+      "url": "https://www.theguardian.com/thefilter/2025/sep/19/best-led-red-light-therapy-face-masks",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-21T09:00:08+00:00",
+      "text": "The best LED face masks in the UK, tested: 12 light therapy devices that are worth the hype They claim to fix fine lines, blemishes, and redness – but which stand up to scrutiny? After consulting dermatologists and putting them to the test, we have crowned a brand new number one • The best anti-ageing creams, serums and treatments LED face masks are booming in popularity – despite being one of the most expensive at-home beauty products to hit the market. They claim to either reduce the appearance of fine lines, stop spots or calm redness, with some even combining different types of light to enhance the benefits. However, it’s wise to be sceptical about new treatments that are costly and non-invasive, and to do your research before you buy. With this in mind, I interviewed doctors and dermatologists to find out whether these light therapy devices work. Best LED mask overall: CurrentBody Multi Light Therapy LED mask Best budget LED face mask: Silk’n LED face mask 100 Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.811,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.991,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -322,10 +356,10 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 59.108,
+      "score": 58.757,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -334,7 +368,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.929,
+      "novelty_score": 0.913,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -357,7 +391,7 @@
         "AI chip"
       ],
       "engagement": {},
-      "score": 58.051,
+      "score": 57.934,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -369,7 +403,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
+      "novelty_score": 0.876,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -377,40 +411,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "c46d0d52ffcd3c21",
-      "title": "Election voting advice from AI chatbots ‘inaccurate and unreliable’",
-      "url": "https://www.theguardian.com/technology/2026/jul/21/election-voting-advice-ai-chatbots-inaccurate-unreliable-hungary",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-21T05:00:01+00:00",
-      "text": "Election voting advice from AI chatbots ‘inaccurate and unreliable’ Research during Hungary election shows AI recommended parties not running and gave highly volatile answers to identical prompts AI chatbots provide inaccurate, inconsistent and unreliable guidance to voters asking which party they should back, a study suggests, often recommending the wrong party, not mentioning the right one, or listing parties not even running. “The results raise serious concerns about the reliability of general-purpose AI systems in electoral contexts,” the study , published by the civil liberties group Liberties and based on research during this year’s Hungarian parliamentary elections, concluded. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.41,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.882,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
@@ -430,7 +430,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 77.668,
+      "score": 77.656,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -442,7 +442,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.985,
+      "novelty_score": 0.984,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -467,7 +467,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 70.428,
+      "score": 70.311,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -479,7 +479,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.81,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -612,10 +612,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.15,
+      "score": 56.799,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -624,7 +624,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
+      "novelty_score": 0.976,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -647,10 +647,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.15,
+      "score": 56.799,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -659,7 +659,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
+      "novelty_score": 0.976,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -682,10 +682,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 48.991,
+      "score": 48.64,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.62",
+        "novelty=0.60",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -694,7 +694,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.621,
+      "novelty_score": 0.605,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -792,7 +792,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 77.668,
+      "score": 77.656,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -804,7 +804,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.985,
+      "novelty_score": 0.984,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -829,7 +829,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 70.428,
+      "score": 70.311,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -841,7 +841,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.81,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -1170,16 +1170,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Snowflake AI",
-      "category": "vendor",
-      "query": "site:www.snowflake.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "data, enterprise_ai",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1442,16 +1432,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Snowflake AI",
-      "category": "vendor",
-      "query": "site:www.snowflake.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "data, enterprise_ai",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1698,7 +1678,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 77.668,
+      "score": 77.656,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1710,7 +1690,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.985,
+      "novelty_score": 0.984,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1734,7 +1714,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 74.795,
+      "score": 74.783,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -1774,7 +1754,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 73.66,
+      "score": 73.648,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1810,7 +1790,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 73.615,
+      "score": 73.604,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1822,7 +1802,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.831,
+      "novelty_score": 0.83,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1846,7 +1826,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 70.428,
+      "score": 70.311,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -1858,7 +1838,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.81,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -1882,7 +1862,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.208,
+      "score": 69.196,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1919,7 +1899,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 67.693,
+      "score": 67.681,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -1954,7 +1934,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.591,
+      "score": 67.58,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1966,7 +1946,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.83,
+      "novelty_score": 0.829,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1991,7 +1971,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.557,
+      "score": 67.546,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -2096,7 +2076,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 66.935,
+      "score": 66.923,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2131,7 +2111,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.426,
+      "score": 65.414,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2201,7 +2181,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 61.012,
+      "score": 61.001,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -2213,7 +2193,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.531,
+      "novelty_score": 0.53,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2237,7 +2217,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.973,
+      "score": 60.856,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2249,7 +2229,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.862,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2257,80 +2237,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "51bd670cbc92dab8",
-      "title": "Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Agent Toolkit",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-specialized-agent-workflows-for-your-business-with-amazon-quick-and-nvidia-nemo-agent-toolkit",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-20T17:01:32+00:00",
-      "text": "Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Agent Toolkit In this post, we show how Amazon Quick can serve as the business-user front door for specialized agent workflows. We use the NVIDIA NeMo Agent Toolkit to build a supply-chain risk example that helps a planner move from an Amazon Quick dashboard and knowledge context to a guided mitigation recommendation.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 60.393,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.836,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "9482af3c37991202",
-      "title": "How Couchbase built a multi-model AI architecture for Capella iQ with Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-couchbase-built-a-multi-model-ai-architecture-for-capella-iq-with-amazon-bedrock",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-20T16:58:52+00:00",
-      "text": "How Couchbase built a multi-model AI architecture for Capella iQ with Amazon Bedrock This post describes how Couchbase adopted Amazon Bedrock to power Capella iQ with Anthropic’s Claude family of models, the architectural decisions behind their multi-model approach, and the operational benefits realized in production.",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 60.382,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.836,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2660,6 +2566,80 @@
       "source_priority": "high"
     },
     {
+      "id": "51bd670cbc92dab8",
+      "title": "Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Agent Toolkit",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-specialized-agent-workflows-for-your-business-with-amazon-quick-and-nvidia-nemo-agent-toolkit",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-20T17:01:32+00:00",
+      "text": "Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Agent Toolkit In this post, we show how Amazon Quick can serve as the business-user front door for specialized agent workflows. We use the NVIDIA NeMo Agent Toolkit to build a supply-chain risk example that helps a planner move from an Amazon Quick dashboard and knowledge context to a guided mitigation recommendation.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 60.276,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.831,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "9482af3c37991202",
+      "title": "How Couchbase built a multi-model AI architecture for Capella iQ with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-couchbase-built-a-multi-model-ai-architecture-for-capella-iq-with-amazon-bedrock",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-20T16:58:52+00:00",
+      "text": "How Couchbase built a multi-model AI architecture for Capella iQ with Amazon Bedrock This post describes how Couchbase adopted Amazon Bedrock to power Capella iQ with Anthropic’s Claude family of models, the architectural decisions behind their multi-model approach, and the operational benefits realized in production.",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 60.265,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.83,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2672,7 +2652,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.925,
+      "score": 59.913,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2684,7 +2664,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.991,
+      "novelty_score": 0.99,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2693,6 +2673,40 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
+    },
+    {
+      "id": "c582c3b013cd14be",
+      "title": "The best LED face masks in the UK, tested: 12 light therapy devices that are worth the hype",
+      "url": "https://www.theguardian.com/thefilter/2025/sep/19/best-led-red-light-therapy-face-masks",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-21T09:00:08+00:00",
+      "text": "The best LED face masks in the UK, tested: 12 light therapy devices that are worth the hype They claim to fix fine lines, blemishes, and redness – but which stand up to scrutiny? After consulting dermatologists and putting them to the test, we have crowned a brand new number one • The best anti-ageing creams, serums and treatments LED face masks are booming in popularity – despite being one of the most expensive at-home beauty products to hit the market. They claim to either reduce the appearance of fine lines, stop spots or calm redness, with some even combining different types of light to enhance the benefits. However, it’s wise to be sceptical about new treatments that are costly and non-invasive, and to do your research before you buy. With this in mind, I interviewed doctors and dermatologists to find out whether these light therapy devices work. Best LED mask overall: CurrentBody Multi Light Therapy LED mask Best budget LED face mask: Silk’n LED face mask 100 Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.811,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.991,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
     },
     {
       "id": "d0a7f3d2c70a8110",
@@ -2744,10 +2758,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 59.406,
+      "score": 59.23,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2756,7 +2770,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.791,
+      "novelty_score": 0.783,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2818,10 +2832,10 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 59.108,
+      "score": 58.757,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2830,7 +2844,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.929,
+      "novelty_score": 0.913,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2853,7 +2867,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 58.705,
+      "score": 58.588,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -2865,7 +2879,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.906,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2890,10 +2904,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 58.633,
+      "score": 58.458,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.75",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2902,7 +2916,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.756,
+      "novelty_score": 0.748,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2927,7 +2941,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 58.508,
+      "score": 58.458,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.69",
@@ -2939,7 +2953,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.69,
+      "novelty_score": 0.687,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2964,7 +2978,7 @@
         "AI chip"
       ],
       "engagement": {},
-      "score": 58.051,
+      "score": 57.934,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -2976,7 +2990,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
+      "novelty_score": 0.876,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3097,31 +3111,31 @@
       "source_priority": "high"
     },
     {
-      "id": "c46d0d52ffcd3c21",
-      "title": "Election voting advice from AI chatbots ‘inaccurate and unreliable’",
-      "url": "https://www.theguardian.com/technology/2026/jul/21/election-voting-advice-ai-chatbots-inaccurate-unreliable-hungary",
-      "source": "The Guardian Technology",
+      "id": "b4483934f65a0314",
+      "title": "AI minister role boosted but tech department axed in Burnham shake-up",
+      "url": "https://www.bbc.co.uk/news/articles/cz97x8k4zqzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-21T05:00:01+00:00",
-      "text": "Election voting advice from AI chatbots ‘inaccurate and unreliable’ Research during Hungary election shows AI recommended parties not running and gave highly volatile answers to identical prompts AI chatbots provide inaccurate, inconsistent and unreliable guidance to voters asking which party they should back, a study suggests, often recommending the wrong party, not mentioning the right one, or listing parties not even running. “The results raise serious concerns about the reliability of general-purpose AI systems in electoral contexts,” the study , published by the civil liberties group Liberties and based on research during this year’s Hungarian parliamentary elections, concluded. Continue reading...",
+      "published_at": "2026-07-21T09:15:55+00:00",
+      "text": "AI minister role boosted but tech department axed in Burnham shake-up Kanishka Narayan will attend cabinet - but no longer have the leadership of a technology secretary.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 57.41,
+      "score": 57.325,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=1.00",
         "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.882,
+      "research_relevance_score": 0.0,
+      "novelty_score": 1.0,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3146,10 +3160,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.376,
+      "score": 57.2,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.55",
+        "novelty=0.54",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3158,7 +3172,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.547,
+      "novelty_score": 0.539,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3171,109 +3185,37 @@
       "source_priority": "high"
     },
     {
-      "id": "4f861fde366c6636",
-      "title": "STAT+: Makers of rare disease drugs seek exemption from Trump’s price-cut pilots",
-      "url": "https://www.statnews.com/2026/07/21/rare-disease-coalition-orphan-drug-exemption-medicare-pilot-price-programs",
-      "source": "STAT Health Tech",
+      "id": "c46d0d52ffcd3c21",
+      "title": "Election voting advice from AI chatbots ‘inaccurate and unreliable’",
+      "url": "https://www.theguardian.com/technology/2026/jul/21/election-voting-advice-ai-chatbots-inaccurate-unreliable-hungary",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-21T08:30:00+00:00",
-      "text": "STAT+: Makers of rare disease drugs seek exemption from Trump’s price-cut pilots A coalition of biotech firms is lobbying to exclude orphan drugs from new federal pilot programs aimed at lowering Medicare drug costs.",
+      "published_at": "2026-07-21T05:00:01+00:00",
+      "text": "Election voting advice from AI chatbots ‘inaccurate and unreliable’ Research during Hungary election shows AI recommended parties not running and gave highly volatile answers to identical prompts AI chatbots provide inaccurate, inconsistent and unreliable guidance to voters asking which party they should back, a study suggests, often recommending the wrong party, not mentioning the right one, or listing parties not even running. “The results raise serious concerns about the reliability of general-purpose AI systems in electoral contexts,” the study , published by the civil liberties group Liberties and based on research during this year’s Hungarian parliamentary elections, concluded. Continue reading...",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 57.15,
+      "score": 57.06,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
+        "mainstream_news",
+        "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b98f31d9f6c08a65",
-      "title": "THC drinks are sold beside sodas, iced tea, and even chocolate milk, often in violation of state laws",
-      "url": "https://www.statnews.com/2026/07/21/thc-drinks-risk-accidental-ingestion-issue-labels-regulations",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-21T08:30:00+00:00",
-      "text": "THC drinks are sold beside sodas, iced tea, and even chocolate milk, often in violation of state laws THC drinks, which have exploded in popularity in recent years, are sold in retail stores beside sodas, iced tea, and even chocolate milk, often in violation of state laws.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.15,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "80a6aab683ca6b38",
-      "title": "Evolving from legacy BI to agentic AI at Tradeshift with Amazon Quick",
-      "url": "https://aws.amazon.com/blogs/machine-learning/evolving-from-legacy-bi-to-agentic-ai-at-tradeshift-with-amazon-quick",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-20T16:56:48+00:00",
-      "text": "Evolving from legacy BI to agentic AI at Tradeshift with Amazon Quick In this post, we describe how Tradeshift deployed Amazon Quick with agentic AI capabilities to replace our legacy BI tool, resulting in query response times up to 30 times faster, a 40 percent reduction in total cost of ownership, and turned embedded analytics into a product that generates revenue.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 57.041,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.835,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -5294,6 +5236,40 @@
       "text": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
       "matched_terms": [
         "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5f598d3dedb3f122",
+      "title": "Ai Agents In Engineering",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
+      "matched_terms": [
+        "engineering AI"
       ],
       "engagement": {},
       "score": 57.033,
