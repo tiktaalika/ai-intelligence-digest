@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-07-22T06:08:24.481146+00:00",
+    "generated_at": "2026-07-22T08:45:28.160221+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17177,
-    "filtered_count": 2258,
-    "duplicate_count": 75,
+    "fetched_count": 17048,
+    "filtered_count": 2186,
+    "duplicate_count": 71,
     "failures": [
       {
         "source": "Ansys",
@@ -32,12 +32,52 @@
         "error": "HTTP Error 403: Forbidden"
       },
       {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
-      },
-      {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Google News General AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News AI Payments and Agent Commerce",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Frontier AI Policy and Access",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Engineering AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering AI Vendor Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering Media Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Medical AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Bio and Genetics AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Biomedical AI Source Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Curated AI Newsletter Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Generative AI Newsletter Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
       }
     ]
   },
@@ -64,10 +104,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.655,
+      "score": 57.055,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -76,7 +116,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -100,10 +140,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.411,
+      "score": 55.512,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -112,7 +152,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.958,
+      "novelty_score": 0.917,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -137,10 +177,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 55.364,
+      "score": 54.764,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.73",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -149,7 +189,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.759,
+      "novelty_score": 0.732,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -174,10 +214,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 55.247,
+      "score": 54.347,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
+        "novelty=0.71",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -186,7 +226,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.754,
+      "novelty_score": 0.713,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -211,10 +251,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.699,
+      "score": 52.799,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.79",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -223,7 +263,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.835,
+      "novelty_score": 0.794,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -247,10 +287,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 41.571,
+      "score": 40.671,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.79",
+        "novelty=0.75",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -259,7 +299,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.793,
+      "novelty_score": 0.752,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -285,10 +325,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 63.864,
+      "score": 63.264,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -297,7 +337,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.815,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -324,10 +364,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.864,
+      "score": 63.264,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -336,7 +376,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.815,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -362,10 +402,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 63.36,
+      "score": 62.761,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.94",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -374,7 +414,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.971,
+      "novelty_score": 0.944,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -399,10 +439,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.614,
+      "score": 61.014,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -411,7 +451,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -423,47 +463,6 @@
     }
   ],
   "top_5_engineering_ai": [
-    {
-      "id": "b6e7fb0fa3c9b5be",
-      "title": "Why AI Needs a “Genie Coefficient”",
-      "url": "https://spectrum.ieee.org/ai-agent-benchmark",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-21T17:41:11+00:00",
-      "text": "Why AI Needs a “Genie Coefficient” Major benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do it. We propose a new metric: the Genie coefficient. There’s often a gap between one person’s request and another’s understanding. Most of the time, we bridge it using general knowledge. For example, if you ask a friend to get you coffee, they’ll pour a cup from the pot or buy one from a coffee shop. They won’t bring you a bag of raw beans or snatch a cup from a stranger and hand it to you. You never specified any of this. You never had to. One might think the fix is just to specify tasks, questions, and intent better. But in 1987, in their seminal book on AI, Terry Winograd and Fernando Flores succinctly captured why that won’t work: “Q: Is there any water in the refrigerator? A: Yes. Q: Where? I don’t see it. A: In the cells of the eggplant.” In human language, wants and desires are always underspecified . It is impossible to list all the caveats, all the limitations, all the exceptions. So how does anyone communicate, if intent can’t be pinned down? Because",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "RAG",
-        "Anthropic",
-        "benchmark",
-        "model release"
-      ],
-      "engagement": {},
-      "score": 76.938,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.61",
-        "matched_terms=7",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.611,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
     {
       "id": "6b04ba84cc30ffe3",
       "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
@@ -484,10 +483,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 76.907,
+      "score": 76.007,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.69",
         "matched_terms=8",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -496,7 +495,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.731,
+      "novelty_score": 0.69,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -506,6 +505,47 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "b6e7fb0fa3c9b5be",
+      "title": "Why AI Needs a “Genie Coefficient”",
+      "url": "https://spectrum.ieee.org/ai-agent-benchmark",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-21T17:41:11+00:00",
+      "text": "Why AI Needs a “Genie Coefficient” Major benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do it. We propose a new metric: the Genie coefficient. There’s often a gap between one person’s request and another’s understanding. Most of the time, we bridge it using general knowledge. For example, if you ask a friend to get you coffee, they’ll pour a cup from the pot or buy one from a coffee shop. They won’t bring you a bag of raw beans or snatch a cup from a stranger and hand it to you. You never specified any of this. You never had to. One might think the fix is just to specify tasks, questions, and intent better. But in 1987, in their seminal book on AI, Terry Winograd and Fernando Flores succinctly captured why that won’t work: “Q: Is there any water in the refrigerator? A: Yes. Q: Where? I don’t see it. A: In the cells of the eggplant.” In human language, wants and desires are always underspecified . It is impossible to list all the caveats, all the limitations, all the exceptions. So how does anyone communicate, if intent can’t be pinned down? Because",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "RAG",
+        "Anthropic",
+        "benchmark",
+        "model release"
+      ],
+      "engagement": {},
+      "score": 75.138,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.53",
+        "matched_terms=7",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.529,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -521,10 +561,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.85,
+      "score": 59.95,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.80",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.00",
@@ -533,7 +573,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -557,10 +597,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.431,
+      "score": 57.831,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -569,7 +609,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -620,58 +660,57 @@
   ],
   "top_5_medical_bio_ai": [
     {
-      "id": "3f246cbfa870f6d8",
-      "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
-      "url": "https://www.latent.space/p/xaira",
-      "source": "Latent Space",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-21T19:34:06+00:00",
-      "text": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist) Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 53.699,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.835,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "f41a40285fc2bfa8",
-      "title": "Trump administration says it’s deferring $1B in Medicaid payments to California and Minnesota",
-      "url": "https://www.statnews.com/2026/07/21/medicaid-payments-1-billion-deferred-california-minnesota",
+      "id": "c408e9eae7ee2b2f",
+      "title": "STAT+: Federal health quality research grants worth $109 million ended early",
+      "url": "https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding",
       "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-21T20:10:43+00:00",
-      "text": "Trump administration says it’s deferring $1B in Medicaid payments to California and Minnesota The Trump administration said it was deferring more than $1 billion in Medicaid payments to Minnesota and California because of “suspected fraud and noncompliance.”",
+      "published_at": "2026-07-22T08:30:00+00:00",
+      "text": "STAT+: Federal health quality research grants worth $109 million ended early At least 78 AHRQ grants worth $200 million have been affected by \"non-award\" notices; it's estimated those grants had $109.2 million in funding remaining.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 50.485,
+      "score": 59.823,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.992,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e40f75ca4de339a4",
+      "title": "Opinion: STAT+: Hospitals’ AI may be drifting. Who’s watching?",
+      "url": "https://www.statnews.com/2026/07/22/hospital-ai-systems-ceo-leadership-accountability-governance",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-22T08:30:00+00:00",
+      "text": "Opinion: STAT+: Hospitals’ AI may be drifting. Who’s watching? Senior leaders must treat AI governance as their own daily job, not something the technology committee handles quarterly, write Peter Pronovost, Justin Norden, and Kedar Mate.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.156,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -680,7 +719,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.689,
+      "novelty_score": 0.992,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -715,43 +754,6 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "bio_ai",
-        "biotech",
-        "genomics_ai",
-        "drug_discovery",
-        "research"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "37f6c3296e8eb369",
-      "title": "Insilico Medicine Launches Phase III Trial for AI-Developed Drug",
-      "url": "https://www.bio-itworld.com/news/2026/07/08/insilico-medicine-launches-phase-iii-trial-for-ai-developed-drug",
-      "source": "Bio-IT World",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Insilico Medicine Launches Phase III Trial for AI-Developed Drug https://www.bio-itworld.com/news/2026/07/08/insilico-medicine-launches-phase-iii-trial-for-ai-developed-drug",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 43.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
       "novelty_score": 0.35,
       "source_priority_score": 1.0,
       "source_tags": [
@@ -800,50 +802,46 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "669bcc118e6eb9e2",
+      "title": "Bms Nvidia Build Ai Supercomputer Pharma",
+      "url": "https://www.pharmaceutical-technology.com/news/bms-nvidia-build-ai-supercomputer-pharma",
+      "source": "Pharmaceutical Technology",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": "2026-07-21T10:13:01+00:00",
+      "text": "Bms Nvidia Build Ai Supercomputer Pharma https://www.pharmaceutical-technology.com/news/bms-nvidia-build-ai-supercomputer-pharma/",
+      "matched_terms": [
+        "AI",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 33.97,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.30",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.296,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "bio_ai",
+        "pharma",
+        "drug_discovery",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     }
   ],
   "top_5_cae_ai_engineering": [
-    {
-      "id": "b6e7fb0fa3c9b5be",
-      "title": "Why AI Needs a “Genie Coefficient”",
-      "url": "https://spectrum.ieee.org/ai-agent-benchmark",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-21T17:41:11+00:00",
-      "text": "Why AI Needs a “Genie Coefficient” Major benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do it. We propose a new metric: the Genie coefficient. There’s often a gap between one person’s request and another’s understanding. Most of the time, we bridge it using general knowledge. For example, if you ask a friend to get you coffee, they’ll pour a cup from the pot or buy one from a coffee shop. They won’t bring you a bag of raw beans or snatch a cup from a stranger and hand it to you. You never specified any of this. You never had to. One might think the fix is just to specify tasks, questions, and intent better. But in 1987, in their seminal book on AI, Terry Winograd and Fernando Flores succinctly captured why that won’t work: “Q: Is there any water in the refrigerator? A: Yes. Q: Where? I don’t see it. A: In the cells of the eggplant.” In human language, wants and desires are always underspecified . It is impossible to list all the caveats, all the limitations, all the exceptions. So how does anyone communicate, if intent can’t be pinned down? Because",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "RAG",
-        "Anthropic",
-        "benchmark",
-        "model release"
-      ],
-      "engagement": {},
-      "score": 76.938,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.61",
-        "matched_terms=7",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.611,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
     {
       "id": "6b04ba84cc30ffe3",
       "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
@@ -864,10 +862,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 76.907,
+      "score": 76.007,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.69",
         "matched_terms=8",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -876,7 +874,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.731,
+      "novelty_score": 0.69,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -886,6 +884,47 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "b6e7fb0fa3c9b5be",
+      "title": "Why AI Needs a “Genie Coefficient”",
+      "url": "https://spectrum.ieee.org/ai-agent-benchmark",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-21T17:41:11+00:00",
+      "text": "Why AI Needs a “Genie Coefficient” Major benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do it. We propose a new metric: the Genie coefficient. There’s often a gap between one person’s request and another’s understanding. Most of the time, we bridge it using general knowledge. For example, if you ask a friend to get you coffee, they’ll pour a cup from the pot or buy one from a coffee shop. They won’t bring you a bag of raw beans or snatch a cup from a stranger and hand it to you. You never specified any of this. You never had to. One might think the fix is just to specify tasks, questions, and intent better. But in 1987, in their seminal book on AI, Terry Winograd and Fernando Flores succinctly captured why that won’t work: “Q: Is there any water in the refrigerator? A: Yes. Q: Where? I don’t see it. A: In the cells of the eggplant.” In human language, wants and desires are always underspecified . It is impossible to list all the caveats, all the limitations, all the exceptions. So how does anyone communicate, if intent can’t be pinned down? Because",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "RAG",
+        "Anthropic",
+        "benchmark",
+        "model release"
+      ],
+      "engagement": {},
+      "score": 75.138,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.53",
+        "matched_terms=7",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.529,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -901,10 +940,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.85,
+      "score": 59.95,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.80",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.00",
@@ -913,7 +952,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -937,10 +976,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.431,
+      "score": 57.831,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -949,7 +988,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1755,7 +1794,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 77.178,
+      "score": 77.118,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.96",
@@ -1767,7 +1806,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.963,
+      "novelty_score": 0.96,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1775,47 +1814,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b6e7fb0fa3c9b5be",
-      "title": "Why AI Needs a “Genie Coefficient”",
-      "url": "https://spectrum.ieee.org/ai-agent-benchmark",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-21T17:41:11+00:00",
-      "text": "Why AI Needs a “Genie Coefficient” Major benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do it. We propose a new metric: the Genie coefficient. There’s often a gap between one person’s request and another’s understanding. Most of the time, we bridge it using general knowledge. For example, if you ask a friend to get you coffee, they’ll pour a cup from the pot or buy one from a coffee shop. They won’t bring you a bag of raw beans or snatch a cup from a stranger and hand it to you. You never specified any of this. You never had to. One might think the fix is just to specify tasks, questions, and intent better. But in 1987, in their seminal book on AI, Terry Winograd and Fernando Flores succinctly captured why that won’t work: “Q: Is there any water in the refrigerator? A: Yes. Q: Where? I don’t see it. A: In the cells of the eggplant.” In human language, wants and desires are always underspecified . It is impossible to list all the caveats, all the limitations, all the exceptions. So how does anyone communicate, if intent can’t be pinned down? Because",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "RAG",
-        "Anthropic",
-        "benchmark",
-        "model release"
-      ],
-      "engagement": {},
-      "score": 76.938,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.61",
-        "matched_terms=7",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.611,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -1838,10 +1836,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 76.907,
+      "score": 76.007,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.69",
         "matched_terms=8",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -1850,7 +1848,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.731,
+      "novelty_score": 0.69,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1860,6 +1858,47 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "b6e7fb0fa3c9b5be",
+      "title": "Why AI Needs a “Genie Coefficient”",
+      "url": "https://spectrum.ieee.org/ai-agent-benchmark",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-21T17:41:11+00:00",
+      "text": "Why AI Needs a “Genie Coefficient” Major benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do it. We propose a new metric: the Genie coefficient. There’s often a gap between one person’s request and another’s understanding. Most of the time, we bridge it using general knowledge. For example, if you ask a friend to get you coffee, they’ll pour a cup from the pot or buy one from a coffee shop. They won’t bring you a bag of raw beans or snatch a cup from a stranger and hand it to you. You never specified any of this. You never had to. One might think the fix is just to specify tasks, questions, and intent better. But in 1987, in their seminal book on AI, Terry Winograd and Fernando Flores succinctly captured why that won’t work: “Q: Is there any water in the refrigerator? A: Yes. Q: Where? I don’t see it. A: In the cells of the eggplant.” In human language, wants and desires are always underspecified . It is impossible to list all the caveats, all the limitations, all the exceptions. So how does anyone communicate, if intent can’t be pinned down? Because",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "RAG",
+        "Anthropic",
+        "benchmark",
+        "model release"
+      ],
+      "engagement": {},
+      "score": 75.138,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.53",
+        "matched_terms=7",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.529,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -1876,7 +1915,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 74.305,
+      "score": 74.245,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -1889,7 +1928,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.529,
+      "novelty_score": 0.526,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1916,7 +1955,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 73.17,
+      "score": 73.11,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -1928,7 +1967,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.659,
+      "novelty_score": 0.657,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1952,7 +1991,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 73.125,
+      "score": 73.065,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -1964,11 +2003,46 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.809,
+      "novelty_score": 0.806,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a9313472d40e9aa4",
+      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
+      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-17T12:01:00+00:00",
+      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 68.658,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.878,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1994,10 +2068,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 70.362,
+      "score": 68.563,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.35",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -2006,7 +2080,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.433,
+      "novelty_score": 0.351,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -2014,41 +2088,6 @@
         "ai"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 68.718,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2066,7 +2105,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 67.203,
+      "score": 67.143,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.51",
@@ -2078,7 +2117,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.509,
+      "novelty_score": 0.507,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2101,10 +2140,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.102,
+      "score": 67.042,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2113,7 +2152,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.808,
+      "novelty_score": 0.805,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2121,41 +2160,6 @@
         "simulation",
         "industrial_ai",
         "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f7a88fc37e79f3e4",
-      "title": "Agent-Driven Simulation Troubleshooting",
-      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T12:00:00+00:00",
-      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 67.068,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.806,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -2231,6 +2235,41 @@
       "source_priority": "high"
     },
     {
+      "id": "f7a88fc37e79f3e4",
+      "title": "Agent-Driven Simulation Troubleshooting",
+      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-14T12:00:00+00:00",
+      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 67.008,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.803,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "e5d2e12963a9fef8",
       "title": "Python in the loop: AI-driven simulation and validation for autonomous systems – Simcenter Prescan 2606",
       "url": "https://blogs.sw.siemens.com/simcenter/python-in-the-loop-ai-driven-simulation-and-validation-for-autonomous-systems-simcenter-prescan-2606",
@@ -2243,7 +2282,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 66.445,
+      "score": 66.385,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2255,7 +2294,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.778,
+      "novelty_score": 0.775,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2280,10 +2319,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 65.53,
+      "score": 64.93,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.57",
         "matched_terms=3",
         "engineering_relevance=0.75",
         "research_relevance=0.00",
@@ -2292,7 +2331,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.592,
+      "novelty_score": 0.565,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2316,7 +2355,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 64.936,
+      "score": 64.876,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -2328,7 +2367,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.709,
+      "novelty_score": 0.707,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2354,10 +2393,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 63.864,
+      "score": 63.264,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2366,7 +2405,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.815,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2393,10 +2432,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.864,
+      "score": 63.264,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2405,7 +2444,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.815,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2431,10 +2470,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 63.36,
+      "score": 62.761,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.94",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2443,7 +2482,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.971,
+      "novelty_score": 0.944,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2503,10 +2542,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.614,
+      "score": 61.014,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2515,7 +2554,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2523,42 +2562,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "eed16821fcdd7ed9",
-      "title": "The State of Simulation for Physical AI: An Overview",
-      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "source": "Hugging Face",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-21T20:00:27+00:00",
-      "text": "The State of Simulation for Physical AI: An Overview",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 60.85,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=1",
-        "engineering_relevance=0.50",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.5,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "open_source",
-        "models",
-        "datasets",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2574,7 +2577,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.523,
+      "score": 60.463,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.51",
@@ -2586,7 +2589,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.509,
+      "novelty_score": 0.506,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2922,6 +2925,42 @@
       "source_priority": "high"
     },
     {
+      "id": "eed16821fcdd7ed9",
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "source": "Hugging Face",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-21T20:00:27+00:00",
+      "text": "The State of Simulation for Physical AI: An Overview",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.95,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=1",
+        "engineering_relevance=0.50",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.801,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "models",
+        "datasets",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2934,7 +2973,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.986,
+      "score": 59.926,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2946,7 +2985,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.993,
+      "novelty_score": 0.991,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2955,6 +2994,41 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
+    },
+    {
+      "id": "c408e9eae7ee2b2f",
+      "title": "STAT+: Federal health quality research grants worth $109 million ended early",
+      "url": "https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-22T08:30:00+00:00",
+      "text": "STAT+: Federal health quality research grants worth $109 million ended early At least 78 AHRQ grants worth $200 million have been affected by \"non-award\" notices; it's estimated those grants had $109.2 million in funding remaining.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.823,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.992,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
     },
     {
       "id": "d0a7f3d2c70a8110",
@@ -2989,41 +3063,6 @@
         "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "2084ef3b1d10d2f6",
-      "title": "Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova",
-      "url": "https://aws.amazon.com/blogs/machine-learning/exploring-self-distilled-reasoning-for-supervised-fine-tuning-with-amazon-nova",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-21T16:23:12+00:00",
-      "text": "Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova In this post, we explore an idea for generating thinking tokens for datasets that lack reasoning traces in SFT customization. We first examine the reasoning suppression problem, then introduce Self-Distilled Reasoning (SDR), validate it across three benchmarks, and provide practical recommendations.",
-      "matched_terms": [
-        "benchmark"
-      ],
-      "engagement": {},
-      "score": 59.515,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.857,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3063,6 +3102,41 @@
       "source_priority": "medium"
     },
     {
+      "id": "2084ef3b1d10d2f6",
+      "title": "Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova",
+      "url": "https://aws.amazon.com/blogs/machine-learning/exploring-self-distilled-reasoning-for-supervised-fine-tuning-with-amazon-nova",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-21T16:23:12+00:00",
+      "text": "Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova In this post, we explore an idea for generating thinking tokens for datasets that lack reasoning traces in SFT customization. We first examine the reasoning suppression problem, then introduce Self-Distilled Reasoning (SDR), validate it across three benchmarks, and provide practical recommendations.",
+      "matched_terms": [
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 58.915,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.67",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.829,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "3fdc40a5e56bd575",
       "title": "OpenAI says Hugging Face was breached by its pre-release models",
       "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models",
@@ -3076,10 +3150,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.56,
+      "score": 57.96,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.88",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3088,42 +3162,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "3dd9888813d83985",
-      "title": "AI and the rise of the universal entertainment app",
-      "url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-21T19:39:30+00:00",
-      "text": "AI and the rise of the universal entertainment app Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks. Now, as AI makes it easier to create, organize, and recommend content, those distinctions are fading, pushing companies like Spotify, Netflix, YouTube, and TikTok to become all-purpose entertainment destinations instead.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 58.431,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
+      "novelty_score": 0.877,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3167,6 +3206,41 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "3dd9888813d83985",
+      "title": "AI and the rise of the universal entertainment app",
+      "url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-21T19:39:30+00:00",
+      "text": "AI and the rise of the universal entertainment app Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks. Now, as AI makes it easier to create, organize, and recommend content, those distinctions are fading, pushing companies like Spotify, Netflix, YouTube, and TikTok to become all-purpose entertainment destinations instead.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.831,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.864,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3244,6 +3318,111 @@
       "source_priority": "high"
     },
     {
+      "id": "aab6fd66ee7556a8",
+      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+      "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-22T08:00:00+00:00",
+      "text": "Synthesia’s AI training platform is moving beyond videos into live coaching Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.16,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.992,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "e40f75ca4de339a4",
+      "title": "Opinion: STAT+: Hospitals’ AI may be drifting. Who’s watching?",
+      "url": "https://www.statnews.com/2026/07/22/hospital-ai-systems-ceo-leadership-accountability-governance",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-22T08:30:00+00:00",
+      "text": "Opinion: STAT+: Hospitals’ AI may be drifting. Who’s watching? Senior leaders must treat AI governance as their own daily job, not something the technology committee handles quarterly, write Peter Pronovost, Justin Norden, and Kedar Mate.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.156,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.992,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "1cba7ab9d1ac145f",
+      "title": "As Maui recovers from devastating fires, a study offers vision for new rural health model",
+      "url": "https://www.statnews.com/2026/07/22/maui-wildfire-exposure-study-health-impacts-lahaina-hawaii",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-22T08:30:00+00:00",
+      "text": "As Maui recovers from devastating fires, a study offers vision for new rural health model A study of the long-term health impact of the Lahaina wildfires is inspiring a new model for disaster recovery and support.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.156,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.992,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "d42362617c640879",
       "title": "Introducing the ChatGPT for small business program",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
@@ -3257,44 +3436,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.655,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "3c9e99a30f6a9dba",
-      "title": "Setting a World Record for MoE Pre-Training on NVIDIA GB300 NVL72",
-      "url": "https://developer.nvidia.com/blog/setting-a-world-record-for-moe-pre-training-on-nvidia-gb300-nvl72",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-21T15:00:00+00:00",
-      "text": "Setting a World Record for MoE Pre-Training on NVIDIA GB300 NVL72 Frontier model pre-training has converged on mixture of experts (MoE), which is fundamentally changing what limits large-scale AI training. As compute per token...",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.197,
+      "score": 57.055,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3306,13 +3448,13 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -5267,108 +5409,6 @@
       "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
       "matched_terms": [
         "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f5d0a2c047483415",
-      "title": "Update Hxgn Emendates New Casting Design Feature",
-      "url": "https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b59a1ade7d5b68bc",
-      "title": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows",
-      "url": "https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "5f598d3dedb3f122",
-      "title": "Ai Agents In Engineering",
-      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
-      "matched_terms": [
-        "engineering AI"
       ],
       "engagement": {},
       "score": 57.033,
