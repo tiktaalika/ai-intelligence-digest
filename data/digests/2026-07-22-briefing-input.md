@@ -3,83 +3,83 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17162
-- filtered_count: 2248
-- duplicate_count: 77
+- fetched_count: 17182
+- filtered_count: 2261
+- duplicate_count: 78
 - failures: 7
 
 ## Top 10 General AI News
 1. [Introducing the ChatGPT for small business program](https://openai.com/index/introducing-chatgpt-small-business-program)
    - source: OpenAI
-   - score: 56.852
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.827; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.746
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.822; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [[AINews] AI Cybersecurity becomes top of mind](https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top)
    - source: Latent Space
-   - score: 55.206
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.903; source_priority=1.0
+   - score: 55.047
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.896; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [OpenAI and Hugging Face partner to address security incident during model evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident)
    - source: OpenAI
-   - score: 54.56
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.722; source_priority=1.0
+   - score: 54.454
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.718; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.72; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Nativ: Run AI models locally on your Mac](https://simonwillison.net/2026/Jul/21/nativ)
    - source: Simon Willison
-   - score: 54.041
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.699; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.70; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.882
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.692; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.69; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)](https://www.latent.space/p/xaira)
    - source: Latent Space
-   - score: 52.494
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.78; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.334
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.773; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.77; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Pushing software engineering limits with “napkin math”](https://newsletter.pragmaticengineer.com/p/pushing-software-engineering-limits)
    - source: The Pragmatic Engineer
-   - score: 40.366
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.738; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.74; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai)
+   - score: 40.206
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.731; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.73; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [AI agent went rogue and hacked startup by itself, OpenAI reveals](https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident)
+   - source: The Guardian Technology
+   - score: 66.315
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.954; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai)
    - source: NVIDIA AI
-   - score: 63.06
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.806; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [NVIDIA Vera CPU: Olympus Cores Built for Maximum Single-Thread Performance in Agentic AI](https://developer.nvidia.com/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai)
+   - score: 62.954
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.801; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [NVIDIA Vera CPU: Olympus Cores Built for Maximum Single-Thread Performance in Agentic AI](https://developer.nvidia.com/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai)
    - source: NVIDIA AI
-   - score: 63.06
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.806; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [The Anthropic-Physical Intelligence rumor roiling AI Twitter](https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter)
+   - score: 62.954
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.801; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [The Anthropic-Physical Intelligence rumor roiling AI Twitter](https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter)
    - source: TechCrunch AI
-   - score: 62.557
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.934; source_priority=1.0
+   - score: 62.451
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.93; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.93; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents](https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents)
-   - source: TechCrunch AI
-   - score: 60.81
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.855; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [A Fireside Chat with Cat and Thariq from the Claude Code team](https://simonwillison.net/2026/Jul/21/cat-and-thariq)
    - source: Simon Willison
-   - score: 75.702
-   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.676; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.68; matched_terms=8; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
+   - score: 75.542
+   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.669; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.67; matched_terms=8; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
 2. [Why AI Needs a “Genie Coefficient”](https://spectrum.ieee.org/ai-agent-benchmark)
    - source: IEEE Spectrum AI
-   - score: 74.527
-   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.501; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.50; matched_terms=7; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+   - score: 74.208
+   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.487; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.49; matched_terms=7; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 3. [The State of Simulation for Physical AI: An Overview](https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai)
    - source: Hugging Face
-   - score: 59.645
-   - score_breakdown: general=0.167; engineering=0.5; research=0.0; novelty=0.787; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=1; engineering_relevance=0.50; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.485
+   - score_breakdown: general=0.167; engineering=0.5; research=0.0; novelty=0.78; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.50; research_relevance=0.00; visible_engagement=unavailable
 4. [AI and the rise of the universal entertainment app](https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app)
    - source: TechCrunch AI
-   - score: 57.628
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.854; source_priority=1.0
+   - score: 57.521
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.849; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [What Is Industrial Ai](https://www.industrial-ai-network.com/articles/what-is-industrial-ai)
    - source: Industrial AI Network
@@ -90,14 +90,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: Federal health quality research grants worth $109 million ended early](https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding)
    - source: STAT Health Tech
-   - score: 59.211
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.964; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 58.893
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.95; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Opinion: STAT+: Hospitals’ AI may be drifting. Who’s watching?](https://www.statnews.com/2026/07/22/hospital-ai-systems-ceo-leadership-accountability-governance)
    - source: STAT Health Tech
-   - score: 56.545
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.964; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.226
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.95; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Winning Best of Show Again: A Reflection on MLADU, Research Data, and the Bio-IT World Community](https://www.bio-itworld.com/news/2026/07/21/winning-best-of-show-again--a-reflection-on-mladu--research-data--and-the-bio-it-world-community)
    - source: Bio-IT World
    - score: 45.7
@@ -110,9 +110,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Bms Nvidia Build Ai Supercomputer Pharma](https://www.pharmaceutical-technology.com/news/bms-nvidia-build-ai-supercomputer-pharma)
    - source: Pharmaceutical Technology
-   - score: 33.358
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.268; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.27; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 33.04
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.253; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.25; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [AI at Meta](https://huggingface.co/facebook)
@@ -140,7 +140,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Reuters Technology](https://www.google.com/search?q=site%3Awww.reuters.com%20AI): site:www.reuters.com AI (website, high)
 - [VentureBeat AI](https://www.google.com/search?q=site%3Aventurebeat.com%20AI): site:venturebeat.com AI (website, medium)
 - [Perplexity](https://www.google.com/search?q=site%3Awww.perplexity.ai%20AI): site:www.perplexity.ai AI (website, medium)
-- [Snowflake AI](https://www.google.com/search?q=site%3Awww.snowflake.com%20AI): site:www.snowflake.com AI (website, medium)
 - [Engineering.com Design News Weekly](https://www.google.com/search?q=site%3Aengineering.com/category/technology/design%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20CAD%20OR%20CAE%20OR%20simulation%20OR%20manufacturing%20OR%20%22Solid%20Edge%22%20OR%20Designcenter%20OR%20Siemens%20OR%20Autodesk%20OR%20PLM%29): site:engineering.com/category/technology/design (AI OR "artificial intelligence" OR CAD OR CAE OR simulation OR manufacturing OR "Solid Edge" OR Designcenter OR Siemens OR Autodesk OR PLM) (newsletter, high)
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
@@ -153,6 +152,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
+- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [Reddit MachineLearning](https://www.google.com/search?q=site%3Awww.reddit.com%20AI): site:www.reddit.com AI (website, low)

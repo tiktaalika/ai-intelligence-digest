@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-07-22T09:38:50.610507+00:00",
+    "generated_at": "2026-07-22T10:06:37.679326+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17162,
-    "filtered_count": 2248,
-    "duplicate_count": 77,
+    "fetched_count": 17182,
+    "filtered_count": 2261,
+    "duplicate_count": 78,
     "failures": [
       {
         "source": "Ansys",
@@ -60,10 +60,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.852,
+      "score": 56.746,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -72,7 +72,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.827,
+      "novelty_score": 0.822,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -96,7 +96,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.206,
+      "score": 55.047,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -108,7 +108,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.896,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -133,7 +133,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 54.56,
+      "score": 54.454,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.72",
@@ -145,7 +145,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.722,
+      "novelty_score": 0.718,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -170,10 +170,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 54.041,
+      "score": 53.882,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
+        "novelty=0.69",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -182,7 +182,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.699,
+      "novelty_score": 0.692,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -207,10 +207,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.494,
+      "score": 52.334,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -219,7 +219,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
+      "novelty_score": 0.773,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -243,10 +243,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 40.366,
+      "score": 40.206,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -255,7 +255,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.738,
+      "novelty_score": 0.731,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -264,6 +264,43 @@
       ],
       "registry_category": "community",
       "source_priority": "medium"
+    },
+    {
+      "id": "f88e87a72392d18f",
+      "title": "AI agent went rogue and hacked startup by itself, OpenAI reveals",
+      "url": "https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-22T08:37:47+00:00",
+      "text": "AI agent went rogue and hacked startup by itself, OpenAI reveals Firm behind ChatGPT reveals agent powered by its models chose to attack Hugging Face database by itself OpenAI has revealed an autonomous AI agent powered by its technology went rogue during a test, accessed the open web and hacked a prominent startup by itself in an “unprecedented incident”. The company behind ChatGPT said the startup Hugging Face had detected and contained the agent – an AI tool designed to carry out tasks without human assistance – which had entered its systems. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 66.315,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.954,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
     },
     {
       "id": "86ae93e91add3792",
@@ -281,10 +318,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 63.06,
+      "score": 62.954,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -293,7 +330,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.806,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -320,10 +357,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.06,
+      "score": 62.954,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -332,7 +369,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.806,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -358,7 +395,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.557,
+      "score": 62.451,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -370,44 +407,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.934,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "af59977501275694",
-      "title": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
-      "url": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-21T19:43:41+00:00",
-      "text": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents Buzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversation.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 60.81,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.93,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -439,10 +439,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.702,
+      "score": 75.542,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.68",
+        "novelty=0.67",
         "matched_terms=8",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -451,7 +451,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.676,
+      "novelty_score": 0.669,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -482,10 +482,10 @@
         "model release"
       ],
       "engagement": {},
-      "score": 74.527,
+      "score": 74.208,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -494,7 +494,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.501,
+      "novelty_score": 0.487,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -517,10 +517,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.645,
+      "score": 59.485,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.00",
@@ -529,7 +529,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.787,
+      "novelty_score": 0.78,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -553,7 +553,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.628,
+      "score": 57.521,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -565,7 +565,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 0.849,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -628,10 +628,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.211,
+      "score": 58.893,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -640,7 +640,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.964,
+      "novelty_score": 0.95,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -663,10 +663,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.545,
+      "score": 56.226,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -675,7 +675,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.964,
+      "novelty_score": 0.95,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -773,10 +773,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 33.358,
+      "score": 33.04,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.27",
+        "novelty=0.25",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -785,7 +785,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.268,
+      "novelty_score": 0.253,
       "source_priority_score": 0.65,
       "source_tags": [
         "bio_ai",
@@ -818,10 +818,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.702,
+      "score": 75.542,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.68",
+        "novelty=0.67",
         "matched_terms=8",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -830,7 +830,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.676,
+      "novelty_score": 0.669,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -861,10 +861,10 @@
         "model release"
       ],
       "engagement": {},
-      "score": 74.527,
+      "score": 74.208,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -873,7 +873,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.501,
+      "novelty_score": 0.487,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -896,10 +896,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.645,
+      "score": 59.485,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.00",
@@ -908,7 +908,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.787,
+      "novelty_score": 0.78,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -932,7 +932,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.628,
+      "score": 57.521,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -944,7 +944,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 0.849,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1202,16 +1202,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Snowflake AI",
-      "category": "vendor",
-      "query": "site:www.snowflake.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "data, enterprise_ai",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1329,6 +1319,16 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1484,16 +1484,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Snowflake AI",
-      "category": "vendor",
-      "query": "site:www.snowflake.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "data, enterprise_ai",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1611,6 +1601,16 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1750,7 +1750,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 77.098,
+      "score": 77.087,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.96",
@@ -1762,7 +1762,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.959,
+      "novelty_score": 0.958,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1792,10 +1792,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.702,
+      "score": 75.542,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.68",
+        "novelty=0.67",
         "matched_terms=8",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -1804,7 +1804,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.676,
+      "novelty_score": 0.669,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1814,47 +1814,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "b6e7fb0fa3c9b5be",
-      "title": "Why AI Needs a “Genie Coefficient”",
-      "url": "https://spectrum.ieee.org/ai-agent-benchmark",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-21T17:41:11+00:00",
-      "text": "Why AI Needs a “Genie Coefficient” Major benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do it. We propose a new metric: the Genie coefficient. There’s often a gap between one person’s request and another’s understanding. Most of the time, we bridge it using general knowledge. For example, if you ask a friend to get you coffee, they’ll pour a cup from the pot or buy one from a coffee shop. They won’t bring you a bag of raw beans or snatch a cup from a stranger and hand it to you. You never specified any of this. You never had to. One might think the fix is just to specify tasks, questions, and intent better. But in 1987, in their seminal book on AI, Terry Winograd and Fernando Flores succinctly captured why that won’t work: “Q: Is there any water in the refrigerator? A: Yes. Q: Where? I don’t see it. A: In the cells of the eggplant.” In human language, wants and desires are always underspecified . It is impossible to list all the caveats, all the limitations, all the exceptions. So how does anyone communicate, if intent can’t be pinned down? Because",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "RAG",
-        "Anthropic",
-        "benchmark",
-        "model release"
-      ],
-      "engagement": {},
-      "score": 74.527,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=7",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.501,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -1871,10 +1830,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 74.224,
+      "score": 74.214,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.52",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1897,6 +1856,47 @@
       "source_priority": "high"
     },
     {
+      "id": "b6e7fb0fa3c9b5be",
+      "title": "Why AI Needs a “Genie Coefficient”",
+      "url": "https://spectrum.ieee.org/ai-agent-benchmark",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-21T17:41:11+00:00",
+      "text": "Why AI Needs a “Genie Coefficient” Major benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do it. We propose a new metric: the Genie coefficient. There’s often a gap between one person’s request and another’s understanding. Most of the time, we bridge it using general knowledge. For example, if you ask a friend to get you coffee, they’ll pour a cup from the pot or buy one from a coffee shop. They won’t bring you a bag of raw beans or snatch a cup from a stranger and hand it to you. You never specified any of this. You never had to. One might think the fix is just to specify tasks, questions, and intent better. But in 1987, in their seminal book on AI, Terry Winograd and Fernando Flores succinctly captured why that won’t work: “Q: Is there any water in the refrigerator? A: Yes. Q: Where? I don’t see it. A: In the cells of the eggplant.” In human language, wants and desires are always underspecified . It is impossible to list all the caveats, all the limitations, all the exceptions. So how does anyone communicate, if intent can’t be pinned down? Because",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "RAG",
+        "Anthropic",
+        "benchmark",
+        "model release"
+      ],
+      "engagement": {},
+      "score": 74.208,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.49",
+        "matched_terms=7",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.487,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "da9d0703229ae16b",
       "title": "Open-source AI Datasets for AI Physics Model Training",
       "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
@@ -1911,7 +1911,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 73.089,
+      "score": 73.079,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -1923,7 +1923,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.656,
+      "novelty_score": 0.655,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1947,10 +1947,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 73.045,
+      "score": 73.034,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1981,7 +1981,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.638,
+      "score": 68.627,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -2024,10 +2024,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.951,
+      "score": 67.633,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.32",
+        "novelty=0.31",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -2036,7 +2036,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.324,
+      "novelty_score": 0.309,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -2061,7 +2061,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 67.123,
+      "score": 67.112,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.51",
@@ -2073,7 +2073,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.506,
+      "novelty_score": 0.505,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2166,7 +2166,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.021,
+      "score": 67.011,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2203,7 +2203,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 66.987,
+      "score": 66.977,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2238,7 +2238,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 66.365,
+      "score": 66.354,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.77",
@@ -2261,6 +2261,43 @@
       "source_priority": "high"
     },
     {
+      "id": "f88e87a72392d18f",
+      "title": "AI agent went rogue and hacked startup by itself, OpenAI reveals",
+      "url": "https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-22T08:37:47+00:00",
+      "text": "AI agent went rogue and hacked startup by itself, OpenAI reveals Firm behind ChatGPT reveals agent powered by its models chose to attack Hugging Face database by itself OpenAI has revealed an autonomous AI agent powered by its technology went rogue during a test, accessed the open web and hacked a prominent startup by itself in an “unprecedented incident”. The company behind ChatGPT said the startup Hugging Face had detected and contained the agent – an AI tool designed to carry out tasks without human assistance – which had entered its systems. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 66.315,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.954,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "e369b6082884aab2",
       "title": "Simulation Monitoring Automation",
       "url": "https://rescale.com/blog/simulation-monitoring-automation",
@@ -2273,7 +2310,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 64.856,
+      "score": 64.845,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -2285,7 +2322,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.706,
+      "novelty_score": 0.705,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2310,10 +2347,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 64.727,
+      "score": 64.621,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.55",
         "matched_terms=3",
         "engineering_relevance=0.75",
         "research_relevance=0.00",
@@ -2322,7 +2359,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.556,
+      "novelty_score": 0.551,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2349,10 +2386,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 63.06,
+      "score": 62.954,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2361,7 +2398,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.806,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2388,10 +2425,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.06,
+      "score": 62.954,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2400,7 +2437,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.806,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2426,7 +2463,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.557,
+      "score": 62.451,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -2438,7 +2475,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.934,
+      "novelty_score": 0.93,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2498,10 +2535,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.81,
+      "score": 60.704,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2510,7 +2547,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2533,7 +2570,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.442,
+      "score": 60.432,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -2545,7 +2582,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.505,
+      "novelty_score": 0.504,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2893,7 +2930,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.905,
+      "score": 59.895,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2905,7 +2942,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.99,
+      "novelty_score": 0.989,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2963,10 +3000,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.645,
+      "score": 59.485,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.00",
@@ -2975,7 +3012,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.787,
+      "novelty_score": 0.78,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -2984,41 +3021,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "c408e9eae7ee2b2f",
-      "title": "STAT+: Federal health quality research grants worth $109 million ended early",
-      "url": "https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-22T08:30:00+00:00",
-      "text": "STAT+: Federal health quality research grants worth $109 million ended early At least 78 AHRQ grants worth $200 million have been affected by \"non-award\" notices; it's estimated those grants had $109.2 million in funding remaining.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 59.211,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.964,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3058,6 +3060,41 @@
       "source_priority": "medium"
     },
     {
+      "id": "c408e9eae7ee2b2f",
+      "title": "STAT+: Federal health quality research grants worth $109 million ended early",
+      "url": "https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-22T08:30:00+00:00",
+      "text": "STAT+: Federal health quality research grants worth $109 million ended early At least 78 AHRQ grants worth $200 million have been affected by \"non-award\" notices; it's estimated those grants had $109.2 million in funding remaining.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 58.893,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.95,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "2084ef3b1d10d2f6",
       "title": "Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova",
       "url": "https://aws.amazon.com/blogs/machine-learning/exploring-self-distilled-reasoning-for-supervised-fine-tuning-with-amazon-nova",
@@ -3070,7 +3107,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 58.711,
+      "score": 58.605,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -3082,7 +3119,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.82,
+      "novelty_score": 0.815,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3126,42 +3163,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "3fdc40a5e56bd575",
-      "title": "OpenAI says Hugging Face was breached by its pre-release models",
-      "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-21T20:56:55+00:00",
-      "text": "OpenAI says Hugging Face was breached by its pre-release models OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.757,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.868,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3239,6 +3240,42 @@
       "source_priority": "high"
     },
     {
+      "id": "3fdc40a5e56bd575",
+      "title": "OpenAI says Hugging Face was breached by its pre-release models",
+      "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-21T20:56:55+00:00",
+      "text": "OpenAI says Hugging Face was breached by its pre-release models OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.65,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.863,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "3dd9888813d83985",
       "title": "AI and the rise of the universal entertainment app",
       "url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app",
@@ -3251,7 +3288,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.628,
+      "score": 57.521,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3263,7 +3300,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 0.849,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -5323,40 +5360,6 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
-      "matched_terms": [
-        "engineering AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "674b5396927b0e3a",
-      "title": "Ai Agents In Engineering Ai Conference 2025",
-      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
       "matched_terms": [
         "engineering AI"
       ],
