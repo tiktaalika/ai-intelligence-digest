@@ -1,15 +1,19 @@
 {
   "run_log": {
-    "generated_at": "2026-07-23T09:14:11.413770+00:00",
+    "generated_at": "2026-07-23T09:36:33.789303+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16676,
-    "filtered_count": 2295,
-    "duplicate_count": 79,
+    "fetched_count": 16192,
+    "filtered_count": 2255,
+    "duplicate_count": 77,
     "failures": [
       {
         "source": "Ansys",
         "error": "The read operation timed out"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -61,7 +65,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 70.851,
+      "score": 70.814,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -73,7 +77,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.948,
+      "novelty_score": 0.946,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -100,10 +104,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.487,
+      "score": 66.359,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -112,46 +116,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.84,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba509ccef5d15825",
-      "title": "Quoting Thomas Ptacek",
-      "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-22T23:59:01+00:00",
-      "text": "Quoting Thomas Ptacek I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes. — Thomas Ptacek , doesn't think this even needs a frontier model Tags: thomas-ptacek , openai , security , generative-ai , ai-security-research , ai , llms , sandboxing",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 63.486,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.855,
+      "novelty_score": 0.834,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -176,7 +141,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.409,
+      "score": 63.373,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -188,7 +153,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.913,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -196,6 +161,45 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba509ccef5d15825",
+      "title": "Quoting Thomas Ptacek",
+      "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-22T23:59:01+00:00",
+      "text": "Quoting Thomas Ptacek I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes. — Thomas Ptacek , doesn't think this even needs a frontier model Tags: thomas-ptacek , openai , security , generative-ai , ai-security-research , ai , llms , sandboxing",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 63.358,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.85,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -212,7 +216,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.029,
+      "score": 55.944,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -224,7 +228,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.789,
+      "novelty_score": 0.785,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -249,10 +253,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 55.8,
+      "score": 55.715,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -261,7 +265,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.779,
+      "novelty_score": 0.775,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -285,10 +289,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.597,
+      "score": 58.468,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -297,7 +301,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.936,
+      "novelty_score": 0.93,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -321,10 +325,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.985,
+      "score": 55.856,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -333,7 +337,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.939,
+      "novelty_score": 0.933,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -357,10 +361,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 54.158,
+      "score": 54.03,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -369,7 +373,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.856,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -397,10 +401,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.701,
+      "score": 64.444,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.60",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -409,7 +413,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.608,
+      "novelty_score": 0.596,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -442,7 +446,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 82.277,
+      "score": 82.148,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -454,7 +458,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -481,7 +485,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 63.529,
+      "score": 63.443,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -493,7 +497,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.819,
+      "novelty_score": 0.816,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -517,7 +521,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 60.869,
+      "score": 60.783,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -529,7 +533,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -623,10 +627,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.827,
+      "score": 56.571,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.97",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -635,7 +639,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.977,
+      "novelty_score": 0.965,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -658,10 +662,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.827,
+      "score": 56.571,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.97",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -670,7 +674,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.977,
+      "novelty_score": 0.965,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -694,10 +698,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 52.507,
+      "score": 52.251,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.63",
+        "novelty=0.62",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -706,7 +710,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.629,
+      "novelty_score": 0.617,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -814,7 +818,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 82.277,
+      "score": 82.148,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -826,7 +830,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -853,7 +857,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 63.529,
+      "score": 63.443,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -865,7 +869,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.819,
+      "novelty_score": 0.816,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -889,7 +893,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 60.869,
+      "score": 60.783,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -901,7 +905,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -997,7 +1001,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 70.851,
+      "score": 70.814,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -1009,7 +1013,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.948,
+      "novelty_score": 0.946,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1033,7 +1037,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.409,
+      "score": 63.373,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -1045,7 +1049,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.913,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -1190,6 +1194,16 @@
       "source_type": "website",
       "priority": "medium",
       "tags": "search, product",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Snowflake AI",
+      "category": "vendor",
+      "query": "site:www.snowflake.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "data, enterprise_ai",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1485,6 +1499,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Snowflake AI",
+      "category": "vendor",
+      "query": "site:www.snowflake.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "data, enterprise_ai",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1768,7 +1792,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 82.277,
+      "score": 82.148,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1780,7 +1804,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1807,7 +1831,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 76.557,
+      "score": 76.548,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1843,7 +1867,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 73.684,
+      "score": 73.675,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -1856,7 +1880,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.501,
+      "novelty_score": 0.5,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1864,43 +1888,6 @@
         "simulation",
         "industrial_ai",
         "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "da9d0703229ae16b",
-      "title": "Open-source AI Datasets for AI Physics Model Training",
-      "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-08T15:00:00+00:00",
-      "text": "Open-source AI Datasets for AI Physics Model Training Start training surrogate models faster with open-source AI Datasets now available in Rescale AI Physics. Engineers can now train models directly from the DrivAerML dataset, a subset of the high-fidelity open-source public dataset for automotive aerodynamics based on 500 parametrically morphed variants. Providing a great way to get started with AI Physics without having to first generate your own simulation dataset.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 72.549,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.63",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.631,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1919,7 +1906,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 72.505,
+      "score": 72.496,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1931,7 +1918,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.781,
+      "novelty_score": 0.78,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1953,7 +1940,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 70.88,
+      "score": 70.871,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1990,7 +1977,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 70.851,
+      "score": 70.814,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -2002,7 +1989,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.948,
+      "novelty_score": 0.946,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2011,41 +1998,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 68.097,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2119,83 +2071,6 @@
       "source_priority": "high"
     },
     {
-      "id": "90cd344a0949cc26",
-      "title": "GeoTransolver AI Model Architecture Integration for CFD Applications",
-      "url": "https://rescale.com/blog/geotransolver-ai-model-architecture-integration-cfd-applications",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-02T15:00:00+00:00",
-      "text": "GeoTransolver AI Model Architecture Integration for CFD Applications Power complex and high-accuracy AI surrogate models for CFD and FEA with GeoTransolver model architecture. Now available in Rescale AI Physics as part of the NVIDIA PhysicsNeMo library, GeoTransolver is a geometry-aware transformer architecture that uses GALE attention to model relationships across complex 3D geometries and unstructured meshes. It is designed to generalize across changing operating conditions and learn transient, geometry-aware physical behavior, making it well-suited for surrogate models that need to predict aerodynamic, structural, or deformation behavior across a range of design variants.",
-      "matched_terms": [
-        "surrogate model",
-        "FEA",
-        "CFD"
-      ],
-      "engagement": {},
-      "score": 66.582,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.481,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "8a4d0ff3e4b2bbc1",
-      "title": "Are AI labs pelicanmaxxing?",
-      "url": "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-22T23:01:00+00:00",
-      "text": "Are AI labs pelicanmaxxing? Are AI labs pelicanmaxxing? Excellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bicycles in response to my deeply unscientific benchmark . I've been randomly spot-checking this in the past by testing models against other animals riding other types of vehicle, but never with anything close to the diligence of Dylan's methodology here. Dylan took 8 animals × 6 vehicles = 48 prompts and ran them three times each through 7 different models ( GPT-5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash, Grok 4.5, Qwen3.7-Max, GLM-5.2, and DeepSeek V4 Pro). He then used GPT-5.6 Luna and Gemini 3.1 Flash-Lite to help evaluate the results. There's a neat filter view for exploring the results: For the models he tested he could find no evidence of pelimaxxing: The pelicans on bicycles don’t look any better Labs are not better at drawing pelicans Labs are not better at drawing bicycles Labs are not better at drawing pelicans on bicycles, even adjusting for difficulty The pelican-bicycle scenes don’t look memorized [...] Pelicans aren’t drawn a",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "benchmark",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 66.487,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.84,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
       "id": "4693532790c5e944",
       "title": "Leveraging know-how with AI into efficient product design",
       "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
@@ -2208,7 +2083,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 66.481,
+      "score": 66.472,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2233,38 +2108,43 @@
       "source_priority": "high"
     },
     {
-      "id": "f7a88fc37e79f3e4",
-      "title": "Agent-Driven Simulation Troubleshooting",
-      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
-      "source": "Rescale",
+      "id": "8a4d0ff3e4b2bbc1",
+      "title": "Are AI labs pelicanmaxxing?",
+      "url": "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing",
+      "source": "Simon Willison",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T12:00:00+00:00",
-      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
+      "category": "general_ai",
+      "published_at": "2026-07-22T23:01:00+00:00",
+      "text": "Are AI labs pelicanmaxxing? Are AI labs pelicanmaxxing? Excellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bicycles in response to my deeply unscientific benchmark . I've been randomly spot-checking this in the past by testing models against other animals riding other types of vehicle, but never with anything close to the diligence of Dylan's methodology here. Dylan took 8 animals × 6 vehicles = 48 prompts and ran them three times each through 7 different models ( GPT-5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash, Grok 4.5, Qwen3.7-Max, GLM-5.2, and DeepSeek V4 Pro). He then used GPT-5.6 Luna and Gemini 3.1 Flash-Lite to help evaluate the results. There's a neat filter view for exploring the results: For the models he tested he could find no evidence of pelimaxxing: The pelicans on bicycles don’t look any better Labs are not better at drawing pelicans Labs are not better at drawing bicycles Labs are not better at drawing pelicans on bicycles, even adjusting for difficulty The pelican-bicycle scenes don’t look memorized [...] Pelicans aren’t drawn a",
       "matched_terms": [
-        "simulation"
+        "AI",
+        "LLM",
+        "benchmark",
+        "Claude"
       ],
       "engagement": {},
-      "score": 66.447,
+      "score": 66.359,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
+        "novelty=0.83",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.778,
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.834,
       "source_priority_score": 1.0,
       "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
       ],
-      "registry_category": "engineering_ai",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2280,7 +2160,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.824,
+      "score": 65.816,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -2292,7 +2172,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.75,
+      "novelty_score": 0.749,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2319,10 +2199,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.701,
+      "score": 64.444,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.60",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2331,48 +2211,13 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.608,
+      "novelty_score": 0.596,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "e369b6082884aab2",
-      "title": "Simulation Monitoring Automation",
-      "url": "https://rescale.com/blog/simulation-monitoring-automation",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-10T15:00:00+00:00",
-      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 64.315,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.68",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.681,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2390,7 +2235,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 63.529,
+      "score": 63.443,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2402,7 +2247,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.819,
+      "novelty_score": 0.816,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2410,6 +2255,41 @@
         "mlops"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "4827129120427058",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission",
+      "source": "Google DeepMind",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-22T13:38:54+00:00",
+      "text": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 63.373,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.911,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "research",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2427,10 +2307,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 63.486,
+      "score": 63.358,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2439,7 +2319,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.855,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2449,41 +2329,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "4827129120427058",
-      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission",
-      "source": "Google DeepMind",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-22T13:38:54+00:00",
-      "text": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission Google commits $40M in AI tokens and credits for the Genesis Mission",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 63.409,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.913,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "research",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2535,7 +2380,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 60.869,
+      "score": 60.783,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2547,7 +2392,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2884,41 +2729,6 @@
       "source_priority": "high"
     },
     {
-      "id": "d22f990a554daaa6",
-      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
-      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "source": "Synopsys",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": "2026-07-23T02:41:32+00:00",
-      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "matched_terms": [
-        "multiphysics"
-      ],
-      "engagement": {},
-      "score": 59.983,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.993,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "eda",
-        "simulation",
-        "digital_twin"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
-    },
-    {
       "id": "fdcca13bb581de3f",
       "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
       "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
@@ -2931,7 +2741,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.902,
+      "score": 59.893,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.48",
@@ -3002,7 +2812,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 59.321,
+      "score": 59.235,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.31",
@@ -3014,7 +2824,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.31,
+      "novelty_score": 0.306,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3076,10 +2886,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.675,
+      "score": 58.59,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.75",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3088,7 +2898,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.758,
+      "novelty_score": 0.754,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3111,10 +2921,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.597,
+      "score": 58.468,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -3123,7 +2933,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.936,
+      "novelty_score": 0.93,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -3132,41 +2942,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "cd0ef033508aa3cc",
-      "title": "Knowledge Base Support on AWS and Azure",
-      "url": "https://rescale.com/blog/knowledge-base-support-on-aws-and-azure",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-06-29T15:29:12+00:00",
-      "text": "Knowledge Base Support on AWS and Azure Connect and interact with all your data in one place. Rescale now connects engineering data stored in AWS S3 and Azure Blob Storage directly to the Rescale Assistant through vectorized search. Once connected, engineers can ask natural language questions and receive fast, contextually grounded answers drawn from their organization's own data, rather than relying only on general AI knowledge or manual file searches.",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 58.277,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.41",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.407,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -3219,7 +2994,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 57.821,
+      "score": 57.735,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -3231,7 +3006,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.871,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3331,7 +3106,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 57.654,
+      "score": 57.569,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -3343,7 +3118,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.56,
+      "novelty_score": 0.556,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3370,7 +3145,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 57.654,
+      "score": 57.569,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -3382,7 +3157,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.56,
+      "novelty_score": 0.556,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3407,7 +3182,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.449,
+      "score": 57.364,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3419,7 +3194,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3442,7 +3217,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.395,
+      "score": 57.31,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3454,7 +3229,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.844,
+      "novelty_score": 0.84,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3462,42 +3237,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "c2e6d05cfd7dfc9b",
-      "title": "Chasing new skills, going back to basics and pushing for collective action: how software engineers are adapting to AI",
-      "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/12/software-developers-engineers-ai",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-22T23:18:52+00:00",
-      "text": "Chasing new skills, going back to basics and pushing for collective action: how software engineers are adapting to AI Software engineering was one of the best-paying professions in the US in 2022, but the advent of AI has disrupted it, leading to several layoffs and underemployment Every weekday, Matt, a software engineer, looks forward to his four-hour train commute to Pawling, New York. It’s time he uses to work on his own project: a browser-based video game for which he writes every line of code himself. “I am actively trying to keep my axe sharp,” said Matt, who did not want to use his actual name, to protect his employment. In the last six months, Matt’s job has increasingly shifted away from coding, problem solving and software architecture towards reviewing code generated by artificial intelligence. Convinced that the shift will weaken his skills, he’s doing what he can to keep them intact. “I am trying not to leverage AI where I can.” Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 57.179,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.69",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.69,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3515,10 +3254,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 57.151,
+      "score": 57.065,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.68",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3527,7 +3266,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.689,
+      "novelty_score": 0.685,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -5385,6 +5124,278 @@
       "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
       "matched_terms": [
         "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0099e6807563ee55",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8ec1dcab85f0344e",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ef8469f42c5a7ab5",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f5d0a2c047483415",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b59a1ade7d5b68bc",
+      "title": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows",
+      "url": "https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5f598d3dedb3f122",
+      "title": "Ai Agents In Engineering",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
+      "matched_terms": [
+        "engineering AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "674b5396927b0e3a",
+      "title": "Ai Agents In Engineering Ai Conference 2025",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
+      "matched_terms": [
+        "engineering AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "3cfd8b1d1cd4d509",
+      "title": "Altair Learning Synera Basics Intro Fea Automation",
+      "url": "https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "matched_terms": [
+        "FEA"
       ],
       "engagement": {},
       "score": 57.033,
